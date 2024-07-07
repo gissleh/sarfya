@@ -11,7 +11,7 @@ inputs:
         1: 1548:pn.:-ri:nolen
         2: 6616:n.:fra-:nolen
         3: 1792:part.:noaffix:nolen
-        4: 13514:n.:fra-:nolen
+        4: 13515:n.:fra-:nolen
         5: 1024:adj.:noaffix:nolen
         6: 1044:vin.:noaffix:nolen
         7: 1312:adv.:noaffix:nolen
@@ -23,7 +23,7 @@ inputs:
       text: 1Frapil 2frasil!
       lookup_filter:
         1: 6616:n.:fra-:nolen
-        2: 13514:n.:fra-:nolen
+        2: 13515:n.:fra-:nolen
       translations:
         en: 1+2(Wow! Check him/her out! He/She is gorgeous!)
     - id: 4_NfBP7nSUa614L6tAxQOw
@@ -33,7 +33,7 @@ inputs:
         2: 2240:n.:-ur:nolen
         3: 2296:n.:-yä:nolen
         4: 5312:inter.:noaffix:nolen
-        5: 13516:n.:noaffix:nolen
+        5: 13517:n.:noaffix:nolen
       translations:
         en: 4(How many) 5(internal organs) 1does 2a 3person's 2body 1have?
     - id: iGSrBMs6QgSJYrAmVU5Y7Q
@@ -43,7 +43,7 @@ inputs:
         2: 13050:prop.n.:-t:nolen
         3: 1976:vtr.:<ol>:nolen
         4: 324:adp.:noaffix:nolen
-        5: 13517:n.:noaffix:nolen
+        5: 13518:n.:noaffix:nolen
       translations:
         en: 1Ateyo 3+4+5punched 2Entu. ((i.e. )3struck him 4with his 5fist())
     - id: MfhiH9FgTYe_MykjS-CTeg
@@ -53,7 +53,7 @@ inputs:
         2: 13050:prop.n.:-t:nolen
         3: 1976:vtr.:<ol>:nolen
         4: 324:adp.:noaffix:nolen
-        5: 13518:n.:noaffix:nolen
+        5: 13519:n.:noaffix:nolen
       translations:
         en: 1Ateyo 3+4+5slapped 2Entu. ((i.e. )3struck him 4with his 5(flat hand)())
     - id: zSPBEvA0SjO3L2h-W2zfgw
@@ -63,7 +63,7 @@ inputs:
         2: 4380:vin.:noaffix:nolen
         3: 4048:adp.:noaffix:nolen
         4: 1380:pn.:-y:nolen
-        5: 13519:n.:noaffix:nolen
+        5: 13520:n.:noaffix:nolen
         6: 1056:part.:noaffix:nolen
         7: 60:n.:noaffix:nolen
       translations:
@@ -71,7 +71,7 @@ inputs:
     - id: uAZQrIVTRRuglTcTbZNRog
       text: 1Tìtokìl 2ngeyä 3ngop 4tìngäzìkit 5fraporu.
       lookup_filter:
-        1: 13522:n.:-ìl:nolen
+        1: 13523:n.:-ìl:nolen
         2: 1348:pn.:-yä:nolen
         3: 1368:vtr.:noaffix:nolen
         4: 6344:n.:-it:nolen
@@ -81,7 +81,7 @@ inputs:
     - id: iEsr2hkcTbKdg6JAFb8DuQ
       text: 1Tìktokit 2peyä 3fkol 4tsoleri.
       lookup_filter:
-        1: 13523:n.:-it:nolen
+        1: 13524:n.:-it:nolen
         2: 1548:pn.:-yä:nolen
         3: 380:pn.:-l:nolen
         4: 10360:vtr.:<ol>:nolen
@@ -90,11 +90,11 @@ inputs:
     - id: JPYkoobiTqWN-dqWSNwk-g
       text: 1Tìtok 2slu 3tìktok 4fa 5pamtsyìp 6a'aw.
       lookup_filter:
-        1: 13522:n.:noaffix:nolen
+        1: 13523:n.:noaffix:nolen
         2: 1832:vin.:noaffix:nolen
-        3: 13523:n.:noaffix:nolen
+        3: 13524:n.:noaffix:nolen
         4: 324:adp.:noaffix:nolen
-        5: 13524:n.:noaffix:nolen
+        5: 13525:n.:noaffix:nolen
         6: 12:num.:a-:nolen
       translations:
         en: '1Presence 2becomes 3absence 4(by means of) 6one 5(little sound). ((A proverbial expression meaning: ''Small things can make a big difference.''))'
@@ -106,14 +106,14 @@ inputs:
         3: 1544:vtr.:<ol>:nolen
         4: 1348:pn.:noaffix:nolen
         5: 1044:vin.:noaffix:nolen
-        6: 13526:n., intj.:noaffix:nolen
+        6: 13527:n.:noaffix:nolen
         7: 1244:adv.:noaffix:nolen
       translations:
         en: 1What 4you 2+3said 5is 7(nothing but) 6nonsense.
     - id: ft2Aiu6PR6OsLxxdwqPtdA
       text: 1Yayl!
       lookup_filter:
-        1: 13526:n., intj.:noaffix:nolen
+        1: 13527:n.:noaffix:nolen
       translations:
         en: 1Bullshit!
     - id: mdeBI1wKS2CdRQEtLnbPJA
@@ -122,7 +122,7 @@ inputs:
         1: 2356:n.:noaffix:nolen
         2: 120:part.:noaffix:nolen
         3: 1224:vtrm.:noaffix:nolen
-        4: 13528:n.:-t:nolen
+        4: 13529:n.:-t:nolen
         5: 1244:adv.:noaffix:nolen
         6: 740:part.:noaffix:nolen
         7: 1832:vin.:<ay>:nolen
@@ -139,6 +139,6 @@ inputs:
         3: 9868:n.:fì-fne-:nolen
         4: 1985:conj.:noaffix:nolen
         5: 1044:vin.:noaffix:nolen
-        6: 13529:adj.:noaffix:nolen
+        6: 13530:adj.:noaffix:nolen
       translations:
         en: 2I 1like 3(this kind of cloth) 4because 5+6(it feels good).
