@@ -1,0 +1,98 @@
+source:
+    id: blog-2024-03-31
+    date: "2024-03-31"
+    url: http://naviteri.org/2024/03/fleltrra-ayliu-words-for-april-fools-day/
+    title: Fleltrrä aylì'u  Words for April Fool's Day
+    author: Paul Frommer
+inputs:
+    - id: xxjyDH5SToy1MyJCEK6k7A
+      text: 1Nga 2sko 3nga 4poltxe 5san 6rä'ä 7kivä!
+      lookup_filter:
+        1: 1348:pn.:noaffix:nolen
+        2: 8740:adp.:noaffix:nolen
+        3: 1348:pn.:noaffix:nolen
+        4: 1544:vtr.:<ol>:nolen
+        5: 1748:adv.:noaffix:nolen
+        6: 1632:part.:noaffix:nolen
+        7: 680:vin.:<iv>:nolen
+      translations:
+        en: 1+2+3(You yourself) 4+5said 6don't 7go!
+    - id: f37EdYiGTBySWxJrGMfGYA
+      text: 1Oey 2yawntu 3lu 4oey 5hawntu.
+      lookup_filter:
+        1: 1380:pn.:-y:nolen
+        2: 4816:n.:noaffix:nolen
+        3: 1044:vin.:noaffix:nolen
+        4: 1380:pn.:-y:nolen
+        5: 13488:n.:noaffix:nolen
+      translations:
+        en: 1My 2beloved 3is 5under 4my 5protection.
+        en_alt: 1+2(The one I love) 3is 4+5(the one I protect).
+    - id: 3yGlwMOJT6i4zEo-Xsq6rw
+      text: 1Entul 2Peyralit 3fìtxan 4flolel 5kuma 6fpìl 7poe 8san 9oe 10yawne 11lu 12por.
+      lookup_filter:
+        1: 13050:prop.n.:-l:nolen
+        2: 13075:prop.n.:-it:nolen
+        3: 360:adv.:noaffix:nolen
+        4: 13482:vtr.:<ol>:nolen
+        5: 8836:conj.:noaffix:nolen
+        6: 432:vtr.:noaffix:nolen
+        7: 1556:pn.:noaffix:nolen
+        8: 1748:adv.:noaffix:nolen
+        9: 1380:pn.:noaffix:nolen
+        10: 2732:adj.:noaffix:nolen
+        11: 1044:vin.:noaffix:nolen
+        12: 1548:pn.:-r:nolen
+      translations:
+        en: 1Entu 4fooled 2Peyral 3(so much) 5that 7she 6+8thought 12he 10+11loved 9her.
+        en_alt: 1Entu 4tricked 2Peyral 5into 6thinking 8that 12he 10+11loved 9her.
+    - id: VAuBLuXxTzedxE2YSf1nuQ
+      text: 1Pot 2spaw 3rä'ä! 4Lu 5fì'u 6säflel!
+      lookup_filter:
+        1: 1548:pn.:-t:nolen
+        2: 1864:vtr.:noaffix:nolen
+        3: 1632:part.:noaffix:nolen
+        4: 1044:vin.:noaffix:nolen
+        5: 368:pn.:noaffix:nolen
+        6: 13483:n.:noaffix:nolen
+      translations:
+        en: 3Don't 2believe 1him! 5(It)4('s) 6(a trick)!
+    - id: QCBHekACS3GAV_l_rRjQKA
+      text: 1Fleltu 2slu 3rä'ä! 4Fìtrr 5lu 6Fleltrr!
+      lookup_filter:
+        1: 13485:n.:noaffix:nolen
+        2: 1832:vin.:noaffix:nolen
+        3: 1632:part.:noaffix:nolen
+        4: 2260:n.:fì-:nolen
+        5: 1044:vin.:noaffix:nolen
+        6: 13486:n.:noaffix:nolen
+      translations:
+        en: 3Don't 2be 1fooled! 4Today 5is 6(April Fool's Day)!
+    - id: PO6slVegSoqrz_OjTBDysw
+      text: 1Oeyä 2tìtslamìri 3tìoeyktìng 4ngeyä 5lolu 6säsrung.
+      lookup_filter:
+        1: 1380:pn.:-yä:nolen
+        2: 5208:n.:-ìri:nolen
+        3: 4332:n.:noaffix:nolen
+        4: 1348:pn.:-yä:nolen
+        5: 1044:vin.:<ol>:nolen
+        6: 13489:n.:noaffix:nolen
+      translations:
+        en: 4Your 3explanation 5+6helped 1my 2understanding.
+    - id: O8zQLm4hRma47XZvAGnSeQ
+      text: 1Fwa 2kahena 3fìuranit 4atsawl 5ftu 6tsray 7oeyä 8ne 9pum 10ngeyä 11layu 12ngäzìk.
+      lookup_filter:
+        1: 520:sbd.:noaffix:nolen
+        2: 13493:vtr.:noaffix:nolen
+        3: 7772:n.:fì-:-it:nolen
+        4: 2364:adj.:a-:nolen
+        5: 496:adp.:noaffix:nolen
+        6: 4556:n.:noaffix:nolen
+        7: 1380:pn.:-yä:nolen
+        8: 1200:adp.:noaffix:nolen
+        9: 5564:pn.:noaffix:nolen
+        10: 1348:pn.:-yä:nolen
+        11: 1044:vin.:<ay>:nolen
+        12: 6340:adj.:noaffix:nolen
+      translations:
+        en: 1(It)11('s going to be) 12difficult 1to 2transport 3this 4large 3boat 5from 7my 6village 8to 9+10yours.

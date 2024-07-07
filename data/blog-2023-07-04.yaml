@@ -1,0 +1,37 @@
+source:
+    id: blog-2023-07-04
+    date: "2023-07-04"
+    url: http://naviteri.org/2023/07/trr-tsyimawnuniya-lefpom-happy-independence-day/
+    title: Trr Tsyìmawnun’iyä Lefpom! Happy Independence Day!
+    author: Paul Frommer
+inputs:
+    - id: aLeYbTN-Th-aR0RjyiLG8g
+      text: 1Oengari 2sätare 3syìmawnun'i 4slolängu.
+      lookup_filter:
+        1: 1384:pn.:-ri:nolen
+        2: 8884:n.:noaffix:nolen
+        3: 13365:n.:noaffix:nolen
+        4: 1832:vin.:<ol äng>:nolen
+      translations:
+        en: 1(As for the two of us), 4(I'm sorry to say) 1our 2relationship 4is 3dissolved.
+    - id: jds_bXalRL-OzsLS7vB8DQ
+      text: 1Zene 2fra'eveng 3tsyìmawnun'it 4a 5ta 6sa'sem 7nì'i'a 8mivu'ni.
+      lookup_filter:
+        1: 2812:vim.:noaffix:nolen
+        2: 56:n.:fra-:nolen
+        3: 13367:n.:-t:nolen
+        4: 120:part.:noaffix:nolen
+        5: 1956:adp.:noaffix:nolen
+        6: 6360:n.:noaffix:nolen
+        7: 5532:adv.:noaffix:nolen
+        8: 13222:vtr.:<iv>:nolen
+      translations:
+        en: 1(Every child) 2must 7eventually 8achieve 3independence 5+4from his or her 6parents.
+    - id: hj_E5mHFQlqarTBU9ymY2Q
+      text: 3Trr 2Tsyìmawnun'iyä 1Lefpom!
+      lookup_filter:
+        1: 976:adj.:noaffix:nolen
+        2: 13367:n.:-yä:nolen
+        3: 2260:n.:noaffix:nolen
+      translations:
+        en: 1Happy 2Independence 3Day!

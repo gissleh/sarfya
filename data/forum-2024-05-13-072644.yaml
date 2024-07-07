@@ -1,0 +1,26 @@
+source:
+    id: forum-2024-05-13-072644
+    date: "2024-05-13"
+    url: https://forum.learnnavi.org/language-updates/family-does-not-count-as-inalianable-grammatically/
+    title: Family does not count as inalianable grammatically
+    author: Paul Frommer (via Tekre)
+inputs:
+    - id: c8wGRAdxTsej1_tkZdhYRQ
+      text: |-
+        A: 1Oeyä 2sempul 3lu 4kanu 5sì 6tstunwi.
+        B: 7Oeri 8sempul 9längu 10skxawng.
+      lookup_filter:
+        1: 1380:pn.:-yä:nolen
+        2: 1764:n.:noaffix:nolen
+        3: 1044:vin.:noaffix:nolen
+        4: 4824:adj.:noaffix:nolen
+        5: 1792:part.:noaffix:nolen
+        6: 6196:adj.:noaffix:nolen
+        7: 1380:pn.:-ri:nolen
+        8: 1764:n.:noaffix:nolen
+        9: 1044:vin.:<äng>:nolen
+        10: 1824:n.:noaffix:nolen
+      translations:
+        en: |-
+            A: 1My 2father 3is 4intelligent 5and 6kind.
+            B: 7MY 8father 9is 10(an idiot).

@@ -1,0 +1,27 @@
+source:
+    id: blog-2023-01-08
+    date: "2023-01-08"
+    url: http://naviteri.org/2023/01/reef-navi-part-1-phonetics-and-phonology/
+    title: 'Reef Na’vi part 1: Phonetics and Phonology'
+    author: Paul Frommer
+inputs:
+    - id: pMz6ft6KSJex_xvVGN7TTg
+      text: 1Pori 2(txo|do) 3new 4fìtutanti 5rivun, 6zene 7ftu 8fayspono 9(hivum|hivùm), 10kivä 11(nìtxukx|nìdukx) 12nemfa 13na'rìng.
+      lookup_filter:
+        1: 1548:pn.:-ri:nolen
+        2: 2548:conj.:noaffix:nolen
+        3: 1224:vtrm.:noaffix:nolen
+        4: 2304:n.:fì-:-ti:nolen
+        5: 1724:vtr.:<iv>:nolen
+        6: 2812:vim.:noaffix:nolen
+        7: 496:adp.:noaffix:nolen
+        8: 8592:n.:fay-:nolen
+        9: 588:vin.:<iv>:nolen
+        10: 680:vin.:<iv>:nolen
+        11: 13000:adv.:noaffix:nolen
+        12: 4036:adp.:noaffix:nolen
+        13: 1172:n.:noaffix:nolen
+      translations:
+        en: 1He 6(needs to) 9leave 7+8(these islands) and 10go 11deep 12into 13(the forest) 2if 1he 3+5(is to find) 4(this man).
+      flags:
+        - reef_dialect

@@ -1,0 +1,99 @@
+source:
+    id: blog-2024-05-31
+    date: "2024-05-31"
+    url: http://naviteri.org/2024/05/krrteri-about-time/
+    title: Krrteri    About Time
+    author: Paul Frommer
+inputs:
+    - id: ggdi76DyQU6St0t6jghKOw
+      text: |-
+        A: 1Fo 2pähem 3pesrrpxì/4trrpxìpe?
+        B: 5Srekamtrr.
+      lookup_filter:
+        1: 412:pn.:noaffix:nolen
+        2: 1432:vin.:noaffix:nolen
+        3: 13506:inter.:noaffix:nolen
+        4: 13507:inter.:noaffix:nolen
+        5: 5372:n.:noaffix:nolen
+      translations:
+        en: |-
+            A: 3+4(What part of the day) 2will 1they 2arrive?
+            B: 5(Before noon).
+    - id: z9vTKJtkS1aUH1mmOXEERQ
+      text: 1Oe 2pähem 3maw/4kay 5trrpxìvi 6amrr.
+      lookup_filter:
+        1: 1380:pn.:noaffix:nolen
+        2: 1432:vin.:noaffix:nolen
+        3: 4028:adp.:noaffix:nolen
+        4: 8024:adp.:noaffix:nolen
+        5: 13502:n.:noaffix:nolen
+        6: 4312:num.:a-:nolen
+      translations:
+        en: 1(I)2('ll be there) 3+4in 6five 5minutes.
+    - id: Q5PG60pcTXSy_d1XXU1OMw
+      text: 1Po 2+3tìkangkem 3soli 4((ka)) 5trrpxìo 6amrr.
+      lookup_filter:
+        1: 1548:pn.:noaffix:nolen
+        2: 2156:n.:noaffix:nolen
+        3: 3884:vin.:<ol>:nolen
+        4: 676:adp.:noaffix:nolen
+        5: 13499:n.:-o:nolen
+        6: 4312:num.:a-:nolen
+      translations:
+        en: 1She 3(has worked) 4for 6five 5hours.
+    - id: loZY6TV2TM6DejaON6fVNA
+      text: 1Tskoti 2fyep 3(fìlik)4(ro).
+      lookup_filter:
+        1: 2408:n.:-ti:nolen
+        2: 8660:vtr.:noaffix:nolen
+        3: 13504:n.:fì-:nolen
+        4: 4068:adp.:noaffix:nolen
+      translations:
+        en: 2Grasp 1(the bow) 4at 3(this spot).
+    - id: tqiMD0NTQd-aFgAPvBzG7A
+      text: 1Ro 2salik 3a 4mì 5säftxulì'u 6atì'iluke 7peyä, 8oe 9holum.
+      lookup_filter:
+        1: 4068:adp.:noaffix:nolen
+        2: 13504:n.:tsa-:ts→s
+        3: 120:part.:noaffix:nolen
+        4: 1108:adp.:noaffix:nolen
+        5: 8812:n.:noaffix:nolen
+        6: 11336:adj.:a-:nolen
+        7: 1548:pn.:-yä:nolen
+        8: 1380:pn.:noaffix:nolen
+        9: 588:vin.:<ol>:nolen
+      translations:
+        en: 1At 2(that point) 3+4in 7his 6endless 5speech, 8I 9left.
+    - id: YSS3SmxVSX-Cqa4BmB9uKQ
+      text: 1Krrlik 2lu 3trrpxì 4amrrve.
+      lookup_filter:
+        1: 13505:n.:noaffix:nolen
+        2: 1044:vin.:noaffix:nolen
+        3: 13499:n.:noaffix:nolen
+        4: 5620:adj.:a-:nolen
+      translations:
+        en: 1(The time) 2is 3+4(five o'clock)
+    - id: 54vnOvCESU2k80fICOFWRQ
+      text: 1Lu 2mrrve.
+      lookup_filter:
+        1: 1044:vin.:noaffix:nolen
+        2: 5620:adj.:noaffix:nolen
+      translations:
+        en: 1It's 2five. Literally, '1It's the 2fifth [hour]'
+    - id: LCNmliwJSpSDV2hdzk_9DA
+      text: |-
+        A: 1Nga 2pähem 3pehrr?
+        B: 4Ro 5srrpxì 6amrrve. OR 7Ro 8mrrve.
+      lookup_filter:
+        1: 1348:pn.:noaffix:nolen
+        2: 1432:vin.:noaffix:nolen
+        3: 1504:inter.:noaffix:nolen
+        4: 4068:adp.:noaffix:nolen
+        5: 13499:n.:noaffix:t→s
+        6: 5620:adj.:a-:nolen
+        7: 4068:adp.:noaffix:nolen
+        8: 5620:adj.:noaffix:nolen
+      translations:
+        en: |-
+            A: 3When 2will 1you 2arrive?
+            B: 4At 5+6(five o'clock). OR 7At 8five.

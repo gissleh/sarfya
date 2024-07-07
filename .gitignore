@@ -1,0 +1,6 @@
+dictionary-v*.txt
+data-compiled.*
+/.idea
+/.vscode
+/frontend/.idea
+/frontend/.vscode

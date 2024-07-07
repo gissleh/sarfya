@@ -1,0 +1,19 @@
+source:
+    id: forum-2023-07-09-081716
+    date: "2023-07-09"
+    url: https://forum.learnnavi.org/language-updates/i-awn-uses-ro-for-location/
+    title: '''ì''awn uses ro for location'
+    author: Paul Frommer (via wm.annis)
+inputs:
+    - id: lFh3KQSURAqYt-hT19mYvQ
+      text: 1Fìtsenget 2oel 3tok 4ulte 5(fìtseng)7(ro) 6'ì'awn.
+      lookup_filter:
+        1: 365:adv., n.:-t:nolen
+        2: 1380:pn.:-l:nolen
+        3: 2232:vtr.:noaffix:nolen
+        4: 2592:conj.:noaffix:nolen
+        5: 364:adv., n.:noaffix:nolen
+        6: 76:vin.:noaffix:nolen
+        7: 4068:adp.:noaffix:nolen
+      translations:
+        en: 1Here 2I 3am 4and 5here I 6remain.
