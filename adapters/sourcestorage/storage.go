@@ -14,9 +14,10 @@ import (
 )
 
 type Storage struct {
-	mu       sync.Mutex
-	path     string
-	examples []sarfya.Example
+	mu         sync.Mutex
+	path       string
+	examples   []sarfya.Example
+	dictionary sarfya.Dictionary
 }
 
 func (s *Storage) FindExample(ctx context.Context, id string) (*sarfya.Example, error) {
@@ -193,9 +194,12 @@ func (s *Storage) save(source sarfya.Source) error {
 	for i, example := range s.examples {
 		if example.Source.ID == source.ID {
 			s.examples[i].Source = source
-			input := example.Input()
+			input, err := example.MinimalInput(context.Background(), s.dictionary)
+			if err != nil {
+				return err
+			}
 			input.Source = sarfya.Source{}
-			savedData.Inputs = append(savedData.Inputs, input)
+			savedData.Inputs = append(savedData.Inputs, *input)
 		}
 	}
 
@@ -253,7 +257,7 @@ func Open(ctx context.Context, storagePath string, dictionary sarfya.Dictionary)
 		}
 	}
 
-	return &Storage{path: storagePath, examples: examples}, nil
+	return &Storage{path: storagePath, examples: examples, dictionary: dictionary}, nil
 }
 
 type sourceFileData struct {

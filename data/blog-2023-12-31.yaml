@@ -7,104 +7,47 @@ source:
 inputs:
     - id: -bEAiqP6Rw2ZnRO8ZzEDeA
       text: 1Rum 2'awlo 3poluwup 4'rrko 5neto.
-      lookup_filter:
-        1: 1716:n.:noaffix:nolen
-        2: 4368:adv.:noaffix:nolen
-        3: 13401:vin.:<ol>:nolen
-        4: 10496:vin.:noaffix:nolen
-        5: 1220:adv.:noaffix:nolen
       translations:
         en: 1(The ball) 3bounced 2once and 4rolled 5away.
     - id: rVDebXurQrGLhR0dkc2yxQ
       text: 1Ngäzìk 2fwa 3fkol 4rumit 5aku'up 6peykuwup.
-      lookup_filter:
-        1: 6340:adj.:noaffix:nolen
-        2: 520:sbd.:noaffix:nolen
-        3: 380:pn.:-l:nolen
-        4: 1716:n.:-it:nolen
-        5: 5456:adj.:a-:nolen
-        6: 13401:vin.:<eyk>:nolen
       translations:
         en: 2It's 1hard 2to 2+3+6bounce 4a 5heavy 4ball.
     - id: zXQq9SGXRlKbBiF6Mtvpag
       text: 1Fnu! 2(Pam si) 3rä'ä!
-      lookup_filter:
-        1: 408:vin.:noaffix:nolen
-        2: 13402:vin.:noaffix:nolen
-        3: 1632:part.:noaffix:nolen
       translations:
         en: 1(Be quiet)! 3Don't 2(make a sound)!
     - id: woky_NqeRxC6zxZ4DvFYpA
       text: 1Utral 7+2pam 3awok 2soli 5krra 6zup.
-      lookup_filter:
-        1: 2628:n.:noaffix:nolen
-        2: 13402:vin.:<ol>:nolen
-        3: 5168:adj.:a-:nolen
-        5: 8768:conj.:noaffix:nolen
-        6: 3972:vin.:noaffix:nolen
-        7: 1448:n.:noaffix:nolen
       translations:
         en: 1(The tree) 2made 2a 3loud 7+2sound 5when it 6fell.
     - id: nk6mfT9bQsS0MH1kazqswg
       text: 1Rìk 2aukxo 3mì 4hufwetsyìp 5(kafi sarmi).
       lookup_filter:
-        1: 4412:n.:noaffix:nolen
-        2: 4564:adj.:a-:nolen
-        3: 1108:adp.:noaffix:nolen
         4: 7568:n.:noaffix:nolen
-        5: 13405:vin.:<arm>:nolen
       translations:
         en: 1The 2dry 1leaf 5(was sailing) 3in 4(the breeze).
     - id: DpFOYXIXQg61HnqJUEazfA
       text: 1Tsranten 2tìspaw, 3tsranten 4nì'ul 5tìfkeytongay.
-      lookup_filter:
-        1: 2464:vin.:noaffix:nolen
-        2: 13411:n.:noaffix:nolen
-        3: 2464:vin.:noaffix:nolen
-        4: 1264:adv.:noaffix:nolen
-        5: 13010:n.:noaffix:nolen
       translations:
         en: 2Belief 1(is important), but 5reality 3is 4more 3important.
     - id: WxejFt6lSeWSq5ns5boaDA
       text: 1Tsasäspaw 2atsleng 3lu 4lehrrap.
-      lookup_filter:
-        1: 13412:n.:tsa-:nolen
-        2: 2428:adj.:a-:nolen
-        3: 1044:vin.:noaffix:nolen
-        4: 5924:adj.:noaffix:nolen
       translations:
         en: 1That 2false 1belief 3is 4dangerous.
     - id: 0VaUOd_dRTyYQw5iXfwU8g
       text: 1Pori 2tsakxeyey 3a'aw 4frakemur 5amuiä 6(ukyom solängi).
       lookup_filter:
-        1: 1548:pn.:-ri:nolen
-        2: 932:n.:tsa-:nolen
         3: 12:num.:a-:nolen
-        4: 768:n.:fra-:-ur:nolen
-        5: 1144:adj.:a-:nolen
-        6: 13414:vin.:<ol äng>:nolen
       translations:
         en: 6Sadly, 2that 3one 2mistake 6eclipsed 4all 4of 1his 5good 4deeds.
     - id: CkBcHZkmTEexQSekcUms7w
       text: 1Oel 2sämokti 3ngeyä 4txakrrfpolìl.
-      lookup_filter:
-        1: 1380:pn.:-l:nolen
-        2: 8456:n.:-ti:nolen
-        3: 1348:pn.:-yä:nolen
-        4: 13415:vtr.:<ol>:nolen
       translations:
         en: 1I 4(have considered) 3your 2suggestion.
     - id: eIPnBD6gQMuJJywABVBNTQ
       text: 1Omum 2oel 3futa 4sänui 5peyä 6ngaru 7+8yewla 7soli 9nìtxan.
       lookup_filter:
-        1: 1420:vtr.:noaffix:nolen
-        2: 1380:pn.:-l:nolen
-        3: 516:sbd.:noaffix:nolen
-        4: 9820:n.:noaffix:nolen
-        5: 1548:pn.:-yä:nolen
-        6: 1348:pn.:-ru:nolen
-        7: 13417:vin.:<ol>:nolen
-        8: 9284:n.:noaffix:nolen
         9: 1312:adv.:noaffix:nolen
       translations:
         en: 2I 1know 3that 5his 4failure 7disappointed 6you 9greatly.

@@ -8,11 +8,6 @@ inputs:
     - id: gW6FmMzMR-2gv7ldjZYTlQ
       text: 1(N|Aha'ri) 2wrrkolä 3fte 4limang 5sivunu 6por.
       lookup_filter:
-        1: PN:prop.n.:noaffix:nolen
-        2: 13141:vin.:<ol>:nolen
-        3: 476:conj.:noaffix:nolen
-        4: 13498:n.:noaffix:nolen
-        5: 6376:vin.:<iv>:nolen
         6: 1548:pn.:-r:nolen
       translations:
         en: 1Aha'ri 2(is out) 5enjoying 4(the moot).

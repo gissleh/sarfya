@@ -7,21 +7,9 @@ source:
 inputs:
     - id: ox2DZk7lRUaJAduZPtOiGQ
       text: 1Txo 2nga 3ngeyn 4'ivefu, 5tsurokx.
-      lookup_filter:
-        1: 2548:conj.:noaffix:nolen
-        2: 1348:pn.:noaffix:nolen
-        3: 5956:adj.:noaffix:nolen
-        4: 3672:vtr.:<iv>:nolen
-        5: 3940:vin.:noaffix:nolen
       translations:
         en: 1If 2you 4are 3tired, 5(then you should rest).
     - id: iK8hjju0TIeNX2M01sWBCQ
       text: 1Txo 2nga 3ngeyn 4'efu, 5tsurokx.
-      lookup_filter:
-        1: 2548:conj.:noaffix:nolen
-        2: 1348:pn.:noaffix:nolen
-        3: 5956:adj.:noaffix:nolen
-        4: 3672:vtr.:noaffix:nolen
-        5: 3940:vin.:noaffix:nolen
       translations:
         en: 1Since 2(you)4('re) 3tired, 5rest.

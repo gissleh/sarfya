@@ -17,16 +17,20 @@ func Examples(group *echo.Group, svc *service.Service) {
 			return err
 		}
 
-		start := time.Now()
+		startTime := time.Now()
 		res, err := svc.QueryExample(c.Request().Context(), search)
 		if err != nil {
 			return err
 		}
-		log.Printf("Query %#+v exectured in %s", search, time.Since(start))
+
+		duration := time.Since(startTime)
+		if duration > time.Millisecond*30 {
+			log.Printf("Slow! %#+v exectured in %s", search, time.Since(startTime))
+		}
 
 		return c.JSON(http.StatusOK, map[string]any{
 			"examples":    res,
-			"executionMs": float64(time.Since(start)) / float64(time.Millisecond),
+			"executionMs": duration.Seconds() * 1000.0,
 		})
 	})
 
@@ -36,8 +40,13 @@ func Examples(group *echo.Group, svc *service.Service) {
 			return err
 		}
 
+		input, err := example.MinimalInput(c.Request().Context(), svc.Dictionary)
+		if err != nil {
+			return err
+		}
+
 		return c.JSON(http.StatusOK, map[string]any{
-			"input": example.Input(),
+			"input": input,
 		})
 	})
 

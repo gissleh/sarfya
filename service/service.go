@@ -6,7 +6,6 @@ import (
 	"errors"
 	"github.com/gissleh/sarfya"
 	"github.com/google/uuid"
-	"log"
 	"sync"
 	"sync/atomic"
 )
@@ -24,7 +23,6 @@ func (s *Service) FindExample(ctx context.Context, id string) (*sarfya.Example, 
 func (s *Service) QueryExample(ctx context.Context, filterString string) ([]ExampleGroup, error) {
 	filter, resolvedMaps, err := sarfya.ParseFilter(ctx, filterString, s.Dictionary)
 	if err != nil {
-		log.Println(err)
 		return nil, err
 	}
 

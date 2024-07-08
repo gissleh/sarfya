@@ -8,31 +8,18 @@ inputs:
     - id: A6kuF6jGRtu_rQPQnRoCDA
       text: 1Fìstxeliri 2alor 3irayo.
       lookup_filter:
-        1: 6708:n.:fì-:-ri:nolen
         2: 1024:adj.:a-:nolen
-        3: 616:n., intj.:noaffix:nolen
       translations:
         en: 3Thanks 1for 1this 2beautiful 1gift.
     - id: 8WVXA0KVRLqhkfuPi6OAcg
       text: 1Fìtutan 2a 3(rì'ìr|rììr)4(mì) 5ftu 6na'rìng.
-      lookup_filter:
-        1: 2304:n.:fì-:nolen
-        2: 120:part.:noaffix:nolen
-        3: 8052:n.:noaffix:nolen
-        4: 1108:adp.:noaffix:nolen
-        5: 496:adp.:noaffix:nolen
-        6: 1172:n.:noaffix:nolen
       translations:
         en: 1(This man) 2+4in 3(the reflection) 5(is from) 6(the forest).
     - id: a52cML6vTf2kjCPt_njlaw
       text: 1Kehe, 2faysuteri 3ke 4(syawm|shawm) 5ayoel 6(ke'ut|keut).
       lookup_filter:
-        1: 752:part., intj.:noaffix:nolen
         2: 2296:n.:fay-:-ri:t→s
-        3: 740:part.:noaffix:nolen
-        4: 13357:vtr.:noaffix:nolen
         5: 212:pn.:-l:nolen
-        6: 748:pn.:-t:nolen
       translations:
         en: 1No, 5we 4know 3+6nothing 2(of these people).
       flags:
@@ -40,17 +27,8 @@ inputs:
     - id: 7zVDaarxSQO9KYdBVOUHtg
       text: 1Fayvrrtep 2fìtsenge 3lu 4kxanì. 5Fìpoti 6oel 7tspìyang 8fte 9tìkenong 10lìyevu 11aylaru!
       lookup_filter:
-        1: 2684:n.:fay-:nolen
         2: 365:adv., n.:noaffix:nolen
-        3: 1044:vin.:noaffix:nolen
-        4: 916:adj.:noaffix:nolen
         5: 356:pn.:-ti:nolen
-        6: 1380:pn.:-l:nolen
-        7: 2460:vtr.:<ìy>:nolen
-        8: 476:conj.:noaffix:nolen
-        9: 2164:n.:noaffix:nolen
-        10: 1044:vin.:<ìyev>:nolen
-        11: 13360:pn.:-ru:nolen
       translations:
         en: 1(These demons) 3are 4forbidden 2here. 6I 7(will kill) 5(this one) 8+9+10(as a lesson) 11(to the others)!
     - id: m_RLOkWTS165ARbMDcZzGg
@@ -58,22 +36,12 @@ inputs:
       lookup_filter:
         1: 412:pn.:noaffix:nolen
         2: 676:adp.:noaffix:nolen
-        3: 1172:n.:noaffix:nolen
-        4: 13361:vin.:<er>:nolen
-        5: 2072:conj.:noaffix:nolen
-        6: 4620:n.:-t:nolen
-        7: 3712:vtr.:<er>:nolen
       translations:
         en: 1(They)4('re) 4wandering 2across 3(the forest) 7(looking for) 6food.
     - id: 23gFB94-TZejLKYlfEj5rg
       text: 1Lam 2fwa 3nga 4sti 5nìtxan. 6Ngari 7peu?
       lookup_filter:
-        1: 956:vin.:noaffix:nolen
-        2: 520:sbd.:noaffix:nolen
-        3: 1348:pn.:noaffix:nolen
-        4: 3848:vin.:noaffix:nolen
         5: 1312:adv.:noaffix:nolen
-        6: 1348:pn.:-ri:nolen
         7: 1528:inter.:noaffix:nolen
       translations:
         en: 3You 1+2seem 5very 4angry. 6+7(What's wrong)?

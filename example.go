@@ -193,6 +193,19 @@ func (e *Example) ListBefore(another *Example) bool {
 }
 
 func (e *Example) Input() Input {
+	// It should never use the context
+	ctx, cancel := context.WithCancel(context.Background())
+	cancel()
+
+	input, err := e.MinimalInput(ctx, nil)
+	if err != nil {
+		panic(err)
+	}
+
+	return *input
+}
+
+func (e *Example) MinimalInput(ctx context.Context, dictionary Dictionary) (*Input, error) {
 	input := Input{
 		ID:           e.ID,
 		Text:         e.Text.String(),
@@ -206,17 +219,30 @@ func (e *Example) Input() Input {
 	for i, translation := range e.Translations {
 		input.Translations[i] = translation.String()
 	}
+	wordMap := e.Text.WordMap()
 	for i, words := range e.Words {
-		filterSet := make(MultiWordFilter, 0, len(words))
+		var dictWords []DictionaryEntry
+		if dictionary != nil {
+			res, err := dictionary.Lookup(ctx, wordMap[i])
+			if err != nil {
+				return nil, err
+			}
 
-		for _, word := range words {
-			filterSet = append(filterSet, word.ToFilter())
+			dictWords = res
 		}
 
-		input.LookupFilter[i] = filterSet.String()
+		if len(dictWords) != len(words) {
+			filterSet := make(MultiWordFilter, 0, len(words))
+
+			for _, word := range words {
+				filterSet = append(filterSet, word.ToFilter())
+			}
+
+			input.LookupFilter[i] = filterSet.String()
+		}
 	}
 
-	return input
+	return &input, nil
 }
 
 func (e *Example) Copy() Example {

@@ -17,7 +17,7 @@ You need Go >= 1.18 and Node.JS >= v1.18.
 
 ### 1. Start backend
 ```bash
-go run ./cmd/fyasar-dev-server/
+go run ./cmd/sarfya-dev-server/
 ```
 
 ### 2. Start frontend
@@ -38,22 +38,29 @@ The goal of that is to facilitate integration into existing `fwew` services.
 
 For a minimal use of the library, see `./cmd/fyasar-example`
 
+### Adapters
+
 The adapters are where the external dependencies come into play.
 
-### `fwewdictionary`
+#### `fwewdictionary`
 
 This hooks the `fyasar.Dictionary` interface up with `fwew`.
 
-### `jsonstorage`
+#### `placeholderdictionary`
+
+This is run alongside `fwew` to handle placeholders like `X-ìl`.
+It's also used for names that aren't in the dictionary.
+
+#### `jsonstorage`
 
 An indexed storage backend for `service` that can be loaded and saved as a JSON.
 The plan is bundling a JSON with the binary and throw it up on a FaaS behind a CDN cache in the future.
 
-### `sourcestorage`
+#### `sourcestorage`
 
 The storage backend for `service` ran locally. 
 It modifies the relevant files in `./data`.
 
-### `webapi`
+#### `webapi`
 
 An (aspirationally) REST API for the frontend.
