@@ -1,0 +1,103 @@
+html, body {
+    border: none;
+    padding: 0;
+    margin: 0;
+    background-color: #171722;
+    color: #abc;
+    font-family: sans-serif;
+}
+
+div.error {
+    color: #f73;
+    text-align: center;
+    margin: 1em auto;
+    width: 90ch;
+    max-width: 90%;
+}
+
+div.example {
+    margin: 32px auto;
+    width: 90ch;
+    max-width: 90%;
+}
+
+div.sentence {
+    color: #89a;
+    font-style: italic;
+    line-height: 1.25em;
+    width: 100%;
+}
+div.sentence.lang-navi {
+    font-size: 1.25em;
+    font-weight: 600;
+    color: #abc;
+    font-style: normal;
+    margin-bottom: 0.25em;
+}
+
+div.sentence > a {
+    color: inherit;
+    text-decoration: none;
+    border-bottom: 1px solid rgba(0,0,0,0);
+}
+div.sentence > a.adjacent, div.sentence > span.adjacent {
+    border-color: #fc1;
+}
+div.sentence > a.selected, div.sentence > span.selected {
+    color: #fc1;
+    border-color: rgba(0,0,0,0);
+}
+div.sentence > a.hover, div.sentence > span.hover {
+    background-color: #222233;
+}
+
+input.search-box {
+    display: block;
+    margin: 1em auto;
+    width: 60ch;
+    max-width: 87%;
+    background: none;
+    padding: 0.5em;
+    font-size: 1.5em;
+    color: #789;
+    outline: none;
+    border: 1px solid;
+    border-radius: 1em;
+}
+input.search-box:focus {
+    color: #abc;
+}
+
+div.example-source {
+    font-size: 0.75em;
+    margin-bottom: 0.25em;
+}
+div.example-source a {
+    color: #789;
+    text-decoration: none;
+}
+div.example-source a:hover {
+    color: #abc;
+}
+
+div.group-word-list {
+    margin-top: 1.5em;
+    margin-bottom: 1em;
+    padding-bottom: 0.125em;
+    font-size: 2em;
+    border-bottom: 1px solid #789;
+    color: #789;
+    display: flex;
+}
+div.group-word-list.idx-0 {
+    margin-top: 0.5em;
+}
+div.group-word-list > .word {
+    padding: 0.25em;
+}
+div.group-word-list > .word:first-child {
+    margin-left: auto;
+}
+div.group-word-list > .word:last-child {
+    margin-right: auto;
+}

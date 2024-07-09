@@ -37,6 +37,18 @@
   export let hovered: number[] | null = null;
   export let wordMap: {[id: number]: string} = {};
 
+  function generateText(part: SentencePart) {
+    let text = part.text;
+    if (part.lp) {
+      text = "(" + text;
+    }
+    if (part.rp) {
+      text += ")";
+    }
+
+    return text;
+  }
+
   $: adjacnetFlat = adjacents.flat();
   $: spansFlat = spans.flat();
 </script>
@@ -45,7 +57,7 @@
   {#each value as part, i (i)}
     <!-- TODO: Make this less messy -->
     <!-- svelte-ignore a11y_mouse_events_have_key_events -->
-    <a class="part"
+    <a class="part" class:newline={part.newline}
       href={generateLink(part)}
       class:adjacent={adjacnetFlat.includes(i)}
       class:hover={!!hovered?.find(id => part.ids?.includes(id))}
@@ -54,7 +66,7 @@
       on:mouseover={() => onHover(i)}
       on:mouseleave={() => onHover(-1, i)}
     >
-      {#if part.newline}<br/>{/if}{#if part.lp}{"("}{/if}{part.text}{#if part.rp}{")"}{/if}
+      {generateText(part)}
     </a>
   {/each}
 </div>
@@ -73,9 +85,6 @@
       font-style: normal
       margin-bottom: 0.25em
 
-    div.group.newline
-      flex-basis: 100%
-
     a.part
       color: inherit
       text-decoration: none
@@ -83,6 +92,10 @@
 
       &.hover
         background-color: #222233
+
+      &.newline::before
+        content: "\A"
+        white-space: pre
 
       &.adjacent
         border-color: #fc1

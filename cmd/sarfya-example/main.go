@@ -16,7 +16,7 @@ func main() {
 	}
 
 	if len(os.Args) == 1 {
-		os.Args = append(os.Args, "sar")
+		os.Args = append(os.Args, "sar + fko")
 	}
 
 	input := sarfya.Input{
@@ -27,8 +27,8 @@ func main() {
 			4: "9316",
 		},
 		Translations: map[string]string{
-			"en": "4(This system) 2+3(is used) 1(like this).",
-			"no": "1Slik 2bruker 3man 4(dette systemet).",
+			"en": "4(This system) 2+3(is used) 1(like this)!",
+			"no": "1Slik 2bruker 3man 4(dette systemet)!",
 		},
 		Source: sarfya.Source{
 			ID:     "1234",
@@ -61,8 +61,10 @@ func main() {
 		match := filter.CheckExample(*example, resolvedSet)
 		if match != nil {
 			log.Println("Match", i, "IDs:", match.Selections)
-			log.Println("Match", i, "Text in Na'vi text:", match.Spans)
-			log.Println("Match", i, "Text in translations:", match.TranslationSpans)
+			log.Println("Match", i, "Spans in Na'vi text:", match.Spans)
+			for lang, spans := range match.TranslationSpans {
+				log.Println("Match", i, "Spans in", lang, "translations:", spans)
+			}
 		}
 	}
 }

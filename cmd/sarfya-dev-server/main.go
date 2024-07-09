@@ -7,6 +7,7 @@ import (
 	"github.com/gissleh/sarfya/adapters/fwewdictionary"
 	"github.com/gissleh/sarfya/adapters/placeholderdictionary"
 	"github.com/gissleh/sarfya/adapters/sourcestorage"
+	"github.com/gissleh/sarfya/adapters/templfrontend"
 	"github.com/gissleh/sarfya/adapters/webapi"
 	"github.com/gissleh/sarfya/service"
 	"log"
@@ -32,6 +33,11 @@ func main() {
 
 	webapi.Utils(api.Group("/api/utils"), dict)
 	webapi.Examples(api.Group("/api/examples"), svc)
+	templfrontend.Endpoints(api.Group(""), svc)
+
+	for _, route := range api.Routes() {
+		log.Println(route.Path)
+	}
 
 	err = <-errCh
 	if err != nil {

@@ -13,14 +13,16 @@ The text used in `./data` is the property of their original authors.
 
 ## Quick Start
 
-You need Go >= 1.18 and Node.JS >= v1.18.
+You need Go >= 1.18 to run the backend.
 
-### 1. Start backend
 ```bash
 go run ./cmd/sarfya-dev-server/
 ```
 
-### 2. Start frontend
+You can then load the less feature-rich static frontend at http://localhost:8080
+
+If you intend to check out the editor, you need the svelte frontend.
+Run these commands to get started with it. I have not tested with Node.JS < v18
 
 ```bash
 cd frontend/
@@ -29,7 +31,7 @@ env VITE_ENABLE_EDITOR=true VITE_BACKEND_URL="http://localhost:8080" npm run dev
 ```
 
 ### 3. Preview
-Open a browser and navigate to http://localhost:8080
+Open a browser and navigate to 
 
 ## Project structure
 
@@ -64,3 +66,8 @@ It modifies the relevant files in `./data`.
 #### `webapi`
 
 An (aspirationally) REST API for the frontend.
+
+#### `templfrontend`
+
+A WIP templ-based frontend that's faster to host. 
+It's a bit coupled with the `webapi` package, however.

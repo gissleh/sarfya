@@ -1,0 +1,16 @@
+package templfrontend
+
+templ layoutWrapper(title string, body templ.Component) {
+	<!DOCTYPE html>
+    <html lang="en">
+      <head>
+        <meta charset="utf-8">
+        <title>{title}</title>
+        <link rel="stylesheet" href="/static/style.css" />
+        <script src="/static/handlers.js"></script>
+      </head>
+      <body>
+        @body
+      </body>
+    </html>
+}

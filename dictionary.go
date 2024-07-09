@@ -53,13 +53,13 @@ func (e *DictionaryEntry) HasSuffix(suffix string) bool {
 }
 
 func (e *DictionaryEntry) HasInfix(infix string) bool {
-	if infix == "eiy" {
-		infix = "ei"
+	if aliasedInfix, ok := infixAliases[infix]; ok {
+		infix = aliasedInfix
 	}
 
 	for _, i := range e.Infixes {
-		if i == "eiy" {
-			i = "ei"
+		if aliasedInfix, ok := infixAliases[i]; ok {
+			i = aliasedInfix
 		}
 
 		if i == infix {
@@ -115,6 +115,11 @@ var suffixAliases = map[string]string{
 	"it":  "t",
 	"ìri": "ri",
 	"ìl":  "l",
+}
+
+var infixAliases = map[string]string{
+	"iyev": "ìyev",
+	"eiy":  "ei",
 }
 
 func (e *DictionaryEntry) Copy() DictionaryEntry {

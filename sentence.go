@@ -2,6 +2,7 @@ package sarfya
 
 import (
 	"fmt"
+	"io"
 	"strings"
 )
 
@@ -186,19 +187,7 @@ func (s Sentence) RawText() string {
 	res := strings.Builder{}
 	res.Grow(64)
 	for _, part := range s {
-		if part.Alt {
-			continue
-		}
-		if part.Newline {
-			res.WriteByte('\n')
-		}
-		if part.LP {
-			res.WriteByte('(')
-		}
-		res.WriteString(part.Text)
-		if part.RP {
-			res.WriteByte(')')
-		}
+		_ = part.WriteRawTo(&res)
 	}
 
 	return res.String()
@@ -340,4 +329,42 @@ func (p *SentencePart) HasID(id int) bool {
 	}
 
 	return false
+}
+
+func (p *SentencePart) RawText() string {
+	sb := strings.Builder{}
+	sb.Grow(len(p.Text) + 8)
+	_ = p.WriteRawTo(&sb)
+
+	return sb.String()
+}
+
+func (p *SentencePart) WriteRawTo(w io.StringWriter) error {
+	if p.Alt {
+		return nil
+	}
+	if p.Newline {
+		_, err := w.WriteString("\n")
+		if err != nil {
+			return err
+		}
+	}
+	if p.LP {
+		_, err := w.WriteString("(")
+		if err != nil {
+			return err
+		}
+	}
+	_, err := w.WriteString(p.Text)
+	if err != nil {
+		return err
+	}
+	if p.RP {
+		_, err := w.WriteString(")")
+		if err != nil {
+			return err
+		}
+	}
+
+	return nil
 }
