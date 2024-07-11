@@ -11,9 +11,11 @@ import (
 	"github.com/gissleh/sarfya/adapters/webapi"
 	"github.com/gissleh/sarfya/service"
 	"log"
+	"strings"
 )
 
 var flagSourceDir = flag.String("source-dir", "./data", "Source directory")
+var flagListenAddr = flag.String("listen", ":8080", "Listen address")
 
 func main() {
 	dict := sarfya.CombinedDictionary{
@@ -29,15 +31,30 @@ func main() {
 
 	svc := &service.Service{Dictionary: dict, Storage: storage}
 
-	api, errCh := webapi.Setup("localhost:8080")
+	api, errCh := webapi.Setup(*flagListenAddr)
 
 	webapi.Utils(api.Group("/api/utils"), dict)
 	webapi.Examples(api.Group("/api/examples"), svc)
 	templfrontend.Endpoints(api.Group(""), svc)
 
-	for _, route := range api.Routes() {
-		log.Println(route.Path)
-	}
+	go func() {
+		example, err := storage.ListExamples(context.Background())
+		if err != nil {
+			return
+		}
+
+		exists := make(map[string]bool)
+		for _, example := range example {
+			rt := strings.TrimSpace(example.Text.RawText())
+			if exists[rt] {
+				log.Println("Duplicate example:", example.ID, example.Text.String())
+			}
+
+			exists[rt] = true
+		}
+	}()
+
+	log.Println("Listening on", *flagListenAddr)
 
 	err = <-errCh
 	if err != nil {

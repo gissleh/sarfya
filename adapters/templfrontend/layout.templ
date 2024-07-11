@@ -1,0 +1,19 @@
+package templfrontend
+
+templ layoutWrapper(title string, body templ.Component) {
+	<!DOCTYPE html>
+    <html lang="en">
+        <head>
+            <meta charset="utf-8" />
+            <meta content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=yes" name="viewport">
+            <meta content="#171722" name="theme-color" />
+            <meta content="text/html; charset=utf-8" http-equiv="Content-Type" />
+            <title>{title}</title>
+            <link rel="stylesheet" href="/static/style.css" />
+            <script src="/static/handlers.js"></script>
+        </head>
+        <body>
+            @body
+        </body>
+    </html>
+}

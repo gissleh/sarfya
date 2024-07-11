@@ -4,3 +4,11 @@ data-compiled.*
 /.vscode
 /frontend/.idea
 /frontend/.vscode
+/bootstrap
+/*.zip
+/sarfya-dev-server
+/sarfya-dev-server.exe
+/sarfya-example
+/sarfya-example.exe
+/sarfya-generate-json
+/sarfya-generate-json.exe

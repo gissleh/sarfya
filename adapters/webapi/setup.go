@@ -9,13 +9,19 @@ import (
 	"net/http"
 )
 
-func Setup(addr string) (*echo.Echo, <-chan error) {
+func SetupWithoutListener() *echo.Echo {
 	e := echo.New()
 	e.HideBanner = true
 	e.HidePort = true
 	e.Use(middleware.CORS())
 	e.Use(middleware.Gzip())
 	e.HTTPErrorHandler = wrapError
+
+	return e
+}
+
+func Setup(addr string) (*echo.Echo, <-chan error) {
+	e := SetupWithoutListener()
 
 	errCh := make(chan error)
 	go func() {

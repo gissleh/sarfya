@@ -71,7 +71,7 @@ func sentence(id string, language string, spans [][]int, adjacentSpans [][]int, 
 				}
 				_, _ = bw.WriteString("\" data-ids=\"")
 				_, _ = bw.WriteString(idList(part.IDs))
-				_, _ = bw.WriteString("\" onmouseenter=\"onHover(this)\" onmouseleave=\"onHoverEnd(this)\">")
+				_, _ = bw.WriteString("\">")
 				_, _ = bw.WriteString(templ.EscapeString(part.RawText()))
 				_, _ = bw.WriteString("</a>")
 			} else {
@@ -85,7 +85,6 @@ func sentence(id string, language string, spans [][]int, adjacentSpans [][]int, 
 					_, _ = bw.WriteString(" data-ids=\"")
 					_, _ = bw.WriteString(idList(part.IDs))
 					_, _ = bw.WriteString("\"")
-					_, _ = bw.WriteString(" onmouseenter=\"onHover(this)\" onmouseleave=\"onHoverEnd(this)\"")
 				}
 				_, _ = bw.WriteString(">")
 				_, _ = bw.WriteString(templ.EscapeString(part.RawText()))

@@ -15,20 +15,25 @@ func ParseFilter(ctx context.Context, str string, dictionary Dictionary) (*Filte
 	for len(str) > 0 {
 		operator := nextOperator
 		termString := str
-		noOperator := true
-		for _, op := range allOperators {
-			opIndex := strings.Index(str, op)
-			if opIndex != -1 {
-				termString = str[:opIndex]
-				nextOperator = op
-				str = str[opIndex+len(op):]
-				noOperator = false
+		nearestIndex := len(str)
+		nextStart := len(str)
+		selectedOp := FTORequired
+		for _, alias := range operatorAliases {
+			op := alias[1]
+			match := alias[0]
+
+			opIndex := strings.Index(str, match)
+			if opIndex != -1 && opIndex < nearestIndex {
+				selectedOp = op
+				nearestIndex = opIndex
+				nextStart = opIndex + len(match)
 				break
 			}
 		}
-		if noOperator {
-			str = str[len(str):]
-		}
+
+		termString = str[:nearestIndex]
+		nextOperator = selectedOp
+		str = str[nextStart:]
 
 		termString = strings.TrimSpace(termString)
 
@@ -433,6 +438,17 @@ var allOperators = []string{
 	FTOFollow,
 	FTOAdjacent,
 	FTORequired,
+}
+
+var operatorAliases = [][2]string{
+	{FTOAdjacentBoth, FTOAdjacentBoth},
+	{FTOFollow, FTOFollow},
+	{FTOAdjacent, FTOAdjacent},
+	{FTORequired, FTORequired},
+	{"AND", FTORequired},
+	{"NEXT TO", FTOAdjacent},
+	{"FOLLOWED BY", FTOFollow},
+	{"SURROUNDED BY", FTOAdjacentBoth},
 }
 
 const FTOAdjacentBoth = "++"
