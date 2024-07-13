@@ -1,8 +1,8 @@
 package templfrontend
 
 import (
-    "github.com/gissleh/sarfya"
     "github.com/gissleh/sarfya/service"
+    "github.com/gissleh/sarfya"
     "strconv"
 )
 
@@ -23,12 +23,14 @@ templ searchPage(filter string, err string, groups []service.ExampleGroup) {
 	        </div>
 	    }
 	    for _, match := range group.Examples {
-	        @example(match)
+	        @example(match, ctx.Value(langCtxKey).(string))
 	    }
 	}
 }
 
-templ indexPage(demo sarfya.FilterMatch) {
+templ indexPage() {
     @searchBox("")
-    @example(demo)
+    if ctx.Value(demoCtxKey) != nil {
+        @example(*ctx.Value(demoCtxKey).(*sarfya.FilterMatch), ctx.Value(langCtxKey).(string))
+    }
 }

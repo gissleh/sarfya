@@ -138,6 +138,8 @@
     <FlagToggle bind:value={input.flags} flag="reef_dialect" />
     <FlagToggle bind:value={input.flags} flag="proverb" />
     <FlagToggle bind:value={input.flags} flag="slang" />
+    <FlagToggle bind:value={input.flags} flag="formal" />
+    <FlagToggle bind:value={input.flags} flag="syntax" />
   </div>
   <div class="split">
     <div class="left">

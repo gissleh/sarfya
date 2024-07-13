@@ -85,6 +85,7 @@ func (s *Service) QueryExample(ctx context.Context, filterString string) ([]Exam
 			if match != nil {
 				group.Examples = append(group.Examples, *match)
 			}
+
 		}
 
 		if len(group.Examples) == 0 {

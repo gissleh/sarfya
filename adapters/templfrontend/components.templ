@@ -10,7 +10,7 @@ func hostnameFromUrl(u string) string {
     return uu.Hostname()
 }
 
-templ example(data sarfya.FilterMatch) {
+templ example(data sarfya.FilterMatch, lang string) {
 	<div id={"example-"+templ.EscapeString(data.ID)} class="example">
 	    if data.Source.URL != "" {
             <div class="example-source">
@@ -19,9 +19,14 @@ templ example(data sarfya.FilterMatch) {
               <span class="link">— <a href={templ.SafeURL("/search/src:"+data.Source.ID)}>View all from source</a></span>
             </div>
 	    }
-	    @sentence(data.ID, "navi", data.Spans, data.TranslationAdjacent["en"], data.Words, data.Text)
-	    if data.Translations["en"] != nil {
-	        @sentence(data.ID, "en", data.TranslationSpans["en"], nil, nil, data.Translations["en"])
+
+	    if l := findLanguage(data, lang); l != "" {
+            @sentence(data.ID, "navi", data.Spans, data.TranslationAdjacent[l], data.Words, data.Text)
+            if data.Translations[l] != nil {
+                @sentence(data.ID, l, data.TranslationSpans[l], nil, nil, data.Translations[l])
+            }
+	    } else {
+            @sentence(data.ID, "navi", data.Spans, nil, data.Words, data.Text)
 	    }
 	</div>
 }

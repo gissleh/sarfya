@@ -117,7 +117,7 @@ func searchPage(filter string, err string, groups []service.ExampleGroup) templ.
 				}
 			}
 			for _, match := range group.Examples {
-				templ_7745c5c3_Err = example(match).Render(ctx, templ_7745c5c3_Buffer)
+				templ_7745c5c3_Err = example(match, ctx.Value(langCtxKey).(string)).Render(ctx, templ_7745c5c3_Buffer)
 				if templ_7745c5c3_Err != nil {
 					return templ_7745c5c3_Err
 				}
@@ -127,7 +127,7 @@ func searchPage(filter string, err string, groups []service.ExampleGroup) templ.
 	})
 }
 
-func indexPage(demo sarfya.FilterMatch) templ.Component {
+func indexPage() templ.Component {
 	return templruntime.GeneratedTemplate(func(templ_7745c5c3_Input templruntime.GeneratedComponentInput) (templ_7745c5c3_Err error) {
 		templ_7745c5c3_W, ctx := templ_7745c5c3_Input.Writer, templ_7745c5c3_Input.Context
 		templ_7745c5c3_Buffer, templ_7745c5c3_IsBuffer := templruntime.GetBuffer(templ_7745c5c3_W)
@@ -149,9 +149,11 @@ func indexPage(demo sarfya.FilterMatch) templ.Component {
 		if templ_7745c5c3_Err != nil {
 			return templ_7745c5c3_Err
 		}
-		templ_7745c5c3_Err = example(demo).Render(ctx, templ_7745c5c3_Buffer)
-		if templ_7745c5c3_Err != nil {
-			return templ_7745c5c3_Err
+		if ctx.Value(demoCtxKey) != nil {
+			templ_7745c5c3_Err = example(*ctx.Value(demoCtxKey).(*sarfya.FilterMatch), ctx.Value(langCtxKey).(string)).Render(ctx, templ_7745c5c3_Buffer)
+			if templ_7745c5c3_Err != nil {
+				return templ_7745c5c3_Err
+			}
 		}
 		return templ_7745c5c3_Err
 	})

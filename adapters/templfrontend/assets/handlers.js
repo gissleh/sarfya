@@ -73,7 +73,7 @@ function onHoverEnd(el) {
 // This is so that the textbox changes back if you go back after searching.
 window.addEventListener("DOMContentLoaded", function() {
     // Fill the search box with the filter, so that going back will replace it.
-    let filter = decodeURIComponent(window.location.href.split("/").pop())
+    let filter = decodeURIComponent(window.location.pathname.split("/").pop())
     if (!!window.location.searchParams && window.location.searchParams.has("q")) {
         filter = decodeURIComponent(window.location.searchParams.get("q"));
     }

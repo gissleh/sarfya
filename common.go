@@ -12,7 +12,7 @@ type ExampleFlag string
 
 func (f ExampleFlag) Valid() bool {
 	switch f {
-	case EFPoetry, EFNonCanon, EFUserTranslation, EFReefDialect, EFProverb, EFSlang, EFFormal:
+	case EFPoetry, EFNonCanon, EFUserTranslation, EFReefDialect, EFProverb, EFSlang, EFFormal, EFFSyntax:
 		return true
 	default:
 		return false
@@ -29,12 +29,16 @@ const (
 	// by the source.
 	EFUserTranslation ExampleFlag = "user_translation"
 	// EFReefDialect is for the words of the dopest looking Na'vi. This should be used for when there are
-	// reef spellings or comment+topic.
+	// rules or spellings applied that are only permitted in the reef dialect.
 	EFReefDialect ExampleFlag = "reef_dialect"
-
+	// EFProverb is for proverbial expressions of any kind. The meanings should be in the translations.
 	EFProverb ExampleFlag = "proverb"
-	EFSlang   ExampleFlag = "slang"
-	EFFormal  ExampleFlag = "formal"
+	// EFSlang is for highly informal language.
+	EFSlang ExampleFlag = "slang"
+	// EFFormal is for when you gotta henga si
+	EFFormal ExampleFlag = "formal"
+	// EFFSyntax are for patterns that has placeholders.
+	EFFSyntax ExampleFlag = "syntax"
 )
 
 type Annotation struct {

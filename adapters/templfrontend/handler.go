@@ -5,7 +5,6 @@ import (
 	"embed"
 	"fmt"
 	"github.com/a-h/templ"
-	"github.com/gissleh/sarfya"
 	"github.com/gissleh/sarfya/service"
 	"github.com/labstack/echo/v4"
 	"io/fs"
@@ -25,38 +24,43 @@ func Endpoints(group *echo.Group, svc *service.Service) {
 		return component.Render(c.Request().Context(), c.Response())
 	}
 
-	demo, err := sarfya.NewExample(context.Background(), sarfya.Input{
-		ID:   "demo",
-		Text: "1Kaltxì, 2ulte 3zola'u 4nìprrte' 5fìweptseng6ne! 7(Pamrel si) 8lì'uor 9nefä 10fu 11takuk 12pumit 17a 13mì 14fìpamrel 15fte 16fwivew.",
-		LookupFilter: map[int]string{
-			11: "vtr.",
-		},
-		Translations: map[string]string{
-			"en": "1Hello, 2and 3+4(welcome) 6to 5(this website)! 7Write 8(a word) 9above 10or 11click 12one 17+13in 14(this writing) 15to 16search.",
-		},
-		Source: sarfya.Source{},
-	}, svc.Dictionary)
-	if err != nil {
-		panic(err)
-	}
+	demo := createDemo(svc.Dictionary)
 
 	assets, err := fs.Sub(assets, "assets")
 	if err != nil {
 		panic(err)
 	}
 
+	group.Use(func(next echo.HandlerFunc) echo.HandlerFunc {
+		return func(c echo.Context) error {
+			lang := c.QueryParam("lang")
+			if lang == "" {
+				langCookie, err := c.Cookie("lang")
+				if err != nil && langCookie != nil {
+					lang = langCookie.Value
+				} else {
+					lang = "en"
+				}
+			}
+
+			c.SetRequest(c.Request().WithContext(context.WithValue(
+				context.WithValue(
+					c.Request().Context(),
+					langCtxKey,
+					lang,
+				),
+				demoCtxKey,
+				demo,
+			)))
+
+			return next(c)
+		}
+	})
+
 	group.StaticFS("/static/", assets)
 
 	group.GET("/", func(c echo.Context) error {
-		return outputHtml(c, http.StatusOK, layoutWrapper(fmt.Sprintf("Sarfya"), indexPage(sarfya.FilterMatch{
-			Example:             *demo,
-			Selections:          []int{},
-			Spans:               [][]int{},
-			TranslationAdjacent: map[string][][]int{"en": {}},
-			TranslationSpans: map[string][][]int{
-				"en": {},
-			},
-		})))
+		return outputHtml(c, http.StatusOK, layoutWrapper(fmt.Sprintf("Sarfya"), indexPage()))
 	})
 
 	group.GET("/search/:search", func(c echo.Context) error {

@@ -138,6 +138,11 @@ func ParseSentence(raw string) Sentence {
 			parts[i].HiddenText = split[0]
 			parts[i].Text = split[1]
 		}
+
+		if text, found := strings.CutSuffix(part.Text, "-"); found && len(part.IDs) > 0 && len(text) != 0 {
+			parts[i].Text = text
+			parts[i].Prepend = true
+		}
 	}
 
 	return parts
@@ -161,7 +166,7 @@ func (s Sentence) String() string {
 			}
 			sb.WriteString(fmt.Sprint(id))
 		}
-		if part.HiddenText != "" || strings.ContainsAny(part.Text, "()0123456789") || part.LP || part.RP || ((s.collidesWith(i-1) || s.collidesWith(i+1) || strings.ContainsAny(part.Text, syntaxSet)) && s.collidesWith(i)) {
+		if part.HiddenText != "" || strings.ContainsAny(part.Text, "()0123456789") || part.LP || part.RP || ((s.collidesWith(i-1) || s.collidesWith(i+1) || s.isDash(i+1) || strings.ContainsAny(part.Text, syntaxSet)) && s.collidesWith(i)) {
 			sb.WriteByte('(')
 			if part.LP {
 				sb.WriteByte('(')
@@ -171,12 +176,18 @@ func (s Sentence) String() string {
 				sb.WriteByte('|')
 			}
 			sb.WriteString(part.Text)
+			if part.Prepend {
+				sb.WriteByte('-')
+			}
 			if part.RP {
 				sb.WriteByte(')')
 			}
 			sb.WriteByte(')')
 		} else {
 			sb.WriteString(part.Text)
+			if part.Prepend {
+				sb.WriteByte('-')
+			}
 		}
 	}
 
@@ -211,13 +222,21 @@ func (s Sentence) WordMap() map[int]string {
 			if res[id] == "" {
 				res[id] = text
 			} else if noSpaceMap[id] {
-				res[id] = res[id] + text
+				if part.Prepend {
+					res[id] = text + res[id]
+				} else {
+					res[id] = res[id] + text
+				}
 				noSpaceMap[id] = false
 			} else {
-				res[id] = res[id] + " " + text
+				if part.Prepend {
+					res[id] = text + " " + res[id]
+				} else {
+					res[id] = res[id] + " " + text
+				}
 			}
 
-			noSpace := i < len(s)-1 && len(s[i+1].IDs) > 0
+			noSpace := i < len(s)-1 && (len(s[i+1].IDs) > 0 || s[i+1].Text == "-")
 			if noSpace {
 				noSpaceMap[id] = true
 			}
@@ -237,6 +256,10 @@ func (s Sentence) HasPartID(id int) bool {
 	}
 
 	return false
+}
+
+func (s Sentence) isDash(index int) bool {
+	return index >= 0 && index < len(s) && s[index].Text == "-"
 }
 
 func (s Sentence) collidesWith(index int) bool {
@@ -309,6 +332,7 @@ type SentencePart struct {
 	Newline    bool   `json:"newline,omitempty" yaml:"newline,omitempty"`
 	LP         bool   `json:"lp,omitempty" yaml:"lp,omitempty"`
 	RP         bool   `json:"rp,omitempty" yaml:"rp,omitempty"`
+	Prepend    bool   `json:"prepend,omitempty" yaml:"prepend,omitempty"`
 }
 
 func (p *SentencePart) HasAnyID(ids []int) bool {

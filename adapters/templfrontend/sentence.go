@@ -19,6 +19,7 @@ func sentence(id string, language string, spans [][]int, adjacentSpans [][]int, 
 	className := "sentence lang-" + language
 	inSpan := make(map[int]bool)
 	inAdjacent := make(map[int]bool)
+
 	for _, span := range spans {
 		for _, index := range span {
 			inSpan[index] = true

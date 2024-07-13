@@ -172,6 +172,40 @@ var sentenceTestTable = []struct {
 		3: "oeyä",
 		4: "Tìomummì oeyä",
 	}, "Tìomummì oeyä."},
+	{"1(Ean)-2(na)-3(ta'leng)-1a 4tute.", Sentence{
+		{Text: "Ean", IDs: []int{1}},
+		{Text: "-"},
+		{Text: "na", IDs: []int{2}},
+		{Text: "-"},
+		{Text: "ta'leng", IDs: []int{3}},
+		{Text: "-"},
+		{Text: "a", IDs: []int{1}},
+		{Text: " "},
+		{Text: "tute", IDs: []int{4}},
+		{Text: "."},
+	}, map[int]string{
+		1: "Eana",
+		2: "na",
+		3: "ta'leng",
+		4: "tute",
+	}, "Ean-na-ta'leng-a tute."},
+	{"1Fìtìmungwrr 2horenä 3seiyi 4oe 3irayo-!", Sentence{
+		{Text: "Fìtìmungwrr", IDs: []int{1}},
+		{Text: " "},
+		{Text: "horenä", IDs: []int{2}},
+		{Text: " "},
+		{Text: "seiyi", IDs: []int{3}},
+		{Text: " "},
+		{Text: "oe", IDs: []int{4}},
+		{Text: " "},
+		{Text: "irayo", IDs: []int{3}, Prepend: true},
+		{Text: "!"},
+	}, map[int]string{
+		1: "Fìtìmungwrr",
+		2: "horenä",
+		3: "irayo seiyi",
+		4: "oe",
+	}, "Fìtìmungwrr horenä seiyi oe irayo!"},
 	{"(()Rä'ä syar!())", Sentence{
 		{Text: "", LP: true},
 		{Text: "Rä'ä syar!"},
@@ -233,9 +267,9 @@ func TestSentence_RawText(t *testing.T) {
 
 func TestSentence_HasPartID(t *testing.T) {
 	sentence := Sentence{
-		SentencePart{[]int{1}, "Kam", "", false, false, false, false},
-		SentencePart{[]int{1, 2}, "ei", "", false, false, false, false},
-		SentencePart{[]int{1}, "e", "", false, false, false, false},
+		SentencePart{IDs: []int{1}, Text: "Kam"},
+		SentencePart{IDs: []int{1, 2}, Text: "ei"},
+		SentencePart{IDs: []int{1}, Text: "e"},
 	}
 
 	assert.True(t, sentence.HasPartID(1))

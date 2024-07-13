@@ -2,15 +2,7 @@
   let inputElem: HTMLInputElement
 
   export let query = "";
-
-  function onKeyPress(e: KeyboardEvent) {
-    if (e.shiftKey && e.key.toLowerCase() == "s") {
-      inputElem.focus();
-    }
-  }
 </script>
-
-<svelte:body on:keypress={onKeyPress} />
 
 <form on:submit|preventDefault><input bind:this={inputElem} bind:value={query} /></form>
 

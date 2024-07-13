@@ -15,6 +15,8 @@ inputs:
       text: 1Fìtutan 2a 3(rì'ìr|rììr)4(mì) 5ftu 6na'rìng.
       translations:
         en: 1(This man) 2+4in 3(the reflection) 5(is from) 6(the forest).
+      flags:
+        - reef_dialect
     - id: a52cML6vTf2kjCPt_njlaw
       text: 1Kehe, 2faysuteri 3ke 4(syawm|shawm) 5ayoel 6(ke'ut|keut).
       lookup_filter:

@@ -18,7 +18,7 @@ func hostnameFromUrl(u string) string {
 	return uu.Hostname()
 }
 
-func example(data sarfya.FilterMatch) templ.Component {
+func example(data sarfya.FilterMatch, lang string) templ.Component {
 	return templruntime.GeneratedTemplate(func(templ_7745c5c3_Input templruntime.GeneratedComponentInput) (templ_7745c5c3_Err error) {
 		templ_7745c5c3_W, ctx := templ_7745c5c3_Input.Writer, templ_7745c5c3_Input.Context
 		templ_7745c5c3_Buffer, templ_7745c5c3_IsBuffer := templruntime.GetBuffer(templ_7745c5c3_W)
@@ -116,12 +116,23 @@ func example(data sarfya.FilterMatch) templ.Component {
 				return templ_7745c5c3_Err
 			}
 		}
-		templ_7745c5c3_Err = sentence(data.ID, "navi", data.Spans, data.TranslationAdjacent["en"], data.Words, data.Text).Render(ctx, templ_7745c5c3_Buffer)
-		if templ_7745c5c3_Err != nil {
-			return templ_7745c5c3_Err
-		}
-		if data.Translations["en"] != nil {
-			templ_7745c5c3_Err = sentence(data.ID, "en", data.TranslationSpans["en"], nil, nil, data.Translations["en"]).Render(ctx, templ_7745c5c3_Buffer)
+		if l := findLanguage(data, lang); l != "" {
+			templ_7745c5c3_Err = sentence(data.ID, "navi", data.Spans, data.TranslationAdjacent[l], data.Words, data.Text).Render(ctx, templ_7745c5c3_Buffer)
+			if templ_7745c5c3_Err != nil {
+				return templ_7745c5c3_Err
+			}
+			_, templ_7745c5c3_Err = templ_7745c5c3_Buffer.WriteString(" ")
+			if templ_7745c5c3_Err != nil {
+				return templ_7745c5c3_Err
+			}
+			if data.Translations[l] != nil {
+				templ_7745c5c3_Err = sentence(data.ID, l, data.TranslationSpans[l], nil, nil, data.Translations[l]).Render(ctx, templ_7745c5c3_Buffer)
+				if templ_7745c5c3_Err != nil {
+					return templ_7745c5c3_Err
+				}
+			}
+		} else {
+			templ_7745c5c3_Err = sentence(data.ID, "navi", data.Spans, nil, data.Words, data.Text).Render(ctx, templ_7745c5c3_Buffer)
 			if templ_7745c5c3_Err != nil {
 				return templ_7745c5c3_Err
 			}
@@ -159,7 +170,7 @@ func searchBox(initialValue string) templ.Component {
 		var templ_7745c5c3_Var9 string
 		templ_7745c5c3_Var9, templ_7745c5c3_Err = templ.JoinStringErrs(initialValue)
 		if templ_7745c5c3_Err != nil {
-			return templ.Error{Err: templ_7745c5c3_Err, FileName: `adapters/templfrontend/components.templ`, Line: 32, Col: 57}
+			return templ.Error{Err: templ_7745c5c3_Err, FileName: `adapters/templfrontend/components.templ`, Line: 37, Col: 57}
 		}
 		_, templ_7745c5c3_Err = templ_7745c5c3_Buffer.WriteString(templ.EscapeString(templ_7745c5c3_Var9))
 		if templ_7745c5c3_Err != nil {

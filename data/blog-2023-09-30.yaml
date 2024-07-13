@@ -6,7 +6,7 @@ source:
     author: Paul Frommer
 inputs:
     - id: 1u_1JZKVR4mWvk8Di1qnzQ
-      text: 1na 2txim 3a 4(txìm)5+4(mì)
+      text: 1na 2txim 3a 4(txìm)5(mì)
       translations:
         en: |-
             1like 2(a thorn) 3+5in 4(the butt)
