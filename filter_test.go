@@ -12,6 +12,7 @@ var wordLawa = DictionaryEntry{ID: "968", Word: "law", PoS: "adj.", Definitions:
 var wordAlaw = DictionaryEntry{ID: "968", Word: "law", PoS: "adj.", Definitions: map[string]string{"en": "clear, certain"}, Source: "Paul Frommer, PF | Activist Survival Guide (2009-11-24)", Prefixes: []string{"a"}, Infixes: []string(nil), Suffixes: []string(nil), Lenitions: []string(nil), Comment: []string(nil)}
 var wordHrr = DictionaryEntry{ID: "880", Word: "krr", PoS: "n.", Definitions: map[string]string{"en": "time"}, Source: "Paul Frommer, PF | Activist Survival Guide (2009-11-24)", Prefixes: []string(nil), Infixes: []string(nil), Suffixes: []string(nil), Lenitions: []string{"k→h"}, Comment: []string(nil)}
 var wordMowarit = DictionaryEntry{ID: "10008", Word: "mowar", PoS: "n.", Definitions: map[string]string{"en": "advice, bit or piece of advice"}, Source: "https://naviteri.org/2014/05/mipa-ayliu-mipa-aysafpil-new-words-new-ideas/ (2014-05-31)", Prefixes: []string(nil), Infixes: []string(nil), Suffixes: []string{"it"}, Lenitions: []string(nil), Comment: []string(nil)}
+var wordNew = DictionaryEntry{ID: "1224", Word: "new", PoS: "vtrm.", Definitions: map[string]string{"en": "want"}, Source: "Paul Frommer, PF | Activist Survival Guide (2009-11-24) | https://naviteri.org/2010/07/diminutives-conversational-expressions/ (2010-07-11)", Prefixes: []string(nil), Infixes: []string(nil), Suffixes: []string(nil), Lenitions: []string(nil), Comment: []string(nil)}
 
 func TestWordFilter_Check(t *testing.T) {
 	table := []struct {
@@ -144,6 +145,16 @@ func TestWordFilter_Check(t *testing.T) {
 		{
 			"Mowarit matches noun, -it and no lenition",
 			"10008:n.:-it:nolen", wordMowarit, true,
+			true,
+		},
+		{
+			"New matches the first alternative",
+			"vtrm.|vim.", wordNew, true,
+			true,
+		},
+		{
+			"New matches the second alternative",
+			"vim.|vtrm.", wordNew, true,
 			true,
 		},
 	}

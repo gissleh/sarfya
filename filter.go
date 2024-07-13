@@ -3,6 +3,7 @@ package sarfya
 import (
 	"context"
 	"fmt"
+	"sort"
 	"strings"
 )
 
@@ -10,9 +11,14 @@ import (
 func ParseFilter(ctx context.Context, str string, dictionary Dictionary) (*Filter, []map[int]DictionaryEntry, error) {
 	filter := &Filter{}
 
+	longestAt := make(map[int]int)
 	nextOperator := FTORequired
 	i := 0
 	for len(str) > 0 {
+		for key := range longestAt {
+			delete(longestAt, key)
+		}
+
 		operator := nextOperator
 		termString := str
 		nearestIndex := len(str)
@@ -23,11 +29,11 @@ func ParseFilter(ctx context.Context, str string, dictionary Dictionary) (*Filte
 			match := alias[0]
 
 			opIndex := strings.Index(str, match)
-			if opIndex != -1 && opIndex < nearestIndex {
+			if opIndex != -1 && opIndex <= nearestIndex && len(match) > longestAt[opIndex] {
 				selectedOp = op
 				nearestIndex = opIndex
+				longestAt[opIndex] = len(match)
 				nextStart = opIndex + len(match)
-				break
 			}
 		}
 
@@ -130,7 +136,8 @@ type Filter struct {
 func (f *Filter) CheckExample(example Example, resolved map[int]DictionaryEntry) *FilterMatch {
 	selections := make([]int, 0)
 	spans := make([][]int, 0)
-	matches := make([]int, 0, 16)
+	matches := make([][]int, 0, 16)
+	temp := make([]int, 0, 4)
 
 	if f.SourceID != nil && example.Source.ID != *f.SourceID {
 		return nil
@@ -158,17 +165,28 @@ func (f *Filter) CheckExample(example Example, resolved map[int]DictionaryEntry)
 
 				passed := matchesWord && term.Constraints.Check(&word, true)
 				if passed == !term.Not {
+					temp = temp[:0]
+
 					for j, part := range example.Text {
 						if part.HasID(id) {
-							matches = append(matches, j)
+							temp = append(temp, j)
 						}
 					}
 
+					matches = append(matches, append(temp[:0:0], temp...))
 					selections = append(selections, id)
 					break
 				}
 			}
 		}
+
+		sort.Slice(matches, func(i, j int) bool {
+			if (len(matches[i]) > 0) != (len(matches[j]) > 0) {
+				return len(matches[i]) > 0
+			}
+
+			return matches[i][0] < matches[j][0]
+		})
 
 		switch term.Operator {
 		case FTORequired:
@@ -177,11 +195,9 @@ func (f *Filter) CheckExample(example Example, resolved map[int]DictionaryEntry)
 					return nil
 				}
 
-				for _, match := range matches {
-					spans = append(spans, []int{match})
-				}
+				spans = append(spans, matches...)
 			}
-		case FTOFollow, FTOAdjacent, FTOAdjacentBoth:
+		case FTOFollowedBy, FTONextTo, FTOASurroundedBy:
 			{
 				foundAny := false
 
@@ -196,8 +212,8 @@ func (f *Filter) CheckExample(example Example, resolved map[int]DictionaryEntry)
 					nextLinked := example.Text.NextLinked(span[len(span)-1])
 					if nextLinked != -1 {
 						for _, match := range matches {
-							if nextLinked == match {
-								spans[j] = append(spans[j], match)
+							if nextLinked == match[0] {
+								spans[j] = append(spans[j], match...)
 								foundAny = true
 								matchedAfter = true
 								break
@@ -205,14 +221,13 @@ func (f *Filter) CheckExample(example Example, resolved map[int]DictionaryEntry)
 						}
 					}
 
-					if term.Operator != FTOFollow {
+					if term.Operator != FTOFollowedBy {
 						prevLinked := example.Text.PrevLinked(span[0])
 						if prevLinked != -1 {
 							for _, match := range matches {
-								if prevLinked == match {
-									spans[j] = append(spans[j], -1)
-									copy(spans[j][1:], spans[j])
-									spans[j][0] = match
+								if prevLinked == match[len(match)-1] {
+									spans[j] = append(match, spans[j]...)
+
 									foundAny = true
 									matchedBefore = true
 
@@ -222,13 +237,70 @@ func (f *Filter) CheckExample(example Example, resolved map[int]DictionaryEntry)
 						}
 					}
 
-					if term.Operator == FTOAdjacentBoth {
+					if term.Operator == FTOASurroundedBy {
 						if !matchedAfter || !matchedBefore {
 							spans[j] = spans[j][:0]
 						}
 					} else {
 						if !matchedAfter && !matchedBefore {
 							spans[j] = spans[j][:0]
+						}
+					}
+				}
+
+				if !foundAny {
+					return nil
+				}
+			}
+		case FTOBefore:
+			{
+				foundAny := false
+
+				for j, span := range spans {
+					var selected []int
+					earliest := len(example.Text)
+
+					for _, match := range matches {
+						if span[len(span)-1] < match[0] && match[0] < earliest {
+							selected = match
+						}
+					}
+
+					if selected != nil {
+						spans[j] = append(span, selected...)
+						foundAny = true
+					}
+				}
+
+				if !foundAny {
+					return nil
+				}
+			}
+		case FTOSurrounding:
+			{
+				foundAny := false
+
+				for j, span := range spans {
+					if len(span) >= 2 {
+						found := false
+
+						temp = temp[:0]
+						for k := range span[:len(span)-1] {
+							for _, match := range matches {
+								if span[k] < match[0] && span[k+1] > match[len(match)-1] {
+									temp = append(temp, match...)
+									foundAny = true
+									found = true
+								}
+							}
+
+							if len(temp) > 0 {
+								spans[j] = append(span[:k+1], append(temp, span[k+1:]...)...)
+							}
+						}
+
+						if !found {
+							spans[j] = span[:0]
 						}
 					}
 				}
@@ -433,27 +505,26 @@ type FilterTerm struct {
 	Not         bool
 }
 
-var allOperators = []string{
-	FTOAdjacentBoth,
-	FTOFollow,
-	FTOAdjacent,
-	FTORequired,
-}
-
 var operatorAliases = [][2]string{
-	{FTOAdjacentBoth, FTOAdjacentBoth},
-	{FTOFollow, FTOFollow},
-	{FTOAdjacent, FTOAdjacent},
+	{FTOSurrounding, FTOSurrounding},
+	{FTOASurroundedBy, FTOASurroundedBy},
+	{FTOBefore, FTOBefore},
+	{FTOFollowedBy, FTOFollowedBy},
+	{FTONextTo, FTONextTo},
 	{FTORequired, FTORequired},
 	{"AND", FTORequired},
-	{"NEXT TO", FTOAdjacent},
-	{"FOLLOWED BY", FTOFollow},
-	{"SURROUNDED BY", FTOAdjacentBoth},
+	{"NEXT TO", FTONextTo},
+	{"FOLLOWED BY", FTOFollowedBy},
+	{"BEFORE", FTOBefore},
+	{"SURROUNDED BY", FTOASurroundedBy},
+	{"SURROUNDING", FTOSurrounding},
 }
 
-const FTOAdjacentBoth = "++"
-const FTOFollow = "+>"
-const FTOAdjacent = "+"
+const FTOSurrounding = ">+<"
+const FTOASurroundedBy = "++"
+const FTOBefore = "+>>"
+const FTOFollowedBy = "+>"
+const FTONextTo = "+"
 const FTORequired = "&&"
 
 func ParseWordFilter(str string) WordFilter {
@@ -569,24 +640,15 @@ func (wf WordFilter) Check(e *DictionaryEntry, checkModifiers bool) bool {
 				break
 			} else if strings.ContainsRune(alternative, '.') {
 				for _, apos := range strings.Split(alternative, ",") {
-					found := false
 					apos = strings.TrimSpace(apos)
 
 					for _, pos := range strings.Split(e.PoS, ", ") {
 						if strings.TrimSpace(pos) == apos {
-							found = true
-							break
+							ok = true
+							break AlternativeCheckLoop
 						}
 					}
-
-					if !found {
-						ok = false
-						break AlternativeCheckLoop
-					}
 				}
-
-				ok = true
-				break
 			} else if e.ID == alternative {
 				ok = true
 				break
