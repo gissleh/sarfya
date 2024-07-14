@@ -302,6 +302,8 @@ func (f *Filter) CheckExample(example Example, resolved map[int]DictionaryEntry)
 						if !found {
 							spans[j] = span[:0]
 						}
+					} else {
+						spans[j] = span[:0]
 					}
 				}
 
