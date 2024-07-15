@@ -10,13 +10,13 @@ inputs:
       translations:
         en: |-
             3You 1+2(should)4(n't) 5abandon 3your 7original 6idea.
-            ((The meaning here is that you came up with a new and unique idea that you shouldn't abandon.))
+            {(The meaning here is that you came up with a new and unique idea that you shouldn't abandon.)}
     - id: IjUsmP62QXGP3P0EMx6esw
       text: 1Sweylu 2txo 3ngal 4ke 5txivìng 6säfpìlit 7lesngä'i.
       translations:
         en: |-
             3You 1+2(should)4(n't) 5abandon 3your 7original 6idea.
-            ((Here the meaning is that your very first idea is better than the current one.))
+            {(Here the meaning is that your very first idea is better than the current one.)}
     - id: DgqeVXXQT9uWnpmlhkh8Rg
       text: 1Frakrr 2po 3fpìl 4nìtsim 5nìwotx.
       lookup_filter:
@@ -66,7 +66,7 @@ inputs:
         9: 540:conj.:noaffix:nolen
         12: 212:pn.:-l:nolen
       translations:
-        en: 1After 2(the rainstorm), 8his 7crossbow 6was 5under 3(a lot of) 4leaves, 9so 12we 11uncovered 10it ((removed the leaves from it)).
+        en: 1After 2(the rainstorm), 8his 7crossbow 6was 5under 3(a lot of) 4leaves, 9so 12we 11uncovered 10it {(removed the leaves from it)}.
     - id: wmmnjeAQTYejwhKqIsp7Fg
       text: 1Lolu 2kavuk, 3slä 4Tsenul 5tìngayit 6kolulat.
       translations:
@@ -94,7 +94,7 @@ inputs:
       translations:
         en: |-
             1They 2live 3across 4(the lake).
-            ((That is, on the opposite side of the lake, on the other shore.))
+            {(That is, on the opposite side of the lake, on the other shore.)}
     - id: a2U7L0iWQVu8aHlQV4WH_w
       text: 1Fo 2(kelku si) 3nuä 4ora.
       lookup_filter:
@@ -102,7 +102,7 @@ inputs:
       translations:
         en: |-
             1They 2live 3beyond 4(the lake).
-            ((That is, a great distance beyond and out of sight of the lake.))
+            {(That is, a great distance beyond and out of sight of the lake.)}
     - id: zmKEJpFKRqi7cVFXT-Xyxg
       text: 1Furia 2sneyä 3tskoti 4ngop 5po 6kanfpìl.
       lookup_filter:
@@ -162,7 +162,7 @@ inputs:
       translations:
         en: |-
             3It 2was 1opportune 3that 4they 5didn't 6chat 8with 7me.
-            ((That is, 'They chose a good time not to chat with me.))
+            {(That is, 'They chose a good time not to chat with me.)}
     - id: 4YofUpyISwqW--x-M-fe9g
       text: 1Tsa'u 2latsu 3peu?
       lookup_filter:

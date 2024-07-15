@@ -47,7 +47,7 @@ inputs:
     - id: T96-WB6GSfSEWmPGpAZoAw
       text: 1Tìktseri 2lu 3tìmeyp.
       translations:
-        en: 1(Lack of awareness) 2(is )2((a form of)) 3weakness.
+        en: 1(Lack of awareness) 2(is )2{(a form of)} 3weakness.
       flags:
         - proverb
     - id: ZfQn2skMShSxbhtkzqfA4w

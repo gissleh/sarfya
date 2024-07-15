@@ -59,7 +59,7 @@ inputs:
       translations:
         en: 1Before, I 2was 3thirsty; 4now 5(my thirst has been quenched).
     - id: VEcFvYCGTpKNXmwSegdeKQ
-      text: "1Tsenu:\n2Srake 3yehakx? \n4Kamun:\n((a)) 5Stum.\n((b)) 6Ye. 7Tsun 8tivam. \n((c)) 9Nìtxan!\n((d)) 10(Nìhawng|Nìhaawwwng)."
+      text: "1Tsenu:\n2Srake 3yehakx? \n4Kamun:\n{(a)} 5Stum.\n{(b)} 6Ye. 7Tsun 8tivam. \n{(c)} 9Nìtxan!\n{(d)} 10(Nìhawng|Nìhaawwwng)."
       lookup_filter:
         7: 2476:vim.:noaffix:nolen
         9: 1312:adv.:noaffix:nolen
@@ -68,7 +68,7 @@ inputs:
             1Tsenu:
             2Did you 3(get enough to eat)?
             4Kamun:
-            ((a)) 5Almost. ((What's for dessert?))
-            ((b)) 6Yes. That7+8('ll be enough).
-            ((c)) 9Very! I'm quite full.
-            ((d)) 10(Oooh. I ate too much).
+            {(a)} 5Almost. {(What's for dessert?)}
+            {(b)} 6Yes. That7+8('ll be enough).
+            {(c)} 9Very! I'm quite full.
+            {(d)} 10(Oooh. I ate too much).

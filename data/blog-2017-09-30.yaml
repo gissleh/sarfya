@@ -86,7 +86,7 @@ inputs:
       lookup_filter:
         11: 412:pn.:-yä:nolen
       translations:
-        en: 1(The evil) 2that 3men 4do 5+6(lives after them); 7(The good) 9is 8oft 9interred 13with 11their 12bones. ((Quote from Shakespeare's Julius Caesar))
+        en: 1(The evil) 2that 3men 4do 5+6(lives after them); 7(The good) 9is 8oft 9interred 13with 11their 12bones. {(Quote from Shakespeare's Julius Caesar)}
     - id: 7zhWNAiqTmijxx6qO17t4Q
       text: 1Oel 2peyä 3ftxozäti 4tswolänga', 5ha 6poltxe 7por 8san 9ftxozäri 10aylrrtok 11ngaru 12sìk 13mawftxele.
       lookup_filter:

@@ -8,11 +8,11 @@ inputs:
     - id: WGcbCnIZTlikiNbwseemDw
       text: 1Fmi 2mivakto 3pa'lit!
       translations:
-        en: 1(Try to) 2ride 3(a direhorse)! ((I bet you can do it!))
+        en: 1(Try to) 2ride 3(a direhorse)! {(I bet you can do it!)}
     - id: 2dlCKczYTviPkddxlxeQrw
       text: 1May' 2mivakto 3pa'lit!
       translations:
-        en: 1Try 2riding 3(a direhorse)! ((Maybe you'll like it more than riding a banshee.))
+        en: 1Try 2riding 3(a direhorse)! {(Maybe you'll like it more than riding a banshee.)}
     - id: RlKe_FkjS7WaKp3und3Onw
       text: 1Yìmora' 2Tsu'teyìl 3uvanit.
       translations:
@@ -29,7 +29,7 @@ inputs:
       translations:
         en: |-
             1Target 2lost!
-            ((Line from one of the video games.))
+            {(Line from one of the video games.)}
       flags:
         - clipped
     - id: T4tb0_7CQVON46To9b2yqw
@@ -95,19 +95,19 @@ inputs:
             B: 5(What)6('s happening)?
             A: 7Into 8(the forest), 9+10(you moron [whom I still like anyway])! 11+12(Get going)!
             B: 13But . . .
-            A: 14(LIKE YOUR LIFE DEPENDED ON IT!!! )13((Run for your life!))
+            A: 14(LIKE YOUR LIFE DEPENDED ON IT!!! )13{(Run for your life!)}
     - id: APIwIG6vR5mz1Hc3ZOQFiA
       text: 1Ralit 2faylì'uä 3oel 4ke 5tslivam.
       translations:
         en: |-
             3I 4don't 5understand 1(the meaning) 2(of these words).
-            ((I can't translate the sentence.))
+            {(I can't translate the sentence.)}
     - id: NNiKO3HwS3mKyFb8cVq25w
       text: 1Waweti 2faylì'uä 3oel 4ke 5tslivam.
       translations:
         en: |-
             3I 4don't 5understand 1(the meaning) 2(of these words).
-            ((I don't see why they're significant.))
+            {(I don't see why they're significant.)}
     - id: gQ_YfNNrQI2eZvm_EGhFxQ
       text: 1Ngari 2wawe 3fìvurä 4lu 5'upe?
       lookup_filter:
@@ -119,7 +119,7 @@ inputs:
       lookup_filter:
         3: 2476:vim.:noaffix:nolen
       translations:
-        en: '4One 2+3can''t 5explain 5((or: put into words)) 1wawe.'
+        en: '4One 2+3can''t 5explain 5{(or: put into words)} 1wawe.'
     - id: X9X5hW82RMiZ0NHnpfKQOA
       text: 1(Nari si)! 2Tsatsko 3lu 4spuwin 5ulte 6ke 7lu 8mi 9txur, 10slä 11oeri 12txanwawe 13leiu. 14Lu 15stxeli 16a 17(sempul)18(ta).
       lookup_filter:

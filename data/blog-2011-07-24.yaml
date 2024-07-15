@@ -35,14 +35,14 @@ inputs:
       text: 1Tengkrr 2(ftxozä sereiyi) 3awnga, 4ke 5tswiva' 6aylomtuti 7ko!
       translations:
         en: |-
-            1While 3we 2(are celebrating), 7(let us) 4not 5forget 6(those who we wish could also be here )7((but can't)).
+            1While 3we 2(are celebrating), 7(let us) 4not 5forget 6(those who we wish could also be here )7{(but can't)}.
             OR A toast: To absent friends.
     - id: f-WXwXe1SxKU8yijx50tIw
       text: 1Peyä 2tsatìpe'un 3a 4sweylu 5txo 6wivem 7ayoeng 8(Omatikaya)9(wä) 10lu 11fe'.
       lookup_filter:
         7: 216:pn.:noaffix:nolen
       translations:
-        en: 1His 2decision 3that 7we 4+5should 6fight 9against 8(the Omaticaya) 10was 11(a bad one)).
+        en: 1His 2decision 3that 7we 4+5should 6fight 9against 8(the Omaticaya) 10was 11{a bad one)}.
     - id: h2vhfBcLQD6pnvoUUMLI_w
       text: 1Oe 2pllngay 3san 4molakto 5oe 6nìfe', 7tafral 8snolaytx; 9wätu 10lu 11(oe)12(to) 13txur.
       lookup_filter:
@@ -68,4 +68,4 @@ inputs:
         1: 204:pn.:noaffix:nolen
         4: 804:n.:noaffix:k→h
       translations:
-        en: 1They 2traveled 3(along )3((up, down)) 4(the river) 5by 6boat.
+        en: 1They 2traveled 3(along )3{(up, down)} 4(the river) 5by 6boat.

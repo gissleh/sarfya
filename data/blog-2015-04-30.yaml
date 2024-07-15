@@ -23,7 +23,7 @@ inputs:
     - id: CpLwAFJ-T4KzH82PnFuzWA
       text: 1Nga 2lu 3rolyu 4anawri 5slä 6Ninat 7lu 8pum 9aswey.
       translations:
-        en: 1(You)2('re) 3a 4talented 3singer 5but 6Ninat 7is 8the 9best 8((one)).
+        en: 1(You)2('re) 3a 4talented 3singer 5but 6Ninat 7is 8the 9best 8{(one)}.
     - id: M6E105uUTaKVU2GL4TTmdg
       text: 1Tìrusolìri 2ke 3lu 4oeru 5kea 6tìnawri 7kaw'it.
       translations:

@@ -12,7 +12,7 @@ inputs:
       translations:
         en: 2(Nice to) 2know you.
     - id: 7jQ0LRoLSlmuzGlj5nc5fw
-      text: 1X 2nìNa'vi 3((slu)) 4pelì'u?
+      text: 1X 2nìNa'vi 3{(slu)} 4pelì'u?
       lookup_filter:
         4: 4216:inter.:noaffix:nolen
       translations:

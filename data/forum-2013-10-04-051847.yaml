@@ -17,7 +17,7 @@ inputs:
       lookup_filter:
         5: 2224:part.:noaffix:nolen
       translations:
-        en: 1I 3eat 4more 5than 2you 5((do)).
+        en: 1I 3eat 4more 5than 2you 5{(do)}.
     - id: Fi2jzzMnRTa0mXBco-F8Zg
       text: 1Oel 2X-ti 3to 4Y-ti 5new 6nì'ul.
       lookup_filter:

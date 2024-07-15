@@ -40,7 +40,7 @@ inputs:
       lookup_filter:
         3: 4048:adp.:noaffix:nolen
       translations:
-        en: "1He 2steps 3on 4tails. \n((I.e. He is socially awkward.))"
+        en: "1He 2steps 3on 4tails. \n{(I.e. He is socially awkward.)}"
       flags:
         - proverb
     - id: wsqxIdfpRzy7G_a0KfBx-Q

@@ -19,7 +19,7 @@ inputs:
         1: 716:n.:noaffix:nolen
         5: 4800:n.:ay-:-t:nolen
       translations:
-        en: 1A 2good 1teacher 3(has to) 4(be able to) 6control ((his/her ))5students 7in 8(the classroom).
+        en: 1A 2good 1teacher 3(has to) 4(be able to) 6control {(his/her )}5students 7in 8(the classroom).
     - id: pwiQGerMRMOcqfqYChVePg
       text: 1Ke 2fkeytok 3tìeyktan 4atìflänga' 5luke 6snotipx.
       translations:

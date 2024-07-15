@@ -22,7 +22,7 @@ inputs:
       translations:
         en: 1(I)2('ll be there) 3+4in 6five 5minutes.
     - id: Q5PG60pcTXSy_d1XXU1OMw
-      text: 1Po 2+3tìkangkem 3soli 4((ka)) 5trrpxìo 6amrr.
+      text: 1Po 2+3tìkangkem 3soli 4{(ka)} 5trrpxìo 6amrr.
       lookup_filter:
         4: 676:adp.:noaffix:nolen
       translations:

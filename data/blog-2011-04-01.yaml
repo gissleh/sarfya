@@ -54,7 +54,7 @@ inputs:
       translations:
         en: |-
             1+2(It's been snowing) 4all 3day!
-            ((Said by, for example, a skier.))
+            {(Said by, for example, a skier.)}
     - id: Ed39S2MrTEKdKxcW7A1_FQ
       text: 1Fìrewon 2tompameyp 3zarmup, 4slä 5set 6'ìmeko 7nìtxan 8nang!
       lookup_filter:
@@ -67,6 +67,6 @@ inputs:
         3: 4048:adp.:noaffix:nolen
       translations: {}
     - id: JLdpk_MJSzOUr6GIjp9rfA
-      text: 1Ngari/2Ngeyä 3tìfkeytok 4((lu)) 5fyape?
+      text: 1Ngari/2Ngeyä 3tìfkeytok 4{(lu)} 5fyape?
       translations:
         en: 5How 3+4are 1+2you 3+4doing?

@@ -12,7 +12,7 @@ inputs:
       translations:
         en: |-
             2He 1said, 3(“)4(I) 5(want to) 6go.7”
-            ((He said he wanted to go.))
+            {(He said he wanted to go.)}
     - id: _p46W1_cR5ucjzhxaRw6Qw
       text: 1Poltxe 2pol 3peut?
       lookup_filter:
@@ -28,25 +28,25 @@ inputs:
       translations:
         en: |-
             3(What words) 1did 2she 1say?
-            ((What did she say?))
+            {(What did she say?)}
     - id: WcDuvyKpRYqe_L04lUD4aA
       text: 1Ke 2poltxe 3pol 4tsaylì'ut.
       translations:
         en: |-
             3She 1didn't 2say 4(those words).
-            ((She didn't say that.))
+            {(She didn't say that.)}
     - id: G_h25xItSkyx-1fUdusXFQ
       text: 1Poltxe 2pol 3faylì'ut 4a 5oe 6new 7kivä.
       translations:
         en: |-
             2She 1said, 3+4(“)5(I) 6(want to) 7go.3+4”
-            ((She said she wanted to go.))
+            {(She said she wanted to go.)}
     - id: 7zIsQR4ORzOmfkCeL8_Kig
       text: 1Poltxe 2pol 3fayluta 4oe 5new 6kivä.
       translations:
         en: |-
             1She 2said, 3(“)4(I) 5(want to) 6go.3”
-            ((She said she wanted to go.))
+            {(She said she wanted to go.)}
     - id: 1Gr9fmW8SwqzxnEJigUKDA
       text: 1Stolawm 2oel 3fmawnta 4fo 5new 6hivum.
       lookup_filter:
@@ -61,14 +61,14 @@ inputs:
       translations:
         en: 1You 2told 3me 4that 5he 6died.
     - id: EJookZo1Sk2AXsc2p5OUng
-      text: 1Polawm 2po 3san 4Neytiri 5kä 6(peseng)8(ne) 7((sìk)).
+      text: 1Polawm 2po 3san 4Neytiri 5kä 6(peseng)8(ne) 7{(sìk)}.
       lookup_filter:
         6: 1520:inter.:noaffix:nolen
         7: 1796:adv.:noaffix:nolen
       translations:
         en: |-
             2He 1asked, 3(saying, “)6(Where) 5+8is 4Neytiri 5+8going?7”
-            ((He asked where Neytiri was going.))
+            {(He asked where Neytiri was going.)}
     - id: hXpjE7CxS4u1a7xlWDXgSA
       text: 1Polawm 2po, 3Neytiri 4kä 5(peseng)6(ne)?
       lookup_filter:
@@ -98,7 +98,7 @@ inputs:
       translations:
         en: |-
             2He 1requested 3the 7(where)-4+6+8(is)-5(Neytiri-)4+6+8(going) 3answer.
-            ((He asked where Neytiri was going.))
+            {(He asked where Neytiri was going.)}
     - id: rSEmMcHbQVG4SY9pZ3BKOw
       text: 1Volin 2oel 3teyngta 4Neytiri 5kä 6(peseng)7(ne).
       lookup_filter:

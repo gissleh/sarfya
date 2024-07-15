@@ -63,7 +63,7 @@ inputs:
       lookup_filter:
         6: 4048:adp.:noaffix:nolen
       translations:
-        en: 1She 3used 2glue 4((and then)) 4stuck 5(the leaf) 6onto 7(the wall).
+        en: 1She 3used 2glue 4{(and then)} 4stuck 5(the leaf) 6onto 7(the wall).
     - id: X_Tu6N3SSsqKtNZ8S3Yzsg
       text: 1Kawkrr 2ke 3tswaya' 4oel 5krrit 6a 7'efu 8'onglawnit.
       translations:
@@ -81,7 +81,7 @@ inputs:
             A: 1+2(Would you mind) 3if 4I 7borrowed 5your 6necklace?
             B: 8+9(Not at all)!
     - id: lWyK9XDIQ12n9u0jW38G8A
-      text: 1Ke 2srätx 3((oet)) 4txo . . .
+      text: 1Ke 2srätx 3{(oet)} 4txo . . .
       translations:
         en: 1+2+3(I don't mind) 4if . . .
     - id: h5tixXYFSkGIP-a4mXVDmA

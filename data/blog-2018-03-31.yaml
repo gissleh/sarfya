@@ -98,7 +98,7 @@ inputs:
     - id: Tq_DE1MxT5-6czzMGDbmMQ
       text: 1Reykìkxi 2utralti, 3zup 4mauti.
       translations:
-        en: If you 1shake 2(the tree), 4(the fruit) 3(will fall). ((That is, actions have consequences.))
+        en: If you 1shake 2(the tree), 4(the fruit) 3(will fall). {(That is, actions have consequences.)}
     - id: 3xMkA8jhTWyxGMa95rjzxA
       text: 1Nga 2tsun 3kivä 4set. 5Fya'o 6lu 7kawkxan.
       lookup_filter:
@@ -112,7 +112,7 @@ inputs:
     - id: cR_HD30oT3OHf3FSIiJk9Q
       text: 1'Evengìl 2fìrelit 3'opinsolung 4fa 5pinvul 6areypaytun.
       translations:
-        en: 1(The child) 3(colored )3((in)) 2(this picture) 4with 5a 6red 5crayon.
+        en: 1(The child) 3(colored )3{(in)} 2(this picture) 4with 5a 6red 5crayon.
     - id: bG02VQVDSZO9pHC1ZT_hEQ
       text: 1'Eveng 2'opinsarmung 3mì 4fuk.
       translations:

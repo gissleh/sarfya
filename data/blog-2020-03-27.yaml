@@ -57,7 +57,7 @@ inputs:
         45: 4456:conj.:noaffix:nolen
         47: 412:pn.:-ru:nolen
       translations:
-        en: 1(In the meantime), 2+3(brothers and sisters), 4please 5follow 6the 9new 6guidelines 7and 8rules. 10+11Stay 12home 14as 13often 14(as possible). 15Wash your 16hands 18many 17+19+20((times a day)). 24+25+26(Keep back) 27(a bit) 21from 23other 22people. 28And 29if 30+31(you know) 32(older folks), 33whether 50in your 34family 35or 36as 38friends, 40contact 39them 41to 42+43+44(find out) 45+49if 46+47+48(they're well).
+        en: 1(In the meantime), 2+3(brothers and sisters), 4please 5follow 6the 9new 6guidelines 7and 8rules. 10+11Stay 12home 14as 13often 14(as possible). 15Wash your 16hands 18many 17+19+20{(times a day)}. 24+25+26(Keep back) 27(a bit) 21from 23other 22people. 28And 29if 30+31(you know) 32(older folks), 33whether 50in your 34family 35or 36as 38friends, 40contact 39them 41to 42+43+44(find out) 45+49if 46+47+48(they're well).
     - id: S2mcvH4OTyCdDItf0uvGuQ
       text: 1Fmal 2tìkxuket, 3ma 4eylan, 5ulte 6var 7livu 8lefpomtokx.
       translations:

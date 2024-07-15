@@ -93,11 +93,11 @@ var sentenceTestTable = []struct {
 		3: "3a",
 		4: "'uot",
 	}, "oel tsole'a 3a 'uot."},
-	{"((Pxelì'u mì mekemyo))", Sentence{
-		{Text: "Pxelì'u mì mekemyo", LP: true, RP: true},
+	{"{(Pxelì'u mì mekemyo)}", Sentence{
+		{Text: "(Pxelì'u mì mekemyo)"},
 	}, map[int]string{}, "(Pxelì'u mì mekemyo)"},
-	{"(()1Nìn: 2Mekemyo 3a 4le'awtu())", Sentence{
-		{Text: "", LP: true},
+	{"{(}1Nìn: 2Mekemyo 3a 4le'awtu{)}", Sentence{
+		{Text: "("},
 		{IDs: []int{1}, Text: "Nìn"},
 		{Text: ": "},
 		{IDs: []int{2}, Text: "Mekemyo"},
@@ -105,7 +105,7 @@ var sentenceTestTable = []struct {
 		{IDs: []int{3}, Text: "a"},
 		{Text: " "},
 		{IDs: []int{4}, Text: "le'awtu"},
-		{Text: "", RP: true},
+		{Text: ")"},
 	}, map[int]string{
 		1: "Nìn",
 		2: "Mekemyo",
@@ -206,10 +206,10 @@ var sentenceTestTable = []struct {
 		3: "irayo seiyi",
 		4: "oe",
 	}, "Fìtìmungwrr horenä seiyi oe irayo!"},
-	{"(()Rä'ä syar!())", Sentence{
-		{Text: "", LP: true},
+	{"{(}Rä'ä syar!{)}", Sentence{
+		{Text: "("},
 		{Text: "Rä'ä syar!"},
-		{Text: "", RP: true},
+		{Text: ")"},
 	}, map[int]string{}, "(Rä'ä syar!)"},
 	{"1yeyfya 4akawnärìp (/ )2mì 3mekemyo 5akoum", Sentence{
 		{Text: "yeyfya", IDs: []int{1}},
@@ -246,8 +246,9 @@ var sentenceTestTable = []struct {
 	}, map[int]string{
 		1: "Yak soli",
 	}, "Yak soli"},
-	{"((Pxelì'u rofa kxemyo", Sentence{
-		{Text: "Pxelì'u rofa kxemyo", LP: true},
+	{"{(}Pxelì'u rofa kxemyo", Sentence{
+		{Text: "("},
+		{Text: "Pxelì'u rofa kxemyo"},
 	}, map[int]string{}, "(Pxelì'u rofa kxemyo"},
 }
 

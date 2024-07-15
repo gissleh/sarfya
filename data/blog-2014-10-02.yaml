@@ -40,7 +40,7 @@ inputs:
       text: 1Po 2(tìkxìm si) 3oer.
       translations:
         en: |-
-            (1. )1He 2(is above) 3me 2((in some relevant hierarchy)).
+            (1. )1He 2(is above) 3me 2{(in some relevant hierarchy)}.
             (2. )3I 2(am under) 1him.
             (3. )1He 2(has authority over) 3me.
             (4. )1He 2is 3my 2boss.
@@ -69,11 +69,11 @@ inputs:
     - id: y-0F5hiCTc2vPUhrw_fj2g
       text: 1Tsat 2rä'ä 3yivom! 4Ke 5lu 6fpomtokxnga'.
       translations:
-        en: 2Don't 3eat 1that. 5It's 4not 6healthful. ((I.e., It will make you unhealthy.))
+        en: 2Don't 3eat 1that. 5It's 4not 6healthful. {(I.e., It will make you unhealthy.)}
     - id: JUUaFV4AR9GGAqQ2vlmtgQ
       text: 1Ma 2Entu, 3fìkem 4rä'ä 3sivi; 5lu 6kefpomronga'.
       translations:
-        en: 1+2Entu, 4don't 3(do this); 5it's 6(not healthy )6((mentally)).
+        en: 1+2Entu, 4don't 3(do this); 5it's 6(not healthy )6{(mentally)}.
     - id: h7QOQxC6T3KwJoI_xKIDDw
       text: 1Fwa 2lawk 3aysì'efuti 4(ayeylan)5(kip) 6lu 7fpomronga'.
       translations:

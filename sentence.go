@@ -6,12 +6,20 @@ import (
 	"strings"
 )
 
-const syntaxSet = ".,;:–—!? ()/0123456789\n"
+const syntaxSet = ".,;:–—!? ()[]{}/0123456789\n"
+
+var paraReplacer = strings.NewReplacer("(", "", ")", "", "{", "", "}", "", "[", "", "]", "")
+var quoteReplacer = strings.NewReplacer("‘", "'", "’", "'", "ʼ", "'")
+var closures = [][2]string{
+	{"(", ")"},
+	{"{", "}"},
+}
 
 func ParseSentence(raw string) Sentence {
 	parts := make([]SentencePart, 0, len(raw)/4)
 	curr := raw
 
+parseLoop:
 	for len(curr) > 0 {
 		currIDs := make([]int, 0)
 		currID := 0
@@ -41,54 +49,51 @@ func ParseSentence(raw string) Sentence {
 			}
 		}
 
-		if len(curr) > 0 && curr[0] == '(' {
-			lp, rp := false, false
+		if len(curr) > 0 {
+			for _, closure := range closures {
+				opener := closure[0]
+				closer := closure[1]
 
-			if strings.HasPrefix(curr, "((") {
-				lp = true
-				curr = curr[1:]
+				if strings.HasPrefix(curr, opener) {
+					endIndex := strings.Index(curr, closer)
+					if endIndex == -1 {
+						endIndex = len(curr)
+					}
+
+					if currID != 0 {
+						parts = append(parts, SentencePart{
+							IDs:     append(currIDs, currID),
+							Text:    curr[len(opener):endIndex],
+							Alt:     isAlt,
+							Newline: isNewline,
+						})
+
+						currID = 0
+						currIDs = currIDs[:0]
+					} else {
+						parts = append(parts, SentencePart{
+							Text:    curr[len(opener):endIndex],
+							Alt:     isAlt,
+							Newline: isNewline,
+						})
+					}
+
+					if len(curr) != endIndex {
+						curr = curr[endIndex+len(closer):]
+					} else {
+						curr = curr[endIndex:]
+					}
+
+					continue parseLoop
+				}
 			}
-
-			endIndex := strings.Index(curr, ")")
-			if endIndex == -1 {
-				endIndex = len(curr)
-			} else if strings.HasPrefix(curr[endIndex+1:], ")") {
-				rp = true
-			}
-
-			if currID != 0 {
-				parts = append(parts, SentencePart{
-					IDs:     append(currIDs, currID),
-					Text:    curr[1:endIndex],
-					Alt:     isAlt,
-					Newline: isNewline,
-					LP:      lp,
-					RP:      rp,
-				})
-			} else {
-				parts = append(parts, SentencePart{
-					Text:    curr[1:endIndex],
-					Alt:     isAlt,
-					Newline: isNewline,
-					LP:      lp,
-					RP:      rp,
-				})
-			}
-
-			if len(curr) != endIndex {
-				curr = curr[endIndex+1:]
-			} else {
-				curr = curr[endIndex:]
-			}
-
-			if rp {
-				curr = curr[1:]
-			}
-
-			continue
 		}
 
-		canAppendNonLinked := !isNewline && len(parts) > 0 && !parts[len(parts)-1].RP && !parts[len(parts)-1].LP && len(parts[len(parts)-1].IDs) == 0
+		canAppendNonLinked := !isNewline &&
+			len(parts) > 0 &&
+			parts[len(parts)-1].HiddenText == "" &&
+			len(parts[len(parts)-1].IDs) == 0 &&
+			!strings.ContainsAny(parts[len(parts)-1].Text, "()[]{}")
 
 		punctuationIndex := strings.IndexAny(curr, syntaxSet)
 		if punctuationIndex == 0 {
@@ -129,9 +134,8 @@ func ParseSentence(raw string) Sentence {
 		curr = curr[punctuationIndex:]
 	}
 
-	replacer := strings.NewReplacer("‘", "'", "’", "'", "ʼ", "'")
 	for i, part := range parts {
-		parts[i].Text = replacer.Replace(part.Text)
+		parts[i].Text = quoteReplacer.Replace(part.Text)
 
 		if strings.Contains(part.Text, "|") {
 			split := strings.SplitN(part.Text, "|", 2)
@@ -166,11 +170,8 @@ func (s Sentence) String() string {
 			}
 			sb.WriteString(fmt.Sprint(id))
 		}
-		if part.HiddenText != "" || strings.ContainsAny(part.Text, "()0123456789/") || part.LP || part.RP || ((s.collidesWith(i-1) || s.collidesWith(i+1) || s.isDash(i+1) || strings.ContainsAny(part.Text, syntaxSet)) && s.collidesWith(i)) {
-			sb.WriteByte('(')
-			if part.LP {
-				sb.WriteByte('(')
-			}
+		if strings.ContainsAny(part.Text, "()[]") {
+			sb.WriteByte('{')
 			if part.HiddenText != "" {
 				sb.WriteString(part.HiddenText)
 				sb.WriteByte('|')
@@ -179,8 +180,16 @@ func (s Sentence) String() string {
 			if part.Prepend {
 				sb.WriteByte('-')
 			}
-			if part.RP {
-				sb.WriteByte(')')
+			sb.WriteByte('}')
+		} else if part.HiddenText != "" || strings.ContainsAny(part.Text, "()[]{}0123456789/") || ((s.collidesWith(i-1) || s.collidesWith(i+1) || s.isDash(i+1) || strings.ContainsAny(part.Text, syntaxSet)) && s.collidesWith(i)) {
+			sb.WriteByte('(')
+			if part.HiddenText != "" {
+				sb.WriteString(part.HiddenText)
+				sb.WriteByte('|')
+			}
+			sb.WriteString(part.Text)
+			if part.Prepend {
+				sb.WriteByte('-')
 			}
 			sb.WriteByte(')')
 		} else {
@@ -218,6 +227,8 @@ func (s Sentence) WordMap() map[int]string {
 			if part.HiddenText != "" {
 				text = part.HiddenText
 			}
+
+			text = paraReplacer.Replace(text)
 
 			if res[id] == "" {
 				res[id] = text
@@ -330,8 +341,6 @@ type SentencePart struct {
 	HiddenText string `json:"hiddenText,omitempty" yaml:"hidden_text,omitempty"`
 	Alt        bool   `json:"alt,omitempty" yaml:"alt,omitempty"`
 	Newline    bool   `json:"newline,omitempty" yaml:"newline,omitempty"`
-	LP         bool   `json:"lp,omitempty" yaml:"lp,omitempty"`
-	RP         bool   `json:"rp,omitempty" yaml:"rp,omitempty"`
 	Prepend    bool   `json:"prepend,omitempty" yaml:"prepend,omitempty"`
 }
 
@@ -373,21 +382,9 @@ func (p *SentencePart) WriteRawTo(w io.StringWriter) error {
 			return err
 		}
 	}
-	if p.LP {
-		_, err := w.WriteString("(")
-		if err != nil {
-			return err
-		}
-	}
 	_, err := w.WriteString(p.Text)
 	if err != nil {
 		return err
-	}
-	if p.RP {
-		_, err := w.WriteString(")")
-		if err != nil {
-			return err
-		}
 	}
 
 	return nil

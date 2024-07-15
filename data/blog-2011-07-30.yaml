@@ -39,7 +39,7 @@ inputs:
     - id: TYqyabquQRqNuc-W6M5Bag
       text: |-
         A: 1Tsaysamsiyu 2lu 3tupe?
-        B: 4((Fo)) 5lu 6'eylan 7Tsu'teyä.
+        B: 4{(Fo)} 5lu 6'eylan 7Tsu'teyä.
       lookup_filter:
         4: 412:pn.:noaffix:nolen
       translations:
@@ -47,18 +47,18 @@ inputs:
             A: 3Who 2are 1(those warriors)?
             B: 4(They)5('re) 7Tsu'tey's 6friends.
 
-            ((For “defining characteristic” questions, the KH holds))
+            {(For “defining characteristic” questions, the KH holds)}
     - id: AwkvwismQ_WVcS7750O5vg
       text: |-
         A: 1Tsaysamsiyu 2lu 3supe?
-        B: 4((Fo)) 5lu 6Kamun, 7Ralu, 8Ìstaw, 9sì 10Ateyo.
+        B: 4{(Fo)} 5lu 6Kamun, 7Ralu, 8Ìstaw, 9sì 10Ateyo.
       lookup_filter:
         4: 412:pn.:noaffix:nolen
       translations:
         en: |-
             A: 3Who 2are 1(those warriors)?
             B: 4(They)5('re) 6Kamun, 7Ralu, 8Ìstaw, 9and 10Ateyo.
-            ((for “identify” questions, it [KH] doesn't.))
+            {(for “identify” questions, it [KH] doesn't.)}
     - id: AliOUnW5RdixAlIgUMbpLQ
       text: 1(Ätxäle si) 2oe 3pivawm, 4ngari 5soaiä 6ayhapxìtu 7lu 8supe?
       translations:

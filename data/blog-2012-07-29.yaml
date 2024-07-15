@@ -13,7 +13,7 @@ inputs:
       translations:
         en: |-
             1Happy 2only!
-            ((Na'vi toast))
+            {(Na'vi toast)}
       flags:
         - proverb
     - id: VZmbNowZQQKfD89QRiXfiA

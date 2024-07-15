@@ -70,7 +70,7 @@ inputs:
     - id: 2pjrHTOpR66STWs_d0ljgQ
       text: 1Säfpìl 2asteng, 3tìkan 4ateng.
       translations:
-        en: ((Great minds think alike.))
+        en: '{(Great minds think alike.)}'
       flags:
         - proverb
     - id: YwurSe8_SUaEtglP1MNXLA
@@ -138,7 +138,7 @@ inputs:
       lookup_filter:
         6: 1312:adv.:noaffix:nolen
       translations:
-        en: 3+4+5Thanks 6(very much) 1(for )1((all))1( this) 2useful 1information.
+        en: 3+4+5Thanks 6(very much) 1(for )1{(all)}1( this) 2useful 1information.
     - id: R9rHfJySThiyZ1lNVmtaRQ
       text: 1Fol 2lì'fyati 3awngeyä 4sar 5a 6fya'o 7lu 8kosman.
       lookup_filter:

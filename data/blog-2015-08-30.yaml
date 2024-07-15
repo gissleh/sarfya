@@ -38,7 +38,7 @@ inputs:
         7: 6376:vin.:noaffix:nolen
         9: 880:n.:tsa-:nolen
       translations:
-        en: 2I 3spent 1(last weekend) 4with 5Ralu 6and had a good time ((literally, )9(that time) 7(was pleasant) 8(to me)())
+        en: 2I 3spent 1(last weekend) 4with 5Ralu 6and had a good time {(literally, }9(that time) 7(was pleasant) 8(to me){)}
     - id: ymo9SAFDQUKlE-SSvY-SDg
       text: 1Awngal 2fìyerikit 3nìwin 4siveyto 5ko.
       lookup_filter:

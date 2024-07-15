@@ -11,16 +11,16 @@ inputs:
         4Mì 5Na'rìng 6lu 7tsngawpay.
         8Atokirina'.
         9Awnga 10leym, 11lereym 12san
-        13Ma 14Eywa ((3X.))
+        13Ma 14Eywa {(3X.)}
       lookup_filter:
         3: 1024:adj.:a-:nolen
       translations:
         en: |-
             1O 3beautiful 2forest,
             6There are 7tears 4in 5(the forest).
-            8Woodsprite8((s)).
+            8Woodsprite8{(s)}.
             9We 10(cry out), 11calling,
-            12“13O 14Eywa!” ((3X))
+            12“13O 14Eywa!” {(3X)}
       flags:
         - poetry
     - id: uO8rwK3gQNiOMvZB06hpEQ
@@ -29,14 +29,14 @@ inputs:
         2Ma 3Sa'nok 4aNawm.
         8Atokirina'.
         9Awnga 10leym, 11lereym 12san
-        13Ma 14Eywa ((3X.))
+        13Ma 14Eywa {(3X.)}
       translations:
         en: |-
             1(Connected as one),
             2O 4Great 3Mother.
-            8Woodsprite8((s)).
+            8Woodsprite8{(s)}.
             9We 10(cry out), 11calling,
-            12“13O 14Eywa!” ((3X))
+            12“13O 14Eywa!” {(3X)}
       flags:
         - poetry
     - id: c2DoKu-2TC6w2Iq2Uj9eLQ
@@ -45,13 +45,13 @@ inputs:
         3Na'rìng 4(tìng lawr).
         8Atokirina'.
         9Awnga 10leym, 11lereym 12san
-        13Ma 14Eywa ((3X.))
+        13Ma 14Eywa {(3X.)}
       translations:
         en: |-
             5By 2(the People's) 1will,
             3The forest 4(is singing).
-            8Woodsprite8((s)).
+            8Woodsprite8{(s)}.
             9We 10(cry out), 11calling,
-            12“13O 14Eywa!” ((3X))
+            12“13O 14Eywa!” {(3X)}
       flags:
         - poetry

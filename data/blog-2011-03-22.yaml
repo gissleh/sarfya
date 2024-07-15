@@ -24,13 +24,13 @@ inputs:
       translations:
         en: |-
             1(This place) 2is 3(“restable.”)
-            ((One can rest here.))
+            {(One can rest here.)}
     - id: FWI7A_U3T_m1BRaQHbcV6w
       text: 1Lu 2na'rìng 3tsukhahaw.
       translations:
         en: |-
             2(The forest) 1is 3(“sleepable.”)
-            ((One can sleep in the forest.))
+            {(One can sleep in the forest.)}
     - id: TpnVI5Z8SHmQ80vFiY2jyA
       text: 1Lu 2oeru . . . 3ìì . . . 4tìngäzìk 5ahì'i.
       translations:

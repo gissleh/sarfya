@@ -36,7 +36,7 @@ inputs:
       translations:
         en: |-
             2Proper 1action, 4bad 3result.
-            ((Said when something that should have turned out well didn't. Can include the idea, “Well, my/our/your/his/her/their heart was in the right place.”))
+            {(Said when something that should have turned out well didn't. Can include the idea, “Well, my/our/your/his/her/their heart was in the right place.”)}
       flags:
         - proverb
     - id: RYUs4pnzTuaSlm0GyHhPkw
@@ -177,7 +177,7 @@ inputs:
     - id: 4uct_XLoQVmp5jp86jvpXw
       text: 1Sawno'ha 2ioit 3kolaneiom 4oel 5(uvan)6(fa)!
       translations:
-        en: 4I 3(got )3((won)) 2the 1prized 2(piece of jewelry) 4in 5(the game)!
+        en: 4I 3(got )3{(won)} 2the 1prized 2(piece of jewelry) 4in 5(the game)!
     - id: J887EsDQSGeTqQWJGrxhXQ
       text: |-
         A: 1Leiam 2fwa 3Txewì 4(Rini)5(sì) 6(muntxa slìyu).

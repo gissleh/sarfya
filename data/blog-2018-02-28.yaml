@@ -22,7 +22,7 @@ inputs:
     - id: BixW_bQKScuucNWndJSWew
       text: 1Nga 2lu 3Txewì, 4kefyak?
       translations:
-        en: 1(You)2('re) 3Txewì–4(isn't that true?) ((Aren't you Txewì?))
+        en: 1(You)2('re) 3Txewì–4(isn't that true?) {(Aren't you Txewì?)}
     - id: _gPRM9SZSWa303pzS70e-w
       text: 1Pefmawn?
       translations:

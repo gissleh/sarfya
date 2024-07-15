@@ -25,7 +25,7 @@ inputs:
       translations:
         en: |-
             2(The hunter) 1hesitates and 4(the hexapede) 3escapes.
-            ((Proverbial expression. Cf.: “He who hesitates is lost.”))
+            {(Proverbial expression. Cf.: “He who hesitates is lost.”)}
       flags:
         - proverb
     - id: Cqgiq657R0WdLuDK2rFy2g
@@ -101,7 +101,7 @@ inputs:
       translations:
         en: 2I 1(wanted to) 3tell 4you 5about 6two 7new 6members 8of 9John's 10and 11my 8family. 12They're 14two 13little 14cats 15+16+17+19named 20Palu 21and 22Lukan. 23(They)24('re) 25brother 26and 27sister. 29I 28+30think 32you 31can 33understand 34+38(what source) 35(those two names) 36come 37from. 39It's 40clear, 41(isn't it)?
     - id: CbZN06O9SdC8Q-hXKDG0hQ
-      text: 1(N|Lukan) (()2alu 3tsmukantsyìp()) 4sì 5(N|Palu) (()6alu 7tsmuketsyìp()) 8mi 9lu 10prrnen, 11ulte 12leiu 13lor 14sì 15hona 16nìtxan. 17Slä 18längu 19kop 20nim, 21stum 22loreyu 23'awnampi. 24Polähem 25ne 26kelku 27moeyä 28txonam, 29ulte 30kezemplltxe 31fìtsenge 32amip 33sì 34mesutan 35amip 36nìteng 37lu 38meforu 39stxong 40nìtxan 41nì'aw. 42Fìtrr 43mì 44tampxì 45krrä 46wäperan. 47Sìlpey 48moe 49tsnì 50slìyevu 51ye'rìn 52tstew 53fìtxan 54kuma 55tsun 56wrrziva'u 57(uvan sivi) 58(moe)59(hu). 60Fwa 61'efu 62mawey 63sì 64nitram 65mì 66pawngip 67amip 68krrnekx, 69ha 70moe 71zene 72maweypivey.
+      text: 1(N|Lukan) {(}2alu 3tsmukantsyìp{)} 4sì 5(N|Palu) {(}6alu 7tsmuketsyìp{)} 8mi 9lu 10prrnen, 11ulte 12leiu 13lor 14sì 15hona 16nìtxan. 17Slä 18längu 19kop 20nim, 21stum 22loreyu 23'awnampi. 24Polähem 25ne 26kelku 27moeyä 28txonam, 29ulte 30kezemplltxe 31fìtsenge 32amip 33sì 34mesutan 35amip 36nìteng 37lu 38meforu 39stxong 40nìtxan 41nì'aw. 42Fìtrr 43mì 44tampxì 45krrä 46wäperan. 47Sìlpey 48moe 49tsnì 50slìyevu 51ye'rìn 52tstew 53fìtxan 54kuma 55tsun 56wrrziva'u 57(uvan sivi) 58(moe)59(hu). 60Fwa 61'efu 62mawey 63sì 64nitram 65mì 66pawngip 67amip 68krrnekx, 69ha 70moe 71zene 72maweypivey.
       lookup_filter:
         16: 1312:adv.:noaffix:nolen
         19: 872:adv.:noaffix:nolen

@@ -46,7 +46,7 @@ inputs:
       translations:
         en: |-
             1+2(Well, get to it, then)
-            ((Here li gets the stress: LI ko.))
+            {(Here li gets the stress: LI ko.)}
     - id: ZFS1cnw0T4aUJOQ5gqAVvA
       text: |-
         A: 1Nga 2mllte 3srak?
@@ -78,7 +78,7 @@ inputs:
       lookup_filter:
         4: 1312:adv.:noaffix:nolen
       translations:
-        en: 2His 1imaginings 3+4(are )3+4((unpleasantly))3+4( weird)).
+        en: 2His 1imaginings 3+4(are )3+4{(unpleasantly)}3+4{ weird)}.
     - id: 3AYwxEGVQj2extlM-c6BsA
       text: 1Lu 2poru 3tìronsrel 4atxanatan.
       translations:

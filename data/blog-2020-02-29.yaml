@@ -12,13 +12,13 @@ inputs:
     - id: hkyqXPHARu2tEBQBqMzJoA
       text: 1Oel 2ngeyä 3tìhawlit 4natxu 5ulte 6(tsa)8+6(wä) 7wasyem.
       translations:
-        en: 1I 4(disapprove of) 2your 3plan 5and 7+8(will oppose) 7((fight) 8(against)) 6it
+        en: 1I 4(disapprove of) 2your 3plan 5and 7+8(will oppose) 7{(fight} 8{against)} 6it
     - id: VITZV073RIO-5rEwyZDnrg
       text: 1Moeyä 2tìmuntxari 3tìsmaw 4ngeyä 5oeru 6(teya si).
       lookup_filter:
         1: 1132:pn.:-yä:nolen
       translations:
-        en: 4Your 3approval 2of 1our 2marriage 6fills 5me ((with joy.))
+        en: 4Your 3approval 2of 1our 2marriage 6fills 5me {(with joy.)}
     - id: -44sv_BgRA6NE0A5kBYHYw
       text: 1Plltxe 2po 3san 4nga 5yawne 6lu 7oer 8sìk, 9slä 10la'um 11nì'aw.
       lookup_filter:
@@ -30,7 +30,7 @@ inputs:
       lookup_filter:
         6: 2476:vim.:noaffix:nolen
       translations:
-        en: 1Why 3are 2you 3pretending 4((that)) 2you 5+6can't 7dance?
+        en: 1Why 3are 2you 3pretending 4{(that)} 2you 5+6can't 7dance?
     - id: FDanlxJkR0-tWZSyS_J_OQ
       text: 1Furia 2ke 3tsun 4(tìkangkem sivi), 6peyä 7säspxin 8lu 9tìla'um 10nì'aw.
       lookup_filter:

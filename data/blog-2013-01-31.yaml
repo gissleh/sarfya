@@ -25,7 +25,7 @@ inputs:
         4: 9604:n.:noaffix:nolen
         8: 208:pn.:noaffix:nolen
       translations:
-        en: 2Mo'at 1+3(came down) 4(the )4((natural))4( stairway) 5+6saying, 7(“)10(Get) 9back, 8(all of you)!”
+        en: 2Mo'at 1+3(came down) 4(the )4{(natural)}4( stairway) 5+6saying, 7(“)10(Get) 9back, 8(all of you)!”
     - id: LTT5wI5YRHCbro24TDLyrA
       text: 1Ke 2tsun 3oe 4fì'awkxit 5tsyivìl. 6Ke 7lu 8tsaru 9kea 10yì.
       lookup_filter:
@@ -50,7 +50,7 @@ inputs:
       translations:
         en: |-
             1(As for language), 4(what level) 3does 2she 3occupy?
-            ((How good is her Na'vi?))
+            {(How good is her Na'vi?)}
     - id: FoAa4c_YTqKeC9FckvZPWQ
       text: 1Lì'fyari 2po 3kllkxem 4sìn 5peyì?
       lookup_filter:
@@ -104,7 +104,7 @@ inputs:
       translations:
         en: 8+9(How good are) 1they 7+6+4+3+2(at cooking) 5teylu?
     - id: gr0PO4SgT7mOECTW6AO0Qg
-      text: 1Sìn 2yì 3sngä'iyuä, 4slä 5tsyerìl (()6haya 7yìne()) 8nì'ul'ul.
+      text: 1Sìn 2yì 3sngä'iyuä, 4slä 5tsyerìl {(}6haya 7yìne{)} 8nì'ul'ul.
       lookup_filter:
         1: 4048:adp.:noaffix:nolen
         3: 5592:n.:-ä:nolen

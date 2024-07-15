@@ -24,13 +24,13 @@ inputs:
       translations:
         en: |-
             2(Put on) your 1(items of clothing)!
-            ((Get dressed))!
+            {(Get dressed)}!
     - id: LmMMh-GeRNSdVu4Ca4KJiw
       text: 1Sevina 2tsa'everu 3ahì'i 4mesa'sem 5(ioi soli) 6fa 7miktsang.
       translations:
         en: |-
             4(The parents) 5adorned 2that 1pretty 3little 2girl 6with 7earrings.
-            ((The parents put earrings on that pretty little girl.))
+            {(The parents put earrings on that pretty little girl.)}
     - id: eLxZAYflSweLDRuopOAgnw
       text: 1Fori 2mawkrra 3fa 4renten 5(ioi säpoli) 6holum.
       translations:
@@ -73,7 +73,7 @@ inputs:
       lookup_filter:
         1: 1256:adv.:noaffix:nolen
       translations:
-        en: 1First 2we 3+4(had dinner); 5afterwards 2we 6(played )6((a game)).
+        en: 1First 2we 3+4(had dinner); 5afterwards 2we 6(played )6{(a game)}.
     - id: K3d1n7s5TwiI7nu8h2H1eA
       text: 1Mawkrra 2po 3holum, 4oe 5'efu 6keftxo.
       translations: {}

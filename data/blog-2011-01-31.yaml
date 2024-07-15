@@ -51,7 +51,7 @@ inputs:
       translations:
         en: |-
             A: 1(Why did) 4you 5come 3+2here 6to 7hunt?
-            B: 8(It was) 9(a guess )9((hunch)).
+            B: 8(It was) 9(a guess )9{(hunch)}.
     - id: umtLci0UTCyY1GVe084iOQ
       text: 1Fìuvanìri 2lu 3ngaru 4pxen 5nì'aw.
       lookup_filter:
@@ -98,13 +98,13 @@ inputs:
     - id: bGODzjYAQlSEgjuizWTxRA
       text: 1Apxa 2tìvängìl 3poti 4steykoli.
       translations:
-        en: ((His)) 1great 2thirst 4made 3him 4angry.
+        en: '{(His)} 1great 2thirst 4made 3him 4angry.'
     - id: U082YbOERzWmLB2HeHrJqw
       text: 1Lu 2oeru 3sngum 4a 5saronyu 6ke 7tìyevätxaw.
       lookup_filter:
         5: 2008:n.:noaffix:t→s
       translations:
-        en: 2(I)1('m) 3worried 4that 5(the hunters) 7will 6not 7return ((soon, as expected)).
+        en: 2(I)1('m) 3worried 4that 5(the hunters) 7will 6not 7return {(soon, as expected)}.
     - id: ahEU58XGTKuEwcd2q_ThAw
       text: 1Swey 2lu 3fwa 4nga 5fìkem 6ke 5sivi 7nìsngum.
       translations:

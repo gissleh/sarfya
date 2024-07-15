@@ -9,13 +9,13 @@ inputs:
       text: 1Oel 2tsre'i 3tskxet 4ne 5nga.
       translations:
         en: |-
-            1I 2throw 3(a stone) 4(to )4((direction)) 5you.
+            1I 2throw 3(a stone) 4(to )4{(direction)} 5you.
             [this sound 'neutral']
     - id: EObwTaFVSqynquaG3ypCAg
       text: 1Oel 2tsre'i 3tskxet 4ngaru.
       translations:
         en: |-
-            1I 2throw 3(a stone) 4(to you )4((dative)).
+            1I 2throw 3(a stone) 4(to you )4{(dative)}.
             [this would imply that one would give a stone to someone]
     - id: 5fJ91T3nRMS5zgN0J-wwjA
       text: 1Oel 2tsre'i 3tskxet 4wä 5nga.

@@ -10,11 +10,11 @@ inputs:
       translations:
         en: |-
             1Short 2time, 3long 4time, 5doesn't 6matter
-            ((It doesn't matter how long it takes.))
+            {(It doesn't matter how long it takes.)}
     - id: CQ_5EsccR4OnqdwUkTMy8w
       text: 1Ketsran 2tute 3nivew 4hivum, 5poru 6plltxe 7san 8rutxe 9'ivì'awn.
       translations:
-        en: '1(No matter) 2who 3wants 3((or: may want))3( to) 4leave, 6+7tell 5them 6+7to 8please 9stay.'
+        en: '1(No matter) 2who 3wants 3{(or: may want)}3( to) 4leave, 6+7tell 5them 6+7to 8please 9stay.'
     - id: 2UsAmPsCT4SjFeK8-5iKFw
       text: 1Ketsran 2(tseng)9(ne) 3nga 4kivä, 5kä 6oe 7tsatseng 8nìteng.
       lookup_filter:
@@ -53,7 +53,7 @@ inputs:
       translations:
         en: |-
             A: 4What 2do 1you 2(want to) 3eat 5tonight?
-            B: 6(Whatever. )6((Or: Anything at all.)) 7+8(I don't care).
+            B: 6(Whatever. )6{(Or: Anything at all.)} 7+8(I don't care).
     - id: PNeRN3hVTOKzNfgItHCynQ
       text: 1Oe 2(tìkangkem si) 4trrtxon 5nìwotx, 6ngaru 7ke'u!
       translations:
@@ -62,8 +62,8 @@ inputs:
       text: 1Teynga 2pesu 3nivew 4hivum 5ke 6tsranten, 7poru 8plltxe 9san 10rutxe 11'ivì'awn.
       translations:
         en: |-
-            1(The answer )1((to the question)) 2who 3(wants to) 4leave 5doesn't 6matter, 7+9tell 8them 7+9to 10please 11stay.
-            ((No matter who wants (or: may want)( to leave, tell them to please stay.))())
+            1(The answer )1{(to the question)} 2who 3(wants to) 4leave 5doesn't 6matter, 7+9tell 8them 7+9to 10please 11stay.
+            {(No matter who wants (or: may want}{ to leave, tell them to please stay.)}{)}
     - id: WAnYbRRpQSSXOn0Kx-5_4A
       text: 1Lì'u 2alu 3ketsran 4tsranten 5nìtxan 6nìlaw!
       lookup_filter:

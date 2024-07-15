@@ -7,9 +7,9 @@ source:
 inputs:
     - id: iF4FFmb3R3WzPgsQPZ__sw
       text: |-
-        1Fmawn 2akosman, 3ma 4smuk! (()5(Tìng nari) 7nekll.())
+        1Fmawn 2akosman, 3ma 4smuk! {(}5(Tìng nari) 7nekll.{)}
 
-        8Fìsäomum 9txankrr 10lolu 11oer; 12set 13tsun 14oe 15tsawteri 16pivängkxo 17(aynga)18(hu). 19Kintrram 20(fayfamrelsiyu)21(hu) 22oe 23(ultxa soleiyi). 24Roleiun 25futa 26lu 27fo 28kanu 29sì 30leso'ha 31nìwotx 32ulte 33Uniltìrantokxìri 34lì'fyayä 35leNa'vi 36wawet 37fol 38tslam. 39Am'aluke 40haya 41(pxerel arusikx) 42wayou! 44Tìkangkem 45sngivä'i 46ko! (()47Nìsìlpey 48ye'rìn.())
+        8Fìsäomum 9txankrr 10lolu 11oer; 12set 13tsun 14oe 15tsawteri 16pivängkxo 17(aynga)18(hu). 19Kintrram 20(fayfamrelsiyu)21(hu) 22oe 23(ultxa soleiyi). 24Roleiun 25futa 26lu 27fo 28kanu 29sì 30leso'ha 31nìwotx 32ulte 33Uniltìrantokxìri 34lì'fyayä 35leNa'vi 36wawet 37fol 38tslam. 39Am'aluke 40haya 41(pxerel arusikx) 42wayou! 44Tìkangkem 45sngivä'i 46ko! {(}47Nìsìlpey 48ye'rìn.{)}
       lookup_filter:
         13: 2476:vim.:noaffix:nolen
         17: 208:pn.:noaffix:nolen

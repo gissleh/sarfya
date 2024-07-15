@@ -152,7 +152,7 @@ inputs:
         2: 1508:inter.:noaffix:nolen
         3: 456:adv.:noaffix:nolen
       translations:
-        en: '2(Why do) 1you 3always 4(reject everything )4((or: such things))?'
+        en: '2(Why do) 1you 3always 4(reject everything )4{(or: such things)}?'
     - id: 3kENBmUnRYq01tezv-p3Wg
       text: 1Teylu 2a 3oel 4yerom 5lu 6ftxìlor.
       translations:

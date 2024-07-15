@@ -19,7 +19,7 @@ inputs:
     - id: eWwvqrIxTPOWSZu5YtmlHg
       text: 1Zìtsaltrrìri 2tìmuntxayä 3aylrrtok!
       translations:
-        en: 3+1(Happy anniversary) 2((of your marriage))!
+        en: 3+1(Happy anniversary) 2{(of your marriage)}!
     - id: vWUcHPbuTHionp0mx3W2HQ
       text: 1Neytiril 2nantangit 3tsolukx 4fte 5peyä 6tìsrawti 7'eykivi'a.
       translations:

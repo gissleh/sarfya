@@ -24,13 +24,13 @@ inputs:
     - id: svAsAoy9Rsi3EZSHYu1gFw
       text: 1Ateyol 2fpìl 3futa 4Ralul 5peyä 6tsmuket 7ve'kì.
       translations:
-        en: 1Ateyo 2thinks 3that 4Ralu 7hates 5his 5((Ateyo's)) 6sister.
+        en: 1Ateyo 2thinks 3that 4Ralu 7hates 5his 5{(Ateyo's)} 6sister.
     - id: oqUUPYn4Sx6LqxfD07H1oQ
       text: 1Ateyol 2fpìl 3futa 4Ralul 5sneyä 6tsmuket 7ve'kì.
       lookup_filter:
         5: 8240:pn.:noaffix:nolen
       translations:
-        en: 1Ateyo 2thinks 3that 4Ralu 7hates 5his 5((own)) 6sister.
+        en: 1Ateyo 2thinks 3that 4Ralu 7hates 5his 5{(own)} 6sister.
     - id: MULc-SMrSS-QFy31anfMBw
       text: 1Krra 2sti 3nìtxan, 4pol 5fyanyot 6fpap 7fa 8mesyokx.
       lookup_filter:

@@ -10,15 +10,15 @@ inputs:
       translations:
         en: |-
             1Hi. 4+5Who 3are 2you?
-            ((This is one place where the honoric form of the pronoun is standard.))
+            {(This is one place where the honoric form of the pronoun is standard.)}
     - id: rndzC0nfRo2a0rXj6KUBeA
       text: 1Fyape 2fko 3syaw 4ngar?
       translations:
         en: |-
             1(How does) 2one 3call 4you?
-            ((What's your name?))
+            {(What's your name?)}
     - id: tElDf7fUSYmAPMKc2COUDQ
-      text: 1Oeru 2syaw 3((fko)) 4Txewì.
+      text: 1Oeru 2syaw 3{(fko)} 4Txewì.
       translations:
         en: 1+2+3(My name is) 4Txewì.
     - id: XR4PUbX0QJSN1y2SNsWMBQ
@@ -36,19 +36,19 @@ inputs:
       translations:
         en: |-
             3(In what way) 1are 2you 1busy 4lately?
-            ((What's been keeping you busy lately?))
+            {(What's been keeping you busy lately?)}
     - id: KFwEBPHKRrKvmC-CBNToYA
       text: 1Pamtseori 2po 3sulängìn 4nìhawng.
       translations:
-        en: 2He 3is 4overly 3engrossed 1in his 1music 3((and I'm displeased about it)).
+        en: 2He 3is 4overly 3engrossed 1in his 1music 3{(and I'm displeased about it)}.
     - id: VO8vQwshQWK73cZh6YkXkg
       text: 1Tìkangkemìri 2varmrrìn 3oe 4nìwotx.
       translations:
-        en: 3I 2was 4completely 2swamped 2((overwhelmed)) 1(at work).
+        en: 3I 2was 4completely 2swamped 2{(overwhelmed)} 1(at work).
     - id: WCX6buwzTPiaTdb3u923gg
       text: 1Peyä 2tìkangkemìl 3mi 4veykrreiyìn 5pot 6nìwotx.
       translations:
-        en: 1His 2work 4is 3still 6completely 4overwhelming 5him 4((and I'm glad)).
+        en: 1His 2work 4is 3still 6completely 4overwhelming 5him 4{(and I'm glad)}.
     - id: 6RIktcF7SrKvtQDYg6tLug
       text: 1Tìk'ìnìri 2(kempe si) 3nga?
       translations:
@@ -79,7 +79,7 @@ inputs:
     - id: _mveJTcSRomZ82t0BmUN1A
       text: |-
         A: 1Srake 2fnan 3ngal 4lì'fyati 5leNa'vi?
-        B: 6Kehe. 7Slä 8hufwa 9oel 10((tsat)) 11wätx 12nì'aw, 13tsalsungay 14yawne 15lu 16oer 17nìwotx!
+        B: 6Kehe. 7Slä 8hufwa 9oel 10{(tsat)} 11wätx 12nì'aw, 13tsalsungay 14yawne 15lu 16oer 17nìwotx!
       translations:
         en: |-
             A: 2Are 3you 2(good at) 4+5(Na'vi)1(?)

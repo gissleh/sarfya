@@ -16,14 +16,14 @@ inputs:
       translations:
         en: |-
             1(To you) 2my 3colleague.
-            ((Allow me to introduce my colleague.))
+            {(Allow me to introduce my colleague.)}
     - id: V2noABzUQHO5eVNy0Pepgw
       text: 1Ma 2frapo, 3ayngaru 4oeyä 5tsmukit 6alu 7Newey.
       lookup_filter:
         2: 460:pn.:noaffix:nolen
         3: 208:pn.:-ru:nolen
       translations:
-        en: 1+2Everybody, 3+5(please allow me to introduce) 3((to you)) 3my 5sister, 6+7Newey.
+        en: 1+2Everybody, 3+5(please allow me to introduce) 3{(to you)} 3my 5sister, 6+7Newey.
     - id: ulniG_lCR0WzQgHhKt9woQ
       text: 1Ayngengaru 2oheyä 3tsmukit 4alu 5Newey 6te 7Tskaha 8(Sorewn)9('ite).
       translations:
@@ -35,7 +35,7 @@ inputs:
       translations:
         en: |-
             1(To you) 2my 3X.
-            ((introduction formula))
+            {(introduction formula)}
       flags:
         - syntax
     - id: 0k379pnFRa-8ZkCVb1Jb5w

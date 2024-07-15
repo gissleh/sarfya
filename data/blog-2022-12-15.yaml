@@ -37,7 +37,7 @@ inputs:
     - id: YPxdGTMKTOSkTS7UXcoMDg
       text: 1Tsatìpe'unìri 2ke 3lu 4oeru 5kea 6tìlapx.
       translations:
-        en: 4I 3+4have 2+5no 6(regret)6((s)) 1(about that decision).
+        en: 4I 3+4have 2+5no 6(regret)6{(s)} 1(about that decision).
     - id: qf8kenxLQWucFwiLgT28kQ
       text: 1Vuyin 2ohel 3uturut.
       translations:

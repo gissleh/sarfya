@@ -53,7 +53,7 @@ inputs:
       translations:
         en: |-
             1(An old person's) 2face 4doesn't 5hide 1their 2age.
-            ((That is, Some things can't be covered up.))
+            {(That is, Some things can't be covered up.)}
       flags:
         - proverb
     - id: DY3HCDYLSpK2w_HYCenlpg
@@ -67,7 +67,7 @@ inputs:
       lookup_filter:
         4: 676:adp.:noaffix:nolen
       translations:
-        en: Global warming ((literally, )2(the increase) 1(in temperature) 4across 5(the Earth)( ))7is 6(a warning) 8(to us) 9all.
+        en: Global warming {(literally, }2(the increase) 1(in temperature) 4across 5(the Earth){ )}7is 6(a warning) 8(to us) 9all.
     - id: YO9AMKfxTMus9RT4T0--tA
       text: 1Neytiril 2(N|Tsyeykur) 3kolar 4eyawrfyat 5a 6fyep 7tskoti.
       translations:
@@ -77,7 +77,7 @@ inputs:
       translations:
         en: |-
             1(To know the right way), you 2(have to) 3understand 4how 7(the world) 6+5turns.
-            ((From Cirque du Soleil's TORUK: The First Flight.))
+            {(From Cirque du Soleil's TORUK: The First Flight.)}
     - id: DdUtBDMLQ06fOXyTCIf4Lw
       text: 1Stiwi 2rä'ä 1si, 3ma 4'eveng! 5(Uvan si) 6mì 7sengo 8alahe.
       lookup_filter:
@@ -89,7 +89,7 @@ inputs:
       lookup_filter:
         2: 412:pn.:noaffix:nolen
       translations:
-        en: 2They 1entered 3(through )3((or via)) 4a 5small 4doorway.
+        en: 2They 1entered 3(through )3{(or via)} 4a 5small 4doorway.
     - id: yHwC8nm9QBWHMC30zNiaXg
       text: 1Poanur 2sunu 3tsngan 4asyewenga'; 5poeru 6ke 7sunu 8kaw'it.
       lookup_filter:

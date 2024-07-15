@@ -14,7 +14,7 @@ inputs:
       translations:
         en: |-
             3I 2sent 1(the gift) 5for 4you.
-            i.e. I sent it to someone else for your sake. ((Perhaps you were sick and not able to get out, so I sent it on your behalf.))
+            i.e. I sent it to someone else for your sake. {(Perhaps you were sick and not able to get out, so I sent it on your behalf.)}
     - id: qxB9lLgNSROb851IJg25sA
       text: 1(Tsakem soli) 2oe 3fpi 4nga.
       translations:

@@ -10,7 +10,7 @@ inputs:
       translations:
         en: 1Great 2meeting 3+4in 5Seattle
     - id: NvdJxWkpRiykFoxDRga16Q
-      text: 1Txantsana 2ultxa 3a 4mì 5(M|Siätll) 6((lu)) 7soluneiu 8oer 9nìtxan.
+      text: 1Txantsana 2ultxa 3a 4mì 5(M|Siätll) 6{(lu)} 7soluneiu 8oer 9nìtxan.
       lookup_filter:
         9: 1312:adv.:noaffix:nolen
       translations:

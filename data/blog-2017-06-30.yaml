@@ -57,7 +57,7 @@ inputs:
       lookup_filter:
         3: 460:pn.:noaffix:nolen
       translations:
-        en: 1(Let's give )1((him/her/them))1( a hand), 2+3everybody!
+        en: 1(Let's give )1{(him/her/them)}1( a hand), 2+3everybody!
     - id: 1i1vggckSG-JSyGsS-dXIQ
       text: 1Tolätxaw 2nìprrte'!
       lookup_filter:

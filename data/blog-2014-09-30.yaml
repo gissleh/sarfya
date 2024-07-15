@@ -59,7 +59,7 @@ inputs:
       translations:
         en: '2During 1(the evening) 4we 3received 7a 8wonderful 7gift 5from 6(the participants)—9actually, 10(two gifts): 13two 12beautiful 13pictures 14+16of 14John 15and 16me. 18You 17can 20see 19(both of them) 21here:'
     - id: HFyxpdXkS62UgEU-fh1N8w
-      text: 1Lu 2txantsan 3nìngay, 4kefyak? 5Fìmerelit 6'ongolop 7awngeyä 8tsulfätul 9reltseoä 10alu 11(N|Älìn). 12Tengfya 13tsun 14tsive'a, 15lupra 16(eltur tìtxen si) 17nìtxan. 18Relit 19oeyä 20ngolop 21(N-ìl|Älìnìl) 22fa 23hì'ia 24aylì'u 25leNa'vi, 26relit 27(N-ä|Tsyanä) 28fa 29hì'ia 30aysìreyn. (()31Sunu 32(N-ur|Tsyanur) 33tìreyn 34nìtxan.())
+      text: 1Lu 2txantsan 3nìngay, 4kefyak? 5Fìmerelit 6'ongolop 7awngeyä 8tsulfätul 9reltseoä 10alu 11(N|Älìn). 12Tengfya 13tsun 14tsive'a, 15lupra 16(eltur tìtxen si) 17nìtxan. 18Relit 19oeyä 20ngolop 21(N-ìl|Älìnìl) 22fa 23hì'ia 24aylì'u 25leNa'vi, 26relit 27(N-ä|Tsyanä) 28fa 29hì'ia 30aysìreyn. {(}31Sunu 32(N-ur|Tsyanur) 33tìreyn 34nìtxan.{)}
       lookup_filter:
         3: 1296:adv.:noaffix:nolen
         13: 2476:vim.:noaffix:nolen
@@ -67,7 +67,7 @@ inputs:
         31: 6376:vin.:noaffix:nolen
         34: 1312:adv.:noaffix:nolen
       translations:
-        en: 1They're 2+3excellent, 4(aren't they)? 5(The two portraits) 6(were created by) 7our 8Master 9(of Visual Arts), 11Alan. 12As you 13can 14see, 15(the style) 16(is very interesting). 21Alan 20created 19my 18portrait 22(out of) 23little 25Na'vi 24words; 26+27John's he created 24(out of) 30trains. (()32John 31likes 33trains 34(a lot).())
+        en: 1They're 2+3excellent, 4(aren't they)? 5(The two portraits) 6(were created by) 7our 8Master 9(of Visual Arts), 11Alan. 12As you 13can 14see, 15(the style) 16(is very interesting). 21Alan 20created 19my 18portrait 22(out of) 23little 25Na'vi 24words; 26+27John's he created 24(out of) 30trains. {(}32John 31likes 33trains 34(a lot).{)}
     - id: pwJQGVj6SSazEtMcM2B3mA
       text: 1Fìmestxeli 2alor 3kur 4set 5ta 6kxemyo 7a 8mì 9helku 10moeyä.
       lookup_filter:

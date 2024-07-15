@@ -69,7 +69,7 @@ inputs:
       translations:
         en: |-
             1(As for this drink), 2(the taste) 3comes 4(to me) 3as 5sweet.
-            ((This drink tastes sweet to me.))
+            {(This drink tastes sweet to me.)}
     - id: CeDjVNclRWugyFuFM9KcHA
       text: 1Nikreri 2Riniyä 3'ur 4fkan 5lor.
       lookup_filter:
@@ -87,7 +87,7 @@ inputs:
     - id: W_yjhTIQSHSsoFqdY5kI2Q
       text: 1Raluri 2fkan 3na 4yerik.
       translations:
-        en: 1Ralu 2(smells )2((looks? sounds?)) 3like 4(a hexapede).
+        en: 1Ralu 2(smells )2{(looks? sounds?)} 3like 4(a hexapede).
     - id: a40_8wSCTq-J5M1gukV0bA
       text: 1Syuveri 2ayftxozäyä 3ayngaru 4fkivan 5onlor 6ftxìlorsì 7nìwotx!
       lookup_filter:

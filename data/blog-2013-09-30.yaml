@@ -43,7 +43,7 @@ inputs:
     - id: ku8V_iCbQnWrCeDGwjrvEA
       text: 1Tsatangekìri 2pam 3fkan 4momek.
       translations:
-        en: 1(That )1((tree))1(trunk) 2+3sounds 4hollow.
+        en: 1(That )1{(tree)}1(trunk) 2+3sounds 4hollow.
     - id: ZzbGlGLtS0--Ble6cuujhQ
       text: 1Woleyn 2Ìstawl 3yeyfyat 4mì 5hllte 6fte 7oeyktivìng 8fraporu 9(tìhawl)10(teri) 11sneyä.
       lookup_filter:

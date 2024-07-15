@@ -6,28 +6,28 @@ source:
     author: Paul Frommer
 inputs:
     - id: b-uGYCGTRneo__hGYy3hqQ
-      text: 1Txo 2zivup 3tompa, 4((tsakrr)) 5ke 6tsun 7oe 8kivä.
+      text: 1Txo 2zivup 3tompa, 4{(tsakrr)} 5ke 6tsun 7oe 8kivä.
       lookup_filter:
         4: 2332:adv.:noaffix:nolen
         6: 2476:vim.:noaffix:nolen
       translations:
-        en: 1If 2+3(it's raining), 4((then)) 7I 5+6can't 8go.
+        en: 1If 2+3(it's raining), 4{(then)} 7I 5+6can't 8go.
     - id: QQcbhq7SSUqf5K-_98zmbA
       text: 1Zun 2zivup 3tompa, 4zel 5ke 6tsivun 7oe 8kivä.
       translations:
-        en: 1If 2+3(it were raining), 4((then)) 7I 5+6couldn't 8go.
+        en: 1If 2+3(it were raining), 4{(then)} 7I 5+6couldn't 8go.
     - id: oYw1YJmfQMe7v4nbdN0nMA
       text: 1Zun 2oe 3yawne 4livu 5ngar, 6zel 7'ivefu 8oe 9nitram 10nì'aw.
       translations:
         en: |-
             1If 5you 3+4loved 2me, 8I 7(would be) 10so 9happy.
-            ((but you don't, and I'm not))
+            {(but you don't, and I'm not)}
     - id: RPoLv9v8RXaOGYpt_PX2lw
       text: 1Zun 2oe 3yawne 4limvu 5ngar, 6zel 7'imvefu 8oe 9nitram 10nì'aw.
       translations:
         en: |-
             1If 5you 3+4(had loved) 2me, 8I 7(would have been) 10so 9happy.
-            ((but you didn't, and I wasn't))
+            {(but you didn't, and I wasn't)}
     - id: nVYEElheTQeS4Y4uhCf_hA
       text: 1Zun 2tompa 3zìyevup 4trray, 5zel 6fo 7srìyevew.
       lookup_filter:
@@ -35,7 +35,7 @@ inputs:
       translations:
         en: |-
             1If 2+3(it rained) 4tomorrow, 6(they)7('d do a dance).
-            ((but it won't, and they won't))
+            {(but it won't, and they won't)}
     - id: CHNWDvKIToy5s0GUGOEIdg
       text: 1Zun 2ngal 3tsafnesyuvet 4timvìng 5oer, 6zel 7livu 8oe 9txur 10fìtrr.
       lookup_filter:
@@ -43,7 +43,7 @@ inputs:
       translations:
         en: |-
             1If 2you 4(had given) 5me 3(that kind of food), 8I 7(would be) 9strong 10today.
-            ((but you didn't, and I'm not))
+            {(but you didn't, and I'm not)}
     - id: diilCI6ZSyK8YNlHPjrsAw
       text: 1Zun 2ayoe 3livu 4tsamsiyu, 5zel 6tsakem 7ke 6simvi.
       lookup_filter:

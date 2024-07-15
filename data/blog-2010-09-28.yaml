@@ -20,13 +20,13 @@ inputs:
       lookup_filter:
         1: 5588:adv.:noaffix:nolen
       translations:
-        en: 1Sure. 1((Gladly. With pleasure.)) 2(What I said) 3was . . .
+        en: 1Sure. 1{(Gladly. With pleasure.)} 2(What I said) 3was . . .
     - id: Pi-qNTiSReKZ3golkS8gfQ
       text: 1Tsun 2nga 3(law sivi) 4nì'it 5srak?
       translations:
         en: |-
             1Could 2you 3(make that) 4(a bit) 3(clearer)5(?)
-            ((Could you explain that further?))
+            {(Could you explain that further?)}
     - id: vACm8cNIR8GKTkazwmk90w
       text: 1Tsalì'uri 2alu 3X, 4ral 5lu 6'upe?
       translations:
@@ -67,17 +67,17 @@ inputs:
       translations:
         en: 1(Unfortunately there is) 4no 5(attention to detail) 4in 3their 2work.
     - id: C1RAlEeAR_2ChIlSCcmuKQ
-      text: 1((Ngari)) 2solalew 3(polpxay|polpxaya) 4((zìsìt))?
+      text: 1{(Ngari)} 2solalew 3(polpxay|polpxaya) 4{(zìsìt)}?
       translations:
         en: |-
             1(As for you), 3(how many) 4years 2(have passed)?
-            ((How old are you?))
+            {(How old are you?)}
     - id: D0cKrRm5Q_SVx4VJnN9pxw
       text: 1Oeri 2solalew 3zìsìt 4apxevol.
       translations:
         en: 1(I)2('m) 4(24) 3years 2old.
     - id: Tz9rYXrKQbeyvm8J2z2VPA
-      text: 1Nga 2(z)2((ol))2(a'u) 3ftu 4peseng
+      text: 1Nga 2(z)2{(ol)}2(a'u) 3ftu 4peseng
       lookup_filter:
         4: 1520:inter.:noaffix:nolen
       translations:
@@ -95,7 +95,7 @@ inputs:
     - id: weWv7lTGT3my7It9cLj_-g
       text: 1Ngaru 2lu 3pefnetxintìn 4nìtrrtrr?
       translations:
-        en: 3What 2is 1your 3+4(primary role) ((in society))?
+        en: 3What 2is 1your 3+4(primary role) {(in society)}?
     - id: ddU4aG-UTFGns5HLCl4W_w
       text: 1Oe 2lu 3numeyu.
       lookup_filter:

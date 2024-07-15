@@ -56,7 +56,7 @@ inputs:
     - id: nto6AGL1RyuSDmnGToJpVg
       text: 1Reypay 2(skxir)3(ftumfa) 4herum.
       translations:
-        en: '1Blood 4(is coming) 3(out of )3((literally: exiting from the inside of)) 2(the wound).'
+        en: '1Blood 4(is coming) 3(out of )3{(literally: exiting from the inside of)} 2(the wound).'
     - id: aoB8sc91SRWXuobMc6vStw
       text: 1Fwa 2tsyìl 3Ayramit 4Alusìng 5lu 6sä'eoio 7a 8zene 9frapo 10(sä'eoio sivi) 11fte 12slivu 13taronyu.
       lookup_filter:
@@ -80,7 +80,7 @@ inputs:
     - id: EizZYzQOSMuT6OBLG8wJZA
       text: 1Hìtxoa. 2Oel 3tsngalit 4tìmungzup.
       translations:
-        en: 1Sorry. 2I 4(just dropped) 3(the cup) ((accidentally))
+        en: 1Sorry. 2I 4(just dropped) 3(the cup) {(accidentally)}
     - id: bLR7HugDT56CcEkI5ROXNw
       text: 1Ngeyä 2tskoti 3zeykup! 4Set!
       translations:
@@ -127,4 +127,4 @@ inputs:
       translations:
         en: |-
             4Where 2can 1one 3(relieve oneself)?
-            ((Where is the bathroom?))
+            {(Where is the bathroom?)}

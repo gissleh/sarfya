@@ -36,7 +36,7 @@ inputs:
       lookup_filter:
         9: 8836:conj.:noaffix:nolen
       translations:
-        en: '1It''s 3(a mystery) 2(to me) 4why ((or: I''m puzzled that)) 5Ìstaw 7is 8so 6shy 9that he 10frequently 11hides.'
+        en: '1It''s 3(a mystery) 2(to me) 4why {(or: I''m puzzled that)} 5Ìstaw 7is 8so 6shy 9that he 10frequently 11hides.'
     - id: shW_yYWrQGS5hE8OOAuekQ
       text: 1Lu 2oer 3sngum 4a 5po 6ke 7zola'u.
       translations:
@@ -200,19 +200,19 @@ inputs:
       lookup_filter:
         1: 1556:pn.:-l:nolen
       translations:
-        en: 2(I wish) 1she 3were 4here. ((But I know she's not.))
+        en: 2(I wish) 1she 3were 4here. {(But I know she's not.)}
     - id: zfeqrlVeQK2jCkFO1IWD8A
       text: 1Poe 2nìrangal 3zìyeva'u 4trray.
       lookup_filter:
         1: 1556:pn.:noaffix:nolen
       translations:
-        en: 2(I wish) 1she 3(were coming) 4tomorrow. ((But I know she isn't.))
+        en: 2(I wish) 1she 3(were coming) 4tomorrow. {(But I know she isn't.)}
     - id: nM49CDaiRKanfOv3F4tAWA
       text: 1Poe 2nìrangal 3zimva'u/4zilva'u 5trram.
       lookup_filter:
         1: 1556:pn.:noaffix:nolen
       translations:
-        en: 2(I wish) 1she 3(had come) 4yesterday. ((But she didn't.))
+        en: 2(I wish) 1she 3(had come) 4yesterday. {(But she didn't.)}
     - id: lBvn0wEuTC6R-I-27Rkc_Q
       text: 1(N|Tsyeyk) 2(ätxäle soli) 3nìsìlpey 4tsnì 5livu 6por 7Uniltaron.
       lookup_filter:

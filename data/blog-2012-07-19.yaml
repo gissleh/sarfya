@@ -6,7 +6,7 @@ source:
     author: Paul Frommer
 inputs:
     - id: Cn5B1LA9TPOSsp9Zktbbuw
-      text: 1Ngari 2(l)2((ei))2(u) 3oeru 4nrra 5nìtxan, 6ma 7'ite.
+      text: 1Ngari 2(l)2{(ei)}2(u) 3oeru 4nrra 5nìtxan, 6ma 7'ite.
       lookup_filter:
         5: 1312:adv.:noaffix:nolen
       translations:
@@ -40,7 +40,7 @@ inputs:
       lookup_filter:
         6: 5184:adv.:noaffix:nolen
       translations:
-        en: 1Your 2face 3(is glowing), 4my 5friend 3((and I'm pleased to see it)). 9(It's clear) 10you 8+9love 7her.
+        en: 1Your 2face 3(is glowing), 4my 5friend 3{(and I'm pleased to see it)}. 9(It's clear) 10you 8+9love 7her.
     - id: zfI8AS6aSNOOPZnrBnQVBw
       text: 1Txepìl 2tìng 3lefpoma 4sänrrti.
       lookup_filter:
@@ -66,7 +66,7 @@ inputs:
       translations:
         en: |-
             1(As for shoes), 3I 2have 5five 4pairs.
-            ((I have five pairs of shoes.))
+            {(I have five pairs of shoes.)}
     - id: FukxOZNZTJqBXnuUaNEoAw
       text: 1Rutxe 2(fìtskxekeng sivi) 3(munsnatute)4(fa), 5ma 6frapo.
       lookup_filter:
@@ -103,6 +103,6 @@ inputs:
       translations:
         en: |-
             1before 4(the hellfire wasp) 2+3stings
-            ((as quickly as possible))
+            {(as quickly as possible)}
       flags:
         - proverb

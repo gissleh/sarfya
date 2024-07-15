@@ -10,7 +10,7 @@ inputs:
       translations:
         en: |-
             1like 2(a thorn) 3+5in 4(the butt)
-            ((that is, something extremely annoying))
+            {(that is, something extremely annoying)}
       flags:
         - proverb
     - id: TVDznFnARDShYVkr_4kV-w
@@ -31,7 +31,7 @@ inputs:
         en: |-
             1Crawl, 2walk, 3run;
             4from 5level 6to 7level 8(get better).
-            ((The meaning is that when learning something new, you have to proceed from step to step: baby steps first, then bigger ones.))
+            {(The meaning is that when learning something new, you have to proceed from step to step: baby steps first, then bigger ones.)}
       flags:
         - proverb
     - id: dKdbg-OxScez-npLeyXGJg
@@ -78,13 +78,13 @@ inputs:
       lookup_filter:
         2: 13398:adv.:noaffix:nolen
       translations:
-        en: 1(be pleasurable) 3(to one) 2(in a guilty way) ((This is an expression for schadenfreude—taking pleasure in someone else's misfortune.))
+        en: 1(be pleasurable) 3(to one) 2(in a guilty way) {(This is an expression for schadenfreude—taking pleasure in someone else's misfortune.)}
     - id: 5JjE9Tf4RS2Fmu8gt9P78w
       text: 1zawprrte' 2nìlayl 3fkone
       lookup_filter:
         2: 13395:adv.:noaffix:nolen
       translations:
-        en: 1(be pleasurable) 3(to one) 2(in an innocent way) ((This expresses the idea of taking pure pleasure in someone else's good fortune or achievements without the slightest hint of envy or jealousy.))
+        en: 1(be pleasurable) 3(to one) 2(in an innocent way) {(This expresses the idea of taking pure pleasure in someone else's good fortune or achievements without the slightest hint of envy or jealousy.)}
     - id: 1ivLjvDZTkq_RPGPd9C0Jg
       text: 1Po 2lu 3ngong 4nìngay.
       lookup_filter:

@@ -28,37 +28,37 @@ inputs:
       translations:
         en: 5They 4+6(have)3(n't) 4+6(seen each other) 1in 2eight 1years.
     - id: PdDaaXqHQ9KVGxZvAP_Oyg
-      text: 1Moe 2smon 3((moeru)) 4fìtsap.
+      text: 1Moe 2smon 3{(moeru)} 4fìtsap.
       translations:
         en: |-
             3We 2know 1+4(each other).
-            ((Note that moeru is optional: Moe smon fìtsap is fine and means the same thing.))
+            {(Note that moeru is optional: Moe smon fìtsap is fine and means the same thing.)}
     - id: PYE3GTKlTZGQluJ3jTcviA
-      text: 1Ma 2muntxatu, 3oeng 4yawne 5lu 6((oengaru)) 7fìtsap, 8kefyak?
+      text: 1Ma 2muntxatu, 3oeng 4yawne 5lu 6{(oengaru)} 7fìtsap, 8kefyak?
       translations:
         en: 6We 4+5love 3+7(each other), 8(don't we), 1+2(my spouse)?
     - id: gFjEV_-bR_Srvlb8ElXAxg
       text: 1Pol 2'olem 3peyä 4wutsot.
       translations:
-        en: 1He 2made 3(his )3((i.e., someone else's)) 4dinner.
+        en: 1He 2made 3(his )3{(i.e., someone else's)} 4dinner.
     - id: gquQwrh4TDCDECzGDA0luA
       text: 1Pol 2'olem 3sneyä 4wutsot.
       lookup_filter:
         3: 8240:pn.:noaffix:nolen
       translations:
-        en: 1He 2made 3(his )3((own)) 4dinner.
+        en: 1He 2made 3(his )3{(own)} 4dinner.
     - id: f9cH6odmRMm6qhVP3F6zBg
       text: 1Po 2yawne 3lu 4snor.
       translations:
         en: 4He 2+3loves 1himself.
     - id: gm25sH8QQTW2sI2e1b-Rug
-      text: 1Mefo 2yawne 3lu 4((snor)) 5fìtsap.
+      text: 1Mefo 2yawne 3lu 4{(snor)} 5fìtsap.
       lookup_filter:
         1: 1076:pn.:noaffix:nolen
       translations:
-        en: 4(They )4((=those two)) 2+3love 1+5(each other).
+        en: 4(They )4{(=those two)} 2+3love 1+5(each other).
     - id: meBz6zfpS4K1_BV7iT7pjQ
-      text: 1Fo 2smon 3((snoru)) 4fìtsap 5nìwotx.
+      text: 1Fo 2smon 3{(snoru)} 4fìtsap 5nìwotx.
       lookup_filter:
         1: 412:pn.:noaffix:nolen
       translations:

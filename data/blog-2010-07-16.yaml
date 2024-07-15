@@ -48,7 +48,7 @@ inputs:
       lookup_filter:
         7: 1312:adv.:noaffix:nolen
       translations:
-        en: 1Your 2idea 4about 3(the Sky People) 5is 7very 5interesting 6(to me) 5((because it seems unusual))
+        en: 1Your 2idea 4about 3(the Sky People) 5is 7very 5interesting 6(to me) 5{(because it seems unusual)}
     - id: kkJ0HSYuTLOv20pve5DjzQ
       text: 1Nìhek 2fo 3nìNa'vi 4plltxe.
       lookup_filter:
@@ -130,13 +130,13 @@ inputs:
       translations:
         en: |-
             2Are 1you 3(well)4(?)
-            ((Are you experiencing a general sense of happiness and well-being?))
+            {(Are you experiencing a general sense of happiness and well-being?)}
     - id: 0C6mg-92TYiWjVJAeJhaWA
       text: 1Nga 2zo 3srak?
       translations:
         en: |-
             2Are 1you 2(well)3(?)
-            ((Have you recovered from your illness? Are you OK after that nasty fall?))
+            {(Have you recovered from your illness? Are you OK after that nasty fall?)}
     - id: BHOpB2bPRfq-43U4KLLoBw
       text: 1Oeri 2nì'i'a 3tsyokx 4zoslolu.
       translations:

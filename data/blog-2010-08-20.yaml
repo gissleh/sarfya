@@ -10,13 +10,13 @@ inputs:
       translations:
         en: |-
             1(As for that word), 4(how does) 2one 3write it?
-            ((How is that word written?))
+            {(How is that word written?)}
     - id: igafFvtpRvekZEF9uyt3EA
       text: 1Pamrelfyari 2fyape?
       translations:
         en: |-
-            1(As for )1((its))1( spelling), 2how?
-            ((How do you spell it?))
+            1(As for )1{(its)}1( spelling), 2how?
+            {(How do you spell it?)}
     - id: 7xwG10d5TtaWAlqB__Z4YQ
       text: 1Pamrel 2fyape?
       translations:

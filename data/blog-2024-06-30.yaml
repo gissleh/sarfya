@@ -12,7 +12,7 @@ inputs:
       translations:
         en: |-
             1(As for him/her), 2+4every 2facial 3and 4body 2+4stripe 6is 7very 5beautiful.
-            ((He/She is very attractive.))
+            {(He/She is very attractive.)}
     - id: pPqwtQSUSbeKG6WN1gB3Jg
       text: 1Frapil 2frasil!
       translations:
@@ -24,11 +24,11 @@ inputs:
     - id: iGSrBMs6QgSJYrAmVU5Y7Q
       text: 1Ateyol 2Entut 3tolakuk 4fa 5rumtsyokx.
       translations:
-        en: 1Ateyo 3+4+5punched 2Entu. ((i.e. )3struck him 4with his 5fist())
+        en: 1Ateyo 3+4+5punched 2Entu. {(i.e. }3struck him 4with his 5fist{)}
     - id: MfhiH9FgTYe_MykjS-CTeg
       text: 1Ateyol 2Entut 3tolakuk 4fa 5rìktsyokx.
       translations:
-        en: 1Ateyo 3+4+5slapped 2Entu. ((i.e. )3struck him 4with his 5(flat hand)())
+        en: 1Ateyo 3+4+5slapped 2Entu. {(i.e. }3struck him 4with his 5(flat hand){)}
     - id: zSPBEvA0SjO3L2h-W2zfgw
       text: 1Za'u 2heyn 3sìn 4oey 5heynyì, 6ma 7'evi.
       lookup_filter:
@@ -52,7 +52,7 @@ inputs:
         5: 13525:n.:noaffix:nolen
         6: 12:num.:a-:nolen
       translations:
-        en: '1Presence 2becomes 3absence 4(by means of) 6one 5(little sound). ((A proverbial expression meaning: ''Small things can make a big difference.''))'
+        en: '1Presence 2becomes 3absence 4(by means of) 6one 5(little sound). {(A proverbial expression meaning: ''Small things can make a big difference.'')}'
     - id: Xm6L_lLpQpO8vUmVHvKO4w
       text: 1Faylì'u 2a 3poltxe 4nga 5lu 6yayl 7nì'aw.
       translations:

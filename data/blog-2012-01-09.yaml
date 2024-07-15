@@ -137,7 +137,7 @@ inputs:
     - id: jXGl8hlpRd-x6isxG9yfdA
       text: 1Riniri 2nikre 3yängo' 4nìtut.
       translations:
-        en: '1Rini''s 2hair 3is 4always 3perfect. 3((I “hate” her. OR: I wish mine were perfect too!))'
+        en: '1Rini''s 2hair 3is 4always 3perfect. 3{(I “hate” her. OR: I wish mine were perfect too!)}'
     - id: MaH3Aj54S7iTK3IIkCM3oQ
       text: 1Fìstxelit 2fol 3txerula 4fpi 5olo'eyktan. 6Zene 7yivo' 8luke 9kxeyeyo 10kaw'it.
       lookup_filter:
@@ -151,7 +151,7 @@ inputs:
         4: 2332:adv.:noaffix:nolen
         5: 8352:adv.:noaffix:nolen
       translations:
-        en: ((If you can't be flawless, at least be brief.))
+        en: '{(If you can''t be flawless, at least be brief.)}'
       flags:
         - proverb
     - id: IldGC_5pTg6Z0jbpJAscrA

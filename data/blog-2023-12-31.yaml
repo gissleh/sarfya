@@ -14,7 +14,7 @@ inputs:
       translations:
         en: |-
             2It's 1hard 2to 2+3+6bounce 4a 5heavy 4ball.
-            ((That is, it's difficult to make someone who is stubborn or inept do what you want them to.))
+            {(That is, it's difficult to make someone who is stubborn or inept do what you want them to.)}
       flags:
         - proverb
     - id: zXQq9SGXRlKbBiF6Mtvpag

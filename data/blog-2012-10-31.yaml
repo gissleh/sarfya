@@ -19,7 +19,7 @@ inputs:
       translations:
         en: |-
             3You 1+2can't 4kill 5(a great leonopteryx) 6by 9constricting its 8throat.
-            ((Proverbial expression for a method that will not work.))
+            {(Proverbial expression for a method that will not work.)}
       flags:
         - proverb
     - id: JrsbRfCYTlyu0jdgbwO9ow

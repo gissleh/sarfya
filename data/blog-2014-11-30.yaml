@@ -109,11 +109,11 @@ inputs:
       translations:
         en: 1(The result) 2(of the investigation) 4was, 4(I'm sorry to say), 3disappointing. 7We 6found 5+8nothing.
     - id: g5jrrzZ1SnuXnTuXZmhHIw
-      text: 1((Na)) 2kenten 3mì 4kumpay
+      text: 1{(Na)} 2kenten 3mì 4kumpay
       translations:
         en: |-
-            1((like)) 2(a fan lizard) 3in 4gel
-            ((The sense is one of being in an environment where you're prevented from acting naturally or doing what you want to do.))
+            1{(like)} 2(a fan lizard) 3in 4gel
+            {(The sense is one of being in an environment where you're prevented from acting naturally or doing what you want to do.)}
       flags:
         - proverb
     - id: EH5yyKRATbabLJnNYNOtpw
@@ -131,11 +131,11 @@ inputs:
       translations:
         en: 2She 1has 3a 4beautiful 3voice, 5but 6+7+8(she's extremely shy). She 9+10can't 11sing 12(in front of) 13people.
     - id: WsC0oZjWSM6ZwXhwBLDhLA
-      text: 1((Na)) 2loreyu 3'awnampi
+      text: 1{(Na)} 2loreyu 3'awnampi
       translations:
         en: |-
-            1((like)) 2a 3touched 2helicoradian
-            ((The analogy is used to indicate extreme shyness.))
+            1{(like)} 2a 3touched 2helicoradian
+            {(The analogy is used to indicate extreme shyness.)}
       flags:
         - proverb
     - id: x0ZLlw4uQT-4zIpT54eV7w

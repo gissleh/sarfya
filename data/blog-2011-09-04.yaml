@@ -14,7 +14,7 @@ inputs:
       translations:
         en: |-
             A: 1(It seems) 2(to me) 3that 4(that newcomer) 6(is)5(n't any) 6(good at) 7hunting.
-            B: ((It seems that way)) 8(to me) 9(as well). 10(By the way), 13I 12have 15some 14important 15news I 16+17(want to) 18tell 19you 11(about him).
+            B: {(It seems that way)} 8(to me) 9(as well). 10(By the way), 13I 12have 15some 14important 15news I 16+17(want to) 18tell 19you 11(about him).
     - id: jrRBIK_IQ2iexgmlRFQCxg
       text: |-
         A: 1Slä 2tsalsungay, 3txo 4tìtslam 5for, 6lu 7txayo 8(na'rìng)9(to) 10sìltsan.
@@ -42,7 +42,7 @@ inputs:
       translations:
         en: |-
             2to 3my 1knowledge
-            ((as far as I know))
+            {(as far as I know)}
     - id: peskILDFTP6V4mdeRaHNCg
       text: 1Tsmìmìri 2wätx 3fol 4tinanit 5nìngay.
       lookup_filter:
@@ -57,11 +57,11 @@ inputs:
     - id: oiaqcwlxQOmGI5Lk4VZh_w
       text: 1Tìtusaronìri 2fte 3flivä, 4zene 5fko 6sivutx 7smarit 8ninan 9nìno.
       translations:
-        en: 2To 3succeed 1(at hunting), 5you 4(have to) 6track your 7prey 8(by reading )8((the forest)) 9(with attention to detail).
+        en: 2To 3succeed 1(at hunting), 5you 4(have to) 6track your 7prey 8(by reading )8{(the forest)} 9(with attention to detail).
     - id: nQMBni_GSDOt3waMeVDbZg
       text: |-
         A: 1(Kempe si) 2sempul?
-        B: 3((Pol)) 4pamrelit 5erinan.
+        B: 3{(Pol)} 4pamrelit 5erinan.
         A: 6Pefnepamrelit?
         B: 7Inan 8pukot 9a 10teri 11aysam 12a 13('Rrta)14(mì).
       lookup_filter:

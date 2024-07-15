@@ -15,7 +15,7 @@ inputs:
         5Zera'u
         6Rerol 7ayoe 8(aynga)9(ne)
         10Ha 11ftxey
-        12'Awpot 13set 14ftxey 15ayngal 16a 17(l)17((u)) 18(aynga)19(kip)
+        12'Awpot 13set 14ftxey 15ayngal 16a 17(l)17{(u)} 18(aynga)19(kip)
         20'Awpot 21a 22Na'viru 23yomtìyìng.
       lookup_filter:
         2: 212:pn.:noaffix:nolen
@@ -59,7 +59,7 @@ inputs:
         1Lu 2nga 3win 4sì 5txur
         6Lu 7nga 8txantslusam
         9Livu 10win 11sì 12txur 13oe 14zene
-        15Ha 16(n)16((ì))16('aw)
+        15Ha 16(n)16{(ì)}16('aw)
         17Pxan 18livu 19txo 20nì'aw 21oe 22ngari
         23Tsakrr 24nga 25Na'viru 26yomtìyìng.
       lookup_filter:

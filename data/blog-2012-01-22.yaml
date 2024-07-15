@@ -40,7 +40,7 @@ inputs:
       translations:
         en: |-
             1They 3(divided up) 2(the meat) 4equally.
-            ((They shared the meat.))
+            {(They shared the meat.)}
     - id: -mZdnlSLQcGbR08sJeAnKg
       text: 1Nìtrrtrr 2pxìmun'i 3samsiyul 4ayswizawit 5kutuä 6alawnätxayn 7(sno)8(kip) 9nì'eng.
       translations:
@@ -98,13 +98,13 @@ inputs:
       translations:
         en: 3When 1will 2(the sun) 1(come up)?
     - id: 7KRYIsqDTg2RlQo2aDeMbQ
-      text: 1Tsawke 2fpxeräkìm (()3nemfa 4taw()).
+      text: 1Tsawke 2fpxeräkìm {(}3nemfa 4taw{)}.
       lookup_filter:
         4: 2020:n.:noaffix:nolen
       translations:
         en: 1(The sun) 2+3+4(is rising).
     - id: j2UjbycfTRGBUACYOblKVg
-      text: 1Tsaysanhì 2hayum 3ye'rìn (()4(taw)5(ftu)()).
+      text: 1Tsaysanhì 2hayum 3ye'rìn {(}4(taw)5(ftu){)}.
       lookup_filter:
         4: 2020:n.:noaffix:nolen
       translations:
@@ -112,7 +112,7 @@ inputs:
     - id: kPKOOE52RzufW6qVV4vhQA
       text: 1Ngeyä 2sämokìri 3akosman 4seiyi 5oe 4irayo-.
       translations:
-        en: 4Thanks 3(for that) 4excellent 3suggestion 1((of yours)).
+        en: 4Thanks 3(for that) 4excellent 3suggestion 1{(of yours)}.
     - id: S77NSZgHQDuUdooovPn10w
       text: 1Nga 2mal 3lu 4oer.
       translations:

@@ -10,7 +10,7 @@ inputs:
       translations:
         en: |-
             2I 1want 3this 4or 5that.
-            ((In other words, I'll take either choice—they're both OK.))
+            {(In other words, I'll take either choice—they're both OK.)}
     - id: MTJmciKsTWqeQ8NrsEEDag
       text: 1Nulnew 2ngal 3fu 4fì'ut 5fu 6tsa'ut?
       translations:

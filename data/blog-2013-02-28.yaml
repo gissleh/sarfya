@@ -31,7 +31,7 @@ inputs:
       lookup_filter:
         4: 1312:adv.:noaffix:nolen
       translations:
-        en: 1Yes, 2(the wound) 3is 4very 3painful, 5but 8(I)7('m) 6not 9(in the least) 7(suffering emotionally) ((i.e., my mental state is fine)).
+        en: 1Yes, 2(the wound) 3is 4very 3painful, 5but 8(I)7('m) 6not 9(in the least) 7(suffering emotionally) {(i.e., my mental state is fine)}.
     - id: e_PXnMkiTtahYuOy-kkUNw
       text: 1Tìsraw 2letokx 3sì 4tìngusä'än 5pxìm 6täpare 7fìtsap.
       translations:
@@ -65,7 +65,7 @@ inputs:
       translations:
         en: |-
             1To 2aim 4is 3not 4enough; one 5must 7release 6(the arrow).
-            ((Intent is not enough; it's action that counts.))
+            {(Intent is not enough; it's action that counts.)}
       flags:
         - proverb
     - id: B09zL9AoRku0z9Iy4B4OuQ
@@ -76,6 +76,6 @@ inputs:
       translations:
         en: |-
             2One 1butt 3+4can't 5sit 6on 7(the backs) 8(of two direhorses).
-            ((You can't take both positions or sit on the fence; you need to decide.))
+            {(You can't take both positions or sit on the fence; you need to decide.)}
       flags:
         - proverb

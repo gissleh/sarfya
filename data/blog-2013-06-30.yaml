@@ -23,7 +23,7 @@ inputs:
       lookup_filter:
         13: 2476:vim.:noaffix:nolen
       translations:
-        en: 8(The )8((5-day))8( week) 2I 1spent 4with 2my 3friends 6in 5Berlin 9is 10(a treasure) 11that I13+14'll 12+15never 13+14forget.
+        en: 8(The )8{(5-day)}8( week) 2I 1spent 4with 2my 3friends 6in 5Berlin 9is 10(a treasure) 11that I13+14'll 12+15never 13+14forget.
     - id: QQSf0Kh_TBKNC5lR8tC2tQ
       text: 1Oel 2'upxaret 3tsmukanur 4oeyä 5fpole'.
       translations:
@@ -44,4 +44,4 @@ inputs:
       lookup_filter:
         6: 460:pn.:-r:nolen
       translations:
-        en: 1+2Eytukan, 4I 3have 5(something to say) 6((to everyone)).
+        en: 1+2Eytukan, 4I 3have 5(something to say) 6{(to everyone)}.

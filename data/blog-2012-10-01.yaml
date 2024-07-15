@@ -10,43 +10,43 @@ inputs:
       lookup_filter:
         4: 8240:pn.:noaffix:nolen
       translations:
-        en: 1Va'ru 2treats 4his 3ikran 5like 6(a member) 7(of the family) 2((and I don't approve)).
+        en: 1Va'ru 2treats 4his 3ikran 5like 6(a member) 7(of the family) 2{(and I don't approve)}.
     - id: PNtTl4YvSvSWPwjaD8FZLQ
       text: 1Peyralìl 2zet 3wura 4wutsot 5a'awnem 6pxel 7sngel.
       translations:
         en: |-
             1Peyral 2treats 4a 3cool 5cooked 4meal 6like 7garbage.
-            ((Peyral won't eat a cooked meal that isn't still warm.))
+            {(Peyral won't eat a cooked meal that isn't still warm.)}
     - id: hzepezLlQNuuCd6Mibq5Dw
       text: 1Pol 2zeret 3oeti 4pxel 5tute 6a 7ke 8inan 9pot.
       translations:
         en: |-
             1He's 2treating 3me 4like 5(a person) 6who 7doesn't 8read 9him.
-            ((He's treating me like I don't know him.))
+            {(He's treating me like I don't know him.)}
     - id: Xg3AANPWTNOnboP6WtAYow
       text: 1Pol 2zolet 3oeyä 4säfpìlit 5pxel 6pum 7a 8tìngäzìkit 9ngop.
       translations:
         en: |-
             1He 2treated 3my 4idea 5as 6(one—i.e., an idea)—7that 9creates 8(a problem).
-            ((He treated my idea as though it created a problem.))
+            {(He treated my idea as though it created a problem.)}
     - id: Narn1Dt2TGqjlz_MFVbzSA
       text: 1Tsenu 2sì 3(N|Loak) 4fìtsap 5ke 6ha' 7kaw'it.
       translations:
         en: |-
             1Tsenu 2and 3Loak 5+6+7(are a terrible match) 4(for each other).
-            ((Their personalities don't mesh, but neither one is “to blame.” The source of the mismatch is equally divided between Tsenu and Loak.))
+            {(Their personalities don't mesh, but neither one is “to blame.” The source of the mismatch is equally divided between Tsenu and Loak.)}
     - id: LbsmtrcvQBaUfaHXK2eRxg
       text: 1Tsenu 2(N-ur|Loakur) 3ke 4ha'.
       translations:
         en: |-
             1Tsenu 3+4(is a bad match) 2(for Loak).
-            ((Here the speaker is identifying Tsenu as the source of the mismatch. Loak is in the dative.))
+            {(Here the speaker is identifying Tsenu as the source of the mismatch. Loak is in the dative.)}
     - id: U2kJ_Q0PTliNYV3ir1Tjhw
       text: 1Tsenur 2(N|Loak) 3ke 4hänga'.
       translations:
         en: |-
             2Loak 3+4(isn't good for) 1Tsenu.
-            ((Here the source of the problem is Loak. The speaker is more concerned for Tsenu and is unhappy that she and Loak remain in a relationship.))
+            {(Here the source of the problem is Loak. The speaker is more concerned for Tsenu and is unhappy that she and Loak remain in a relationship.)}
     - id: 0WNYHWNyTS6Ojc4yhd_ZJQ
       text: 1Hufwa 2ngeyä 3tìhawlìri 4ke 5lu 6kea 7kxeyey, 8tsalsungay 9oeru 10ke 11ha' 12nìtam.
       translations:
@@ -60,7 +60,7 @@ inputs:
       translations:
         en: |-
             1True. 2(That color) 3is 4(a bit) 3odd, 5but 7I 6like it, 8so 9(it's a good fit for) 7me.
-            ((I intend to wear that article of clothing anyway.))
+            {(I intend to wear that article of clothing anyway.)}
     - id: vYV63GZmTdWG00vz4Yr2SA
       text: 1Tsranten 2frato 3a 4syon 5tsamsiyuä 6lu 7tìtstew.
       translations:
@@ -143,7 +143,7 @@ inputs:
       translations:
         en: 2+3dining 1room
     - id: mFlmk61xRKGrAy6-P0bLmw
-      text: 1((sno))1+2(mo) 3a 4hahaw
+      text: 1{(sno)}1+2(mo) 3a 4hahaw
       translations:
         en: 1+2+3+4bedroom
     - id: 11fDd0zATlGQfduD2dUmDw
