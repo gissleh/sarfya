@@ -40,7 +40,6 @@ func createDemo(dictionary sarfya.Dictionary) *sarfya.FilterMatch {
 
 	return &sarfya.FilterMatch{
 		Example:             *demoData,
-		Selections:          []int{},
 		Spans:               [][]int{},
 		TranslationAdjacent: map[string][][]int{"en": {}},
 		TranslationSpans: map[string][][]int{
