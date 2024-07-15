@@ -24,7 +24,7 @@ func Examples(group *echo.Group, svc *service.Service) {
 		}
 
 		duration := time.Since(startTime)
-		if duration > time.Millisecond*30 {
+		if duration > time.Millisecond*100 {
 			log.Printf("Slow! %#+v exectured in %s", search, time.Since(startTime))
 		}
 

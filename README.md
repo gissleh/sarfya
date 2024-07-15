@@ -2,16 +2,16 @@
 
 I developed this tool to be able to efficiently find the usages of Na'vi words in canon and approved examples.
 
-It is not yet ready for prime time, but I am sharing it for local testing and demonstration.
-
-The web frontend is held together by duct tape, tsatseng lu hì'ang apxay!
+The svelte frontend is held together by duct tape, and it is only meant for editing the content in the `data/` folder for now.
 
 ## License
 
 The project code and annotations in `./data` falls under the ISC license.
 The text used in `./data` is the property of their original authors.
 
-## Quick Start
+## Instructions
+
+### Dev (read/write) server
 
 You need Go >= 1.18 to run the backend.
 
@@ -19,10 +19,11 @@ You need Go >= 1.18 to run the backend.
 go run ./cmd/sarfya-dev-server/
 ```
 
-You can then load the less feature-rich static frontend at http://localhost:8080
+You can then load the read-only frontend at http://localhost:8080
 
-If you intend to check out the editor, you need the svelte frontend.
+If you intend to use the editor, you need the svelte frontend for now.
 Run these commands to get started with it. I have not tested with Node.JS < v18
+Follow the instructions on the screen to open the page.
 
 ```bash
 cd frontend/
@@ -30,8 +31,28 @@ npm install
 env VITE_ENABLE_EDITOR=true VITE_BACKEND_URL="http://localhost:8080" npm run dev
 ```
 
-### 3. Preview
-Open a browser and navigate to 
+### Prod (readonly) server
+
+The minimum you need to run the application in a readonly form is this.
+You can then 
+
+```bash
+go build -ldflags "-w -s" ./cmd/sarfya-prod-server/
+go run ./cmd/sarfya-generate-json/
+zip -r sarfya-prod-server.zip sarfya-prod-server data-compiled.json dictionary-v2.txt
+```
+
+### Lambda
+
+You can set this up with a `API Gateway proxy event`.
+It is currently not working with most of the operator shorthands when filtering,
+but it will work.
+
+```bash
+go run ./cmd/sarfya-generate-json/
+go build -o bootstrap -ldflags "-w -s" ./cmd/sarfya-aws-lambda/
+zip -r sarfya-aws-lambda.zip bootstrap data-compiled.json dictionary-v2.txt
+```
 
 ## Project structure
 

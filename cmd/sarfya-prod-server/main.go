@@ -2,8 +2,6 @@ package main
 
 import (
 	"flag"
-	"github.com/aws/aws-lambda-go/lambda"
-	echoadapter "github.com/awslabs/aws-lambda-go-api-proxy/echo"
 	"github.com/gissleh/sarfya"
 	"github.com/gissleh/sarfya/adapters/fwewdictionary"
 	"github.com/gissleh/sarfya/adapters/jsonstorage"
@@ -12,9 +10,13 @@ import (
 	"github.com/gissleh/sarfya/adapters/webapi"
 	"github.com/gissleh/sarfya/service"
 	"log"
+	"os"
+	"os/signal"
+	"syscall"
 )
 
 var flagSourceFile = flag.String("source-file", "./data-compiled.json", "File containing data.")
+var flagListenAddr = flag.String("listen", ":8080", "Listen address")
 
 func main() {
 	dict := sarfya.CombinedDictionary{
@@ -29,11 +31,21 @@ func main() {
 	}
 
 	svc := &service.Service{Dictionary: dict, Storage: storage, ReadOnly: true}
-	api := webapi.SetupWithoutListener()
+	api, errCh := webapi.Setup(*flagListenAddr)
 
 	webapi.Utils(api.Group("/api/utils"), dict)
 	webapi.Examples(api.Group("/api/examples"), svc)
 	templfrontend.Endpoints(api.Group(""), svc)
 
-	lambda.Start(echoadapter.New(api).ProxyWithContext)
+	log.Println("Listening on", *flagListenAddr)
+
+	signalCh := make(chan os.Signal, 1)
+	signal.Notify(signalCh, syscall.SIGINT, syscall.SIGTERM)
+
+	select {
+	case sig := <-signalCh:
+		log.Println("Shutting down due to signal:", sig)
+	case err := <-errCh:
+		log.Fatal("Failed to listen:", err)
+	}
 }
