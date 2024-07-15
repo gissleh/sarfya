@@ -15,7 +15,7 @@ inputs:
       text: 1Pamrelfyari 2fyape?
       translations:
         en: |-
-            1(As for (its)( spelling), )2how?
+            1(As for )1((its))1( spelling), 2how?
             ((How do you spell it?))
     - id: 7xwG10d5TtaWAlqB__Z4YQ
       text: 1Pamrel 2fyape?

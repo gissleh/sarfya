@@ -78,7 +78,7 @@ inputs:
       lookup_filter:
         4: 1312:adv.:noaffix:nolen
       translations:
-        en: 2His 1imaginings 3+4(are (unpleasantly)( weird).)
+        en: 2His 1imaginings 3+4(are )3+4((unpleasantly))3+4( weird)).
     - id: 3AYwxEGVQj2extlM-c6BsA
       text: 1Lu 2poru 3tìronsrel 4atxanatan.
       translations:
