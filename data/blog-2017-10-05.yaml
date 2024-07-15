@@ -1,0 +1,24 @@
+source:
+    id: blog-2017-10-05
+    date: "2017-10-05"
+    url: https://naviteri.org/2017/10/more-language-for-talking-about-language/
+    title: More language for talking about language
+    author: Paul Frommer
+inputs:
+    - id: 2PnjPoUWQqmMCjQ6xbfKzA
+      text: 1Oeyä 2'eylanìl 3alu 4Va'ru 5lora 6fkxilet 7amip 8tolìng 9sneyä 10'iteru.
+      lookup_filter:
+        9: 8240:pn.:noaffix:nolen
+      translations:
+        en: 1My 2friend 3+4Va'ru 8gave 9his 10daughter 6a 5beautiful 7new 6necklace.
+    - id: fznpbSMET9OCkUvzs8kHzg
+      text: 1Lu 2tsalì'ur 3alu 4fìhawre'ti 5tsìnga 6lì'kong.
+      translations:
+        en: 1(The word) 3+4fìhawre'ti 1has 5four 6syllables.
+    - id: VijwUz5QSK2KNaQgRxw-2A
+      text: 1Txampxì 2faylì'uä 3ftu 4eltu 5peyä 6zola'u.
+      translations: {}
+    - id: uHJhSbXnTxymgXHH-S5gBQ
+      text: 1Lu 2tsalì'ur 3alu 4fìhawre'ti 5melì'uvi 6alu 7'awa 8eolì'uvi 9sì 10'awa 11uolì'uvi.
+      translations:
+        en: 2(The word) 3+4fìhawre'ti 1has 5+6(two affixes)—7one 8prefix 9and 10one 11suffix.

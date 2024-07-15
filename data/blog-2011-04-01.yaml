@@ -1,0 +1,72 @@
+source:
+    id: blog-2011-04-01
+    date: "2011-04-01"
+    url: https://naviteri.org/2011/04/yafkeykiri-plltxe-frapo-everyone-talks-about-the-weather/
+    title: Yafkeykìri pängkxo frapo — Everyone talks about the weather
+    author: Paul Frommer
+inputs:
+    - id: tKnHSx0ZSwuX_4E4nO8_8Q
+      text: 1Ngal 2fwerew 3a 4tute 5ke 6fkeytok.
+      translations:
+        en: 4The( person) )1(you)2+3('re looking for) 5doesn't 6exist.'
+    - id: OrsXIEV9QXel4cngFdkqgA
+      text: 1Tìfkeytok 2lefkrr 3lehrrap 4lu 5nìtxan.
+      lookup_filter:
+        5: 1312:adv.:noaffix:nolen
+      translations:
+        en: 1The 2current 1situation 4is 5very 3dangerous.
+    - id: GGtfPXo7RB6YMR_DhXgsXA
+      text: 1Kilvanä 2tìfkeytok 3lu 4fyape 5fìtrr?
+      lookup_filter:
+        5: 4280:adv.:noaffix:nolen
+      translations:
+        en: 4(What)3('s) 2(the condition) 1(of the river) 5today?
+    - id: s63uFNIVSMS9HckiLoFf6w
+      text: 1Kilvanfkeyk 2lu 3fyape 4fìtrr?
+      lookup_filter:
+        4: 4280:adv.:noaffix:nolen
+      translations:
+        en: 3(What)2('s) 1(the condition of the river) 4today?
+    - id: bc2ww5eSQFy__LfgtA5RIQ
+      text: 1Sawtuteri 2ronsemfkeykit 3ke 4tsun 5kawtu 6tslivam.
+      lookup_filter:
+        4: 2476:vim.:noaffix:nolen
+      translations:
+        en: 3+5(No one) 4can 6understand 2(the state of mind) 1(of the Sky People).
+    - id: sCFZtCkCRSaZlzJJ1ZrdQg
+      text: 1Yafkeyk 2za'u 3fyape/4pefya?
+      lookup_filter:
+        1: 7360:n.:noaffix:nolen
+      translations:
+        en: 3+4How 2+1(is the weather)?
+    - id: MPCt9wp0RM6Htjz6UZauHg
+      text: 1Yafkeyk 2pefya?
+      lookup_filter:
+        1: 7360:n.:noaffix:nolen
+      translations:
+        en: 2How's 1(the weather)?
+    - id: YZKchvWVSri-Ciw2-zOQxA
+      text: 1Zerup 2tompa.
+      translations:
+        en: 1+2(It's raining).
+    - id: jbkyoJ_USBSvAohRaAmRYg
+      text: 1Herwì 2zereiup 3fìtrro 4nìwotx!
+      translations:
+        en: |-
+            1+2(It's been snowing) 4all 3day!
+            ((Said by, for example, a skier.))
+    - id: Ed39S2MrTEKdKxcW7A1_FQ
+      text: 1Fìrewon 2tompameyp 3zarmup, 4slä 5set 6'ìmeko 7nìtxan 8nang!
+      lookup_filter:
+        7: 1312:adv.:noaffix:nolen
+      translations:
+        en: 2+3(It was drizzling) 1(this morning), 4but 6it's 7really 6(started coming down) 5(now)8(!)
+    - id: s28ghubzTMW0WpU6YFvx4A
+      text: 1Oeri 2aysompìva 3sìn 4re'o 5var 6zivup.
+      lookup_filter:
+        3: 4048:adp.:noaffix:nolen
+      translations: {}
+    - id: JLdpk_MJSzOUr6GIjp9rfA
+      text: 1Ngari/2Ngeyä 3tìfkeytok 4((lu)) 5fyape?
+      translations:
+        en: 5How 3+4are 1+2you 3+4doing?

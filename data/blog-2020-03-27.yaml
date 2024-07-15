@@ -1,0 +1,68 @@
+source:
+    id: blog-2020-03-27
+    date: "2020-03-27"
+    url: https://naviteri.org/2020/03/mipa-sawasultsyip-a-new-contest/
+    title: Mipa Säwäsultsyìp! A New Contest!
+    author: Paul Frommer
+inputs:
+    - id: BM8aj0npQYe4kDVyNsdT-A
+      text: 1Furia 2inan 3ayngeyä 4aysängopit 5leNa'vi, 6oe 7srefereiey 8nìprrte'!
+      lookup_filter:
+        3: 208:pn.:-yä:nolen
+        8: 5588:adv.:noaffix:nolen
+      translations: {}
+    - id: vLxca6j8QouKIQd0BE4DHQ
+      text: 1(Tstunkem si) 2oer 3rutxe.
+      translations:
+        en: 3Please 2do 3me 2(a favor).
+    - id: F3oGZBk9ScmrNAqGRgffoQ
+      text: 1Tung 2oer 3futa 4vin 5tstunkemit 6(nga)7+6(ta).
+      lookup_filter:
+        1: 2284:vtr.:noaffix:nolen
+      translations:
+        en: 1+3Let 2me 4ask 6+7you 5(a favor).
+    - id: lJ5dUzOERSG1DkUCcAum_w
+      text: 1Ma 2eylan 3ayawne, 4kaltxì. 5Sìlpey 6oe, 7ayngaru 8livu 9fpom 10nìwotx. 11(Tutanur|Tsyanur) 12sì 13oeru 14leiu 15fpom 16sì 17fra'u 18a 19kin.
+      lookup_filter:
+        5: 1800:vin.:noaffix:nolen
+        7: 208:pn.:-ru:nolen
+        17: 452:pn.:noaffix:nolen
+      translations:
+        en: 4Hello, 3dear 1+2friends. 6I 5hope 7+8+9+10(you're well). 11John 12and 13I 14are 15fine 16and 14have 17everything 11+13we 18+19need.
+    - id: Tyw0DyimRnmVILq_io7Nww
+      text: 1Kezemplltxe, 2talun 3tìvirä 4fìsäspxinä 5alu koronavirusì, 6lolatängem 7kifkey, 8lolatängem 9tìrey. 10Ulte 11zusawkrrìri 12(txopu si) 13tute 14apxay. 15Kxawm 16set 17'u 18angäzìk 19frato 20lu 21la'a 22ayll. 23Zene 24awnga 25ro 26helku 27'ivì'awn. 28Ke 29tsun 30wrrkivä 31fte 32(tìkangkem sivi). 33Ke 34tsun 35mäpiveyam 36fìtsap.
+      lookup_filter:
+        2: 9084:adp.:noaffix:nolen
+        29: 2476:vim.:noaffix:nolen
+        34: 2476:vim.:noaffix:nolen
+      translations:
+        en: 1(Needless to say), 2(due to) 3+4+5(the coronavirus), 7(the world) 6(has changed), 9life 8(has changed). 11And 14many 13people 12fear 11(for the future). 15Perhaps 17the 19most 18difficult 17thing 19(of all) 16(right now) 20is 21+22(the social distancing). 24We 23(have to) 27stay 25at 26home. 24We 28+29can't 30(go out) 31to 32work. 24We 33+34can't 35hug 36(each other).
+    - id: -RJwlwZbTSqLdq4tIl9C_A
+      text: 1Ha 2new 3oe 4ayngaru 5pivlltxe 6san 7Siva 8ko! 9Fìsäspxinìl 10ke 11txayung 12awngey 13sìreyti 14(tì'i'a)23(vay) 15krrä. 16Aysìngäzìk 17lefkrr 18'ayìp, 19srayer 20nìmun 21tìrey 22letrrtrr.
+      lookup_filter:
+        1: 540:conj.:noaffix:nolen
+        4: 208:pn.:-ru:nolen
+      translations:
+        en: '1So 3I 2(want to) 5+6say 4(to all of you): 7+8Courage! 9(This disease) 11will 10not 11disrupt 12our 13lives 14+15+23forever. 16The 17current 16difficulties 18(will vanish), 22ordinary 21life 19(will appear) 20again.'
+    - id: 7WzkR_VZQpy41eZV_W7Pvg
+      text: 1Tsakrrvay, 2ma 3smuk, 4rutxe 5livek 6aysänumet 7sì 8horenit 9amip. 10'Ì'awn 11ro 12helku 13pxìm 14txantxewvay. 15Yur 16mesyokxit 17alo 18apxay 19krrka 20trr. 21Ftu 22sute 23alahe 24fmi 25neto 26rivikx 27nì'it. 28Ulte 29txo 30smivon 31ngar 32ayhoaktu, 33ftxey 34(soaia)50(mì) 35ftxey 36sko 38eylan, 39foti 40palang 41fte 42tsivun 43ivomum 44teyngta 45ftxey 46lu 47foru 48fpom 49fuke.
+      lookup_filter:
+        1: 5012:adv.:noaffix:nolen
+        14: 9372:adv.:noaffix:nolen
+        19: 10144:adp.:noaffix:nolen
+        33: 4456:conj.:noaffix:nolen
+        35: 4456:conj.:noaffix:nolen
+        36: 8740:adp.:noaffix:nolen
+        39: 412:pn.:-ti:nolen
+        45: 4456:conj.:noaffix:nolen
+        47: 412:pn.:-ru:nolen
+      translations:
+        en: 1(In the meantime), 2+3(brothers and sisters), 4please 5follow 6the 9new 6guidelines 7and 8rules. 10+11Stay 12home 14as 13often 14(as possible). 15Wash your 16hands 18many 17+19+20((times a day)). 24+25+26(Keep back) 27(a bit) 21from 23other 22people. 28And 29if 30+31(you know) 32(older folks), 33whether 50in your 34family 35or 36as 38friends, 40contact 39them 41to 42+43+44(find out) 45+49if 46+47+48(they're well).
+    - id: S2mcvH4OTyCdDItf0uvGuQ
+      text: 1Fmal 2tìkxuket, 3ma 4eylan, 5ulte 6var 7livu 8lefpomtokx.
+      translations:
+        en: 1+2(Stay safe), 3+4friends, 5and 6+7stay 8healthy.
+    - id: w5EXCSWiTxWCL9PvNFZXvg
+      text: 1Eywa 2(awnga)4(hu) 3nìwotx.
+      translations:
+        en: May 1Eywa be 4with 2us 3all.

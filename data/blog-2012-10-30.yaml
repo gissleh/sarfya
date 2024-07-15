@@ -1,0 +1,23 @@
+source:
+    id: blog-2012-10-30
+    date: "2012-10-30"
+    url: https://naviteri.org/2012/10/txon-eywaevenga-text-and-translation/
+    title: 'Txon Eywa’evengä: Text and Translation'
+    author: Tirea Aean, Paul Frommer
+inputs:
+    - id: o6QLQ9KDRNm10Vy1mArjdQ
+      text: 1Srake 2tsolun 3fra'ut 4tslivam 5(kxeyey)6(luke)?
+      lookup_filter:
+        3: 452:pn.:-t:nolen
+      translations: {}
+    - id: 9BlTpYXBRP6_64j3U5vXMg
+      text: 1Txon 2Eywa'evengä. 3Na'rìng 4fa 5tìrey 6teya 7leiu. 8Pxaya 9swirä 10sì 11ioang 12tìran, 13taron, 14sì 15wem 16fte 17emrivey. 18Ayewll 19nrr 20fte 21syuratanit 22akosman 23tivìng 24na'rìngur. 25Kenten 26mìn, 27pay 28rikx 29äo 30eana 31syuratan. 32Lena'via 33'evengan 34tìran 35(tìkan)36(luke) 37kxamlä 38na'rìng 39fte 40'ivefu 41fpomit 42ulte 43tsive'a 44txonä 45tìreyit 46alor. 47Pol 48aysmìmit 49a 50nrr 51ngop 52sìn 53txura 54ayvul 55tsawla 56ayutralä. 57Lora 58'opin 59(aean)-60(na)-61ta'leng 89(teya si) 92tawur. 62Kifkey 63apxa 64kllkxem 65nìtxur 66hu 67sneyä 68smuk 69sì 70sanhì 71a 72fìtxan 73hì'i 74lam. 75'Evenganìl 76lok 77'orat 78ulte 79fpìl 80teri 81tìlor 82kifkeyä. 83Fìpori 84a 85syaw 86fko 87(N|Zuvo) 88(lrrtok si) 90Eywa.
+      lookup_filter:
+        27: 1480:n.:noaffix:nolen
+        46: 1024:adj.:a-:nolen
+        52: 4048:adp.:noaffix:nolen
+        67: 8240:pn.:noaffix:nolen
+        76: 1008:vtr.:noaffix:nolen
+        83: 356:pn.:-ri:nolen
+      translations:
+        en: 1Night 2(of Pandora). 3(The forest) 7is 6full 4of 5life. 8Many 9creatures 10and 11beasts 12walk, 13hunt, 14and 15fight 16to 17survive. 18Plants 19glow 20to 23give 22wonderful 21bioluminescence 24(to the forest). 25(Fan lizards) 26turn, 27water 28flows 29under 31the 30blue 31(bioluminescent light). 33A 32Na'vi 33boy 34walks 35+36aimlessly 37through 38(the forest) 39to 40feel 41peace 42and 43(to see) 44(the night's) 46beautiful 45life. 47He 51makes 49+50glowing 48(foot tracks) 52on 54the 53strong 54branches 56(of a) 55tall 56tree. 58A 57beautiful 59+60+61skin-blue 58color 89fills 92(the sky), 62the 63large 62world 64stands 65strong 66with 67his 68siblings 69and 70(the stars) 71which 74seem 72so 73small. 75(The boy) 76approaches 77(a lake) 78and 79thinks 80about 81(the beauty) 82(of the world). 90Eywa 88smiles 83(upon this one), 84who 85+86(is called) 87Zuvo.

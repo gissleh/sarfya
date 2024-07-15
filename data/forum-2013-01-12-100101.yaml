@@ -1,0 +1,23 @@
+source:
+    id: forum-2013-01-12-100101
+    date: "2013-01-12"
+    url: https://forum.learnnavi.org/language-updates/ftarpa-and-skienpa-added-to-dict/
+    title: 'ftärpa and skiempa added to dict. '
+    author: Paul Frommer (via Toruk Makto)
+inputs:
+    - id: 6SPTVF2pQs61mupV7vXQpg
+      text: 1Mìn 2ne 3ftärpa.
+      translations:
+        en: 1Turn 2to 3(the left).
+    - id: xhkzZhOISaKnP2LNIRG41w
+      text: 1Pol 2rumit 3kolìm.
+      translations:
+        en: 1He 3spun 2(the ball).
+    - id: ddUg2RSdSZCg6VZ9w-1VVg
+      text: 1Kunsìpìri 2txana 3tìmeyp 4lu 5tsyal 6a 7mìn.
+      translations:
+        en: 1(The gunship's) 2+3(main weakness) 4is 5+6+7(the rotor system).
+    - id: 4qezUunTTdG5NzXRTBxrbw
+      text: 1Mìn 2ne 3skiempa
+      translations:
+        en: 1Turn 2to 3(the right).

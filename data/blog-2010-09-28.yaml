@@ -1,0 +1,142 @@
+source:
+    id: blog-2010-09-28
+    date: "2010-09-28"
+    url: https://naviteri.org/2010/09/getting-to-know-you-part-2/
+    title: Getting to Know You, Part 2
+    author: Paul Frommer
+inputs:
+    - id: vVwbJPOYQMCvf95zVGKgzg
+      text: 1Hìtxoa, 2ke 3tslolam. 4Rutxe 5liveyn.
+      lookup_filter:
+        3: 2424:vtr.:<ol>:nolen
+      translations:
+        en: 1Sorry, I 2didn't 3(get that). 4(Could you) 5repeat it, 4please?
+    - id: XJXxXDekTF28jA4FP33pFA
+      text: 1Ke 2tslolatsam.
+      translations:
+        en: I 2may 1not 2(have understood).
+    - id: TGZ78zkKTSizqXAu6i6lNg
+      text: 1Nìprrte'. 2Poltxe 3san . . .
+      lookup_filter:
+        1: 5588:adv.:noaffix:nolen
+      translations:
+        en: 1Sure. 1((Gladly. With pleasure.)) 2(What I said) 3was . . .
+    - id: Pi-qNTiSReKZ3golkS8gfQ
+      text: 1Tsun 2nga 3(law sivi) 4nì'it 5srak?
+      translations:
+        en: |-
+            1Could 2you 3(make that) 4(a bit) 3(clearer)5(?)
+            ((Could you explain that further?))
+    - id: vACm8cNIR8GKTkazwmk90w
+      text: 1Tsalì'uri 2alu 3X, 4ral 5lu 6'upe?
+      translations:
+        en: 4+5+6(What does) 1(the word) 2+3X 4+5+6mean?
+      flags:
+        - syntax
+    - id: ZvXyyUAMQm2G-TqOsxI4YA
+      text: 1X-ìri 2peral?
+      translations:
+        en: 2(What does) 1X 2mean?
+      flags:
+        - syntax
+    - id: QnPrGC3YR1eqMUNuhhPLPQ
+      text: 1Nga 2läpivawk 3nì'it 4nì'ul 5ko.
+      translations:
+        en: 2Tell 5me 3(a bit) 4more 2about 1(your)2(self).
+    - id: lUQQckGOTymg88eLhicb5A
+      text: 1Nga 2läpivawk 3nìno 4ko.
+      translations:
+        en: 2Tell 4me 3all 2about 1(you)2(rself).
+    - id: aUYxVz0jSw2iRqSk0C9hyw
+      text: 1Pol 2ngop 3frakrr 4sìkenongit 5a 6hìno 7lu 8nìhawng.
+      lookup_filter:
+        3: 456:adv.:noaffix:nolen
+      translations:
+        en: 1He 3always 2creates 8excessively 5+6+7detailed 4examples.
+    - id: qfMq8u3zTy-2xZJ8wnpYig
+      text: 1Leno 2lu 3(N|Loak) 4nìtxan.
+      lookup_filter:
+        4: 1312:adv.:noaffix:nolen
+      translations:
+        en: 3Loak 2is 4very 1thorough.
+    - id: coqK655sR6ehz_BIxmsmzw
+      text: 1Längu 2tìkangkem 3feyä 4luke 5tìno.
+      lookup_filter:
+        3: 412:pn.:-yä:nolen
+        5: 6804:n.:noaffix:nolen
+      translations:
+        en: 1(Unfortunately there is) 4no 5(attention to detail) 4in 3their 2work.
+    - id: C1RAlEeAR_2ChIlSCcmuKQ
+      text: 1((Ngari)) 2solalew 3(polpxay|polpxaya) 4((zìsìt))?
+      translations:
+        en: |-
+            1(As for you), 3(how many) 4years 2(have passed)?
+            ((How old are you?))
+    - id: D0cKrRm5Q_SVx4VJnN9pxw
+      text: 1Oeri 2solalew 3zìsìt 4apxevol.
+      translations:
+        en: 1(I)2('m) 4(24) 3years 2old.
+    - id: Tz9rYXrKQbeyvm8J2z2VPA
+      text: 1Nga 2(z)2((ol))2(a'u) 3ftu 4peseng
+      lookup_filter:
+        4: 1520:inter.:noaffix:nolen
+      translations:
+        en: 4Where 2+3are 1you 2+3from?
+    - id: 6znXH9ZHREyH8DuGjXNFSg
+      text: 1Oe 2'olongokx 3mì 4sray 5a 6txampayìri 7sim, 8slä 9set 10(kelku si) 11mì 12Helutral.
+      lookup_filter:
+        7: 3816:vin.:noaffix:nolen
+      translations:
+        en: 1I 2(was born) 3in 4(a town) 5+7near 6(the ocean), 8but 1I 9now 10live 11in 12Hometree.
+    - id: kGZJhvS0QcigFp6zl9CyZg
+      text: 1Sa'nokìl 2oeyä 3tsmuket 4amip 5nolokx 6trram.
+      translations:
+        en: 1Mom 5(gave birth to) 2my 4new 3sister 6yesterday.
+    - id: weWv7lTGT3my7It9cLj_-g
+      text: 1Ngaru 2lu 3pefnetxintìn 4nìtrrtrr?
+      translations:
+        en: 3What 2is 1your 3+4(primary role) ((in society))?
+    - id: ddU4aG-UTFGns5HLCl4W_w
+      text: 1Oe 2lu 3numeyu.
+      lookup_filter:
+        3: 4800:n.:noaffix:nolen
+      translations:
+        en: 1I 2am 3(a student).
+    - id: 8QBElzoBSpytyOthLBjBMw
+      text: 1Oe 2lu 3taronyu.
+      lookup_filter:
+        3: 2008:n.:noaffix:nolen
+      translations:
+        en: 1I 2am 3(a hunter).
+    - id: vuBKoK5yTDewgdcLrAHQlg
+      text: 1Oe 2lu 3tsamsiyu.
+      translations:
+        en: 1I 2am 3(a warrior).
+    - id: b99CWEF_THKBLBVkkTBENQ
+      text: 1Oe 2lu 3karyu.
+      lookup_filter:
+        3: 716:n.:noaffix:nolen
+      translations:
+        en: 1I 2am 3(a teacher).
+    - id: rG0gKCBmQJOW29Ye3eL5og
+      text: 1Oe 2lu 3'emyu.
+      lookup_filter:
+        3: 6832:n.:noaffix:nolen
+      translations:
+        en: 1I 2am 3(a cook).
+    - id: U5zAX2D-TPWCLnl_hQNF_g
+      text: 1Oeyä 2txintìn 3lu 4fwa 5stä'nì 6fayoangit.
+      translations:
+        en: 1My 2(central societal occupation) 3is 4to 5catch 6fish.
+    - id: Ni4eLqBqTMqW6osIjN68TA
+      text: 1Oel 2vewng 3frrnenit.
+      translations:
+        en: 1I 2(look after) 3(the infants).
+    - id: iW_L838jS3Od8VGSlIdnPQ
+      text: 1Oel 2vewng 3aysngelit.
+      translations:
+        en: 1I 2(tend to) 3(the refuse).
+    - id: MQy0Yv22TLCZzNZR28anTw
+      text: 1Oel 2vewng 3futa 4ayeveng 5nivume 6teri 7ayewll 8na'rìngä.
+      translations:
+        en: 1I 2(see to) 3(it that) 4(the children) 5learn 6about 7the 8forest 7plants.

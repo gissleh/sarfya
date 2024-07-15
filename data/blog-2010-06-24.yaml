@@ -1,0 +1,64 @@
+source:
+    id: blog-2010-06-24
+    date: "2010-06-24"
+    url: https://naviteri.org/2010/06/first-post/
+    title: Zola’u nìprrte’! Welcome!
+    author: Paul Frommer
+inputs:
+    - id: 5GHSrorvTY2C_BzRELUftQ
+      text: 1Zola'u 2nìprrte' 3ayngaru 4nìwotx!
+      lookup_filter:
+        2: 5588:adv.:noaffix:nolen
+        3: 208:pn.:-ru:nolen
+      translations:
+        en: 1+2Welcome 3(to you) 4all!
+    - id: KRWohuZsS86AG5VZGS3Ltw
+      text: 1Tse . . . 2Nìawnomum, 3fwa 4oel 5fìtìkangkemvit 6sngeykivä'i 7krrnolekx 8nìtxan, 9slä 10nì'i'a 11tsun 12oe 13pivlltxe 14san 15Zola'u 16nìprrte' 17ne 18pìlok 19(M|Na’viteri) 20sìk! 21Tìmweypeyri 22ayngeyä 23seiyi 23irayo- 24nìngay. 25Sìlpey 26oe, 27awngeyä 28lì'fyaolo'ìri 29fìpìlok 30lìyevu 31pxan, 32ulte 33frapo—34ftxey 35sngä'iyu 36ftxey 37tsulfätu—38tsìyevun 39fìtsenge 40rivun 41'uot 42lesar.
+      lookup_filter:
+        8: 1312:adv.:noaffix:nolen
+        11: 2476:vim.:noaffix:nolen
+        16: 5588:adv.:noaffix:nolen
+        20: 1796:adv.:noaffix:nolen
+        22: 208:pn.:-yä:nolen
+        24: 1296:adv.:noaffix:nolen
+        25: 1800:vin.:noaffix:nolen
+        33: 460:pn.:noaffix:nolen
+        34: 4456:conj.:noaffix:nolen
+        36: 4456:conj.:noaffix:nolen
+        39: 365:adv., n.:noaffix:nolen
+      translations: {}
+    - id: lO_NI5MoQve0YKFNhDOWRw
+      text: 1Fayupxare 2layu 3(aysngä'iyu)4(fpi), 5fte 6lì'fyari 7awngeyä 8fo 9tsìyevun 10nìftue 11nìltsansì 12nivume.
+      lookup_filter:
+        8: 412:pn.:noaffix:nolen
+        10: 1272:adv.:noaffix:nolen
+      translations: {}
+    - id: UyXB_atvQq-uvAEYll1kjg
+      text: '1Ma 2oeyä 3eylan, 4faysänumviri 5rutxe 6fì''ut 7tslivam: 8Nìltsan 9omum 10oel 11futa 12ayhapxìtul 13lì''fyaolo''ä 14awngeyä 15txantsana 16aysänumvit 17ngolop 18fte 19aylaru 20kivar. 21Faysulfätuä 22tìkangkem 23oheru 24meuia 25luyu 26nìngay. 27Kllkxayem 28fìtìkangkem 29oeyä 30rofa—31ke 32io—33pum 34feyä.'
+      lookup_filter:
+        26: 1296:adv.:noaffix:nolen
+        34: 412:pn.:-yä:nolen
+      translations: {}
+    - id: 07Y7OWGnQc-nOHaO6tl5zg
+      text: 1Fayupxaremì 2oe 3payängkxo 4teri 5horen 6lì'fyayä 7leNa'vi 8fpi 9sute 10a 11tsun 12srekrr 13tsat 14sivar. 15Ayngeyä 16sìpawmìri 17kop 18fmayi 19fìtsenge 20tivìng 21sì'eyngit. 22Nìawnomum 23tolel 24oel 25ta 26ayhapxìtu 27lì'fyaolo'ä 28pxaya 29sìpawmit 30atxantsan 31a 32vay 33set 34ke 35'oleyng. 36Sìlpey 37oe 38tsnì 39tsìyevun 40nì'i'a 41(tsakem sivi) 42fìpìlokfa.
+      lookup_filter:
+        11: 2476:vim.:noaffix:nolen
+        15: 208:pn.:-yä:nolen
+        17: 10476:conj.:noaffix:nolen
+        19: 365:adv., n.:noaffix:nolen
+        23: 2056:vtr.:<ol>:nolen
+        36: 1800:vin.:noaffix:nolen
+      translations: {}
+    - id: eTIYqPfZSdKxAD6YCJxOXA
+      text: 1Lu 2law 3'uo 4alahe, 5ma 6eylan. 7(Krro krro) 8fìtsenge 9oe 10(tìkxey sayi). (()12Ke 13plltxe 14san 15(tìkxey sasyi|sasyi) 16sìk!()) 17Txo 18tsive'a 19ayngal 20keyeyt, 21rutxe 22oeru 23piveng 24fte 25tsivun 26oe 27sa'ut 28leykivatem.
+      lookup_filter:
+        8: 365:adv., n.:noaffix:nolen
+        16: 1796:adv.:noaffix:nolen
+        19: 208:pn.:-l:nolen
+      translations: {}
+    - id: fPQWh5udS_iXWeTg1yKZuw
+      text: 1Ha 2awnga 3sngivä'i 4ko! 5Ziva'u 6nìmun 7ye'rìn . . . 8tsakrr 9rayun 10ayngal 11ayupxaret 12amip.
+      lookup_filter:
+        1: 540:conj.:noaffix:nolen
+        10: 208:pn.:-l:nolen
+      translations: {}

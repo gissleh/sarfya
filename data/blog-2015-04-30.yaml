@@ -1,0 +1,115 @@
+source:
+    id: blog-2015-04-30
+    date: "2015-04-30"
+    url: https://naviteri.org/2015/04/some-new-words-for-may-day/
+    title: Some New Words for May Day
+    author: Paul Frommer
+inputs:
+    - id: 7N7Eq8kpRciOnAKuspAJGA
+      text: 1Tìkelu 2tìeyktanä 3asìltsan 4längu 5mì 6olo' 7awngeyä 8tìngäzìk.
+      translations:
+        en: 4Unfortunately, 1(the lack) 2of 3good 2leadership 5in 7our 6clan 4is 8(a problem).
+    - id: Ykf20ieqTDaz866MebzV9g
+      text: 1(Tompakel)2(talun) 3zene 4tute 5(M|Kälìforniayä) 6payit 7sivar 8nìnän.
+      lookup_filter:
+        2: 9084:adp.:noaffix:nolen
+        6: 1480:n.:-it:nolen
+      translations:
+        en: 2(Because of) 1(the drought), 4+5Californians 3(have to) 7use 8less 6water
+    - id: -zc02cYbSyWmi1oQuHSn7w
+      text: 1Tsafnepamtseo 2ke 3zawprrte' 4(oe)5(ne).
+      translations:
+        en: 4I 2+3+5(don't enjoy) 1(that kind of music).
+    - id: CpLwAFJ-T4KzH82PnFuzWA
+      text: 1Nga 2lu 3rolyu 4anawri 5slä 6Ninat 7lu 8pum 9aswey.
+      translations:
+        en: 1(You)2('re) 3a 4talented 3singer 5but 6Ninat 7is 8the 9best 8((one)).
+    - id: M6E105uUTaKVU2GL4TTmdg
+      text: 1Tìrusolìri 2ke 3lu 4oeru 5kea 6tìnawri 7kaw'it.
+      translations:
+        en: 4I 3have 2+5+7(absolutely no) 6talent 1(for singing).
+    - id: QmuEg1AtQSCdiQg9QcYKHQ
+      text: 1Rä'ä 2(tìng zekwä) 3oer!
+      translations:
+        en: 1Don't 2touch 3me!
+    - id: JXch-UcNQS2v-Q0LJYFzqA
+      text: 1Lu 2fìvul 3susyang 4nìtxan. 5Txo 6fko 7(tivìng zekwä) 8kxakx.
+      lookup_filter:
+        4: 1312:adv.:noaffix:nolen
+      translations:
+        en: 2(This branch) 1is 4very 3fragile. 5If 6you 7touch 2it, 2(it)8('ll break).
+    - id: UzDHkoN4RtKru8yEstJk8w
+      text: 1Rey'eng 2lu 3susyang.
+      translations:
+        en: 1(The balance of life) 2is 3fragile.
+    - id: 2CpzWLW7TBWY1wCdR62xsQ
+      text: 1Peioang 2tsun 3mì 4tampay 5kop 6mì 7reym 8rivey?
+      lookup_filter:
+        2: 2476:vim.:noaffix:nolen
+        5: 10476:conj.:noaffix:nolen
+      translations:
+        en: 1(What animal) 2can 8live both 3in 4(the sea) 5and 6on 7(the land)?
+    - id: YEInN485R32Yi1kIhk1pbw
+      text: 1Entu 2lu 3tuvoma 4taronyu. 5Kawtut 6na 7po 8ke 9tsole'a 10oel 11mì 12sìrey.
+      lookup_filter:
+        4: 2008:n.:noaffix:nolen
+      translations:
+        en: 1Entu 2is 4an 3incredible 4hunter. 10(I)9('ve) 8+11+12never 9seen 5anyone 6like 7him 8+11+12before.
+    - id: YZxoAeLwRsiQ7t8t1z4RcA
+      text: 1Sa'semìri 2lu 3'evengä 4kxitx 5yengwal 6atuvom.
+      translations:
+        en: 1(For a parent), 5the 6greatest 5sorrow 2is 4(the death) 3(of a child).
+    - id: JFymh5yuQ8yxm-jLqNP4sQ
+      text: 1Rini 2fmarmi 3hivifwo 4slä 5venu 6nolip 7äo 8tskxe.
+      translations:
+        en: 1Rini 2(tried to) 3escape 4but her 5foot 6(got caught) 7under 8(a rock).
+    - id: gqRCwuR4TUWzgxMIAuFrmA
+      text: 1Tsun 2fko 3sivar 4hänit 5fte 6payoangit 7stivä'nì.
+      lookup_filter:
+        1: 2476:vim.:noaffix:nolen
+      translations:
+        en: 2One 1can 3use 4(a net) 5to 7catch 6(a fish).
+    - id: hBroxXP-QLK2Xjnif8hF0g
+      text: 1Fìhì'angìl 2txula 3hänti 4fte 5smarit 6syivep.
+      translations:
+        en: 1(This insect) 2constructs 3(a web) 4to 6trap 1its 5prey.
+    - id: A1GBD-mBRnOFZHhMLUE0EA
+      text: 1Rum 2'olrrko 3(oe)5(ne) 4(kllte)6(sìn).
+      lookup_filter:
+        6: 4048:adp.:noaffix:nolen
+      translations:
+        en: 1(The ball) 2rolled 5towards 3me 6on 4(the ground).
+    - id: m_-rrTUyTGuidt_ntwmv4A
+      text: 1'Evengìl 2skxevit 3'eykrrko 4sko 5uvan.
+      lookup_filter:
+        4: 8740:adp.:noaffix:nolen
+      translations:
+        en: 1Children 3roll 2pebbles 4as 5(a game).
+    - id: FnzIe-YVQ6ygPETd-6-WyA
+      text: 1(N|Tseyk) 2'äpeykamrrko 3äo 4utral 5a 6zolup 7fte 8hivifwo 9ftu 10aysre' 11palulukanä.
+      translations:
+        en: 1Jake 2rolled 3under 4the 5+6fallen 4tree 7to 8escape 9from 10the 11thanator's 10teeth.
+    - id: v4frCk16R8e2ny8Tt0Fthg
+      text: 1Lu 2pa'lir 3sngem 4atxur.
+      translations:
+        en: 2(A direhorse) 1has 4strong 3muscles.
+    - id: WujbdBSCQ--dsFiJZdLDuA
+      text: 1Akwey 2ke 3lu 4tsawsngem 5kaw'it 6slä 7lu 8sayrìp 9nìtxan.
+      lookup_filter:
+        9: 1312:adv.:noaffix:nolen
+      translations:
+        en: 1Akwey 3(is)2(n't) 5(at all) 4muscular 6but 1(he)7('s) 9very 8handsome.
+    - id: Lu9t7EIjRdyvhA-dEYGVsQ
+      text: 1Fa 2fwa 3tsyìl 4kxemyot 5akxayl 6frato, 7pol 8ayoer 9wolìngay 10futa 11tsyìltswo 12tsan'olul.
+      lookup_filter:
+        8: 212:pn.:-r:nolen
+      translations:
+        en: 1+2By 3scaling 4the 5+6highest 4wall, 7he 9proved 8(to us) 10that 7his 11(climbing ability) 12(had improved).
+    - id: SYPOLRB_TlCEu-2XeyvMJw
+      text: 1Txo 2new 3ngal 4futa 5sutel 6ngeyä 7aylì'uti 8spivaw, 9tsranten 10tìwìngay.
+      translations:
+        en: 1If 3you 2+4want 5people 2+4to 6+7+8(believe you), 10proof 9(is important).
+    - id: DHQxM1ysS0KprusNSf5Kkg
+      text: 1Tsasäplltxeri 2säwìngay 3a 4tolìng 5ngal 6lu 7meyp.
+      translations:
+        en: 2(The proof) 5you 3+4gave 1(of that statement) 6is 7weak.

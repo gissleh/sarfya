@@ -1,0 +1,107 @@
+source:
+    id: blog-2021-09-30
+    date: "2021-09-30"
+    url: http://naviteri.org/2021/09/aawa-ayliu-amip-a-few-new-words/
+    title: ’A’awa aylì’u amip      A few new words
+    author: Paul Frommer
+inputs:
+    - id: 0tkBcHyeReCL95YWTnwrlA
+      text: 1Poeri 2säfmong 3lora 4tsafkxileyä 5lolu 6na 7ayskxe 8mì 9te'lan.
+      lookup_filter:
+        1: 1556:pn.:-ri:nolen
+      translations:
+        en: 1(For her), 2(the theft) 4(of that) 3beautiful 4necklace 5was 6like 7stones 8in 1her 9heart.
+    - id: TxhiTd9xSgO0-nw2x5L2kQ
+      text: 1Srake 2lu 3ngay 4fwa 5tìfmong 6ke 7fkeytok 8kip 9Na'vi?
+      lookup_filter:
+        3: 1356:adj.:noaffix:nolen
+      translations:
+        en: 2+1Is 4+1it 3true 4that 5theft 7does 6not 7exist 8among 9(the Na'vi)?
+    - id: -KtiioPdSG2Q5cfV_W4hTA
+      text: 1Kakana 2aylì'uri 3a 4poltxe 5oel 6nìsti, 7tsap'alute.
+      translations:
+        en: 7(I apologize) 2for 2the 1rough 2words 3that 5I 4spoke 6(in anger).
+    - id: Fq-9a2w7QMyxHVd0BR7IHQ
+      text: 1Sempulìl 2asìltsan 3(sneyä|sney) 4evengit 5ke 6txaw 7nìkakan.
+      lookup_filter:
+        3: 8240:pn.:noaffix:nolen
+        7: 13267:adv.:noaffix:nolen
+      translations:
+        en: 1A 2good 1father 5doesn't 6punish 3his 4children 7roughly.
+    - id: yRsPQ67pRZ-os4X0iPagjQ
+      text: 1Fìatxkxeti 2ke 3raya'un 4ayoel 5kawkrr!
+      lookup_filter:
+        4: 212:pn.:-l:nolen
+      translations:
+        en: 4We 3will 5+2never 3(give up) 1(this land)!
+    - id: AAt5KepVR8eEXXiwTJd0_A
+      text: 1Peyä 2tìra'un 3tìeyktanä 4leyewla 5lu 6nìtxan.
+      lookup_filter:
+        6: 1312:adv.:noaffix:nolen
+      translations:
+        en: 1His 2surrender 3(of leadership) 5is 6very 4disappointing.
+    - id: EauANBN8Rfq7mPlswUvJBw
+      text: 1Tìfläri 2lolu 3po 4'älek.
+      translations:
+        en: 3She 2was 4determined 1(to succeed).
+    - id: sBcttRS8Qp246U3z5AnaSA
+      text: 1Peyä 2tì'älek 3oeru 4rolo'a 5nìtxan.
+      lookup_filter:
+        5: 1312:adv.:noaffix:nolen
+      translations:
+        en: 1His 2determination 4impressed 3me 5greatly.
+    - id: EexR0yN_Q7CC1d1S06Rzqw
+      text: 1Ngal 2perung 3oet 4fìfya 5pelun?
+      lookup_filter:
+        5: 1508:inter.:noaffix:nolen
+      translations:
+        en: 5Why 2are 1you 2hurting 3me 4(like this)?
+    - id: mFRgI-y6SgmlsicowWN5Sg
+      text: 1(Teya si) 2oer 3fwa 4ngal 5pawnunga 6ayioangit 7zong.
+      translations:
+        en: 3It 1moves 2me 3that 4you 7save 5injured 6animals.
+    - id: kbiIxp-1SYigReqEXX2iXg
+      text: 1Munge 2fnawe'tul 3lewngit 4soaiaru 5sneyä.
+      lookup_filter:
+        5: 8240:pn.:noaffix:nolen
+      translations:
+        en: 2(A coward) 1brings 3shame 4to 5(his/her) 4family.
+    - id: gjYvhZDWTXeqWooK3ZBLtA
+      text: 1Ayswapxìl 2oeyä 3tok 4fìtsenget 5nìwotx.
+      lookup_filter:
+        4: 365:adv., n.:-t:nolen
+      translations:
+        en: 5All 1(the members of) 2my 1family 3are 4here.
+    - id: VlWUmZNNSUumEVflHcrtQQ
+      text: 1Ayngal 2syuvet 3sweyn 4peseng 5fteke 6ayioang 7tsivun 8tsat 9kivanom?
+      lookup_filter:
+        1: 208:pn.:-l:nolen
+        4: 1520:inter.:noaffix:nolen
+      translations:
+        en: 4Where 3do 1you 3keep 2(the food) 5(so that) 6animals 7(can)5('t) 9get 8it?
+    - id: EqJNSJ9PQuKdInUejERilA
+      text: 1Tsayayotsrulit 2sweyn, 3ma 4'itan.
+      translations:
+        en: 2(Don't disturb) 1(that bird's nest), 3+4son.
+    - id: j6mNlSx7RDKlZTY8g5O8sg
+      text: 1Oey 2fpomit 3sweyn!
+      translations:
+        en: 2+3Leave 1me 2+3alone!  3(Do not disturb) 1my 2peace!
+    - id: Lo_gg6FITvqtTF5nUQ4sBA
+      text: 1Oey 2fpomit 3txung 4rä'ä!
+      translations:
+        en: 4Don't 2+3bother 1me!
+    - id: I1QOvRsRQRyCn-b4s5xN_w
+      text: 1Manawmtu, 2srake 3(T|luyu) 4ngenga 5eyktan 6fìolo'ä?
+      translations:
+        en: 1(Excuse me, sir), 3are 4you 5(the leader) 6(of this clan)?
+      flags:
+        - formal
+    - id: 6FYxhivZQKW8WbwiLJz6mw
+      text: 1Matu, 2ngal 3hawntsyokxit 4tìmungzup.
+      translations:
+        en: 1(Excuse me), 2you 4(just dropped) 2your 3glove.
+    - id: 5zy3BOmhQguxMWqskxdjtg
+      text: 1Manga! 2(Kempe si)?
+      translations:
+        en: 1Hey! 2(What are) 1you 2doing?

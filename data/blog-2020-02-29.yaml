@@ -1,0 +1,47 @@
+source:
+    id: blog-2020-02-29
+    date: "2020-02-29"
+    url: https://naviteri.org/2020/02/some-words-for-leap-year-day/
+    title: Some Words for Leap Year Day
+    author: Paul Frommer
+inputs:
+    - id: cMDgBLqVTR2hFoQFOureog
+      text: 1Fayhemit 2oel 3smaw 4nìwotx.
+      translations:
+        en: 2I 4completely 3(approve of) 1(these actions).
+    - id: hkyqXPHARu2tEBQBqMzJoA
+      text: 1Oel 2ngeyä 3tìhawlit 4natxu 5ulte 6(tsa)8+6(wä) 7wasyem.
+      translations:
+        en: 1I 4(disapprove of) 2your 3plan 5and 7+8(will oppose) 7((fight) 8(against)) 6it
+    - id: VITZV073RIO-5rEwyZDnrg
+      text: 1Moeyä 2tìmuntxari 3tìsmaw 4ngeyä 5oeru 6(teya si).
+      lookup_filter:
+        1: 1132:pn.:-yä:nolen
+      translations:
+        en: 4Your 3approval 2of 1our 2marriage 6fills 5me ((with joy.))
+    - id: -44sv_BgRA6NE0A5kBYHYw
+      text: 1Plltxe 2po 3san 4nga 5yawne 6lu 7oer 8sìk, 9slä 10la'um 11nì'aw.
+      lookup_filter:
+        8: 1796:adv.:noaffix:nolen
+      translations:
+        en: 2He 1+3+8says 7he 5+6loves 4you, 9but 2(he)10('s) 11only 10pretending.
+    - id: iIwPDxokQ-qON5wbrlvNnw
+      text: 1Lumpe 2nga 3la'um 4tsnì 5ke 6tsun 7srivew?
+      lookup_filter:
+        6: 2476:vim.:noaffix:nolen
+      translations:
+        en: 1Why 3are 2you 3pretending 4((that)) 2you 5+6can't 7dance?
+    - id: FDanlxJkR0-tWZSyS_J_OQ
+      text: 1Furia 2ke 3tsun 4(tìkangkem sivi), 6peyä 7säspxin 8lu 9tìla'um 10nì'aw.
+      lookup_filter:
+        3: 2476:vim.:noaffix:nolen
+      translations:
+        en: 1(As for) 2not 2(being able) 4(to work), 6his 7illness 8is 10only 9(a pretence).
+    - id: tMHD3_M7TjGfPE5NBZSUuA
+      text: 1Tsaktap 2rä'ä 1si 4kawkrr 5mungwrrtxo 6ke 7livu 8kea 9fya'o 10alahe.
+      translations:
+        en: 2+4Never 1(use violence) 5unless 7(there is) 8+6no 10aother 9way.
+    - id: Nrl_uPf8S-CvTVWnoeZAZA
+      text: 1Poru 2ke 3poleng 4oel 5ke'ut 6mungwrr 7fwa 8Ralul 9ke 10tsatsenget.
+      translations:
+        en: 4I 3told 1her 5+2nothing 6except 7that 8+9+10(Ralu wasn't there).

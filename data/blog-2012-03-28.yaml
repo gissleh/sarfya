@@ -1,0 +1,159 @@
+source:
+    id: blog-2012-03-28
+    date: "2012-03-28"
+    url: https://naviteri.org/2012/03/spring-vocabulary-part-1/
+    title: Spring Vocabulary, Part 1
+    author: Paul Frommer
+inputs:
+    - id: G62UtOQSRXCgYF0DX2ShJQ
+      text: 1Irayo 2ayngaru 3nìfrakrr, 4ma 5eylan.
+      lookup_filter:
+        2: 208:pn.:-ru:nolen
+      translations: {}
+    - id: bKEl0RiUQZ2sJ4-G23-xvg
+      text: 1Txonam 2tengkrr 3tarmìran 4oe 5kxamlä 6na'rìng, 7sroler 8eo 9utral 10atsawl 11txewma 12vrrtep.
+      translations:
+        en: 1Last night 2as 4I 3(was walking) 5through 6(the forest), 12a 11frightening 12demon 7appeared 8(in front of) 9a 10big 9tree.
+    - id: iYURv_mhRYGlWVNowMFJOA
+      text: 1Kxamtrr 2lam 3fwa 4sanhì 5a 6mì 7saw 8'olìp 9nìwotx 10slä 11tsakrr 12ke 13tsun 14fko 15sat 16tsive'a 17nì'aw.
+      lookup_filter:
+        7: 2020:n.:noaffix:t→s
+        11: 2332:adv.:noaffix:nolen
+        13: 2476:vim.:noaffix:nolen
+        15: 5972:pn.:noaffix:nolen;5268:pn.:-t:ts→s
+      translations:
+        en: 1(At mid-day) 3it 2seems 3that 4(the stars) 5+6in 7(the sky) 8have 9all 8vanished 10but 15they 17just 12+13can't 14+16(be seen) 11then.
+    - id: qFsrBeapSuaokM-WBhvdpQ
+      text: 1Prrnen 2(lrrtok si) 3a 4krr, 5srer 6mesongtsyìp 7ahona.
+      lookup_filter:
+        6: 8568:n.:me-:ts→s
+      translations:
+        en: 3+4When 1(the baby) 2smiles, 6two 7adorable 6dimples 5appear.
+    - id: oH9hzFmEQF2Zubzlx03ScQ
+      text: 1(Toruk Makto) 2polähem 3a 4fì'u 5rolo'a 6nìtxan 7Omatikayaru.
+      lookup_filter:
+        4: 368:pn.:noaffix:nolen
+        6: 1312:adv.:noaffix:nolen
+      translations:
+        en: 4+3+2(The arrival of) 1(Toruk Makto) 5(made a) 6great 5(impression on) 7(the Omatikaya).
+    - id: L02i4YcxRRG1HO1mALvIXw
+      text: 1Txantstew 2(säro'a si), 4fnawe'tu 5ke 6(säro'a si|si).
+      translations:
+        en: 1(A hero) 2(does great deeds), 4(a coward) 6does 5not.
+    - id: CcrbSqPjTqOep-eXiIz_ug
+      text: 1Vay 2fwa 3zola'u 4(N|TsyeykSuli), 5(Toruk Makto) 6alu 7pizayu 8Neytiriyä 9txanrarmo'a 10frato 11kip 12ayhapxìtu 13Omatikayaä.
+      translations:
+        en: 1+2Until 4(Jake Sully) 3arrived, 5(the Toruk Makto) 6(that was) 8Neytiri's 7ancestor 9was 10(the most) 9famous 11among 12+13(the Omatikaya).
+    - id: HeN9fiXFSYuauBnkqrmR5g
+      text: 1Tì'i'ari 2tsamä 3zene 4Sawtute 5vivelek 6talun 7tìtxur 8Eywayä.
+      lookup_filter:
+        6: 9084:adp.:noaffix:nolen
+      translations:
+        en: 1(At the end) 2(of the war), 4(the Sky People) 3(had to) 5(give up) 6(due to) 7(the power) 8(of Eywa).
+    - id: sQFzKuEeToSYPTiZidt3SQ
+      text: 1Ayoel 2rolun 3mipa 4sponot 5mì 6hilvan.
+      lookup_filter:
+        1: 212:pn.:-l:nolen
+        2: 6356:intj.:noaffix:nolen
+        6: 11540:vtr.:<ilv>:nolen
+      translations:
+        en: 1We 2found 4a 3new 4island 5in 6(the river).
+    - id: OqBKUCBOT_-WBLQlQau6qQ
+      text: 1Ikran 2yawolo 3ftu 4txew 5'awkxä.
+      translations:
+        en: 1(The banshee) 2(took to the air) 3from 4(the edge) 5(of a cliff).
+    - id: Q1hqQZmOSgeJPBcTgDvBeQ
+      text: 1Srake 2pol 3layok 4txewti 5na'rìngä?
+      translations:
+        en: 3Will 2he 3approach 4(the edge) 5(of the forest)?
+    - id: _pwL8Lq6RTClin9wDCSFoA
+      text: 1Ke 2tsun 3awnga 4pivey 5nulkrr—6txew 7lok.
+      lookup_filter:
+        2: 2476:vim.:noaffix:nolen
+        7: 1008:vtr.:noaffix:nolen
+      translations:
+        en: 3We 1+2can't 4wait 5(any longer)—6+7(time is almost up).
+    - id: Mr0KjCYwSyKKac5tSjCPMw
+      text: 1Tuteri 2tìtxur 3lu 4txewnga'.
+      translations:
+        en: 3(There are) 4limits 2to 1(a person's) 2strength.
+    - id: DQaqymFjSkqKrDDA_qspcQ
+      text: 1(Eltu si)! 2Tsatstal 3afwem 4lu 5litx 6nìtxan.
+      lookup_filter:
+        6: 1312:adv.:noaffix:nolen
+      translations:
+        en: 1(Pay attention)! 2That 3blunt 2knife 4is 6very 5sharp.
+    - id: yAVRCqwQRPa_g7iS2Ckc5w
+      text: 1Fìtsnganit 2ke 3tsun 4oe 5yivom. 6Koaktanä 7aysre' 8längu 9fwem.
+      lookup_filter:
+        3: 2476:vim.:noaffix:nolen
+      translations:
+        en: 1I 2+3can't 5eat 1(this meat). 6(An old man's) 7teeth 8are 9dull.
+    - id: Gujn5w-TRJ64VHI7PJ4veQ
+      text: 1Frasyurati 2fkol 3zasrolìn 4nì'aw 5ulte 6trro 7zene 8teykivätxaw.
+      translations:
+        en: 1(All energy) 2+3is 4only 2+3borrowed, 5and 6(one day) it 7(will have to) 8(be given back).
+    - id: FNVAQlaxTu2BOrxKVnTIUA
+      text: 1Txonkrr 2lu 3syuratan 4na'rìngä 5Eywevengä 6lor 7nìtxan.
+      lookup_filter:
+        7: 1312:adv.:noaffix:nolen
+      translations:
+        en: 1(At night), 3(the bioluminescence) 4(of the) 5Pandoran 4forest 2is 7very 6beautiful.
+    - id: -PP5tsWIQRyeXopI7sMqdg
+      text: 1Lu 2poe 3lor, 4lu 5yuey 6nìteng.
+      lookup_filter:
+        2: 1556:pn.:noaffix:nolen
+        6: 1304:adv.:noaffix:nolen
+      translations:
+        en: 2(She)1('s) 3+5beautiful 3(on the outside) 4+6and 5(the inside).
+    - id: BP5w4OupQIK5lrbXd_Vipw
+      text: 1Fìrumut 2lumpe 3ke 4kxem?
+      translations:
+        en: 2Why 4(is)3(n't) 1(this puffball tree) 4vertical?
+    - id: dnPWcV-QQ5SVaacIpCB8SA
+      text: 1Ngäzìk 2lu 3fwa 4var 5tskoti 6fyivep 7tengkrr 8utralit 9tsyerìl.
+      translations:
+        en: 3(It)2('s) 1hard 3to 4keep 6holding 5(a bow) 7while 9climbing 8(a tree).
+    - id: ylxO13yQTTiBdTWiD0PI0g
+      text: 1Oel 2tstalit 3fyolep 4fa 5aysre'.
+      translations:
+        en: 1I 3held 2(the knife) 4in 1my 5teeth.
+    - id: Qn6UNELZSyy-LsOCEuw4jw
+      text: 1Tìwäteri 2ngal 3oeti 4pelun 5ke 6slan 7kawkrr?
+      lookup_filter:
+        4: 1508:inter.:noaffix:nolen
+      translations:
+        en: 4Why 5don't 2you 7ever 6support 3me 1(in an argument)?
+    - id: mZzsTswPQqGkBmG9AAFbAw
+      text: 1Ngeyä 2tìeyktanìri, 3tìslanìri 4sì 5tsranten 6frato 7a 8tì'eylanìri 9a 10ka 11ayzìsìt 12nìwotx, 13seiyi 14oe 13irayo- 15nìtxan.
+      lookup_filter:
+        10: 676:adp.:noaffix:nolen
+        15: 1312:adv.:noaffix:nolen
+      translations:
+        en: 13+14(Thank you) 15(so much) 13+14for 1your 2leadership, 1your 3support, 4and 5+6+7(most importantly) 1your 8friendship 10+12throughout 11(the years).
+    - id: Edhf3W59QYiCJsXpqG6B5w
+      text: 1Oel 2yerom 3set 4teylut.
+      translations:
+        en: 1(I)2('m eating) 4(beetle larvae) 3now.
+    - id: LppYMc7FQQCujtgRUrYyuQ
+      text: 1Oe 2yerom 3set
+      translations:
+        en: 1(I)2('m eating) 3now.
+    - id: wPV34MbcSA6qM7bdQLg4FA
+      text: 1Ngal 2pelun 3faystxenut 4frakrr 5tsyär?
+      lookup_filter:
+        2: 1508:inter.:noaffix:nolen
+        4: 456:adv.:noaffix:nolen
+      translations:
+        en: 2(Why do) 1you 4always 5reject 3(these offers)?
+    - id: gCj2tgIrRdSL8hRWcq8Yfw
+      text: 1Nga 2pelun 3frakrr 4tsyär?
+      lookup_filter:
+        2: 1508:inter.:noaffix:nolen
+        3: 456:adv.:noaffix:nolen
+      translations:
+        en: '2(Why do) 1you 3always 4(reject everything )4((or: such things))?'
+    - id: 3kENBmUnRYq01tezv-p3Wg
+      text: 1Teylu 2a 3oel 4yerom 5lu 6ftxìlor.
+      translations:
+        en: 1(The teylu) 3(I)2+4('m eating) 5is 6delicious.

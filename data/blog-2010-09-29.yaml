@@ -1,0 +1,86 @@
+source:
+    id: blog-2010-09-29
+    date: "2010-09-29"
+    url: https://naviteri.org/2010/09/getting-to-know-you-part-3/
+    title: Getting to Know You, Part 3
+    author: Paul Frommer
+inputs:
+    - id: IwsoFcbvRRK4F8llvjUq9Q
+      text: 1Kaltxì. 2Ngenga 3lu 4tupe/5pesu?
+      translations:
+        en: |-
+            1Hi. 4+5Who 3are 2you?
+            ((This is one place where the honoric form of the pronoun is standard.))
+    - id: rndzC0nfRo2a0rXj6KUBeA
+      text: 1Fyape 2fko 3syaw 4ngar?
+      translations:
+        en: |-
+            1(How does) 2one 3call 4you?
+            ((What's your name?))
+    - id: tElDf7fUSYmAPMKc2COUDQ
+      text: 1Oeru 2syaw 3((fko)) 4Txewì.
+      translations:
+        en: 1+2+3(My name is) 4Txewì.
+    - id: XR4PUbX0QJSN1y2SNsWMBQ
+      text: 1'Awa 2swawtsyìp. 3Oe 4fperìl.
+      lookup_filter:
+        2: 6860:n.:noaffix:nolen
+      translations:
+        en: 1+2(Just a tiny moment). 3(I)4('m thinking).
+    - id: oHUiLZgLQHiiYz0PTfV9eg
+      text: 1Nga 2(pesu)3(hu) 4käteng 5nìtrrtrr?
+      translations:
+        en: 2(Who do) 1you 5typically 4(hang out) 3with (/ )4(spend time) 3with?
+    - id: l0weMrnISHio2bQ1yZHADg
+      text: 1'Ìn 2nga 3fyape 4nìfkrr?
+      translations:
+        en: |-
+            3(In what way) 1are 2you 1busy 4lately?
+            ((What's been keeping you busy lately?))
+    - id: KFwEBPHKRrKvmC-CBNToYA
+      text: 1Pamtseori 2po 3sulängìn 4nìhawng.
+      translations:
+        en: 2He 3is 4overly 3engrossed 1in his 1music 3((and I'm displeased about it)).
+    - id: VO8vQwshQWK73cZh6YkXkg
+      text: 1Tìkangkemìri 2varmrrìn 3oe 4nìwotx.
+      translations:
+        en: 3I 2was 4completely 2swamped 2((overwhelmed)) 1(at work).
+    - id: WCX6buwzTPiaTdb3u923gg
+      text: 1Peyä 2tìkangkemìl 3mi 4veykrreiyìn 5pot 6nìwotx.
+      translations:
+        en: 1His 2work 4is 3still 6completely 4overwhelming 5him 4((and I'm glad)).
+    - id: 6RIktcF7SrKvtQDYg6tLug
+      text: 1Tìk'ìnìri 2(kempe si) 3nga?
+      translations:
+        en: 2(What do) 3you 2do 1in 3your 1(free time)?
+    - id: hQEhnibxSEuzfcmVcprPmg
+      text: 1Oe 2(tskxekeng si) 3säsulìnur 4alu 5(tsko swizaw).
+      translations:
+        en: 1I 2practice 1my 3hobby, 4(which is) 5archery.
+    - id: KyM-GXMiRZ6NOzki78mdZQ
+      text: 1(Ayuvan letokx) 2'o' 3lu 4nìtxan.
+      lookup_filter:
+        4: 1312:adv.:noaffix:nolen
+      translations:
+        en: 1Sports 3are 4great 2fun.
+    - id: OHPn1kopSpa5elPYCABT8g
+      text: 1Tì'o'ìri 2peu 3sunu 4ngar 5frato?
+      lookup_filter:
+        2: 1528:inter.:noaffix:nolen
+        3: 6376:vin.:noaffix:nolen
+      translations:
+        en: 2What 3(is your) 5favorite 3way 1(to have fun)?
+    - id: By05hBFHS4WSXzDYZzCj9Q
+      text: 1Ftia 2oel 3lì'fyati 4leNa'vi 5nì'o' 6nìwotx!
+      lookup_filter:
+        5: 6916:adv.:noaffix:nolen
+      translations:
+        en: 1Studying 3+4Na'vi 5+6(is a ton of fun) 2(for me).
+    - id: _mveJTcSRomZ82t0BmUN1A
+      text: |-
+        A: 1Srake 2fnan 3ngal 4lì'fyati 5leNa'vi?
+        B: 6Kehe. 7Slä 8hufwa 9oel 10((tsat)) 11wätx 12nì'aw, 13tsalsungay 14yawne 15lu 16oer 17nìwotx!
+      translations:
+        en: |-
+            A: 2Are 3you 2(good at) 4+5(Na'vi)1(?)
+            B: 6No, 9I 12totally 11(suck at) 10it, 7+8+13but 16I 7+8+13still 14+15(love it) 17(to death).

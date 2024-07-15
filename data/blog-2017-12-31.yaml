@@ -1,0 +1,40 @@
+source:
+    id: blog-2017-12-31
+    date: "2017-12-31"
+    url: https://naviteri.org/2017/12/zisit-amip-lefpom-ma-eylan-happy-new-year-friends/
+    title: Zìsìt Amip Lefpom, ma eylan! Happy New Year, friends!
+    author: Paul Frommer
+inputs:
+    - id: r6sQ58f9QQuOKDUhM_gMhQ
+      text: 1Hum 2zìsìt 3alal, 4pähem 5pum 6amip. 7Yo'kofya 8atì'iluke.
+      lookup_filter:
+        1: 588:vin.:noaffix:nolen
+      translations: {}
+    - id: JFdxOKjrQG6-a5exiqQLmg
+      text: 1Lu 2pxaya 3txanso'hayu 4(tsarelä arusikx) 5alu 6Uniltìrantokx 7(kifkey)8(ka) 9nìwotx.
+      lookup_filter:
+        8: 676:adp.:noaffix:nolen
+      translations:
+        en: 1(There are) 2many 3fans 4+5+6(of Avatar) 8+9(all over) 7(the world).
+    - id: eWwvqrIxTPOWSZu5YtmlHg
+      text: 1Zìtsaltrrìri 2tìmuntxayä 3aylrrtok!
+      translations:
+        en: 3+1(Happy anniversary) 2((of your marriage))!
+    - id: vWUcHPbuTHionp0mx3W2HQ
+      text: 1Neytiril 2nantangit 3tsolukx 4fte 5peyä 6tìsrawti 7'eykivi'a.
+      translations:
+        en: 1Neytiri 3stabbed 2(the viperwolf) 4to 7end 5its 6pain.
+    - id: 7zEzLSGZSYyEgTl8EXEEEQ
+      text: 1Lu 2Neytiriru 3'awa 4mikyun 5arawnipx 6nì'aw.
+      translations:
+        en: 2Neytiri 1has 6only 3one 5pierced 4ear.
+    - id: T5y12wtQQK6z7AeFYTF40w
+      text: 1Kxener 2lu 3sävll 4txepä.
+      translations:
+        en: 1Smoke 2is 3+4(a sign/an indication that there is fire).
+    - id: ittWEJh5SvWAjVvfKSWA_A
+      text: 1Mì 2sangek 3a 4sävllit 5ngolop 6eykyul 7tarponguä.
+      lookup_filter:
+        6: 8856:n.:-l:nolen
+      translations:
+        en: 4(The sign) 1+3on 2(the tree trunk) 5(was made by) 6(the leader) 7(of the hunting party).

@@ -1,0 +1,23 @@
+source:
+    id: blog-2024-07-07
+    date: "2024-07-07"
+    url: https://naviteri.org/2024/07/fmawn-atikeftxonga-sad-news/
+    title: Fmawn atìkeftxonga’     Sad news
+    author: Paul Frommer
+inputs:
+    - id: 6MCYvnp_Rg-2xZRjthiQRw
+      text: 1Soaiari 2Uniltìrantokxä, 3alo 4amuve 5längu 6fmawn 7atìkeftxonga'. 8Ayngari 9txo 10ke 11li 12ke 13stilvawm, 14zene 15oe 16piveng 17san 18tolerkängup 19awngeyä 20eyktan 21sì 22'eylan 23alu Jon Landau.
+      lookup_filter:
+        8: 208:pn.:-ri:nolen
+      translations: {}
+    - id: tOndp9mpQrS6QJw_8fRBYA
+      text: 1Tolerkup 2tute; 3tìkangkem 4peyä 5(tì'i'a)6(vay) 7krrä 8rayey.
+      translations:
+        en: 2(The person) 1dies; 4his 3work 8(will live on) 5+6+7forever.
+    - id: FdE6MhswSNKaRuLqnu8_uA
+      text: 1Ngari 2hu 3Eywa 4salew 5tirea, 6ma Jon. 8Nga 9lom 10layu 11ayoeru 12nìtxan.
+      lookup_filter:
+        4: 3808:vin.:noaffix:nolen
+        11: 212:pn.:-ru:nolen
+        12: 1312:adv.:noaffix:nolen
+      translations: {}

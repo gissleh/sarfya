@@ -1,0 +1,64 @@
+source:
+    id: blog-2022-12-30
+    date: "2022-12-30"
+    url: http://naviteri.org/2022/12/neytiriya-waytelem-neytiris-song-cord/
+    title: Neytiriyä Waytelem   Neytiri’s Songcord
+    author: Paul Frommer
+inputs:
+    - id: r8qfwG8bSGKGkMsftX7M7g
+      text: |-
+        1(Lie si) 2oe 3Neteyamur,
+        4Nawma 5Sa'nokur 6mìfa 7oeyä.
+        11Atanti 12ngal 13molunge,
+        14Mipa 15tìreyti, 16mipa 17'itanti.
+        21Lawnol 22a 23mì 24te'lan.
+        25Lawnol 26a 27mì 28te'lan.
+      translations:
+        en: |-
+            2I 1experience 3Neteyam,
+            And 4Great 5Mother, 5+6+7(within me).
+            12You 13brought 11light,
+            14New 15life, 17a 16new 17son.
+            21Joy 22+23within my 24heart.
+            25Joy 26+27within my 28heart.
+      flags:
+        - poetry
+    - id: IzuKB-T4T4erSY_hA5nYIQ
+      text: |-
+        1Ngaru 2(irayo seiyi) 4ayoe
+        5Srrìri 6tìreyä,
+        11Ngaru 12(irayo seiyi) 14ayoe
+        15Tonìri 16tìreyä,
+        7Ma 8Eywa, 9ma 10Eywa
+      lookup_filter:
+        4: 212:pn.:noaffix:nolen
+        14: 212:pn.:noaffix:nolen
+      translations:
+        en: |-
+            4We 2thank 1you
+            5For the days 6of our 6life,
+            14We 12thank 11you
+            15For the nights 16of our 16life,
+            7Oh 8Eywa, 9oh 10Eywa.
+      flags:
+        - poetry
+    - id: _cD0HRViR0mFGFFkYbmWsg
+      text: |-
+        1Zola'u 2nìprrte', 3ma 4Kiri.
+        5Ngati 6oel 7munge 8(soaia)9(ne).
+        11Lie si 12oe 13atanur,
+        14Pähem 15parul, 16tì'ongokx 17ahuta.
+        21Lawnol 22a 23mì 24te'lan.
+        25Lawnol 26a 27mì 28te'lan.
+      lookup_filter:
+        2: 5588:adv.:noaffix:nolen
+      translations:
+        en: |-
+            1+2Welcome, 3+4Kiri.
+            6I 7bring 5you 9to 8(the family).
+            12I 11experience 13(the light),
+            15A miracle 14arrives, 16an 17unexpected 16birth.
+            21Joy 22+23within my 24heart.
+            25Joy 26+27within my 28heart.
+      flags:
+        - poetry

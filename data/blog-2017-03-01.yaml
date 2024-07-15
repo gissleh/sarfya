@@ -1,0 +1,31 @@
+source:
+    id: blog-2017-03-01
+    date: "2017-03-01"
+    url: https://naviteri.org/2017/03/titusemteri-concerning-shooting/
+    title: Tìtusemteri—Concerning Shooting
+    author: Paul Frommer
+inputs:
+    - id: CuoVyRy9Quet7yHJ4Pgacg
+      text: 1Tem 2rä'ä!
+      translations:
+        en: 2Don't 1shoot!
+    - id: WI7qg7A_TJ6a9vXOKf4uwg
+      text: 1(Oe)2(ne) 3fko 4terem!!!
+      translations:
+        en: 3Someone 4(is shooting) 2at 1me!!!
+    - id: 7v2XfUgOSbqW6DhXfAALCg
+      text: 1Plltxe 2Ralu 3san 4oe 5new 6tivoltem 7yerikit.
+      translations:
+        en: 2Ralu 1+3says 4he 5(wants to) 6shoot 7(a hexapede).
+    - id: -ESsjJMgRo6hkuEsO-qg4g
+      text: 1Swizawti 2tsweykayon 3nefä 4ne 5taw, 6tsenga 7zup 8ke 9lu 10law.
+      lookup_filter:
+        5: 2020:n.:noaffix:nolen
+      translations:
+        en: |-
+            I 2shot 1(an arrow) 3+4into 5(the air), 6+7+8+9+10(It fell to earth, I know not where).
+            ((H.W. Longfellow))
+    - id: coHmYHzjQSaNKQKB3zsLtg
+      text: 1Txo 2nga 3zene 4tivem, 5tsatìtusem 6livu 7muiä.
+      translations:
+        en: 1If 2you 3must 4shoot, 6(let it be) 7justified.

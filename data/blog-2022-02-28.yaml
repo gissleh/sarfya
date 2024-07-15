@@ -1,0 +1,51 @@
+source:
+    id: blog-2022-02-28
+    date: "2022-02-28"
+    url: http://naviteri.org/2022/02/lifyengteri-concerning-honorific-language/
+    title: Lì’fyengteri      Concerning honorific language
+    author: Paul Frommer
+inputs:
+    - id: YQ2M9p46TYqLc0KAKY6WSA
+      text: 1+2Ätxäle 1suyi 3ohe 4pivawm, 5muntxatul 6ngengeyä 7tuyok 8pesenget? 9Srake 10(T|luyu) 11poho 12set 13ro 14helku?
+      translations:
+        en: 1+4If 3I 1+4(may ask), 8where 7is 6your 5spouse? 10Is 11(he/she) 13at 14home 12now?
+      flags:
+        - formal
+    - id: cEDHrROOSJS6XdLjdSIl5Q
+      text: 1+2Ätxäle 1suyi 3ohe 4pivawm, 5peolo' 6(T|luyu) 7pum 8ngengeyä?
+      translations:
+        en: 1+4May 3I 1+4ask 5(what tribe) 6+7+8(you belong to)?
+      flags:
+        - formal
+    - id: dezCYK_VRUSVHyRMnbgEfQ
+      text: 1Krra 2+3ultxa 2si 4nga 5(tsatxanro'tu)6(hu), 7zerok 8futa 9zene 10+11henga 10sivi, 12ma 13'eveng.
+      translations:
+        en: 1When 4you 2+6meet 5(that famous person), 7remember 8that you 9(have to) 10(be formally polite), 12+13child.
+    - id: r8AXLqqEQViYYOWYZrEFpQ
+      text: 1+2Henga 3rä'ä 1si, 4ma 5tsmuk.
+      translations:
+        en: 3Don't 1(be so formal), 4+5(bro/sis).
+    - id: uKwZou1KRzaFlvLPyn4PhQ
+      text: 1Henga 2kelkin.
+      translations:
+        en: 1Formality is2(n't necessary).
+    - id: -V6WhIYwS-GW9ScdNA35Qw
+      text: 2+1Lì'fyeng 3rä'ä 1si.
+      translations:
+        en: 3Don't 1use 2(honorific language).
+    - id: 9pWm67X8T1azTx-2QW1PsA
+      text: 1Fwa 3+2lì'fyeng 2si 4lu 5kelkin.
+      translations:
+        en: 1(It)4('s) 5(not necessary) 1to 2use 3(honorific language).
+    - id: _5Lw2TyNSVCaiZlmF9IxBw
+      text: 1Lì'fyeng 2kelkin.
+      translations:
+        en: 2(No need) 1(to speak so formally).
+    - id: 1cMJ6uCuRvqC9iampd55Bg
+      text: 1Lì'fyeng 2kelkin 3ko.
+      translations:
+        en: 3Let's 1+2(not speak so formally) 3(with each other).
+    - id: Os3EuGzpQfOBqTAfIqR_pA
+      text: 1Fyengkekin
+      translations:
+        en: 1(Don't be so stiff, dude.)

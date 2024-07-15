@@ -1,0 +1,31 @@
+source:
+    id: article-lemondrop-2010-01-06
+    date: "2010-01-06"
+    url: https://wiki.learnnavi.org/index.php/Corpus#Lemondrop.com
+    title: Calling All 'Avatar' Lovers -- Pick-Up Lines and How to Talk Dirty in Na'vi
+    author: Paul Frommer
+inputs:
+    - id: ctRIk9USShKfPsH58_IXSA
+      text: 1Nga 2za'u 3fìtseng 4pxìm 5srak?
+      lookup_filter:
+        3: 364:adv., n.:noaffix:nolen
+      translations:
+        en: 5Do 1you 2come 3here 4(often)5(?)
+    - id: nCJYlfJqRCaBzPXgs4wx1w
+      text: 1Oeyä 2ikran 3slivu 4nga, 5tsakrr 6oeng 7'awsiteng 8mivakto.
+      lookup_filter:
+        5: 2332:adv.:noaffix:nolen
+      translations:
+        en: 3Be 1my 2ikran 5and 8(let)6('s) 8ride 7together.
+    - id: _y57cUZeQqGIRikOsxy14w
+      text: 1Oel 2ngati 3kameie.
+      translations:
+        en: 1I 3see 2you.
+    - id: eRN2f9BqTvyi8aa-d0VLxw
+      text: 1Nga 2yawne 3lu 4oer.
+      translations:
+        en: 4I 2+3love 1you.
+    - id: 2JnsHHOpTMKsaKhFNnyuZA
+      text: 1Ke 2lu 3kawtu 4a 5nulnivew 6oe 7(po)8(hu) 9tireapivängkxo 10äo 11(Utral Aymokriyä).
+      translations:
+        en: 2There's 1+3nobody 6(I)4+5('d rather) 9commune 8with 10under 11(the Tree of Voices).

@@ -1,0 +1,54 @@
+source:
+    id: blog-2012-03-31
+    date: "2012-03-31"
+    url: https://naviteri.org/2012/03/spring-vocabulary-part-2/
+    title: Spring Vocabulary, Part 2
+    author: Paul Frommer
+inputs:
+    - id: EVP2l04VS3uqX_9QFUTvZA
+      text: 1Ma 2Ralu, 3(srung si) 4por! 5Nìwin! 6Syeha 7ke 6si!
+      lookup_filter:
+        4: 1548:pn.:-r:nolen
+        5: 1316:adv.:noaffix:nolen
+      translations:
+        en: 1+2Ralu, 3help 4her! 5Quick! She6's 7not 6breathing!
+    - id: KXhRR7fbQCypXeI5MWtGNg
+      text: 1Sko 2Sahìk 3ke 4tsun 5oe 6mìftxele 7tsngivawvìk; 8sko 9sa'nok 10tsun.
+      lookup_filter:
+        1: 8740:adp.:noaffix:nolen
+        4: 2476:vim.:noaffix:nolen
+        8: 8740:adp.:noaffix:nolen
+        10: 2476:vim.:noaffix:nolen
+      translations:
+        en: 1As 2Tsahik, 5I 3+4cannot 7weep 6(over this matter); 8as 9(a mother), 5I 10can.
+    - id: zFw0-gBfR7KYVBhVyB36NQ
+      text: 1Oe 2alu 3Tsahìk 4ke 5tsun 6mìftxele 7tsngivawvìk; 8oe 9alu 10sa'nok 11tsun.
+      lookup_filter:
+        5: 2476:vim.:noaffix:nolen
+        11: 2476:vim.:noaffix:nolen
+      translations:
+        en: 2As 3Tsahik, 1I 4+5cannot 7weep 6(over this matter); 9as 10(a mother), 8I 11can.
+    - id: BDUB4CIxQ22ueITu81Odlg
+      text: 1Ayskxe 2a 3mì 4sasna'o 5ku'up 6lu 7nìtxan.
+      lookup_filter:
+        7: 1312:adv.:noaffix:nolen
+      translations:
+        en: 1(The rocks) 2+3in 4(that pile) 6are 7very 5heavy.
+    - id: CZE4pOXSQmKfQ4aXMC8ong
+      text: 1Tìrusolìri 2ke 3lu 4poru 5kea 6tsu'o 7kaw'it.
+      translations:
+        en: 1(As for singing), 4he 3has 2+5no 6ability 7whatsoever.
+    - id: uI1kfsYkQvykq0hg6ZfkwA
+      text: 1Pori 2wemtswo 3fratsamsiyur 4rolo'a 5nìtxan.
+      lookup_filter:
+        5: 1312:adv.:noaffix:nolen
+      translations:
+        en: 1His 2(ability to fight) 5greatly 4impressed 3(all the warriors).
+    - id: -g5fizbJTPmntiWqyMIwQA
+      text: 1Kxari 2(tstu sitswo|tstutswo) 3tsranten 4krra 5ke 6lu 7kea 8säfpìl 9lesar.
+      translations:
+        en: 4When one 6has 5+7no 9useful 8thoughts, 2(the ability to close) one's 1mouth 3(is important).
+    - id: uhaTBBfiShGbT-HYob7rRA
+      text: 1Oel 2tskoti 3ngaru 4tasyìng 5krra 6oeng 7(ultxa si).
+      translations:
+        en: 1(I)4('ll give) 3you 2(the bow) 5when 6we 7meet.

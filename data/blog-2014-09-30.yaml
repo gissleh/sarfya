@@ -1,0 +1,85 @@
+source:
+    id: blog-2014-09-30
+    date: "2014-09-30"
+    url: https://naviteri.org/2014/09/stxeli-alor-the-text/
+    title: 'Stxeli Alor: The text'
+    author: Paul Frommer
+inputs:
+    - id: zmZYJnVnQ4mKG3hbLpuFRg
+      text: 1Po 2fnarmu 3frakrr, 4slä 5trro 6poltxe.
+      lookup_filter:
+        3: 456:adv.:noaffix:nolen
+      translations:
+        en: 1She 2was 3always 2silent, 4but 5(one day) she 6spoke
+    - id: TPTRXjlESIi6BwRtYrwKcQ
+      text: 1Fìtìkangkemviri 2oel 3kin 4'awa 5trrti 6nì'aw.
+      translations:
+        en: 1(For this project) 2I 6only 3need 4one 5day.
+    - id: dB4XCyHQSrWdLCvPqQxOfw
+      text: 1Ayngeyä 2sìpawmìri 3atxantsan 4irayo, 5ma 6smuk. 7Slä 8txe'lan 9mawey. 10Sngum 11rä'ä 10si. 16Fìlì'fyaviri 12tìfkeytok 13ke 14leiu 15lehrrap.
+      lookup_filter:
+        1: 208:pn.:-yä:nolen
+      translations: {}
+    - id: VvdExWfuR2yv5pNedH9cAw
+      text: 1Pol 2lì'fyati 3leNa'vi 4ftolia 5ka 6trro.
+      lookup_filter:
+        5: 676:adp.:noaffix:nolen
+      translations:
+        en: 1He 4studied 2+3Na'vi 5for 6(a day).
+    - id: I9_MD0y4QEaI1tEwJJfO8A
+      text: 1Ro 2srro 3Ralu 4zola'u 5fte 6(oe)7(hu) 8(ultxa sivi).
+      translations:
+        en: 1+2(One day) 3Ralu 4came 5to 8meet 7with 6me.
+    - id: qDoV0b9zQEGzsUDo19p-zw
+      text: 1Lu 2oeru 3sngum 4a 5po 6ke 7zaya'u.
+      translations:
+        en: 1+2+3(I'm worried) 4that 5he 6won't 7come.
+    - id: 6D8dPZIcQeKSaToArHeo4w
+      text: 1Furia 2po 3ke 4zaya'u 5oe 6(sngum si).
+      translations:
+        en: 5(I)6('m worried) 1that 2he 3won't 4come.
+    - id: r7b_mtNrRIutSl-lluCjFg
+      text: 1Tengfya 2omum 3aynga, 4krrka 5tsawlultxa 6Uniltìrantokxolo'ä 7a 8mì 9LosÄntsyelesì 10vospxìam, 11kaymo 12zola'u 13frayultxatu 14ne 15kelku 16moeyä 17fte 18yivom 19wutsot, 20ftivia 21nì'it 22lì'fyati 23leNa'vi, 24ulte 25kiväteng 26nì'o'. 27(N-ìri|Tsyanìri) 28sì 29oeri 30loleiu 31tsakaym 32tsyeym 33angay.
+      lookup_filter:
+        3: 208:pn.:noaffix:nolen
+        4: 10144:adp.:noaffix:nolen
+        16: 1132:pn.:-yä:nolen
+        26: 6916:adv.:noaffix:nolen
+      translations:
+        en: 1As 2you 3know, 4during 5the 6(Avatar Community) 5Meet-up 7+8in 9(Los Angeles) 10(last month), 13(all the participants) 12came 14to 16our 15house 11(one evening) 17to 18+19(have dinner), 20study 21(a little) 22+23Na'vi, 25(hang out together), 26(and have fun). 27(For John) 28and 29me, 31(that evening) 30was 32a 33real 32treasure.
+    - id: X1HmGK_jRmaKMuYvjEr7rA
+      text: '1(Kaym)2(krrka) 3tolel 4moel 5ta 6ayultxatu 7stxelit 8akosman—9nìfkeytongay, 10mestxelit 11alu 12lora 13merel 14(N-ä|Tsyanä) 15sì 16oeyä. 17Tsun 18aynga 19mesat 20tsive''a 21fìtseng:'
+      lookup_filter:
+        2: 10144:adp.:noaffix:nolen
+        3: 2056:vtr.:<ol>:nolen
+        17: 2476:vim.:noaffix:nolen
+        18: 208:pn.:noaffix:nolen
+        19: 5980:pn.:me-:ts→s;5268:pn.:me-:-t:ts→s
+        21: 364:adv., n.:noaffix:nolen
+      translations:
+        en: '2During 1(the evening) 4we 3received 7a 8wonderful 7gift 5from 6(the participants)—9actually, 10(two gifts): 13two 12beautiful 13pictures 14+16of 14John 15and 16me. 18You 17can 20see 19(both of them) 21here:'
+    - id: HFyxpdXkS62UgEU-fh1N8w
+      text: 1Lu 2txantsan 3nìngay, 4kefyak? 5Fìmerelit 6'ongolop 7awngeyä 8tsulfätul 9reltseoä 10alu 11(N|Älìn). 12Tengfya 13tsun 14tsive'a, 15lupra 16(eltur tìtxen si) 17nìtxan. 18Relit 19oeyä 20ngolop 21(N-ìl|Älìnìl) 22fa 23hì'ia 24aylì'u 25leNa'vi, 26relit 27(N-ä|Tsyanä) 28fa 29hì'ia 30aysìreyn. (()31Sunu 32(N-ur|Tsyanur) 33tìreyn 34nìtxan.())
+      lookup_filter:
+        3: 1296:adv.:noaffix:nolen
+        13: 2476:vim.:noaffix:nolen
+        17: 1312:adv.:noaffix:nolen
+        31: 6376:vin.:noaffix:nolen
+        34: 1312:adv.:noaffix:nolen
+      translations:
+        en: 1They're 2+3excellent, 4(aren't they)? 5(The two portraits) 6(were created by) 7our 8Master 9(of Visual Arts), 11Alan. 12As you 13can 14see, 15(the style) 16(is very interesting). 21Alan 20created 19my 18portrait 22(out of) 23little 25Na'vi 24words; 26+27John's he created 24(out of) 30trains. (()32John 31likes 33trains 34(a lot).())
+    - id: pwJQGVj6SSazEtMcM2B3mA
+      text: 1Fìmestxeli 2alor 3kur 4set 5ta 6kxemyo 7a 8mì 9helku 10moeyä.
+      lookup_filter:
+        2: 5444:n.:-r:nolen
+        3: 9796:vin.:noaffix:nolen
+        10: 1132:pn.:-yä:nolen
+      translations:
+        en: 1(These two) 2beautiful 1gifts 3are 4now 3hanging 5on 6(a wall) 7+8in 10our 9home.
+    - id: EmYePpgjQLiCwBaTqqLXXg
+      text: 1Fìmeuiari 2seiyi 3moe 2irayo- 4nìtxan, 5ma 6smuk. 7Moeru 8(teya si) 9nìngay.
+      lookup_filter:
+        4: 1312:adv.:noaffix:nolen
+        9: 1296:adv.:noaffix:nolen
+      translations:
+        en: 3We 2(thank you) 4(so much) 1(for this honor), 5+6(brothers and sisters). 7(We)8+9('re greatly touched).

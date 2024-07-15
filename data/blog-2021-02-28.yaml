@@ -1,0 +1,27 @@
+source:
+    id: blog-2021-02-28
+    date: "2021-02-28"
+    url: https://naviteri.org/2021/02/aysipawm-si-aysieyng-questions-and-answers/
+    title: Aysìpawm sì Aysì’eyng    Questions and Answers
+    author: Paul Frommer
+inputs:
+    - id: mtWsPoTqTe-Ris4Uf9p_yg
+      text: 1tawng 2nemfa 3pay
+      lookup_filter:
+        3: 1480:n.:noaffix:nolen
+      translations:
+        en: 1dive 2into 3(the water).
+    - id: 9Y0hnDEDTlix1liGqUa5jw
+      text: 1Kaltxì 2oeyä 3'ewana 4eylanur 5a 6tok 7Toitslanti.
+      translations:
+        en: 1Hello 4to 2my 3young 4friends 5+6in 7Germany
+    - id: ehPT8QvETaOKInzUMJjTAg
+      text: 1Kaltxì 2oeyä 4eylanur 3a'ewan 5a 6tok 7Toitslanti.
+      translations:
+        en: 1Hello 4to 2my 3young 4friends 5+6in 7Germany
+    - id: GB0VkOQFQpKH9W0fNLVUxQ
+      text: 1mrra 2palukantsyìp 3atsawl 4sì 5layon
+      lookup_filter:
+        2: 13375:n.:noaffix:nolen
+      translations:
+        en: 1five 3big 4+5black 2cats

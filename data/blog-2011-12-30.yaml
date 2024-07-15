@@ -1,0 +1,24 @@
+source:
+    id: blog-2011-12-30
+    date: "2011-12-30"
+    url: https://naviteri.org/2011/12/ulte-yora%e2%80%99tu-leiu-and-the-winner-is/
+    title: Ulte yora’tu leiu . . . And the winner is . . .
+    author: Paul Frommer
+inputs:
+    - id: kn5B-uXkQmmOugLZ3bXccg
+      text: 1wayä 2aylì'u.
+      translations:
+        en: 2words 1(of a poem) (/ )2lyrics 1(of a song)
+    - id: X-GdpcYPRGmYaYpie13nzg
+      text: 1Awngeyä 2lì'fyari 3ayngeyä 4tìyawn 5oeru 6(teya seiyi) 7nìngay.
+      lookup_filter:
+        3: 208:pn.:-yä:nolen
+        7: 1296:adv.:noaffix:nolen
+      translations: {}
+    - id: BQPtx_g5RhiG2Ck6PvDmpA
+      text: 1Ulte 2kxawm 3zìyeva'u 4(nga)5(ne) 6tìyora' 7zìsìtay!
+      translations: {}
+    - id: 0xAsTV4vRXG6f1RtNWSa-Q
+      text: 1Teri 2fwa 3fmal 4fìlì'fyati 5ayawne.
+      translations:
+        en: 1On 2+3keeping 4this 5beloved 4language 2+3alive.

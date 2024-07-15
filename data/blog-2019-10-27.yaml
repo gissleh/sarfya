@@ -1,0 +1,19 @@
+source:
+    id: blog-2019-10-27
+    date: "2019-10-27"
+    url: https://naviteri.org/2019/10/vurway-alor-a-beautiful-narrative-poem-2/
+    title: Vurway Alor—A Beautiful Narrative Poem
+    author: Paul Frommer
+inputs:
+    - id: rU77HIy6Q4mbX9ZQBGDdtQ
+      text: 1Säftxulì'u 2atìtxurnga' 3nìtxan 4nang! 5Furia 6tsaru 7nga 8(stä'nìpam soli), 9irayo.
+      lookup_filter:
+        3: 1312:adv.:noaffix:nolen
+      translations:
+        en: 3+4(What a) 2powerful 1speech! 9(Thank you) 5for 8recording 6it.
+    - id: 6g65teDqQ3KuWEiGwwzB8A
+      text: 1Fìvurwayri 2alor 3sì 4stä'nìpamìri 5tseyä 6irayo 7nìtxan, 8ma 9mesmuk!
+      lookup_filter:
+        2: 1024:adj.:a-:nolen
+        7: 1312:adv.:noaffix:nolen
+      translations: {}

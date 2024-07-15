@@ -1,0 +1,16 @@
+source:
+    id: blog-2020-08-20
+    date: "2020-08-20"
+    url: https://naviteri.org/2020/08/hiia-vur-a-teri-mefalukantsyip-a-little-story-about-two-cats/
+    title: Hì’ia vur a teri mefalukantsyìp    A little story about two cats
+    author: Paul Frommer
+inputs:
+    - id: PqLV0rcqSkOGsOx0Er7gZQ
+      text: 1Fìsäwemìri 2zene 3awnga 4kawl 5häpivawl. 6Lu 7Sawtute 8wätu 9apxul.
+      translations:
+        en: 3We 2must 5prepare 4diligently 1(for this fight). 7(The Skypeople) 6are 9formidable 8opponents.
+    - id: Y0ZpmRWfRjW5KfbgaW_oFg
+      text: '1Mawkrra 2ngal 3vurit 4yolune, 5fìtìpawmìri 6rutxe 7''iveyng: 8Tsaswirä 9apxul 10lu 11peu?'
+      lookup_filter:
+        11: 1528:inter.:noaffix:nolen
+      translations: {}

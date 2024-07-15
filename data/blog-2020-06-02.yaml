@@ -1,0 +1,76 @@
+source:
+    id: blog-2020-06-02
+    date: "2020-06-02"
+    url: https://naviteri.org/2020/06/mi-tanlokxe-oeya-srr-afpxamo-terrible-days-in-my-country/
+    title: Mì tanlokxe oeyä, srr afpxamo     Terrible days in my country
+    author: Paul Frommer
+inputs:
+    - id: oNPGB5HvR9KTJq3D0aPkag
+      text: 1Awngal 2horenit 3ayll 4lek.
+      translations:
+        en: 1We 4obey 2+3(the laws).
+    - id: X2rqYCKAQcebWQtcBJqsCw
+      text: 1Pol 2awngaru 3+5horenit 4+5ayll 6leykek.
+      translations:
+        en: 1He 6makes 2us 6obey 3+4+5(the laws).
+    - id: ey44_qKoSYeTp2ePk4ddag
+      text: 1Pol 2+5horenit 3+5ayll 4leykek.
+      lookup_filter:
+        4: 13189:vtr.:noaffix:nolen
+      translations:
+        en: 1He 4enforces 2+3+5(the laws).
+    - id: dTzSwhu6RS6z66TBQ6Rs3g
+      text: 1Kezemplltxe 2lu 3fìpìlokä 4tìkan 5fwa 6pängkxo 7teri 8lì'fya 9leNa'vi. 10(Krro krro) 12ngian 13'efu 14oel 15futa 16zene 17oe 18(pamrel sivi) 19teri 20tele 21alahe.
+      translations: {}
+    - id: xkKUszOtQD-NshUlv3S3jQ
+      text: 1Kintrram 2ayoe 3a 4tok 5(M-t|Amerikat) 6(tarmìng nari) 7tengkrr 8'awa 9horenleykekyul 10tutanit 11a'aw 12tsperang—13(lun)59+13(luke) 14nìwotx, 15nìk'ong, 16nìzevakx. 17Tsatutanur 18a 19fkol 20tspolang 21lolu 22ta'leng 23akllvawm; 24tspangyur 25lu 26pum 27ateyr. 28Kawnga 29hem 30anafì'u 31lolängen 32alo 33apxay 34mì 35okvur 36ayoeyä, 37slä 38pum 39alu 40fì'u 41lolen 42eo 43menari. 44Fpxamoa 45fìkemìl 46afpxamo 47ayoeti 48tsngeykolawvìk, 49tsakrr 50leykoleymkem. 51Fratrr 52'erul 53a 54faysäleymkem 55ayll 56muiä 57lu 58nìwotx.
+      lookup_filter:
+        2: 212:pn.:noaffix:nolen
+        11: 12:num.:a-:nolen
+        16: 13195:adv.:noaffix:nolen
+        36: 212:pn.:-yä:nolen
+        40: 368:pn.:noaffix:nolen
+        43: 1080:n.:noaffix:nolen
+        45: 352:pn.:-ìl:nolen
+        47: 212:pn.:-ti:nolen
+        49: 2332:adv.:noaffix:nolen
+        51: 4148:adv.:noaffix:nolen
+      translations: {}
+    - id: 0d-piWkTQy2cvrGpZbEBuA
+      text: '1Slä 2set 3tängok 4kop 5tantsawtsrayti 6ayoeyä 7''uol 8alahe: 9tsaktap. 10Lu 11sute 12a 13fpìl 14san 15oeri 16tìrey 17(tìsraw si), 18ha 19tìreyti 20ngeyä 21oel 22(tìsraw seykasyi) 23nìteng. 24Oeri 25ke 26lu 27tìmwiä, 28ha 29ngati 30oel 31ngeykasyä''än 32nìteng 33sìk. 34Fo 35fmong, 36fo 37nekx, 38fo 39ska''a. 40''Efu 41oel 42futa 43txanlokxe 44oeyä 45pxeror.'
+      lookup_filter:
+        4: 872:adv.:noaffix:nolen
+        6: 212:pn.:-yä:nolen
+        7: 4180:pn.:-l:nolen
+        18: 540:conj.:noaffix:nolen
+        23: 1304:adv.:noaffix:nolen
+        28: 540:conj.:noaffix:nolen
+        32: 1304:adv.:noaffix:nolen
+        33: 1796:adv.:noaffix:nolen
+        34: 412:pn.:noaffix:nolen
+        36: 412:pn.:noaffix:nolen
+        38: 412:pn.:noaffix:nolen
+      translations: {}
+    - id: Ib7G93HSQpKK971BNLmCfA
+      text: 1Ulte 2tengkrr 3fayhem 4afpxamo 5verar 6liven, 7säspxin 8lehrrap 9var 10vivirä.
+      translations: {}
+    - id: jzBS3Q_RR7OBe4wfaQNiGg
+      text: 1Nìrangal 2lirvu 3ayoeru 4eyktan 5a 6tsivun 7(srung sivi), 8pum 9a 10livu 11por 12aylì'u 13azeykuso. 14Nìkeftxo 15ke 16lu 17ayoer 18eyktan 19anafì'u. 20Tìeyktanìri 21eyktan 22a 23fkeytok 24ke 25lu 26pxan 27kaw'it. 28Nìfya'o 29a 30(pamrel soli) 31oe 32kam 33'a'awa 34zìsìt, 35fìtutan 36ayaymak 37yawne 38lu 39snor 40nì'aw; 41fpom 42txanlokxeyä 43ke 44tsranten 45por. 46Fpìl 47pol 48futa 49tsaktapìri 50'umtsa 51aswey 52lu 53tsaktap 54nì'ul.
+      lookup_filter:
+        3: 212:pn.:-ru:nolen
+        11: 1548:pn.:-r:nolen
+        13: 6428:vtr.:a-:<us>:nolen
+        17: 212:pn.:-r:nolen
+        32: 8020:adp.:noaffix:nolen
+        45: 1548:pn.:-r:nolen
+      translations: {}
+    - id: B1jMQYgzSO67QZU2srKE_g
+      text: '1Srake 2tsayun 3fko 4fìtìfkeytokit 5a 6(M|Amerika)7(mì) 8zeykivo? 9Oe 10ke 11omum. 12Slä 13law 14lu 15''u 16a''aw 17nìwotx: 18Kam 19puzama 20zìsìt 21wum 22fìatxkxemì, 23fkol 24yolem 25nemfa 26kllte 27utralit 28akawng 29ulte 30tsat 31peykolaw. 32Tsautral 33(tsawl slolu). 35Tolìng 36ayoer 37mautit 38asyä''ä. 39Ulte 40yerom 41ayoel 42tsamautit 43fìtrr.'
+      lookup_filter:
+        8: 6428:vtr.:<iv>:nolen
+        16: 12:num.:a-:nolen
+        18: 8020:adp.:noaffix:nolen
+        36: 212:pn.:-r:nolen
+        41: 212:pn.:-l:nolen
+        43: 4280:adv.:noaffix:nolen
+      translations: {}

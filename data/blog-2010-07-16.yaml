@@ -1,0 +1,149 @@
+source:
+    id: blog-2010-07-16
+    date: "2010-07-16"
+    url: https://naviteri.org/2010/07/vocabulary-update/
+    title: Vocabulary update
+    author: Paul Frommer
+inputs:
+    - id: YqUY6593S_SPzTSE-dAT0A
+      text: 1Lu 2poru 3'a'awa 4'eylan.
+      translations:
+        en: 2He 1has 3several 4friends.
+    - id: qp8oF3qWR2m9DoECviPhfQ
+      text: 1Oel 2tse'a 3'a'awa 4tutet.
+      translations:
+        en: 1I 2see 3several 4people.
+    - id: U2afbwUfSpev4qIpJWM91A
+      text: 1Oel 2tse'a 3hola 4tutet.
+      translations:
+        en: 1I 2see 3(only a few) 4people.
+    - id: TbDy47s4TpaOEUHGNBOz_w
+      text: 1oeyä 2soaiayä 3'okvur
+      translations:
+        en: 1my 2family's 3history
+    - id: PIjBJMXFQK6SBT4vPETuTQ
+      text: 1okvur 2Sawtuteyä 3mì 4Eywa'eveng
+      translations:
+        en: 1(the history) 2(of the Sky People) 3on 4Pandora.
+    - id: 3fJrmwc7SainjLZSFZF5yg
+      text: 1Tskalepit 2oel 3tolìng 4oeyä 5tsmukanur 6alu 7Ìstaw.
+      translations:
+        en: 2I 3gave 1(the crossbow) 5to 4my 5brother 6+7Istaw.
+    - id: 1BDgmp1WSlaVhFkbyvhRtw
+      text: 1Txoa 2livu, 3yawne 4lu 5oer 6Sorewn . . . 7alu . . . 8ke 9tsun 10oeng 11muntxa 12slivu
+      lookup_filter:
+        9: 2476:vim.:noaffix:nolen
+      translations:
+        en: 1+2Sorry, but 5I 3+4love 6Sorewn . . . 7(in other words), 10(you and I) 8+9cannot 11+12marry.
+    - id: 9bQsjAyFTQylM_d6LqNZDQ
+      text: 1Hawngkrr 2rä'ä 3ziva'u!
+      translations:
+        en: 2Don't 3come 1late!
+    - id: YKjuI-5FRy-kBRczY8H76g
+      text: 1tìpähem 2leye'krr
+      translations:
+        en: 1an 2early 1arrival
+    - id: FxeKy0s8T3Wc_AmegPy6Rw
+      text: 1Ngeyä 2säfpìl 3(Sawtute)4(teri) 5heiek 6oer 7nìtxan.
+      lookup_filter:
+        7: 1312:adv.:noaffix:nolen
+      translations:
+        en: 1Your 2idea 4about 3(the Sky People) 5is 7very 5interesting 6(to me) 5((because it seems unusual))
+    - id: kkJ0HSYuTLOv20pve5DjzQ
+      text: 1Nìhek 2fo 3nìNa'vi 4plltxe.
+      lookup_filter:
+        2: 412:pn.:noaffix:nolen
+      translations:
+        en: 1Strangely, 2they 4speak 3Na'vi.
+    - id: 5pLHYzIvQyW4i9EYB_qFFA
+      text: 1Fo 2nìNa'vi 3plltxe 4nìfya'o 5a 6hek.
+      lookup_filter:
+        1: 412:pn.:noaffix:nolen
+      translations:
+        en: 1They 3speak 2Na'vi 4+5+6strangely.
+    - id: ZzsI-5RcQ_CYBRItDhZtYg
+      text: 1Larmu 2(tsatsamsiyu)3(hu) 4tìvawm 5a 6lu 7stxong 8ayoer.
+      lookup_filter:
+        8: 212:pn.:-r:nolen
+      translations:
+        en: 1+2+3(That warrior carried with him) 4(a darkness) 5+6+7unknown 8(to us).
+    - id: GH-V0ndAQVG4uKIIHSSKUw
+      text: 1Nga 2plltxe 3ke 4nìfyeyntu 5ki 6nì'eveng.
+      translations:
+        en: 1You 2speak 3not 4+6like 4(an adult) 5but 6(a child).
+    - id: 309gjf_-T4S0D-oheAeWyg
+      text: 1aysäfpìl 2atxukx
+      translations:
+        en: 2deep 1thoughts
+    - id: rVoS8LDcToieCv3r7F3JSg
+      text: 1(Ätxäle si) 2palulukanur 3tsnì 4smarit 5livonu.
+      translations:
+        en: 1Ask 2(a thanator) 3to 5release 2its 4prey.
+      flags:
+        - proverb
+    - id: Ru5C4ztiRSK0X8Qp9LlO-w
+      text: 1Sunu 2oeru 3teylu.
+      lookup_filter:
+        1: 6376:vin.:noaffix:nolen
+      translations:
+        en: 2I 1like 3teylu
+    - id: EHbvpIgjQuqfY6EzkQQ1QQ
+      text: 1Furia 2tsolun 3oe 4(nga)5(hu) 6pivängkxo, 7oeru 8prrte' 9lu 10nìngay.
+      lookup_filter:
+        10: 1296:adv.:noaffix:nolen
+      translations:
+        en: 1It 9was 10really 8(a pleasure) 1to 2(be able to) 6speak 5with 4you.
+    - id: HkmkaH5YRR2W_DsR3f2GqA
+      text: 1Fwa [2fì'u 3a] 4tsolun 5oe 6(nga)7(hu) 8pivängkxo 9oeru 10prrte' 11lu 12nìngay.
+      lookup_filter:
+        2: 368:pn.:noaffix:nolen
+        12: 1296:adv.:noaffix:nolen
+      translations:
+        en: 1+2+3(The fact that) 5I 4(was able to) 8speak 7with 6you 11is 12really 10pleasurable 9(to me).
+    - id: eSyZcM2QR7ilMazzbAfvjg
+      text: 1Plltxe 2fko 3san 4ngaru 5lu 6mowan 7Txilte 8ulte 9poru 10nga.
+      translations:
+        en: 1+2+3(I hear) 4you 5+6like 7Txilte 8+9+10(and vice versa).
+    - id: _1F_LwhwR2-Giim9ec_-eg
+      text: 1Tìtusaron 2mowan 3lu 4oer 5nìngay.
+      lookup_filter:
+        5: 1296:adv.:noaffix:nolen
+      translations:
+        en: 1Hunting 5really 2+3turns 4me 2+3on.
+      flags:
+        - slang
+    - id: _H9aAFsHS42beW5HwwzfBg
+      text: 1Tsakrr 2syay 3ayngeyä, 4syay 5olo'ä 6oeyä 7layu 8teng.
+      lookup_filter:
+        1: 2332:adv.:noaffix:nolen
+        3: 208:pn.:-yä:nolen
+      translations:
+        en: 1Then 3you 7(will suffer the) 8same 2+4fate 8as 6my 5clan.
+    - id: ik3sAwDAQxCTlX9iRMDQ-Q
+      text: 1Etrìpa 2syayvi!
+      translations:
+        en: 1Good 2luck!
+      flags:
+        - proverb
+    - id: XErHugMzS-Wtxd9InKsZAA
+      text: 1Ngaru 2lu 3fpom 4srak?
+      translations:
+        en: |-
+            2Are 1you 3(well)4(?)
+            ((Are you experiencing a general sense of happiness and well-being?))
+    - id: 0C6mg-92TYiWjVJAeJhaWA
+      text: 1Nga 2zo 3srak?
+      translations:
+        en: |-
+            2Are 1you 2(well)3(?)
+            ((Have you recovered from your illness? Are you OK after that nasty fall?))
+    - id: BHOpB2bPRfq-43U4KLLoBw
+      text: 1Oeri 2nì'i'a 3tsyokx 4zoslolu.
+      translations:
+        en: 1My 3hand 4is 2finally 4healed.
+    - id: r6ZsvY_DSNKrJJ-DM_7xaA
+      text: 1Eywal 2zeykivo 3ngat 4nìwin.
+      lookup_filter:
+        4: 1316:adv.:noaffix:nolen
+      translations:
+        en: 2May 1Eywa 2heal 3you 4quickly.

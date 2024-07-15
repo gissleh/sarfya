@@ -1,0 +1,74 @@
+source:
+    id: blog-2011-04-05
+    date: "2011-04-05"
+    url: https://naviteri.org/2011/04/%e2%80%99a%e2%80%99awa-li%e2%80%99fyavi-amip%e2%80%94a-few-new-expressions/
+    title: ’A’awa Lì’fyavi Amip—A Few New Expressions
+    author: Paul Frommer
+inputs:
+    - id: oVbggIIKRGCgdfuT5jDBKA
+      text: 1Nga 2zene 3kivä.
+      translations:
+        en: 1You 2must 3go.
+    - id: aSRPT77SSGGBlpq-AfsKlA
+      text: 1Nga 2zenke 3kivä.
+      translations:
+        en: 1You 2(must not) 3go.
+    - id: R1oHhsN4TOS-LX2sFsruhQ
+      text: 1Nga 2ke 3zene 4kivä.
+      translations:
+        en: 3It's 2not 3(necessary/obligatory that) 1you 4go.
+    - id: 1p1oY2qXST6NUAbG2cjITw
+      text: 1Sweylu 2txo 3nga 4kivä.
+      translations:
+        en: 3You 1+2should 4go.
+    - id: cpv8DBzNSrOSEuoKBa6PKg
+      text: 1Nga 2sweylu 3txo 4ke 5kivä.
+      translations:
+        en: 1You 2+3+4shouldn't 4go.
+    - id: KIaslcE0RE6xL55oxGP3wA
+      text: 1Sweylu 2fwa 3nga 4kolä.
+      translations:
+        en: 3You 1+2should 4(have gone).
+    - id: 7d2Z4f0OSZmBuABvUvg-JA
+      text: |-
+        1Tsenu: 2Spaw 3oe, 4fwa 5po 6kolä 7längu 8kxeyey.
+        9Kamun: 10Kehe, 11kehe! 12Sweylu 13fwa 14po 15kolä!
+      translations:
+        en: |-
+            1Tsenu: 3I 2believe 4it 7was 8(a mistake) 4for 5him 4to 6(have gone).
+            9Kamun: 10No, 11no! 14He 12+13should 15(have gone)!
+    - id: 3DFm330pTjeWMsIuBNBGyw
+      text: 1Tsaria 2fkol 3pole'un 4futa 5(N|Loak) 6slu 7taronyu, 8sempul 9'efu 10ye.
+      lookup_filter:
+        7: 2008:n.:noaffix:nolen
+        8: 1764:n.:noaffix:nolen
+      translations:
+        en: 8Father 9is 10content 1that 2+3(it's been decided) 5Loak 4+6(will be) 7(a hunter).
+    - id: sJzhXXa4QzCdIFmlhLNnhg
+      text: 1Ngeyä 2tìkangkemìri 3'efeiu 4oe 5ye 6nìtxan. 7Seysonìltsan!
+      lookup_filter:
+        6: 1312:adv.:noaffix:nolen
+      translations:
+        en: 4(I)3('m) 6very 5satisfied 2with 1your 2work. 7(Well done)!
+    - id: spBjvHAlSMqDZscuDbPb-g
+      text: 1Nì'i'a 2po 3tsatìkangkemvir 4(hasey soli).
+      translations:
+        en: 2She 1finally 4completed 3(the project).
+    - id: 1YuvNGPKTXO4tznPgssmqg
+      text: 1Srekrr 2'amefu 3väng, 4set 5yeväng.
+      translations:
+        en: 1Before, I 2was 3thirsty; 4now 5(my thirst has been quenched).
+    - id: VEcFvYCGTpKNXmwSegdeKQ
+      text: "1Tsenu:\n2Srake 3yehakx? \n4Kamun:\n((a)) 5Stum.\n((b)) 6Ye. 7Tsun 8tivam. \n((c)) 9Nìtxan!\n((d)) 10(Nìhawng|Nìhaawwwng)."
+      lookup_filter:
+        7: 2476:vim.:noaffix:nolen
+        9: 1312:adv.:noaffix:nolen
+      translations:
+        en: |-
+            1Tsenu:
+            2Did you 3(get enough to eat)?
+            4Kamun:
+            ((a)) 5Almost. ((What's for dessert?))
+            ((b)) 6Yes. That7+8('ll be enough).
+            ((c)) 9Very! I'm quite full.
+            ((d)) 10(Oooh. I ate too much).

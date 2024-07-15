@@ -1,0 +1,28 @@
+source:
+    id: forum-2013-10-04-051847
+    date: "2013-10-04"
+    url: https://forum.learnnavi.org/language-updates/prefer-x-to-y-24474/
+    title: prefer X to Y
+    author: Plumps, Paul Frommer
+inputs:
+    - id: d3AQvPCBTZ-9H5KmTJsAxQ
+      text: 1Oel 2payti 3nulnew 4to 5swoat.
+      lookup_filter:
+        2: 1480:n.:-ti:nolen
+        4: 2224:part.:noaffix:nolen
+      translations:
+        en: 1I 3prefer 2water 4to 5alcohol
+    - id: 4tWQwqYRTzirrtalpKbRow
+      text: 1Oe 2(nga)5(to) 3yom 4nì'ul.
+      lookup_filter:
+        5: 2224:part.:noaffix:nolen
+      translations:
+        en: 1I 3eat 4more 5than 2you 5((do)).
+    - id: Fi2jzzMnRTa0mXBco-F8Zg
+      text: 1Oel 2X-ti 3to 4Y-ti 5new 6nì'ul.
+      lookup_filter:
+        3: 2224:part.:noaffix:nolen
+      translations:
+        en: 1I 5want 2X 6more 3than 4Y
+      flags:
+        - syntax

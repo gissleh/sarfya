@@ -1,0 +1,141 @@
+source:
+    id: blog-2015-11-30
+    date: "2015-11-30"
+    url: https://naviteri.org/2015/11/vomuna-liu-amip-ten-new-words/
+    title: Vomuna Lì’u Amip—Ten New Words
+    author: Paul Frommer
+inputs:
+    - id: 32R_YzsZR0i1UsipDQKFTg
+      text: 1Takrra 2postì 3asok 4frato 5solalängew 6txana 7krr.
+      translations: {}
+    - id: FjfAJtf3SEiJ34r_wW4F9Q
+      text: |-
+        A: 1Fayzum 2lu 3peu?
+        B: 4Ke 5omum, 6slä 7rä'ä 8(tìng zekwä)! 9Lam 10lehrrap.
+      lookup_filter:
+        3: 1528:inter.:noaffix:nolen
+      translations:
+        en: |-
+            A: 3What 2are 1(these things)?
+            B: I 4don't 5know, 6but 7don't 8touch 1them! 9(They look) 10dangerous.
+    - id: PeRLQHsgQqyY6jENfukuQg
+      text: 1Hìpey 2taronyu, 3hifwo 4yerik.
+      lookup_filter:
+        2: 2008:n.:noaffix:nolen
+      translations:
+        en: |-
+            2(The hunter) 1hesitates and 4(the hexapede) 3escapes.
+            ((Proverbial expression. Cf.: “He who hesitates is lost.”))
+      flags:
+        - proverb
+    - id: Cqgiq657R0WdLuDK2rFy2g
+      text: 1Furia 2peng 3fmawnit 4Eytukanur 5po 6hìpoley.
+      lookup_filter:
+        2: 1512:vtr.:noaffix:nolen
+      translations:
+        en: 5He 6hesitated 1to 2tell 4Eytukan 3(the news).
+    - id: rJFaqKq2Q6Sjxb9g_7ffjQ
+      text: 1Tìhìpey 2tsun 3(krro krro) 4lesar 5livu.
+      lookup_filter:
+        2: 2476:vim.:noaffix:nolen
+      translations:
+        en: 1Hesitation 2can 3sometimes 5be 4useful.
+    - id: sxzELIEkTQuHPjlSR6gBlA
+      text: 1Sar 2tsalì'ut 3a 4fì'uri 5lu 6oeru 7tìhìpey 8nì'it
+      lookup_filter:
+        1: 3812:vtr.:noaffix:nolen
+        4: 368:pn.:-ri:nolen
+      translations:
+        en: 5+6+7I'm 8(a bit) 5+6+7hesitant 4about 1using 2(that word).
+    - id: dnSw3zhHSQGc3sCGH17ZVQ
+      text: 1Taronyul 2lehìpey 3kan 4smarit 5nìlkeftang 6slä 7ke 8takuk 9kawkrr.
+      lookup_filter:
+        1: 2008:n.:-l:nolen
+        8: 1976:vtr.:noaffix:nolen
+      translations:
+        en: 1A 2hesitant 1hunter 3(will aim at) 4(a prey) 5forever 6but 7+9never 8hit it.
+    - id: j66F2DJ7T-mhZbSnmYuklQ
+      text: 1Fìtsnganur 2a 3snoläm 4längu 5fahew 6akxänäng.
+      translations:
+        en: 1This 2+3rotten 1meat 4has 5a 6putrid 5smell.
+    - id: UEDg1-OtTFudTJE0KLSCsA
+      text: 1Zene 2fko 3tsko 3swizawit 5sivar 6nìtrrtrr 7fteke 8fìtsu'o 9sniväm.
+      translations:
+        en: 2One 1must 5use 3(a bow and arrow) 6regularly 7(to prevent) 8(this ability) 9(degrading over time).
+    - id: Tzlmai20QBK958rbYcPySA
+      text: 1Txewì 2plltxe 3san 4kllrikx 5txewm 6lamu 7sìk.
+      lookup_filter:
+        7: 1796:adv.:noaffix:nolen
+      translations:
+        en: 1Txewì 2says 3+7that 4(the earthquake) 6was 5frightening.
+    - id: AV4HFDQzTr2150GBVlyqBw
+      text: 1'Onìri 2tskoä 3lu 4tìkin 5sälatemä 6ahì'i.
+      translations:
+        en: 1(The form) 2(of the bow) 3+4requires 5a 6small 5change.
+    - id: MmGL_sbsT-Si4MLh5xUZww
+      text: 1Pxaya 2suteri, 3tìlatem 4lu 5ngäzìk.
+      translations:
+        en: 2For 1many 2people, 3change 4is 5difficult.
+    - id: y_Dz_L6qTROxeeISDdQiBw
+      text: 1(Yo)2(sìn) 3kilvanä 4lu 5tatx.
+      lookup_filter:
+        2: 4048:adp.:noaffix:nolen
+      translations:
+        en: 4(There are) 5bubbles 2on 1(the surface) 3(of the river).
+    - id: P7IEY4smS0CGFv_V6HyGLQ
+      text: 1Kaltxì, 2ma 3eylan. 4Sìlpey 5oe, 6ayngaru 7livu 8fpom 9nìwotx.
+      lookup_filter:
+        4: 1800:vin.:noaffix:nolen
+        6: 208:pn.:-ru:nolen
+      translations:
+        en: 1Hello, 2+3friends. 5I 4hope 6(you)7+8('re) 9all 7+8well.
+    - id: KaB1dbaEROWwzER_fyBz6w
+      text: 1Narmew 2oe 3piveng 4ayngar 5teri 6mehapxìtu 7amip 8soaiä 9(N|Tsyanä) 10sì 11oeyä. 12Lu 13hì'ia 14mefalukantsyìp 15a 16syaw 17fko 19mefor 20(N|Palu) 21sì 22(N|Lukan). 23Mefo 24lu 25tsmukan 26sì 27tsmuke. 28Fpìl 29oel 30futa 31tsun 32aynga 33tslivam 34teyngta 35tsamestxo 36za'u 37ftu 38pesim. 39Lu 40law, 41kefyak?
+      lookup_filter:
+        4: 208:pn.:-r:nolen
+        14: 13375:n.:me-:p→f
+        19: 1076:pn.:-r:nolen
+        23: 1076:pn.:noaffix:nolen
+        31: 2476:vim.:noaffix:nolen
+        32: 208:pn.:noaffix:nolen
+      translations:
+        en: 2I 1(wanted to) 3tell 4you 5about 6two 7new 6members 8of 9John's 10and 11my 8family. 12They're 14two 13little 14cats 15+16+17+19named 20Palu 21and 22Lukan. 23(They)24('re) 25brother 26and 27sister. 29I 28+30think 32you 31can 33understand 34+38(what source) 35(those two names) 36come 37from. 39It's 40clear, 41(isn't it)?
+    - id: CbZN06O9SdC8Q-hXKDG0hQ
+      text: 1(N|Lukan) (()2alu 3tsmukantsyìp()) 4sì 5(N|Palu) (()6alu 7tsmuketsyìp()) 8mi 9lu 10prrnen, 11ulte 12leiu 13lor 14sì 15hona 16nìtxan. 17Slä 18längu 19kop 20nim, 21stum 22loreyu 23'awnampi. 24Polähem 25ne 26kelku 27moeyä 28txonam, 29ulte 30kezemplltxe 31fìtsenge 32amip 33sì 34mesutan 35amip 36nìteng 37lu 38meforu 39stxong 40nìtxan 41nì'aw. 42Fìtrr 43mì 44tampxì 45krrä 46wäperan. 47Sìlpey 48moe 49tsnì 50slìyevu 51ye'rìn 52tstew 53fìtxan 54kuma 55tsun 56wrrziva'u 57(uvan sivi) 58(moe)59(hu). 60Fwa 61'efu 62mawey 63sì 64nitram 65mì 66pawngip 67amip 68krrnekx, 69ha 70moe 71zene 72maweypivey.
+      lookup_filter:
+        16: 1312:adv.:noaffix:nolen
+        19: 872:adv.:noaffix:nolen
+        27: 1132:pn.:-yä:nolen
+        31: 365:adv., n.:noaffix:nolen
+        36: 1304:adv.:noaffix:nolen
+        38: 1076:pn.:-ru:nolen
+        40: 1312:adv.:noaffix:nolen
+        42: 4280:adv.:noaffix:nolen
+        47: 1800:vin.:noaffix:nolen
+        54: 8836:conj.:noaffix:nolen
+        55: 2476:vim.:noaffix:nolen
+        69: 540:conj.:noaffix:nolen
+      translations:
+        en: 1Lukan, 2+3(the little brother), 4and 5Palu, 6+7(the little sister), 9are 8still 10babies, 11and 12(I'm happy to say they're) 16very 13beautiful 14and 15cute. 17But 18(unfortunately they're) 19also 20shy, 21almost like 22a 23touched 22helicoradian. They 24arrived 25at 27our 26house 28(last night), 29and 30(needless to say) 31the 32new 31place 33and 36likewise 34(the two) 35new 34men 37are 40very 39strange 38(to them). 43+44(For most) 45(of the time) 42today they 46(were hiding). 48We 47+49hope they50'll 51soon 50become 52brave 53enough 54+55to 56(come out) 57(and play) 59with 58us. 60+61Feeling 62calm 63and 64happy 65in 66a 67new 66environment 68(takes time), 69so 70we 71(have to) 72(be patient).
+    - id: sJW1FgQGTb6-AtiU-XcH8A
+      text: 1(Hayalo)4(vay), 2ma 3smuk.
+      translations:
+        en: 4Until 1(next time), 2+3(brothers and sisters).
+    - id: guifXt9uSLOQpDDWRH_r2w
+      text: 1Oe 2kan 3kivä
+      translations:
+        en: 1I 2(intend to) 3go.
+    - id: 4P5S2PiHSa22TXU9Ep8Bcg
+      text: 1Oel 2kan 3futa 4po 5kivä.
+      translations:
+        en: 1I 2+3intend 4him 2+3to 5go.
+    - id: E4UFWy5pSnCxwE_lHpBsbA
+      text: 1Neytiril 2tskoti 3keran 4ne 5yerik.
+      translations:
+        en: 1Neytiri 3(is aiming) 1her 2bow 4at 5(a hexapede).
+    - id: sO7pxgd3TNSdSe6vU3Reiw
+      text: 1Pol 2tskoti 3kolan 4wä 5kutu.
+      lookup_filter:
+        3: 704:vtrm.:<ol>:nolen
+      translations:
+        en: 1He 3raised 1his 2bow 4against 5(the enemy).

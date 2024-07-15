@@ -1,0 +1,23 @@
+source:
+    id: blog-2010-07-01
+    date: "2010-07-01"
+    url: https://naviteri.org/2010/07/thoughts-on-ambiguity/
+    title: Thoughts on ambiguity
+    author: Paul Frommer
+inputs:
+    - id: yxlo6GV-S4ujOBerVQW_AA
+      text: 1Po 2to 3oe 4lu 5koak.
+      lookup_filter:
+        2: 2224:part.:noaffix:nolen
+      translations:
+        en: |-
+            1She 4is 5(old)2(er than) 3(I )3((am)).
+            ((Example of ambiguity))
+    - id: 0q2LsT3gS3S_FLBK8jpTVA
+      text: 1(Po)2(to) 3oe 4lu 5koak.
+      lookup_filter:
+        2: 2224:part.:noaffix:nolen
+      translations:
+        en: |-
+            3I 4am 5(old)2(er than) 1(she )1((is)).
+            ((Example of ambiguity))

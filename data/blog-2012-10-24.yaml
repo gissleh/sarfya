@@ -1,0 +1,12 @@
+source:
+    id: blog-2012-10-24
+    date: "2012-10-24"
+    url: https://naviteri.org/2012/10/ting-mikyun-listen/
+    title: Tìng mikyun! Listen!
+    author: Paul Frommer
+inputs:
+    - id: U2S2OPjJQleXxofkxmWTnw
+      text: 1(Tìng mikyun) 2nì'o'!
+      lookup_filter:
+        2: 6916:adv.:noaffix:nolen
+      translations: {}

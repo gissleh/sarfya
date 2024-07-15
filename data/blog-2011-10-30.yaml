@@ -1,0 +1,181 @@
+source:
+    id: blog-2011-10-30
+    date: "2011-10-30"
+    url: http://localhost:5173/search?q=src%3Ablog-2011-10-30
+    title: More Vocabulary + a Bit of Grammar
+    author: Paul Frommer
+inputs:
+    - id: n7_WZlHoRpCMNopYmivL6Q
+      text: 1Sweylu 2txo 3ngal 4ke 5txivìng 6säfpìlit 7letsim.
+      translations:
+        en: |-
+            3You 1+2(should)4(n't) 5abandon 3your 7original 6idea.
+            ((The meaning here is that you came up with a new and unique idea that you shouldn't abandon.))
+    - id: IjUsmP62QXGP3P0EMx6esw
+      text: 1Sweylu 2txo 3ngal 4ke 5txivìng 6säfpìlit 7lesngä'i.
+      translations:
+        en: |-
+            3You 1+2(should)4(n't) 5abandon 3your 7original 6idea.
+            ((Here the meaning is that your very first idea is better than the current one.))
+    - id: DgqeVXXQT9uWnpmlhkh8Rg
+      text: 1Frakrr 2po 3fpìl 4nìtsim 5nìwotx.
+      lookup_filter:
+        1: 456:adv.:noaffix:nolen
+      translations:
+        en: 2+3(Her thinking) 4is 1always 5completely 4original.
+    - id: Qi5DpAKvSli3vo7W9oMOfw
+      text: 1Nìsngä'i 2fmawnit 3fo 4narmew 5wivan, 6slä 7nì'i'a 8frapor 9lolonu.
+      lookup_filter:
+        3: 412:pn.:noaffix:nolen
+        8: 460:pn.:-r:nolen
+      translations:
+        en: 3They 1originally 4(wanted to) 5hide 2(the news), 6but 7(in the end) 3they 9revealed 2it 8(to everyone).
+    - id: r30aOzxsSRmFY1lOmXtBcA
+      text: 1Ftue 2lu 3fwa 4taron 5ngonga 6ioangit 7to 8fwa 9taron 10pumit 11a 12lu 13walak 14sì 15win.
+      lookup_filter:
+        7: 2224:part.:noaffix:nolen
+      translations:
+        en: 3(It)2('s) 1(easi)7(er) 3to 4hunt 5lethargic 6animals 7than 8to 9hunt 11+12+13(perky)14(,) 11+12+15speedy 10ones.
+    - id: 1V-uZHSjSKqtOImsz91bvg
+      text: 1Tìtusaronìri 2txo 3new 4fko 5slivu 6tsulfätu, 7zene 8(smar)9(to) 10livu 11walak.
+      lookup_filter:
+        9: 2224:part.:noaffix:nolen
+      translations:
+        en: 1If 4you 3(want to) 5become 6+1(a master hunter), 4you 7(have to) 10be 9more 11active 9than 4your 8prey.
+    - id: S3QfohTnRreZwmvMcSWViA
+      text: 1Fìtrr 2oe 3'efu 4ngong 5nìwotx.
+      lookup_filter:
+        1: 4280:adv.:noaffix:nolen
+      translations:
+        en: 2(I)3('m) 4+5(just not motivated to do anything) 1today.
+    - id: qJlKnH_ORZOGOUqrkTNcOA
+      text: 1Fwa 2(Ìstaw)3(hu) 4'awsiteng 5(tìkangkem si) 6ke 7sunu 8oer; 9tìngongìri 10ke 11lu 12kawtu 13na 14po.
+      lookup_filter:
+        7: 6376:vin.:noaffix:nolen
+      translations:
+        en: 8I 6don't 7(like to) 1+5work 3with 2Ìstaw; 10+11+12+13+14(he's famous) 9for 10+11+12+13+14his 9laziness.
+    - id: pzNRx-G1R-qV4tYkT4r2hQ
+      text: 1Tsun 2oe 3(nga)4(hu) 5(tsatsenge)6(ne) 7kivä, 8slä 9nulnew 10futa 11sivop 12oeng 13nìtxiluke.
+      lookup_filter:
+        1: 2476:vim.:noaffix:nolen
+      translations:
+        en: 2I 1can 7go 5+6there 4with 3you, 8but 2I 9(prefer to) 10+11travel 13leisurely.
+    - id: EeZhFJZ2SHSnLwQoIV5aKw
+      text: 1Maw 2txantompa, 3pxaya 4(rìk)5(äo) 6lamu 7tskalep 8peyä, 9ha 10tsat 11kulat 12ayoel.
+      lookup_filter:
+        9: 540:conj.:noaffix:nolen
+        12: 212:pn.:-l:nolen
+      translations:
+        en: 1After 2(the rainstorm), 8his 7crossbow 6was 5under 3(a lot of) 4leaves, 9so 12we 11uncovered 10it ((removed the leaves from it)).
+    - id: wmmnjeAQTYejwhKqIsp7Fg
+      text: 1Lolu 2kavuk, 3slä 4Tsenul 5tìngayit 6kolulat.
+      translations:
+        en: 1(There was) 3treachery, 4but 5Tsenu 6revealed 5(the truth).
+    - id: A6J-RphkRriIM-zvPyNjnw
+      text: 1Ma 2sa'nu, 3oe 4(txopu si). 5Meyam 6oeti!
+      translations:
+        en: 1+2Mommy, 3(I)4('m scared). 5Hold 6me!
+    - id: UngYi4k3Tx2xfE0qWm2Q4w
+      text: 1Sämyamìl 2poru 3wayìntxu 4futa 5(nga)6(ta) 7lolu 8li 9txoa.
+      translations:
+        en: 1(A hug) 4(will show) 2him 4that 5+6+7+9you've 8already 5+6+7+9forgiven 2him.
+    - id: OODvOBmdQRGlbJEk5NiAtg
+      text: 1Mefo 2fìtsap 3mäpoleyam 4tengkrr 5tsngawvìk.
+      translations:
+        en: 2(The two of them) 3hugged 2(each other) 4and 5wept.
+    - id: 6fG4P4HjSnWCL08qfmXCCw
+      text: 1Awnga 2(kelku si) 3nuä 4ayram 5alusìng.
+      translations:
+        en: 1We 2live 3beyond 4the 5flying 4mountains.
+    - id: tlbmBp5eQhylQfH54OOqyQ
+      text: 1Fo 2(kelku si) 3few 4'ora.
+      lookup_filter:
+        1: 412:pn.:noaffix:nolen
+      translations:
+        en: |-
+            1They 2live 3across 4(the lake).
+            ((That is, on the opposite side of the lake, on the other shore.))
+    - id: a2U7L0iWQVu8aHlQV4WH_w
+      text: 1Fo 2(kelku si) 3nuä 4ora.
+      lookup_filter:
+        1: 412:pn.:noaffix:nolen
+      translations:
+        en: |-
+            1They 2live 3beyond 4(the lake).
+            ((That is, a great distance beyond and out of sight of the lake.))
+    - id: zmKEJpFKRqi7cVFXT-Xyxg
+      text: 1Furia 2sneyä 3tskoti 4ngop 5po 6kanfpìl.
+      lookup_filter:
+        2: 8240:pn.:noaffix:nolen
+      translations:
+        en: 5(He)6('s concentrating on) 1+4making 2his 3bow.
+    - id: z2Z1JvhhRtaJAn_GIBRZ6Q
+      text: 1Txo 2new 3nga 4tslivam, 5zene 6kivanfpìl.
+      translations:
+        en: 1If 3you 2(want to) 4understand, 3you 5(have to) 6concentrate.
+    - id: z-YCT7y9Rv6Wl3LV6p5-Qw
+      text: 1Lu 2oeru 3fmokx.
+      translations:
+        en: 2(I)1+3('m jealous).
+    - id: 62hNO66ORO6Yn7ADKRx70g
+      text: 1Furia 2fìtxan 3fnängan 4(N-ìl|Ulreyìl) 5(tsko swizawit), 6lu 7oeru 8fmokx.
+      translations:
+        en: 7(I)6+8('m jealous of) 1(the fact that) 4Ulrey 2+5is 3such 2+5(an excellent archer).
+    - id: e4-kptiKQ1-FeB_jM17Jbg
+      text: 1Fko 2plltxeie 3san 4menga 5muntxa 6slolu 7sìk! 8Seykxel 9sì 10nitram! 11Slä 12lu 13oeru 14fmokx 15nì'it.
+      lookup_filter:
+        7: 1796:adv.:noaffix:nolen
+      translations:
+        en: 1+2+3(I'm so happy to hear) 4you 6got 5married! 8+9+10Congratulations! 13I 12+14(am a) 15little 12+14envious, 11though.
+    - id: JPfyqnyrRcepy-D4PtaXgQ
+      text: 1Txewìl 2tukrut 3(N-ä|Loakä) 4narmìn 5nìfmokx.
+      lookup_filter:
+        1: 13101:prop.n.:-l:nolen
+      translations:
+        en: 1Txewì 4(was eyeing) 3Loak's 2spear 5enviously.
+    - id: MSfhvjb8S72cXg5-NyJE2g
+      text: 1Teylu 2kìmar 3lìyu 4a 5fì'u 6oeru 7(teya si).
+      lookup_filter:
+        2: 8192:adj.:noaffix:nolen
+        5: 368:pn.:noaffix:nolen
+      translations:
+        en: 7(It fills) 6me 7(with joy) 5that 1teylu 3+4(is about to be) 2(in season).
+    - id: ZR1vkM0pR5Oms41JOopoxQ
+      text: 1Po 2(tsap'alute soli) 3nìkmar.
+      translations:
+        en: 1He 2apologized 3(at the right time).
+    - id: jSYO9vkCTz-uH19R_ilVPg
+      text: 1Awngal 2tok 3kelkut. 4Nìkmar 5zup 6tompa 7set.
+      translations:
+        en: 1(We)2('re) 3home. 7Now 4(is a good time for it to be) 5+6raining.
+    - id: StwfYFYQQVqSomxOYwo7Rg
+      text: 1Fo 2ke 3perängkxo 4(oe)5(hu) 6nìkmar.
+      lookup_filter:
+        1: 412:pn.:noaffix:nolen
+      translations:
+        en: 1They 3(were chatting) 5with 4me 2+6(at a bad time).
+    - id: QmTVL9-KRi-zbQ4yF3P9Jw
+      text: 1Kìmar 2lu 3fwa 4fo 5ke 6pängkxo 7(oe)8(hu).
+      lookup_filter:
+        1: 8192:adj.:noaffix:nolen
+        4: 412:pn.:noaffix:nolen
+      translations:
+        en: |-
+            3It 2was 1opportune 3that 4they 5didn't 6chat 8with 7me.
+            ((That is, 'They chose a good time not to chat with me.))
+    - id: 4YofUpyISwqW--x-M-fe9g
+      text: 1Tsa'u 2latsu 3peu?
+      lookup_filter:
+        3: 1528:inter.:noaffix:nolen
+      translations:
+        en: 3What 2(on earth is) 1that?
+    - id: 9ZC9SOgaTGSYQ7pXJfOFKA
+      text: 1Pol 2pesenget 3tatsok?
+      translations:
+        en: 2Where 3(in the world could) 1she 3be?
+    - id: GA74mjm7RNuGkEgH1cZF8w
+      text: 1Srake 2pxefo 3li 4polähatsem?
+      lookup_filter:
+        2: 1548:pn.:pxe-:p→f
+      translations:
+        en: 1+4(I wonder if) 2(the three of them) 4have 3already 4arrived.

@@ -1,0 +1,85 @@
+source:
+    id: blog-2018-07-31
+    date: "2018-07-31"
+    url: https://naviteri.org/2018/07/ta-sulfatu-a-ayliu-niul-more-words-from-our-experts/
+    title: Ta sulfätu a aylì’u nì’ul. More words from our experts.
+    author: Paul Frommer
+inputs:
+    - id: r0MccFCzSiKL0lySMBjapQ
+      text: 1Oe 2('on si) 3tskxeru 4fte 5na 6ikran 7livam.
+      translations:
+        en: 1I 2shape 3(a rock) 4to 7(look like) 5an 6ikran.
+    - id: 7hJ6wR_vS1GswKFnXrX1zg
+      text: 1Olo'ìri 2poan 3zusawkrrur 4('on soli).
+      translations:
+        en: 2He 4shaped 1(the tribe's) 3future.
+    - id: LesRKBFhSmeUD5V8ziXP2w
+      text: 1Oe 2kxìmange 3taluna 4'efu 5ngeyn.
+      translations:
+        en: 1I 2(just yawned) 3because 1I 4feel 5tired.
+    - id: i09AyZOqSBeYDkWO5TUboQ
+      text: 1Keng 2krra 3sänumvi 4(eltur tìtxen) 5ke 4si, 6nga 7sweylu 8txo 9ke 10kxivange 11mì 12numtseng.
+      translations:
+        en: 1Even 2when 3(the lesson) 4(is)5(n't) 4interesting, 6you 7+8+9shouldn't 10yawn 11in 12school.
+    - id: Yw4AegnSQfGSUZiMla31JA
+      text: 1Furia 2oe 3yawne 4ke 5lu 6Va'rur 7nulkrr, 8ke 9tsängun 10oe 11wivalew.
+      translations:
+        en: 10I 8+9can't 11(get over) 1(the fact that) 6Va'ru 4no 7longer 3loves 2me.
+    - id: OOBRtC6jSt-mlDKLuAZpQQ
+      text: 1Tìska'ari 2Kelutralä 3Na'vi 4wayalew 5pefya?
+      translations:
+        en: 1(With the destruction) 2(of Hometree), 5how 4will 3(the Na'vi) 4(ever move on)?
+    - id: ksoO0FqYTqSDqOxuV93JYg
+      text: 1Nga 2(tsakem soli) 3nìnew 4srak?!
+      translations:
+        en: 1You 2(did that) 3(without being asked to)4(?)!
+    - id: yD8Y8oWPSwqobBksdjClKg
+      text: 1Tsasänumvit 2oel 3poru 4kayeiar 5nìnew!
+      translations:
+        en: 2(I)4('m) 5(happy to) 4teach 3him 1(that lesson)!
+    - id: pBLnUTcaSEafdPPFxVQAkA
+      text: 1Oel 2pelun 3ftxalmey 4nìnew 5futa 6(srung si) 7skxawngur 8anafì'u?
+      lookup_filter:
+        2: 1508:inter.:noaffix:nolen
+      translations:
+        en: 2Why 3did 1I 3choose, 4(of my own free will), 5to 6help 8(such a) 7fool?
+    - id: X0yZHFLsQNG5IezfNb5t5w
+      text: 1Lu 2ayram 3sìn 4tawtxew.
+      lookup_filter:
+        3: 4048:adp.:noaffix:nolen
+      translations:
+        en: 1(There are) 2mountains 3on 4(the horizon).
+    - id: 0znfWVqBQcy-3Aw1qp8EtA
+      text: 1Naranawmä 2mawl 3mi 4lu 5uo 6tawtxew.
+      lookup_filter:
+        5: 4056:adp.:noaffix:nolen
+      translations:
+        en: 2Half 1(of Polyphemus) 4is 3still 5behind 6(the horizon).
+    - id: nqE42b57T4K9MoVAD9YbSQ
+      text: 1Tskxepayri 2lu 3frir 4aflì 5sìn 6'ora.
+      lookup_filter:
+        5: 4048:adp.:noaffix:nolen
+      translations:
+        en: 2There's 3a 4thin 3layer 1(of ice) 5on 6(the lake).
+    - id: bVIdh7Z3ROm-ZHQy0kUKIw
+      text: 1Fayfrir 2letskxe 3lor 4lu 5nìtxan.
+      lookup_filter:
+        5: 1312:adv.:noaffix:nolen
+      translations:
+        en: 1These 2stone 1layers 4are 5very 3beautiful.
+    - id: T-rpQTUnTpKWerbWhuVXIQ
+      text: 1Ke 2tsun 3ioang 4rivun 5syuvet 6mì 7hllte 8aleyr.
+      lookup_filter:
+        2: 2476:vim.:noaffix:nolen
+      translations:
+        en: 3Animals 1+2can't 4find 5food 6in 7the 8frozen 7ground.'
+    - id: JjAse3OiR72keBBijWZlpA
+      text: 1Mì 2zìsìkrr 3atxawew 4slu 5ayora 6leyr.
+      translations:
+        en: 1In 2the 3(very cold) 2season, 5(the lakes) 4+6freeze.
+    - id: IkNYSIdZQvC8m-fTa8yEUA
+      text: 1Txo 2awnga 3fìtsnganur 4(leyr sivi), 5tsun 6tsat 7yivom 8kintrray.
+      lookup_filter:
+        5: 2476:vim.:noaffix:nolen
+      translations:
+        en: 1If 2we 4freeze 3(this meat), 2we 5can 7eat 6it 8(next week).

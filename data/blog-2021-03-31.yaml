@@ -1,0 +1,72 @@
+source:
+    id: blog-2021-03-31
+    date: "2021-03-31"
+    url: https://naviteri.org/2021/03/mipa-ayliu-si-aylifyavi-new-words-and-expressions/
+    title: Mipa aylì’u sì aylì’fyavi    New words and expressions
+    author: Paul Frommer
+inputs:
+    - id: ilgEmMVbSo2C-ulE4scnkA
+      text: 1Pori 2(keyrel)9(fa) 3oe 4pole'ngay 5tsnì 6ke 7new 8ziva'u.
+      translations:
+        en: 9From 1her 2expression, 3I 4concluded 5that 1she 6didn't 7(want to) 8come.
+    - id: yBZ6yeUaRIe9Unc87L-YJw
+      text: 1Pol 2tstalit 3wrrzolärìp 4(tstalsena)5(ftu).
+      translations:
+        en: 1He 3pulled 2(the knife) 3out 5of 4(its sheath).
+    - id: XgV3M6khRKGKWYj1X7CriQ
+      text: 1Oeri 2peyä 3aylì'ul 4+6txe'lanti 5+6wrrzolärìp.
+      translations:
+        en: 2Her 3words 6moved 1me 6greatly.
+    - id: UhIjtXi6TOq5XVtmqmX0OA
+      text: 1Ngey 2(aylì'u)3(ftu) 4wrrzärìp/11(tìpe’ngayt wrrzärìp|wrrzärìp) 5oel 6tìpe'ngayt 7a 8lu 9ngar 10yewla.
+      translations:
+        en: 3From 1your 2words, 5I 4+6+11infer 6that 9(you)8('re) 10disappointed.
+    - id: Ponfxgj0QbiItRLGhRQIsQ
+      text: 1Ngey 2aylì'ul 3wrrzeykärìp 4tìpe'ngayt 5a 6lu 7ngar 8yewla.
+      translations:
+        en: 1Your 2words 3+4imply 4+5that 7(you)5('re) 8disappointed.
+    - id: NQ96L2JpRHqb53BLHSepQQ
+      text: 1Peyä 2tìrusolit 3ke 4tsun 5oe 6livewn.
+      lookup_filter:
+        4: 2476:vim.:noaffix:nolen
+      translations:
+        en: 5I 3+4can't 6stand 1her 2singing.
+    - id: ZsqPMogiQt-6XcFNybrTtw
+      text: 1Hufwa 2tìsraw 3lu 4txan, 5tsun 6ayoe 7tsat 8livewn.
+      lookup_filter:
+        5: 2476:vim.:noaffix:nolen
+        6: 212:pn.:noaffix:nolen
+      translations:
+        en: 1Although 2(the pain) 3is 4great, 6we 5can 8endure 7it.
+    - id: 24Q_yH_PSa2s6FDk_GmYdg
+      text: 1Tsafnevoìk 2lu 3ketsuklewn.
+      translations:
+        en: 1(That kind of behavior) 2is 3intolerable.
+    - id: -VfObn59TCKpiMlYfe2_Cw
+      text: 1Tsayfasuk 2tsukanom 3lu 4krrka 5fìzìsìkrr 6nì'aw.
+      lookup_filter:
+        4: 10144:adp.:noaffix:nolen
+      translations:
+        en: 1(Those berries) 3are 2available 4during 5(this season) 6only.
+    - id: fXGmll4xSFWbZLrCF4zsuA
+      text: 1Wä 2fìsäspxin 3a 4'umtsa 5leiu 6set 7tsukanom.
+      translations:
+        en: 4Medicine 1+3against 2(this disease) 5is 5happily 6now 7available.
+    - id: o9AoCdolR-untbqdcvK2xg
+      text: 1Oel 2ngeyä 3txinfpìlit 4mi 5ke 6tslam.
+      translations:
+        en: 1I 4still 5don't 6understand 2your 3(main point).
+    - id: tygEWPFjQoSJSVQfqYtgXg
+      text: 1Nìlaw 2lu 3peyä 4ngrrfpìl 5fwa 6Sawtute 7ke 8lu 9mal.
+      lookup_filter:
+        1: 5184:adv.:noaffix:nolen
+      translations:
+        en: 3His 4assumption 2is 1clearly 5that 6(the Skypeople) 7can't 8be 9trusted
+    - id: mtd61QtVSfWHffHLAqHd-g
+      text: 1Tsasäplltxeviri 2asätarenga' 3irayo.
+      translations:
+        en: 3Thanks 1for 1that 2pertinent 1comment.
+    - id: 6VX2bu22Ql-U7XGAb4eGNg
+      text: 1Peyä 2tìpuslltxel 3alukftang/4letut 5oeti 6srätx.
+      translations:
+        en: 1His 3+4constant 2talking 6annoys 5me.

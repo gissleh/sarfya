@@ -1,0 +1,34 @@
+source:
+    id: blog-2012-10-31
+    date: "2012-10-31"
+    url: https://naviteri.org/2012/10/snewsyea-ftxoza-halowina-a-spooky-halloween/
+    title: Snewsyea Ftxozä Hälowinä—A Spooky Halloween
+    author: Paul Frommer
+inputs:
+    - id: fMMqB-ygQzaQfrnIl1BrHQ
+      text: 1Ayngari 2ftxozä 3(M-ä|Hälowinä) 4livu 5'o' 6sì 7snewsye 8txantxewvay.
+      lookup_filter:
+        1: 208:pn.:-ri:nolen
+        8: 9372:adv.:noaffix:nolen
+      translations:
+        en: 4May 1your 2+3Halloween 4be 8as 5fun 6and 7spooky 8(as possible).
+    - id: qjBkyLJFSRG1Jq7gV4hfSA
+      text: 1Ke 2tsun 3fko 4tspivang 5torukit 6fa 7fwa 8pewnti 9snew.
+      lookup_filter:
+        2: 2476:vim.:noaffix:nolen
+      translations:
+        en: |-
+            3You 1+2can't 4kill 5(a great leonopteryx) 6by 9constricting its 8throat.
+            ((Proverbial expression for a method that will not work.))
+      flags:
+        - proverb
+    - id: JrsbRfCYTlyu0jdgbwO9ow
+      text: 1Oeri 2lu 3fìtseng 4snewsye 5nìhawng. 6Hivum 7ko.
+      translations:
+        en: 3(This place) 2is 5too 4spooky 1(for me). 7Let's 6(get out of here).
+    - id: TNrvQBi1Sy2lNbtzLF6RKA
+      text: 1Tìran 2nìfnu 3txantxewvay 4fteke 5ayyerikìl 6awngati 7stivawm.
+      lookup_filter:
+        3: 9372:adv.:noaffix:nolen
+      translations:
+        en: 1Walk 3as 2quietly 3(as possible) 4so 5(the hexapedes) 4won't 7hear 6us.

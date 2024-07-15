@@ -1,0 +1,57 @@
+source:
+    id: blog-2014-03-31
+    date: "2014-03-31"
+    url: https://naviteri.org/2014/03/value-and-worth/
+    title: Value and Worth
+    author: Paul Frommer
+inputs:
+    - id: nx1wKoCyTzWz1Bc0u95ZkA
+      text: 1Fì'u 2ley 3nìtxan 4nang!
+      lookup_filter:
+        1: 368:pn.:noaffix:nolen
+        3: 1312:adv.:noaffix:nolen
+      translations:
+        en: 1This 2is 3+4super 2valuable!
+    - id: HZe5I3QSTu6nvmVqkgzBUQ
+      text: 1Tsaw 2ke 3ley 4kaw'it 5pak!
+      translations:
+        en: 1(That)3('s) 2not 3worth 4(a thing)!
+    - id: at7tSIgzQLu-ScvMgHGL4g
+      text: 1Tsasrä 2anawnekx 3ley 4nì'it 5nì'aw.
+      translations:
+        en: 1That 2burnt 1cloth 3is 4+5(of little) 3value.
+    - id: U6rVE8NHQp-zKmXghkBc0w
+      text: 1Fìfnerìn 2ke 3ley 4krra 5slu 6paynga'.
+      translations:
+        en: 1(This kind of wood) 2+3(is worthless) 4when 5(it gets) 6damp.
+    - id: tB06XNTKQsOsuUYB5qa7cw
+      text: 1Flä 2ke 3flä, 4ley 5säfmi.
+      translations:
+        en: 1+2+3(Whether you succeed or not), 5(the attempt) 4(has value).
+      flags:
+        - proverb
+    - id: yR5zWEquRd6MugczQJsH1w
+      text: 1Oeri 2tsaw 3ke 4ley 5(fì'u)6(to).
+      lookup_filter:
+        5: 368:pn.:noaffix:nolen
+        6: 2224:part.:noaffix:nolen
+      translations:
+        en: 1I 3don't 4value 2that 6over 5this.
+    - id: jxiXYzR8SAO1qI4r7U5Njg
+      text: 1Fìnikroi 2ley 3pìmtxan?
+      translations:
+        en: 2+3(How valuable is) 1(this hair ornament)?
+    - id: IBWxCV0SQ5if9rvTG76IWg
+      text: 1Masat 2oeyä 3ley 4nìftxan 5na 6pum 7ngeyä.
+      translations:
+        en: 2My 1breastplate 3is 4as 3valuable 5as 6+7yours.
+    - id: k5uvK-BnSZKOJb3UFFDVpg
+      text: 1Oeyä 2(eltu lefngap) 3ley 4((nì'eng)) 5na 6ewro 7azafu.
+      translations:
+        en: 1My 2computer 3+4+5(is worth) 7(70) 6euros.
+    - id: 0c_j6418RxCCAaUzysbSrg
+      text: 1Sìlpey 2oe, 3fìpostì 4lilvey 5ayngaru 6nìwotx!
+      lookup_filter:
+        1: 1800:vin.:noaffix:nolen
+        5: 208:pn.:-ru:nolen
+      translations: {}

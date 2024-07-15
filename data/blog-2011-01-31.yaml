@@ -1,0 +1,119 @@
+source:
+    id: blog-2011-01-31
+    date: "2011-01-31"
+    url: https://naviteri.org/2011/01/new-year-new-vocabulary/
+    title: New Year, New Vocabulary
+    author: Paul Frommer
+inputs:
+    - id: sKX_UlPST8e7s33I_gIKWQ
+      text: 1Aylì'fya 2yawne 3leru 4oer 5takrra 6'eveng 7lamu.
+      translations:
+        en: 4(I)2+3('ve loved) 1languages 5since 4I 7was 6(a child).
+    - id: 854v8omsTWGdlh4lG_FeXg
+      text: 6'Eveng 7lamu 5akrrta 1aylì'fya 2yawne 3leru 4oer.
+      translations:
+        en: 4(I)2+3('ve loved) 1languages 5since 4I 7was 6(a child).
+    - id: C0IL7Dz4RCKSeBIsYR89vw
+      text: 1Sawtute 2zola'u 3akrrta 4po 5ke 6'olefu 7nitram.
+      translations:
+        en: 4Since 1(the Skypeople) 2came, 4she 6(had not been) 7happy 6([and this has now changed]).
+    - id: S1quoYmvRuOqAMPbYu_Tqg
+      text: 1(Trr'ong)2(ta) 3(Txon'ong)4(vay) 5po 6tolìran.
+      translations:
+        en: 5He 6walked 2from 1dawn 4until 3dusk.
+    - id: EFi8gSoPReyc-4AtkCT8iQ
+      text: 1Po 2spä 3few 4payfya 5fte 6smarit 7sivutx.
+      translations:
+        en: 1He 2jumped 3across 4(the stream) 5to 7track 1his 6prey.
+    - id: pNMMqb30T_S-VIISFk1Ujg
+      text: 1Utral 2a 3lu 4few 5payfya 6a 7eo 8kelku 9oeyä 10tsawl 11lu 12nìtxan.
+      lookup_filter:
+        10: 2364:adj.:noaffix:nolen
+        12: 1312:adv.:noaffix:nolen
+      translations:
+        en: 1(The tree) 2+3+4(on the other side of) 5(the stream) 6+7(in front of) 9my 8house 11is 12very 10tall.
+    - id: aLt1V7Z4RGyc4SVyozml_Q
+      text: 1Oe 2kawkrr 3ne 4fewtusoka 5pa'o 6kilvanä 7ke 8kamä.
+      lookup_filter:
+        8: 680:vin.:<am>:nolen
+      translations:
+        en: 1I 2+7never 8went 3to 5the 4opposite 5side 6(of the river).
+    - id: xnaD1meYRxm0OuNwlnwaGw
+      text: 1Pol 2sla'tsu 3ayioangit 4a 5tse'a 6fkol 7mì 8Eywa'eveng/9Eyweveng.
+      translations:
+        en: 1She 2describes 3animals 4+5+6seen 7on 8+9Pandora.
+    - id: _5XZ4G9vR6uwo4HPSy0C3g
+      text: |-
+        A: 1Pelun 2(fìtseng)3(ne) 4nga 5zola'u 6fte 7tivaron?
+        B: 8Lolu 9'en.
+      lookup_filter:
+        1: 1508:inter.:noaffix:nolen
+      translations:
+        en: |-
+            A: 1(Why did) 4you 5come 3+2here 6to 7hunt?
+            B: 8(It was) 9(a guess )9((hunch)).
+    - id: umtLci0UTCyY1GVe084iOQ
+      text: 1Fìuvanìri 2lu 3ngaru 4pxen 5nì'aw.
+      lookup_filter:
+        4: 7200:n.:pxe-:nolen
+      translations:
+        en: 3You 5only 2get 4(three guesses) 1(in this game).
+    - id: KvL-rznEQRmbNd4BMdQX2w
+      text: 1Ke 2sterawm 3oel 4ke'ut 5mì 6na'rìng. 7('En si) 9oe, 10Sawtuteol 11tìlmok 12fìtsengit.
+      translations:
+        en: 3I 1+4don't 2hear 1+4anything 5in 6(the forest). 9I 7guess 10(some Skypeople) 11(were just) 12here.
+    - id: 97qSYkIsT3G0ARuNKM3ZjQ
+      text: 1(Eltu si). 2Hem 3le'en 4tsun 5lehrrap 6livu.
+      lookup_filter:
+        4: 2476:vim.:noaffix:nolen
+      translations:
+        en: 1(Watch out). 3Speculative 2moves 4can 6be 5dangerous.
+    - id: paI7TeQSTjig6W2ApTiCfw
+      text: 1Pol 2pole'un 3futa 4(pehem si) 5nì'en.
+      translations:
+        en: 1He 2decided 3+4(what to do) 5(on a hunch).
+    - id: C_0TumEpTSK-9rF9EZ6wwQ
+      text: 1Na'viri 2txina 3sä'o 4tìtusaronä 5lu 6(tsko swizaw).
+      lookup_filter:
+        2: 6824:adj.:-a:nolen
+      translations:
+        en: 1(For the Na'vi) 6(the bow and arrow) 5is 3the 2main 4hunting 3tool.
+    - id: JX7SVMGbR6qr2qyeXoo1VA
+      text: 1Po 2(pamtseo si) 3fa 4au 5nìltsan 6nìtxan.
+      lookup_filter:
+        4: 180:n.:noaffix:nolen
+        6: 1312:adv.:noaffix:nolen
+      translations:
+        en: 1She 2+3plays 4(the drums) 6very 5well.
+    - id: 99_ZIt_CQp-xNBVCaXjheg
+      text: 1Tewti, 2nga 3lu 4tsulfätu 5i'enä. 6Ngal 7tsat 8reykìmol!
+      lookup_filter:
+        1: 2100:intj.:noaffix:nolen
+      translations:
+        en: 1Wow, 2you 3are 4(a master) 5(on the i'en). 6You 8(just made) 7it 8sing!
+    - id: Qzokg_GAT2yWKhipj2cUcQ
+      text: 1Menga 2'efu 3väng 4srak?
+      translations:
+        en: 2Are 1(you two) 3(thirsty)4(?)
+    - id: bGODzjYAQlSEgjuizWTxRA
+      text: 1Apxa 2tìvängìl 3poti 4steykoli.
+      translations:
+        en: ((His)) 1great 2thirst 4made 3him 4angry.
+    - id: U082YbOERzWmLB2HeHrJqw
+      text: 1Lu 2oeru 3sngum 4a 5saronyu 6ke 7tìyevätxaw.
+      lookup_filter:
+        5: 2008:n.:noaffix:t→s
+      translations:
+        en: 2(I)1('m) 3worried 4that 5(the hunters) 7will 6not 7return ((soon, as expected)).
+    - id: ahEU58XGTKuEwcd2q_ThAw
+      text: 1Swey 2lu 3fwa 4nga 5fìkem 6ke 5sivi 7nìsngum.
+      translations:
+        en: 3(It)2('s) 1best 3that 4you 6not 5(do this) 7fretfully.
+    - id: 1kOLJJWpQ5ui4mrdNxck-w
+      text: 1Sawtuteyä 2hemìri 3lu 4awngaru 5yayayr.
+      translations:
+        en: 1(The Skypeople's) 2actions 3+5confuse 4us.
+    - id: -MRpueS5S9-KJ4FtjeQVjQ
+      text: 1Sawtute 2lu 3ayvrrtep 4nìwotx 5a 6säfpìlit 7oel 8wäte.
+      translations:
+        en: 7I 8dispute 6(the idea) 5that 1(the Skypeople) 2are 4all 3demons.

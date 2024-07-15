@@ -1,0 +1,127 @@
+source:
+    id: blog-2010-07-11
+    date: "2010-07-11"
+    url: https://naviteri.org/2010/07/diminutives-conversational-expressions/
+    title: Diminutives; Conversational Expressions
+    author: Paul Frommer
+inputs:
+    - id: VU0tV6tvQVeyj-M7a6g1MA
+      text: 1Za'u 2fìtseng, 3ma 4'itetsyìp.
+      lookup_filter:
+        2: 364:adv., n.:noaffix:nolen
+      translations:
+        en: |-
+            1Come 2here, 3+4(little daughter).
+            ((Could be said even to an adult daughter.))
+    - id: EjngN1rlS0yNHdHqe489Zw
+      text: 1(Kempe si) 2nga, 3ma 4sa'nutsyìp?
+      translations:
+        en: |-
+            1(What are) 2you 1doing, 3+4(little mommy)?
+            ((This would not be said to an actual mother, which would be disrespectful, but rather to a young girl, in endearing anticipation of her becoming a mother.))
+    - id: XEXBxi3zTvuKaRr0etAlZA
+      text: 1(Kamuntsyìp|Kamtsyìpìl) 2wutsot 3yerom.
+      translations:
+        en: |-
+            1(Little Kamun) 3(is having) 2dinner.
+            ((Kamun might be a little boy, but he might also be a huge adult Na'vi, in which case –tsyìp is ironic and/or affectionate.))
+    - id: dEOtS5thTEaacKa7AUD2dw
+      text: 1Ngatsyìp 2yawne 3lu 4oer.
+      translations:
+        en: |-
+            4I 2+3love 1(you, little one).
+            ((Could be said to any loved one, not only to a young child.))
+    - id: MWz5coNzR3CIWubGOAZmYA
+      text: 1Ngari 2tswintsyìp 3sevin 4nìtxan 5lu 6nang!
+      lookup_filter:
+        4: 1312:adv.:noaffix:nolen
+      translations:
+        en: 6(What a) 3pretty 2(little queue) 1you 5have!
+    - id: wH4mL1beRA-4f6XzflquNg
+      text: 1Fìtaronyutsyìp 2ke 3tsun 4ke'ut 5stivä'nì.
+      lookup_filter:
+        3: 2476:vim.:noaffix:nolen
+      translations:
+        en: 1This 1((worthless)) 1(little hunter) 2+3+4can't 5catch 2+3+4anything.
+    - id: tIoN0uaiSH6JmYcB8is6nQ
+      text: 1Ngatsyìpìl 2new 3peut 4ta 5oe?
+      lookup_filter:
+        3: 1528:inter.:-t:nolen
+      translations:
+        en: 3What 2does 1(little you) 2want 4from 5me?
+    - id: KGOZ7d1eS5mQ9jyySCLe0g
+      text: 1Nga 2nìawnomum 3to 4oetsyìp 5lu 6txur 7nìtxan.
+      lookup_filter:
+        3: 2224:part.:noaffix:nolen
+        7: 1312:adv.:noaffix:nolen
+      translations:
+        en: 2(As everyone knows), 1(you)5('re) 7(a lot) 6(strong)3(er than) 4(little old me).
+    - id: zAjHBOFJRTWP3wKFVCZr5Q
+      text: 1Sìlpey 2oe, 3ayngari 4fìtìpängkxotsyìp 5(eltur tìtxen silvi).
+      lookup_filter:
+        1: 1800:vin.:noaffix:nolen
+        3: 208:pn.:-ri:nolen
+      translations: {}
+    - id: T6_gHiRxTQC6vgqXnnIcOA
+      text: 1Kea 2tìkin.
+      translations:
+        en: |-
+            1No 2need.
+            ((That is, there's no need to thank me.))
+    - id: y_p6EcOwStmjd9j5oq_ECQ
+      text: 1Nìprrte'
+      lookup_filter:
+        1: 5588:adv.:noaffix:nolen
+      translations:
+        en: |-
+            1(Gladly, with pleasure)
+            ((That is, what you've thanked me for, I did with pleasure.))
+    - id: 0H7BVNKISd2pjql1Lg6bcg
+      text: 1Oeru 2meuia.
+      translations:
+        en: |-
+            2(An honor) 1(to me).
+            ((That is, it was an honor to be of help to you.))
+    - id: -nw1Pn60R1W3Q-T1TzAdGw
+      text: 1Hayalo 2ta 3oe
+      translations:
+        en: |-
+            1(Next time) 2from 3me
+            ((That is, I've done something for you and you've thanked me, but next time you'll do something comparable for me, and I'll thank you.))
+    - id: Z9o4XKG7Rg2NaVP9gRWZ7Q
+      text: 1Pum 2ngeyä.
+      translations:
+        en: |-
+            1+2Yours
+            ((That is, you've thanked me, but I really should be thanking you.))
+    - id: E6o907owQ4CNyvOLIQljMg
+      text: 1Ke 2pxan.
+      translations:
+        en: |-
+            1Not 2worthy.
+            ((That is, I don't deserve your praise.))
+    - id: Wx7L_NPETo6A-BwEBqeZNw
+      text: 1Tstunwi.
+      translations:
+        en: |-
+            1Kind.
+            ((That is, it's kind of you to say that.))
+    - id: uXVJYyG0ToyuIdJ6-joUDg
+      text: 1Ngaru 2tsulfä.
+      translations:
+        en: |-
+            1(To you) 2(the mastery).
+            ((This is said in a situation where the one praising you is better at the activity you're being praised for than you are yourself.))
+    - id: goQyX1aGQJO0RQOLpssQjg
+      text: |-
+        A: 1Nga 2nìNa'vi 3plltxe 4nìltsan
+        B: 5Ngaru 6tsulfä
+      translations: {}
+    - id: fBJxEMgiTqKeuTaRz_E4ig
+      text: 1Seykxel 2sì 3nitram!
+      translations:
+        en: |-
+            1Strong 2and 3happy!
+            ((That is, may you derive strength and happiness from this event, accomplishment, etc.))
+      flags:
+        - proverb

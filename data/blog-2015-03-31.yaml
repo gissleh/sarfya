@@ -1,0 +1,125 @@
+source:
+    id: blog-2015-03-31
+    date: "2015-03-31"
+    url: https://naviteri.org/2015/03/kap-si-ayunil-saylahe-threats-dreams-and-other-things/
+    title: Kap sì ayunil saylahe. Threats, dreams, and other things.
+    author: Paul Frommer
+inputs:
+    - id: GNg5EAnSRfebimmjLBUmKw
+      text: 1Tìpähem 2Sawtuteyä 3kxap 4atxan 5larmu 6Na'viru.
+      translations:
+        en: 1(The arrival) 2(of the Sky People) 5was 3a 4great 3threat 6(to the Na'vi).
+    - id: XTWBA4-lRC2TkoI8C37tsA
+      text: 1Srake 2nga 3(kxap si) 4oer, 5ma 6skxawng?
+      translations:
+        en: 3Are 2you 3threatening 4me, 5+6(you moron)1(?)
+    - id: NuWc_PimQWOEIq0AyCxIHA
+      text: 1Ngeyä 2aylì'ul 3akxapnga' 4txopu 5ke 4sleyku 6oet 7kaw'it.
+      translations:
+        en: 1Your 3threatening 2words 5don't 4scare 6me 7(one bit).
+    - id: OvrORrMhS9uQImQQib8HGA
+      text: 1'Angtsìk 2a 3(kxap si) 4lu 5lehrrap, 6ma 7'itan.
+      translations:
+        en: 1A 2+3threatening 1hammerhead 4is 5dangerous, 6+7son.
+    - id: Pj3wsJlfQAS6qbFO58Qt-Q
+      text: 1Txopu 2rä'ä 1si. 3Ngati 4ke 5nìn 6pol 7nìkxap. 8Lu 9lenomum 10nì'aw.
+      translations:
+        en: 2Don't 1(be scared). 6(He)5('s) 4not 5(looking at) 3you 7threateningly. He8's 10just 9curious.
+    - id: v4rmU-cJSNu36KsrPrggOA
+      text: 1Sawtuteri 2sìftiatu 2kifkeyä 3var 4fmivi 5Eywevengit 6tslivam, 7slä 8kawkrr 9ke 10flayä.
+      translations:
+        en: 2(The scientists) 1(among the Sky People) 3keep 4(trying to) 6understand 5Pandora, 7but 2they 10will 9+8never 10succeed.
+    - id: kM2IhQr9SDGQkEcA3I5uJQ
+      text: 1Oeri 2heyr 3(tìsraw sängi) 4taluna 5zize'ìl 6oet 7sngolap 8tsatseng.
+      lookup_filter:
+        2: 10356:n.:noaffix:nolen
+        8: 2352:n.:noaffix:nolen
+      translations:
+        en: 1My 2chest 3hurts 4because 5(a hellfire wasp) 7(stung me) 8there.
+    - id: qEunv0D7RVyu-zKRggPWjA
+      text: 1Peyralä 2miktsangit 3amip 4ngal 5tsoleri 6srak?
+      translations:
+        en: 6Did 4you 5notice 1Peyral's 3new 2(earring)6(?)
+    - id: QWW41nPeR5WMTRKT-zj2Dg
+      text: 1Oeru 2txoa 3livu. 4Ke 5tsolerängi 6oel 7futa 8ngari 9kxetse 10eo 11oe 12lu.
+      translations:
+        en: 1+2+3(Forgive me). 6I 4didn't 5notice 7that 8your 9tail 12was 10(in front of) 11me.
+    - id: T96-WB6GSfSEWmPGpAZoAw
+      text: 1Tìktseri 2lu 3tìmeyp.
+      translations:
+        en: 1(Lack of awareness) 2(is )2((a form of)) 3weakness.
+      flags:
+        - proverb
+    - id: ZfQn2skMShSxbhtkzqfA4w
+      text: 1Srake 2fo 3hangham 4taluna 5nga 6snaytx? 7Foti 8yäkx.
+      lookup_filter:
+        2: 412:pn.:noaffix:nolen
+        7: 412:pn.:-ti:nolen
+      translations:
+        en: 2(They)3('re laughing) 4because 5you 6(lost)1(?) 8Ignore 7them.
+    - id: KLKYfs9NTcOpk6HhMuarKA
+      text: 1Tsamsiyu 2zene 3tsivun 4yiväkx 5sneyä 6tìsrawit.
+      lookup_filter:
+        5: 8240:pn.:noaffix:nolen
+      translations:
+        en: 1Warriors 2must 3(be able to) 4ignore 5(their own) 6pain.
+    - id: 2SYcogHpS1a__w8bvbddbQ
+      text: 1Tìyäkx 2ke 3lu 4srunga', 5ma 6tsmuk. 7Nga 8txo 9sti, 10oeyktìng 11teyngta 12pelun.
+      lookup_filter:
+        12: 1508:inter.:noaffix:nolen
+      translations:
+        en: 1Snubbing 3(is)2(n't) 4helpful, 5+6brother. 8If 7(you)9('re angry), 10explain 11+12why.
+    - id: Ah0OcHocR42JICovFjje4w
+      text: 1Hem 2asrunga' 3nì'ul, 4hum 5asngunga' 6nìnän.
+      lookup_filter:
+        4: 588:vin.:noaffix:nolen
+      translations:
+        en: 3More 2helpful 1actions lead to 6less 5troubling 4outcomes.
+      flags:
+        - proverb
+    - id: pCZBpK-ETLGKnoA0ySgIRg
+      text: 1Fìsäyäkxit 2ayoel 3ke 4tswaya'.
+      lookup_filter:
+        2: 212:pn.:-l:nolen
+      translations:
+        en: 2We 4will 3not 4forget 1(this snub).
+    - id: S7n2UYMUSfGjid4dz_U9Rw
+      text: 1Ngeyä 2ikranìl 3ngipit 4letam 5kin 6fte 7tsivun 8kllpivä.
+      translations:
+        en: 1Your 2ikran 5needs 4enough 3(open space) 6to 7(be able to) 8land.
+    - id: xR3bG1wPQnyOGfeKZpvXnw
+      text: 1Plltxe 2Sawtute 3san 4kifkeyìl 5ayoeyä 6tok 7txana 8ngipit 9a 10(sanhì)11(kip).
+      lookup_filter:
+        5: 212:pn.:-yä:nolen
+      translations:
+        en: 2(The Sky People) 1say 3that 5their 4world 6(is in) 8the 7great 8space 11among 10(the stars).
+    - id: 7TkJbhNLQQKZdOTv7z2usQ
+      text: 1Txepram 2pxor 3a 4krr, 5txana 6txekxumpay 7wrrza'u.
+      translations:
+        en: 3+4When 1(a volcano) 2erupts, 5(a lot of) 6lava 7(comes out).
+    - id: oFWeFi1YT2e5EC2pzMwiIQ
+      text: 1Spängaw 2oel 3futa 4fì'upxareyä 5tìralpeng 6ke 7lu 8eyawr.
+      translations:
+        en: 1Unfortunately, 3I 6don't 1+3believe 5(the translation) 4(of this message) 7is 8correct.
+    - id: F0cHfnXGQ8asbc8AEkO88Q
+      text: 1(Tìtxen si), 2ma 3'ite! 4(Unil sarmi) 5nga 6tengkrr 7zerawng. 8Lu 9fpom 10srak?
+      translations:
+        en: 10(Wake up), 2+3daughter! 5You 4(were dreaming) 6and 7screaming. 8+9+10(Are you okay?)
+    - id: B6JJbSElRJGmRCU6gDCTfg
+      text: 1Nìtrrtrr 2oel 3uniltsa 4sa'nuä 5teylut.
+      translations:
+        en: 2I 1regularly 3(dream of) my 4mom's 5teylu.
+    - id: nj_zYOGaRw2PuxR3vIyghg
+      text: 1Uniltsola 2oel 3txonam 4futa 5tswayon 6(Neytiri)7(hu).
+      translations:
+        en: 3(Last night) 2I 1+4dreamed I 5(was flying) 7with 6Neytiri.
+    - id: yP6ZoRXWRxuql9IeJL-FjA
+      text: 1Pefnemauti 2sunu 3ngar 4frato?
+      lookup_filter:
+        2: 6376:vin.:noaffix:nolen
+      translations:
+        en: 1(What kind of fruit) 2do 3you 2like 4best?
+    - id: tozUlxQeSjepLwHv0bqRRQ
+      text: 1New 2sa'nok 3slivayk 4nikret 5'evengä.
+      translations:
+        en: 1(The mother) 1(wants to) 3brush 4the 5child's 4hair.

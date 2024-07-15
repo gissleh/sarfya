@@ -1,0 +1,15 @@
+source:
+    id: forum-2012-11-18-042840
+    date: "2012-11-18"
+    url: https://forum.learnnavi.org/language-updates/two-words-in-use-eal-and-kangay-si/
+    title: 'two words in use: ''e''al and kangay si '
+    author: Paul Frommer
+inputs:
+    - id: HvmA9qAVQhyW-dwzgvyllQ
+      text: 1Rutxe—2ayngari 3fìkem 4feyä 5'e'ala 6topur 7(kangay sìyi) 8nì'aw.
+      lookup_filter:
+        2: 208:pn.:-ri:nolen
+        3: 352:pn.:noaffix:nolen
+        4: 412:pn.:-yä:nolen
+      translations:
+        en: 1Please – 3this 7will 8only 7confirm 4their 5worst 6fears 2(about you).

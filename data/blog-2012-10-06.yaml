@@ -1,0 +1,14 @@
+source:
+    id: blog-2012-10-06
+    date: "2012-10-06"
+    url: https://naviteri.org/2012/10/audio-and-video-learning-materials-for-navi-101/
+    title: Audio and Video Learning Materials for Na’vi 101!
+    author: Paul Frommer
+inputs:
+    - id: IoxV5QVHR460Dh9azounQA
+      text: 1Srane, 2fìtxon 3tsun 4nga 5niväk 6swoat 7nì'it, 8slä 9rä'ä 10rou!
+      lookup_filter:
+        2: 4576:adv., n.:noaffix:nolen
+        3: 2476:vim.:noaffix:nolen
+      translations:
+        en: 1Yes, 4you 3can 5have 7(a little) 6alcohol 2tonight, 8but 9don't 10(get drunk)!

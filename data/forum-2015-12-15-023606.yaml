@@ -1,0 +1,20 @@
+source:
+    id: forum-2015-12-15-023606
+    date: "2015-12-12"
+    url: https://forum.learnnavi.org/language-updates/little-confirmation-on-teach-and-insult/
+    title: ' Little confirmation on “teach” and “insult” '
+    author: Paul Frommer (via Plumps)
+inputs:
+    - id: GCqRCuOKSXiMijm-I39YIQ
+      text: 1Ma 2'ite, 3awngeyä 4fya'ori 5zene 6nga 7(sänume sivi) 8poru 9fte 10tsivun 11pivlltxe 12sì 13tivìran 14nìayoeng.
+      lookup_filter:
+        14: 1268:adv.:noaffix:nolen
+      translations:
+        en: My 1+2daughter, 6you 5will 7teach 8him 3our 4way 9+10to 11speak 12and 13walk 14(as we do).
+    - id: HVxUwKAuQsys5S3seK--vg
+      text: 1Poltxe 2oe 3san 4zene 5kea 6uniltìranyu 7ke 8ziva'u 9fìtseng 10fte 11po 12kelkur 13(zoplo sivi) 14sìk.
+      lookup_filter:
+        9: 364:adv., n.:noaffix:nolen
+        14: 1796:adv.:noaffix:nolen
+      translations:
+        en: 2I 1+3+14(have said) 5+7no 6dreamwalker 4will 8come 9here 10to 13offend our 12home!

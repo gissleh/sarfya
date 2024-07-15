@@ -1,0 +1,48 @@
+source:
+    id: forum-2013-01-31-043132
+    date: "2013-01-31"
+    url: https://forum.learnnavi.org/language-updates/confirmations-(comparisons-gerund)/
+    title: 'Confirmations (comparisons & gerund) '
+    author: Plumps, Paul Frommer
+inputs:
+    - id: oV1eB6ANRlyfi3vTLN2ziA
+      text: 1Oe 2tul 3nìftxan 4nìwin 5na 6nga.
+      lookup_filter:
+        4: 1316:adv.:noaffix:nolen
+      translations:
+        en: 1I 2run 3as 4fast 5as 6you.
+    - id: 9o1bI73oQqS-Qf07rnlkFg
+      text: 1Oel 2yerikit 3taron 4nìftxan 5nìltsan 6na 7nga.
+      translations:
+        en: 1I 3hunt 2yerik 4as 5well 6as 7you.
+    - id: pkGZ66b7TyOx0zKiVewZ6w
+      text: 1Oe 2to 3nga 4tul 5nìwin.
+      lookup_filter:
+        2: 2224:part.:noaffix:nolen
+        5: 1316:adv.:noaffix:nolen
+      translations:
+        en: 1I 4run 5(fast)2(er than) 3you.
+    - id: Qci36sPzQBmamrgvnl3TSA
+      text: 1Oel 2to 3ngal 4yerikit 5taron 6nìltsan.
+      lookup_filter:
+        2: 2224:part.:noaffix:nolen
+      translations:
+        en: 1I 5hunt 4yerik 6+2(better than) 3you.
+    - id: XmqSGuTcSKyyUk4wkCf9zw
+      text: 1Oel 2tsole'a 3fwampopit 4awin 5frato.
+      translations:
+        en: 1I 2saw 3the 4+5fastest 3Tapirus.
+    - id: NC1vwLw1QRqkw2sQGfvoJQ
+      text: 1Po 2lu 3win 4frato.
+      translations:
+        en: 1(S/He) 2is 3+4(the fastest).
+    - id: -07-KefCQdmSSun9DH6l4A
+      text: 1Nga 2oer 3tsranten 4frato
+      translations:
+        en: 1You 3matter 4(the most) 2(to me).
+    - id: qJA3p-hKST6VTiW3o_Z0UQ
+      text: 1Po 2tul 3nìwin 4frato
+      lookup_filter:
+        3: 1316:adv.:noaffix:nolen
+      translations:
+        en: 1She 2runs 3+4(the fastest)

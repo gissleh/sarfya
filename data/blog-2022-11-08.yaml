@@ -1,0 +1,43 @@
+source:
+    id: blog-2022-11-08
+    date: "2022-11-08"
+    url: http://naviteri.org/2022/11/krr-ao-an-exciting-time/
+    title: Krr a’o’!  An exciting time!
+    author: Paul Frommer
+inputs:
+    - id: 7tQz00q-QGOwO4b6ljYDXw
+      text: 1Fìzìsìtä 2sätsawn 3txantsan 4leiu.
+      translations:
+        en: 4(I'm pleased to say that) 1(this year's) 2harvest 4was 3excellent.
+    - id: N_fdehPbQW-2c4fwOfd5rg
+      text: 1Tìkan 2fìpayoangä 3ke 4lu 5fwa 6tsun 7fko 8pot 9yivom; 10lu 11oeyä 12'eylyong.
+      lookup_filter:
+        6: 2476:vim.:noaffix:nolen
+      translations:
+        en: 2(This fish) 4is 3not 1+5+6+7+8+9(meant to be eaten); 10it's 11my 12pet.
+    - id: kl2i-BRXTFSRpc5zJUPdlw
+      text: 1Omum 2oel 3futa 4ngal 5pot 6ve'kì, 7slä 8tsefta 9ke 10lu 11tì'eyng 12amuiä.
+      translations:
+        en: 2I 1+3know 4you 6hate 5him, 7but 8vengeance 10is 9not 11a 12proper 11response.
+    - id: cnS1bvyxSGuVtTWJWmO3Qw
+      text: 1Tutanur 2a 3eyktanayti 4tspolang 5oeyä 6sempul 7(tsefta sayi).
+      lookup_filter:
+        6: 1764:n.:noaffix:nolen
+      translations:
+        en: 5My 6father 7(will take revenge) 1(on the man) 2who 4killed 3(the deputy).
+    - id: PrNQqt7eRJmIGqpxUANBGg
+      text: 1Aysutel 2nìwotx 3new 4tìlayrot.
+      translations:
+        en: 2All 1people 3want 4freedom.
+    - id: v5uckmusSlufKpLwhJ47Uw
+      text: Ramu 2ke 3lu 4txur 5nìtxan, 6slä 7uvanit 8yolora', 9ti'a.
+      lookup_filter:
+        5: 1312:adv.:noaffix:nolen
+      translations:
+        en: Ramu 3(is)2(n't) 5very 4strong, 6but 9surprisingly, he 8won 7(the game)
+    - id: HPwT4gSDQA2XtKqS4nKOiQ
+      text: 1Pol 2tìkangkemit 3tsyolul 4nìso'ha, 5slä 6tsa'ur 7hasey 8ke 7soli, 9um'a.
+      lookup_filter:
+        6: 108:n.:tsa-:-r:nolen;2316:n.:-r:nolen
+      translations:
+        en: 1He 3began 2(the work) 4enthusiastically, 5but 9surprisingly, 1he 8didn't 7finish 6it.

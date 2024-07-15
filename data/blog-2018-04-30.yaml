@@ -1,0 +1,90 @@
+source:
+    id: blog-2018-04-30
+    date: "2018-04-30"
+    url: https://naviteri.org/2018/04/100a-liu-amip-64-new-words-part-2/
+    title: °100a Lì’u Amip! 64 New Words! (Part 2)
+    author: Paul Frommer
+inputs:
+    - id: 0THq472aRCCdwPuhoMb2zQ
+      text: 1Raluri 2fwa 3tìfmetokit 4ke 5emzola'u 6längu 7fwìng 8atxan.
+      translations:
+        en: 1Ralu's 2+4not 5passing 3(the test) 6was 7a 8great 7humiliation to him.
+    - id: ZSqRgsO1RDG3XZgOHd615Q
+      text: 1Maw 2tìhan 3sa'nokä, 4Txewì 5(afpawng sarmängi) 7zìsìto 8apxay.
+      translations:
+        en: 5Sadly, 1after 2(the loss) 3of 4his 3mother, 4Txewì 5grieved 7for 8many 7years.
+    - id: TMeNeR1mTwOGN98FCVWRjg
+      text: 1Karyu 2asìltsan 3zene 4tsivun 5aynumeyut 6hivipx 7mì 8numtsengvi.
+      lookup_filter:
+        1: 716:n.:noaffix:nolen
+        5: 4800:n.:ay-:-t:nolen
+      translations:
+        en: 1A 2good 1teacher 3(has to) 4(be able to) 6control ((his/her ))5students 7in 8(the classroom).
+    - id: pwiQGerMRMOcqfqYChVePg
+      text: 1Ke 2fkeytok 3tìeyktan 4atìflänga' 5luke 6snotipx.
+      translations:
+        en: 4Successful 3leadership 1(does not) 2exist 5without 6self-control.
+    - id: 4uDqrn6hTee7sh2W_TzqRw
+      text: 1Oe 2'efu 3le'awtu.
+      translations:
+        en: 1I 2feel 3alone. Could be a bad thing, could be ok.
+    - id: ctVuWGhzSmOV9uFDlQm7FA
+      text: 1Oe 2'efängu 3le'awtu.
+      translations:
+        en: 1I 2feel 3lonely.
+    - id: 9C8D9rClTK2Yu0XOL7BshA
+      text: 1Oe 2lu 3le'awa 4tute 5a 6tsun 7(srung sivi), 8ulte 9'efu 10le'awtu 11nìngay.
+      lookup_filter:
+        6: 2476:vim.:noaffix:nolen
+        11: 1296:adv.:noaffix:nolen
+      translations:
+        en: 1(I)2('m) 4the 3only 4one 5who 6can 7help, 8and 1I 9feel 11really 10alone.
+    - id: 3NAHSQCtRTaJQIGftjZ4HQ
+      text: 1Le'awtua 2talioangìri 3lu 4kifkey 5tsenge 6lehrrap.
+      translations:
+        en: 4(The world) 3is 5a 6dangerous 5place 2(for a) 1lone 2sturmbeest.
+    - id: dtHd3XyEQTO8Lx_s3pHerg
+      text: 1Tute 2a 3keftxo 4frato 5lu 6tsapo 7a 8tìyawnur 9lie 10ke 9soli 11kawkrr.
+      lookup_filter:
+        6: 7692:pn.:noaffix:nolen
+      translations:
+        en: 1The 2+3+4saddest 1person 2+3+4(of all) 5is 6(the one) 7who 9has 11+10never 9experienced 8love.
+    - id: JZDeGW__SfeASfdr3K_zFA
+      text: 1Fì'ewll 2(liswa si) 3Na'viru.
+      translations:
+        en: 1(This plant) 2(provides nourishment) 3(to the People).
+    - id: fOcm8ytCT-KgYgXjKK_7Cg
+      text: 1Ngeyä 2faylì'u 3atìtstunwinga' 4oeru 5(meuia soli) 6nìngay.
+      lookup_filter:
+        6: 1296:adv.:noaffix:nolen
+      translations:
+        en: 2These 3kind 2words 1(of yours) 5(have honored) 4me 6greatly.
+    - id: 1NunNSNZT1O-SWyv-WNB0w
+      text: 1Taronyul 2yerikit 3narmongspe', 4slä 5tsun 6yerik 7hivifwo.
+      lookup_filter:
+        1: 2008:n.:-l:nolen
+        5: 2476:vim.:noaffix:nolen
+      translations:
+        en: 1(The hunter) 3(was pursuing) 2(a hexapede), 4but 6(the hexapede) 5(was able to) 7escape.
+    - id: bDK1gUAkQkq50_r49FcOCQ
+      text: 1(Tìkangkem soli) 2oe 3kawl 4nìtxan, 5'efu 6ngeyn, 7ulte 8kin 9oel 10tìsyortsyìpit.
+      lookup_filter:
+        4: 1312:adv.:noaffix:nolen
+        10: 11604:n.:-it:nolen
+      translations:
+        en: 2(I)1('ve worked) 3+4hard, 2(I)5('m) 6tired, 7and 9I 8need 10(a break).
+    - id: CKWgmX5RQ3WFrAumXhNJDA
+      text: 1Lu 2poe 3na 4nga 5nì'ul 7+6to 8+6tìtseri.
+      lookup_filter:
+        2: 1556:pn.:noaffix:nolen
+        7: 2224:part.:noaffix:nolen
+      translations:
+        en: '2(She)1(''s) 5more 3like 4you 6+7+8(than you think) or: than you know.'
+    - id: TUA2GYqkSum5cvcDwLC9Nw
+      text: 1(Nari si), 2ma 3'itan. 4Kilvan 5(tswesya si) 6nìwin 7nìtxan.
+      lookup_filter:
+        4: 804:n.:noaffix:nolen
+        6: 1316:adv.:noaffix:nolen
+        7: 1312:adv.:noaffix:nolen
+      translations:
+        en: 1(Be careful), 2+3son. 4(The river) 5(is flowing) 7very 6swiftly.

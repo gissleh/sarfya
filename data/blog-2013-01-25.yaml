@@ -1,0 +1,221 @@
+source:
+    id: blog-2013-01-25
+    date: "2013-01-25"
+    url: https://naviteri.org/2013/01/awvea-posti-zisita-amip-first-post-of-the-new-year/
+    title: ’Awvea Postì Zìsìtä Amip—First Post of the New Year
+    author: Paul Frommer
+inputs:
+    - id: FFx3YdtvSIub59cEoKDO3g
+      text: 1Sìlpey 2oe, 3ayngari 4nìwotx 5sngilvä'i 6zìsìt 7amip 8nìltsan 9nìtxan 10nì'aw.
+      lookup_filter:
+        1: 1800:vin.:noaffix:nolen
+        3: 208:pn.:-ri:nolen
+        9: 1312:adv.:noaffix:nolen
+      translations:
+        en: 2I 1hope 6+7(2013) 5(has gotten off to a) 8+9fine 5start 3for 4(all of) 3you.
+    - id: KwhcOPGeQmmzn-fZKtorhg
+      text: 1Ngeyä 2tsafkxilet 3tupel 4rengolop? 5(Tì'efu)6(mì) 7oeyä 8lor 9lu 10nìtxan.
+      lookup_filter:
+        10: 1312:adv.:noaffix:nolen
+      translations:
+        en: Who 4designed 2(that necklace) 1(of yours)? 5+6+7(I think) 9it's 10very 8beautiful.
+    - id: yzf6TT3MRHSQ0YyPrHM-pw
+      text: 1Tìrengopìri 2ioiyä 3lu 4sempul 5peyä 6tsulfätu.
+      lookup_filter:
+        4: 1764:n.:noaffix:nolen
+      translations:
+        en: 5Her 4father 3is 6+1(a master designer) 2(of ceremonial adornments).
+    - id: eAu6QV7ATGWCc0dyvDj0dQ
+      text: 1Faysärengopit 2avä' 3oeru 4rä'ä 5wìntxu 6nìmun, 7rutxe. 8Ke 9sunu 10oer 11keng 12nì'it.
+      lookup_filter:
+        9: 6376:vin.:noaffix:nolen
+      translations:
+        en: 7Please 4don't 5show 3me 1these 2ugly 1designs 6again. 10I 8don't 9(like them) 11+12(one bit).
+    - id: mQsqbQS8SH2-SuPlYTpe9A
+      text: 1Lu 2oer 3ingyen 4a 5Ìstaw 6nim 7lu 8fìtxan 9kuma 10pxìm 11wäpan.
+      lookup_filter:
+        9: 8836:conj.:noaffix:nolen
+      translations:
+        en: '1It''s 3(a mystery) 2(to me) 4why ((or: I''m puzzled that)) 5Ìstaw 7is 8so 6shy 9that he 10frequently 11hides.'
+    - id: shW_yYWrQGS5hE8OOAuekQ
+      text: 1Lu 2oer 3sngum 4a 5po 6ke 7zola'u.
+      translations:
+        en: 2I 1have 3(a feeling of worry) 4that 5he 6didn't 7come.
+    - id: 6vTZSmm_TW6Ye5E4kMXdyg
+      text: 1Lu 2oer 3sngumtsim 4fwa 5po 6ke 7zola'u.
+      translations:
+        en: 4(It)1('s) 3(a source of worry) 2(to me) 4that 5he 6didn't 7come.
+    - id: IMO0rtOZRSCbTlPpflxe6Q
+      text: 1Fwa 2po 3ke 4zola'u 5lu 6ingyentsim.
+      translations:
+        en: 1(It)5('s) 6(a mystery) 1that 2he 3didn't 4come.
+    - id: aiE_eGGCStelAP29Z9SKYg
+      text: |-
+        1(N-ìl|Loakìl) 2pänutolìng 3futa 4kar 5oeru 6fya'ot 7a 8'ìp 9fko 10nemfa 11ewll.
+        12Poltxe 13po 14san 15lu 16ingyentsyìp 17azey.
+      lookup_filter:
+        4: 712:vtr.:noaffix:nolen
+        16: 9524:n.:noaffix:nolen
+      translations:
+        en: |-
+            1Loak 2+3promised he4('d teach) 5me 6(how to) 7+8+9vanish 10into 11(the bushes).
+            13He 12+14said 15there's 16a 17special 16trick to it.
+    - id: CBD-6f65T1yt2cQXrJHAaw
+      text: 1Oeyä 2tskalep 3'olìp 4ningyen. 5Ke 6omum 7teyngta 8pesengit 9terok.
+      lookup_filter:
+        8: 1520:inter.:-it:nolen
+      translations:
+        en: 1My 2crossbow 3has 4mysteriously 3disappeared. I 5don't 6know 7+8where 9(it is).
+    - id: 7fUQLhygQsOCZbMb4xOGvA
+      text: 1Peyä 2aylì'u 3aingyenga' 4lolu 5sngumtsim 6ayoeru 7nìwotx.
+      lookup_filter:
+        6: 212:pn.:-ru:nolen
+      translations:
+        en: 1His 3mysterious 2words 4+5worried 6us 7all.
+    - id: EKYWORhNRFyW0I2LM48nyw
+      text: 1Tsatìoeyktìng 2ayayayrnga' 3srung 4ke 3soli 5oer 6fte 7tslivam 8teyngta 9kempe 10zene 9sivi.
+      translations:
+        en: 1That 2confusing 1explanation 4didn't 3help 5me 6+7understand 8+9what I 10(have to) 9do.
+    - id: x3nly7KET0W-V98QyVBEPQ
+      text: 1Ikranìri 2krra 3hu 4tute 5(tsaheyl si), 6ftang 7livu 8yrr.
+      translations:
+        en: 2When 1(an ikran) 5bonds 3with 4(a person), 7it 6ceases 7(to be) 8wild.
+    - id: CuEOBw5SRGGysmjkqYJ7Ug
+      text: 1Lu 2tsafnepayoang 3ftxìlor 4frato 5krra 6lu 7yrr.
+      translations:
+        en: 2(That kind of fish) 1is 4most 3tasty 5+6+7(when eaten as sashimi).
+    - id: qCLHYyX-SYyi8L0kfrzjzw
+      text: 1Txepìri, 2yrra 3rìnti 4rä'ä 5sar, 6ma 7skxawng.
+      lookup_filter:
+        5: 3812:vtr.:noaffix:nolen
+      translations:
+        en: 4Don't 5use 3that 2green 3wood 1(for a fire), 6+7(you fool).
+    - id: 0W1jSutrTDiJJZre2Ngjfw
+      text: 1Fkxenti 2pxìm 3yom 4fkol 5nìyrr.
+      lookup_filter:
+        5: 9548:adv.:noaffix:nolen
+      translations:
+        en: 1Vegetables 3are 2often 3eaten 5raw.
+    - id: k5Ev5DEYQe6p9NwSISzYRg
+      text: 1Oel 2yom 3tsnganit 4azäfi 5nì'aw.
+      translations:
+        en: 1I 5only 2eat 4cooked 3meat.
+    - id: FqMqVMYKTACTO1BkgZk6Yw
+      text: 1Tsaikranìri 2taluna 3new 4ngati 5tspivang, 6law 7lu 8fwa 9mi 10ke 11lu 12zäfi.
+      translations:
+        en: 2Since 1(that ikran) 3(wants to) 5kill 4you, 8(it)7('s) 6clear 11it's 9still 10not 12tame.
+    - id: PWKPAirIR2CRj9voK-Falg
+      text: 1Syor, 2ma 3'eylan, 4syor. 5Ke 6lu 7kea 8sngumtsim.
+      lookup_filter:
+        1: 9556:vin.:noaffix:nolen
+        4: 9556:vin.:noaffix:nolen
+      translations:
+        en: 1Relax, 2+3friend, 4relax. 6There's 5+7+8(nothing to worry about).
+    - id: YOB3WLYySSiBYnfb9li2iA
+      text: 1New 2oe 3rivun 4asim 5tìfnunga'a 6tsengit 7a 8(tsa)9+8(ro) 10tsun 11syivor 12tsivurokx 13fte 14späpiveng.
+      lookup_filter:
+        8: 5268:pn.:-ro:nolen
+        10: 2476:vim.:noaffix:nolen
+        14: 9568:vin.:<iv>:nolen
+      translations:
+        en: 2I 1(want to) 3find 6a 5quiet 6place 4nearby 7+8+9where I 10can 11(chill out) 12(and rest) 13to 14(get my head back on straight).
+    - id: 0CTTSfvVTaiFbcmw5BC7_A
+      text: 1Fìuvanìl 2oeti 3syeykor 4nìtxan.
+      lookup_filter:
+        4: 1312:adv.:noaffix:nolen
+      translations:
+        en: 2I 3find 1(this game) 4very 3relaxing.
+    - id: kZgdbMBEShqSrD7Bd5B96w
+      text: 1Krra 2fko 3taron 4ke 5lu 6kea 7skxom 8tìsyorä.
+      translations:
+        en: 1When 2one 3hunts 5there's 4+6no 7opportunity 8(for relaxation).
+    - id: YIT8-oYCQDGHWCe6Qs4uhw
+      text: 1(Tìng nari)! 2Tsayeriktsyìpìl 3li 4'anla 5sa'nokit 6a 7fkol 8tspìmang. 9Keftxo!
+      translations:
+        en: 1Look! 2(That little hexapede) 4is 3already 4(yearning for) 5(its mother) 6(that)7+8('s just been killed). 9(How sad)!
+    - id: 5a1hv10lQBGLqqxIKNzV2Q
+      text: 1Oeru 2(tìng mikyun), 3ma 4Ralu. 5Fìsä'anlal 6Neweyä 7ngati 8sleykayu 9lekye'ung! 10Poti 11tswiva'!
+      lookup_filter:
+        8: 3820:vtr.:<ay>:nolen
+      translations:
+        en: 2(Listen to) 1me, 3+4Ralu. 5(This yearning) 6(for Newey) 8(is going to drive) 7you 9crazy. 11Forget 10her!
+    - id: c5juaOJuTMm0PFrwtzigEw
+      text: 1Kop 2oeru 3lolängu 4lie 5a 6hapxìtu 7soaiä 8terkup.
+      translations:
+        en: 3Sadly, 2I 1too 3(have had) 4(the experience) 5of 6a 7family 6member 8dying.
+    - id: WhM3dkfGTdWWi3DOE2PCvA
+      text: 1Srake 2kolä 3nga 4'awlie 5ne 6(M|Nu Yorkì)?
+      translations:
+        en: 2Have 3you 4ever 2been 5to 6(New York)1(?)
+    - id: VWcvsN73TtqHMF7q7YAZMg
+      text: 1Kehe, 2slä 3kolä 4'awlie 5ne 6(M|Wasyìngton).
+      translations:
+        en: 1No, 2but I 3+4(have been) 5to Washington.
+    - id: 1sqmPVjwTPiTOXnCbjxGEQ
+      text: 1Oel 2yolom 3'awlie 4teylut.
+      translations:
+        en: 1I 3once 2ate 4teylu.
+    - id: jXKFuHxXR_-Lx2g4UbvljQ
+      text: 1Lu 2oeru 3lie 4a 5yom 6teylut.
+      translations:
+        en: 2I 1+3+4+5(once ate) 6teylu.
+    - id: p_E6rQT8Rqi85nzlkx3KMw
+      text: 1Oel 2yolom 3teylut 4'awlo 5nì'aw.
+      translations:
+        en: 1(I)2('ve) 5only 2eaten 3teylu 4once.
+    - id: wRXdyhmDR1-uUODqsZ4bQg
+      text: 1Tsìlpeyìl 2tok 3txe'lanit.
+      translations:
+        en: 1Hope 2(lives within the) 3heart.
+    - id: AGm3wnz4QTK_mp9ddA0Utw
+      text: 1(Tsìlpey)2(luke) 3ke 4tsun 5kawtu 6rivey.
+      lookup_filter:
+        4: 2476:vim.:noaffix:nolen
+      translations:
+        en: 3+5(No one) 4can 6live 2without 1hope.
+    - id: eEAmMh13SRm3MWkYr3NPgA
+      text: 1Krra 2wätut 3tse'a, 4peyä 5säsìlpey 6a 7yora' 8'olìp.
+      translations:
+        en: 1When 4he 3saw 4his 2opponent, 4his 5hope 6of 7winning 8vanished.
+    - id: klXqtoTYQw2yboVlUmkVlQ
+      text: 1Poel 2nìsìlpey 3tivok 4fìtsengit.
+      lookup_filter:
+        1: 1556:pn.:-l:nolen
+      translations:
+        en: 2(I hope) 1(she)3('s) 4here.
+    - id: N3X6L-_GRfuXsffkxphD8w
+      text: 1Poe 2nìsìlpey 3zìyeva'u 4trray.
+      lookup_filter:
+        1: 1556:pn.:noaffix:nolen
+      translations:
+        en: 2(I hope) 1(she)3('ll come) 4tomorrow.
+    - id: eI47yyf3RDK_4qREpXiW4g
+      text: 1Poe 2nìsìlpey 3zimva'u/4zilva'u 5trram.
+      lookup_filter:
+        1: 1556:pn.:noaffix:nolen
+      translations:
+        en: 2(I hope) 1she 3+4came 5yesterday.
+    - id: 9IbjjxR8T427Y6vonOXDmw
+      text: 1Poel 2nìrangal 3tirvok 4fìtsengit.
+      lookup_filter:
+        1: 1556:pn.:-l:nolen
+      translations:
+        en: 2(I wish) 1she 3were 4here. ((But I know she's not.))
+    - id: zfeqrlVeQK2jCkFO1IWD8A
+      text: 1Poe 2nìrangal 3zìyeva'u 4trray.
+      lookup_filter:
+        1: 1556:pn.:noaffix:nolen
+      translations:
+        en: 2(I wish) 1she 3(were coming) 4tomorrow. ((But I know she isn't.))
+    - id: nM49CDaiRKanfOv3F4tAWA
+      text: 1Poe 2nìrangal 3zimva'u/4zilva'u 5trram.
+      lookup_filter:
+        1: 1556:pn.:noaffix:nolen
+      translations:
+        en: 2(I wish) 1she 3(had come) 4yesterday. ((But she didn't.))
+    - id: lBvn0wEuTC6R-I-27Rkc_Q
+      text: 1(N|Tsyeyk) 2(ätxäle soli) 3nìsìlpey 4tsnì 5livu 6por 7Uniltaron.
+      lookup_filter:
+        6: 1548:pn.:-r:nolen
+      translations:
+        en: 1Jake 3hopefully 2requested 4+5+6+7(the Dream Hunt).

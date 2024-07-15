@@ -1,0 +1,45 @@
+source:
+    id: blog-2018-08-31
+    date: "2018-08-31"
+    url: https://naviteri.org/2018/08/fmawnti-stolawm-srak-have-you-heard-the-news/
+    title: Fmawnti stolawm srak? Have you heard the news?
+    author: Paul Frommer
+inputs:
+    - id: Y9es_uqrS82J6_CAEaBabA
+      text: 1Mawkrra 2fko 3(lie soli) 4tìlenur 5afpxamo 6fìtxan, 7tìrey 8ke 9lu 10teng 11kawkrr.
+      translations:
+        en: 1After 2+3experiencing 6such 4a 5terrible 4event, 7life 9is 11+8never 10(the same).
+    - id: 7RGWuKeMTYixwzYEht5YQA
+      text: 1Fpängìl 2oe, 3txonam 4oe 5rolol 6nìfpxamo.
+      lookup_filter:
+        6: 11740:adv.:noaffix:nolen
+      translations:
+        en: 1Sadly, 2I 1think 4I 5sang 6terribly 3(last night).
+    - id: NsZAdExWSr22KYiM0rF_2Q
+      text: 1Pol 2tìkangkemit 3tsyolul.
+      translations:
+        en: 1He 3began 2(the work).
+    - id: c-OmPRd9QTKyZlqLsZmI5w
+      text: 1Tìkangkem 2tsyäpolul.
+      translations:
+        en: 1(The work) 2began.
+    - id: T-RxVT-PT7mfJrfCQrdu_w
+      text: 1Sìtsyul 2nìwotx 3lu 4ngäzìk.
+      translations:
+        en: 2All 1beginnings 3are 4difficult.
+    - id: caK8_4qGQdq7JsgE16HuTw
+      text: 1(Tìmuntxa)11(maw) 2lam 3Ninatur 4fwa 5vitra 6sneyä 7nolawang 8hu 9pum 10muntxatuä.
+      lookup_filter:
+        6: 8240:pn.:noaffix:nolen
+      translations:
+        en: 11After 3her 1marriage, 4it 2seemed 3(to Ninat) 4that 6her 5soul 7(had merged) 8with 9that 10of 3her 10mate.
+    - id: RfDQ0qN8RnKsX7MjhIcPSA
+      text: 1Lamaytxal 2atxan 3pxaya 4kelkut 5skola'änga.
+      translations:
+        en: 1The 2great 1flood 5(sadly destroyed) 3many 4homes.
+    - id: SeuKqEMzQG-pI_fOreJLDQ
+      text: Polpxaya 2oaret 3tse'a 4ngal 5mì 6saw 7pxiset?
+      lookup_filter:
+        6: 2020:n.:noaffix:t→s
+      translations:
+        en: How many 2moons 3do 4you 3see 5in 6(the sky) 7(right now)?

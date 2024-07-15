@@ -1,0 +1,114 @@
+source:
+    id: blog-2017-09-30
+    date: "2017-09-30"
+    url: https://naviteri.org/2017/09/zisikrr-amip-ayliu-amip-new-words-for-the-new-season/
+    title: Zìsìkrr amip, aylì’u amip—New words for the new season
+    author: Paul Frommer
+inputs:
+    - id: QufeCBDJSDa7qvFzojdQLg
+      text: 1Oe 2leymkem! 3Fìtsamìl 4Na'vit 5(tìsraw seykayi) 6nì'aw 7ulte 8kutut 9ke 10lätxayn.
+      translations:
+        en: 1I 2protest! 3(This war) 5will 6only 5harm 4(the People) 7and 9not 10defeat 8(the enemy).
+    - id: bZFhNzVCRPyuQOiFdH3tgw
+      text: 1Tsayhemìri 2po 3loleymkem.
+      translations:
+        en: 2She 3protested 1(those actions).
+    - id: kUkHcOmsS9GPr0--V2or9w
+      text: 1(Tsayhem)4(teri) 2po 3loleymkem.
+      translations:
+        en: 2She 3protested 1+4(those actions).
+    - id: ToUAzX_8T2-vNQxqVYiqPw
+      text: 1Loleymkem 2po 3tsnì 4fwa 5Akwey 6slu 7olo'eyktan 8lu 9kemwiä.
+      lookup_filter:
+        7: 1408:n.:noaffix:nolen
+      translations:
+        en: 2He 1protested 3that 4it 8was 9unfair 4for 5Akwey 6(to become) 7(clan leader).
+    - id: Ccg4StA0Q3-VSnhfv4uSew
+      text: 1Eyktanìl 2ngeyä 3säleymkemit 4stolawm 5ulte 6paye'un 7teyngta 8zene 9fko 10(pehem sivi).
+      translations:
+        en: 1(The leader) 4(has heard) 2your 4protest 5and 6(will decide) 7what 8must 9+10(be done).
+    - id: FBCoooYVQHeL1o-adXFY0A
+      text: 1Fo 2lereymfe' 3tsnì 4syuve 5lu 6wew.
+      lookup_filter:
+        1: 412:pn.:noaffix:nolen
+      translations:
+        en: 1They're 2complaining 3that 4(the food) 5is 6cold.
+    - id: bXHa_K7cRXW6XmWdn-pVCw
+      text: 1Eywal 2tìleymit 3awngeyä 4stoleiawm!
+      translations:
+        en: 1Eywa 4(has heard) 3our 2call!
+    - id: DYEjmk-SRdOQ0n9mUu9HKQ
+      text: 1Srake 2fìkxemyo 3tsun 4tsayioangur 5lehrrap 6(ekxan sivi)?
+      lookup_filter:
+        3: 2476:vim.:noaffix:nolen
+      translations:
+        en: 3Can 2(this wall) 6(keep out) 4those 5dangerous 4(animals)1(?)
+    - id: wcBD_ST9TAWXGaLeYan2CA
+      text: 1Nìngay 2plltxe 3nga
+      lookup_filter:
+        1: 1296:adv.:noaffix:nolen
+      translations:
+        en: 3You 2speak 1truly
+    - id: 24ZPUYtmRA-aM0qJUVOIVg
+      text: 1Plltxe 2nìtsleng! 3Tsafkxilet 4ke 5tolìng 6ngar 7Entul!
+      lookup_filter:
+        2: 11192:adv.:noaffix:nolen
+      translations:
+        en: 1+2Liar! 7Entu 4didn't 5give 6you 3(that necklace)!
+    - id: JazWUSJTRmm9_m5oaYl-bQ
+      text: 1Makto 2kawl, 3ma 4samsiyu, 5fte 6tsivun 7pivähem 8nìwin!
+      lookup_filter:
+        8: 1316:adv.:noaffix:nolen
+      translations:
+        en: 1Ride 2hard, 3+4warriors, 5so you 6can 7(get there) 8fast!
+    - id: zLHXa4_GTc2wU5Y8VLv0Vg
+      text: 1Semputi 2rä'ä 3srätx, 4ma 5yawntutsyìp. 6(Tìkangkem seri).
+      lookup_filter:
+        5: 11200:n.:noaffix:nolen
+      translations:
+        en: 2Don't 3bother 1daddy, 4+5(little one). 1(He)6('s working).
+    - id: KoqTfu7fRQu1hS4Pmc2lbg
+      text: 1Krra 2hufwe 3tul 4nìwin, 5tsun 6fko 7tsive'a 8ayweopxit 9a 10sìn 11yo 12payä.
+      lookup_filter:
+        4: 1316:adv.:noaffix:nolen
+        5: 2476:vim.:noaffix:nolen
+        10: 4048:adp.:noaffix:nolen
+      translations:
+        en: 1When 2+3+4(there is strong wind), 6you 5can 7see 8waves 9+10on 11+12(the water).
+    - id: gI69qB99S1KQz2D8EzbTCA
+      text: 1Tsayrenur 2leweopx 3a 4sìn 5neni 6(tìng nari).
+      lookup_filter:
+        4: 4048:adp.:noaffix:nolen
+      translations:
+        en: 6Look 1(at those) 2wave-like 1patterns 3+4in 5(the sand).
+    - id: QKNsV-P3R-eCWmeHZaE9Jg
+      text: 1Tìkawng 2a 3sutel 4ngop 5var 6rivey, 7tsìltsanit 8pxìm 9kllyem 10fkol 11feyä 12(tärem)13(hu).
+      lookup_filter:
+        11: 412:pn.:-yä:nolen
+      translations:
+        en: 1(The evil) 2that 3men 4do 5+6(lives after them); 7(The good) 9is 8oft 9interred 13with 11their 12bones. ((Quote from Shakespeare's Julius Caesar))
+    - id: 7zhWNAiqTmijxx6qO17t4Q
+      text: 1Oel 2peyä 3ftxozäti 4tswolänga', 5ha 6poltxe 7por 8san 9ftxozäri 10aylrrtok 11ngaru 12sìk 13mawftxele.
+      lookup_filter:
+        5: 540:conj.:noaffix:nolen
+        7: 1548:pn.:-r:nolen
+        12: 1796:adv.:noaffix:nolen
+      translations:
+        en: 4Unfortunately 1I 4forgot 2his 3birthday, 5so 1I 6said 8(“)9+10+11(Happy Birthday)12(”) 13belatedly.
+    - id: Cw1TNCtrQPGjf7j9oXSawA
+      text: 1Po 2lu 3pìsaw. 4Trram 5toltem 6venuti 7sneyä 8nìtkanluke.
+      lookup_filter:
+        7: 8240:pn.:noaffix:nolen
+      translations:
+        en: 1He 2is 3accident-prone. 4Yesterday 1he 8unintentionally 5shot 7(his own) 6foot.
+    - id: ofNN2bzbSbOQATItaO4_NQ
+      text: 1Lu 2Sawtute 3wok 4sì 5pìsaw 6nìwotx, 7na 8prrnen.
+      translations:
+        en: 2(The skypeople) 1are 6all 3loud 4and 5clumsy, 7like 8(a baby).
+    - id: BWiWLdmVQmSwFNr1nl3-Rw
+      text: 1Poeyä 2tìpsawìl 3(txopu sleykolu) 5yerikit 6ha 7po 8hifwo.
+      lookup_filter:
+        1: 1556:pn.:-yä:nolen
+        6: 540:conj.:noaffix:nolen
+      translations:
+        en: 1Her 2clumsiness 3scared 5(the hexapede), 6so 7he 8escaped.

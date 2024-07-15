@@ -1,0 +1,223 @@
+source:
+    id: blog-2019-06-06
+    date: "2019-06-06"
+    url: https://naviteri.org/2019/06/50a-liu-amip-40-new-words%ef%bb%bf/
+    title: "°50a Lì’u Amip! 40 New Words!\uFEFF"
+    author: Paul Frommer
+inputs:
+    - id: RGmCYsqCSGKehfEMHJJuHw
+      text: 1Fwa 2tse'a 3peyä 4tìfkeytokit 5lefkrr 6lolängu 7oer 8'asap 9nìngay.
+      lookup_filter:
+        9: 1296:adv.:noaffix:nolen
+      translations:
+        en: 1It 6+8+9(was a real shock) 7(to me) 1to 2see 3+4(him in his) 5current 3+4condition.
+    - id: gFp4Q7rKQZ6Kqoz0I0DLOA
+      text: 1Oe 2('asap soli) 3krra 4tsafmawnit 5stawm.
+      translations:
+        en: 1I 2(was startled) 3when 1I 5heard 4(the news).
+    - id: hTIc1o-9QD-u-GGEgMMv1Q
+      text: 1Krra 2pähem 3Sawtute, 4pxaya 5Na'vi 6fe'parmey.
+      translations:
+        en: 1When 3(the Sky People) 2arrived, 4many 5Na'vi 6(felt dread).
+    - id: t-qDYt4MTEiWAt2C9o8sMw
+      text: 1Po 2fe'poley 3tsnì 4'itan 5sneyä 6tìfmetokit 7ke 8emzìyeva'u.
+      lookup_filter:
+        5: 8240:pn.:noaffix:nolen
+      translations:
+        en: 1He 2+3feared 5his 4son 8might 7not 8pass 6(the test).
+    - id: o1QPp3uURY-nb9l-96ryYw
+      text: 1Nga 2ketrìpa 3krr 4zola'u; 5Ralu 6set 7sti 8ulte 9ke 10new 11(nga)12(hu) 13pivängkxo.
+      translations:
+        en: 1You 4came 3(at the) 2wrong 3time; 5Ralu 6+7(is angry) 8and 9+10won't 13speak 12with 11you.
+    - id: Yz5Q26j5TZisb0iLe45ngw
+      text: 1Ke 2lu 3syuve 4ulte 5tute 6apxay 7(txansngum si).
+      translations:
+        en: 2(There is) 1no 3food, 4and 6many 5people 7(are desperate).
+    - id: OgbrygZuR3e5GnTxn71n8g
+      text: 1Oel 2tseri 3futa 4nga 5tskawr. 6Srake 7ngal 8venut 9(tìsraw seykoli)?
+      translations:
+        en: 1I 2+3see 4(you)5('re limping). 9Did 7you 9hurt 7your 8(foot)6(?)
+    - id: 4wjuuDgfQAu0HNRge0B_-Q
+      text: 1Lu 2tsakem 3txavä', 4ma 5tsmuk.
+      lookup_filter:
+        2: 2328:n.:noaffix:nolen
+      translations:
+        en: 2(That)1('s) 3disgusting, 4+5bro.
+    - id: yER2WwGnTrurSFLfiUk_cw
+      text: 1Soleia! 2Ngal 3tìfmetokit 4emzola'u 5nìflä! 6Seykxel 7sì 8nitram!
+      translations:
+        en: 1(You rose to the challenge)! 2You 4passed 3(the test) 5successfully! 6+7+8Congratulations!
+    - id: fD4gcUsoR-mj3vMa31M7RQ
+      text: 1Txasunu 2oeru 3teylu!
+      translations:
+        en: 2I 1(really love) 3teylu!
+    - id: pryFv3fvQiaOUiwc0muwwQ
+      text: 1Fì'umtsat 2tolìng 3'evengur 4aspxin 5zeykoyul 6a 7txanro'a.
+      lookup_filter:
+        5: 12972:n.:-l:nolen
+      translations:
+        en: 1(This medicine) 2(was given) 3(to the) 4sick 3child 5(by a) 6+7famous 5healer.
+    - id: 7rh5Y0StSD2wLAaFZankyQ
+      text: 1Oel 2stawm 3sìranpamit! 4Lerok 5tuteo!
+      lookup_filter:
+        5: 4184:pn.:noaffix:nolen
+      translations:
+        en: 1I 2hear 3footsteps! 5Someone 4(is coming)!
+    - id: b3_Jpgu_RqG2atLR0PBC8g
+      text: 1Sroler 2fwäkì 3ftuopa 4tskxe.
+      translations:
+        en: 2(A mantis) 1appeared 3(from behind) 4(a rock).
+    - id: mhHQ1uayQdq-4xU1Y_yC6w
+      text: 1(Nari si)! 2Fayramtsyìp 3lu 4fyeng.
+      lookup_filter:
+        2: 6664:n.:fay-:nolen
+      translations:
+        en: 1(Be careful)! 2(These hills) 3are 4steep.
+    - id: lV4Nzh-OTZaerMAsOT4HZQ
+      text: 1Fol 2karmavan 3koaktet 4tengkrr 5fmeri 6po 7tivìran.
+      lookup_filter:
+        1: 412:pn.:-l:nolen
+      translations:
+        en: 1They 2supported 3(the old woman) 4as 6she 5(was trying) 7(to walk).
+    - id: lSrEVH3bQPSmH1P_19HN3A
+      text: 1Zolung 2ayoe 3nekll 4fteke 5ayioang 6tsivun 7ayoeti 8tsive'a.
+      lookup_filter:
+        2: 212:pn.:noaffix:nolen
+        7: 212:pn.:-ti:nolen
+      translations:
+        en: 2We 1crouched 3down 4(so that) 5(the animals) 4wouldn't 6(be able) 8(to see) 7us.
+    - id: mAUvvP6URRSFXfEk5NeoZQ
+      text: 1Fpivìl . . . 2Kxawm 3ngaru 4tìyawr.
+      lookup_filter:
+        1: 12980:intj.:noaffix:nolen
+      translations:
+        en: 1Hmm . . . 2Perhaps 3+4(you're right).
+    - id: khnP7nkmRL2ALSzNPNFX7Q
+      text: 1Oe 2ke 3kom 4kivä.
+      translations:
+        en: 1I 2don't 3dare 4(to go).
+    - id: eO8dbt6qT-a9QfCHyUOAPA
+      text: 1Nga 2kom 3pivlltxe 4(oe)7(hu) 5tsafya 6srak?
+      translations:
+        en: 1You 2dare 3(to speak) 7to 4me 2(like that)6(?)
+    - id: MUvyQE7WSVW9fNsB9_ptHQ
+      text: 1Fìsräti 2pxaw 3sey 4mivam 5fte 6tsat 7hivawnu.
+      lookup_filter:
+        3: 10560:n.:noaffix:nolen
+      translations:
+        en: 4Wrap 1(this cloth) 2around 3(the bowl) 5to 7protect 6it.
+    - id: cDTVJCCjT1ahdpBmIAEldA
+      text: 1Poanit 2tsolukx 3poel 4fa 5tstal 6nìtxukx 7nemfa 8heyr.
+      lookup_filter:
+        3: 1556:pn.:-l:nolen
+        6: 13000:adv.:noaffix:nolen
+        8: 10356:n.:noaffix:nolen
+      translations:
+        en: 3She 2stabbed 1him 6deeply 7in 8(the chest) 4with 5(a knife).
+    - id: TX6a3sKTSta3Rj5gZUmUlw
+      text: 1(Fìtìpawm)11(teri) 2fparmìl 3oe 4nìtxukx, 5slä 6vay 7set 8ke 9rolängun 10tì'eyngit.
+      lookup_filter:
+        4: 13000:adv.:noaffix:nolen
+      translations:
+        en: 3(I)2('ve thought) 11(about this question) 4deeply, 5but 9(I'm sad to say) 3I 8haven't 6+7yet 9found 10(the answer).
+    - id: lt9c48hRRVCZwJ2PYnNZ_Q
+      text: 1Palukantsyìp 2yomvey 3nìwotx.
+      lookup_filter:
+        1: 13375:n.:noaffix:nolen
+      translations:
+        en: 3All 1cats 2(are carnivorous).
+    - id: BqtsftLsQR2CPj_Ec_aAwA
+      text: 1Fìpalukantsyìpìl 2yom 3veyti 4fratrr.
+      lookup_filter:
+        1: 13375:n.:fì-:-ìl:nolen
+        4: 4148:adv.:noaffix:nolen
+      translations:
+        en: 1(This cat) 2eats 3meat 4(every day).
+    - id: AnICzppERVqUTnchVcYpJw
+      text: 1Snayerik 2yeromzeswa 3mì 4tayo.
+      translations:
+        en: 1(A herd of hexapedes) 2(are grazing) 3in 4(the field).
+    - id: tAlHLS0aSK2r0wbzRzxbXA
+      text: 1Torukìl 2ke 3yom 4zeswat.
+      translations:
+        en: 1(A toruk) 2doesn't 3eat 4grass.
+    - id: JrhXebZhRAOB9-RV6rLK9g
+      text: 1Kolä 2oe 3raw 4kilvan 5fte 6ivaho.
+      lookup_filter:
+        4: 804:n.:noaffix:nolen
+      translations:
+        en: 1I 2went 3(down to) 4(the river) 5to 6pray.
+    - id: qxH3iFHYQQCyJw3xW9z8Zw
+      text: 1Kllza'u 2(yì)3(raw) 4amuve.
+      translations:
+        en: 1+3(Descend to) 2the 4second 2level.
+    - id: LZymBez4T12g2dGwGL1CTw
+      text: 1Tiam 2ta 3vomrr 4raw 5pxey.
+      translations:
+        en: 1Count 4down 2from 3thirteen 4to 5three.
+    - id: wgMIo_ICQyiGOU_kyEWzSg
+      text: 1Txap 2skxirit 3fteke 4reypay 5wrrziva'u.
+      translations:
+        en: 1(Apply pressure) 2(to the wound) 3(so that) 4(the blood) 3won't 5flow.
+    - id: Jftzicj4Q8GRcqsg-kX5jA
+      text: 1Fìtseng 2payfya 3virä 4ka 5ngip 6areng, 7ha 8tsun 9awnga 10tsat 11sivar 12sko 13emkäfya.
+      lookup_filter:
+        1: 364:adv., n.:noaffix:nolen
+        4: 676:adp.:noaffix:nolen
+        7: 540:conj.:noaffix:nolen
+        8: 2476:vim.:noaffix:nolen
+        12: 8740:adp.:noaffix:nolen
+      translations:
+        en: 1Here 2(the stream) 3spreads 4over 5a 6shallow 5area, 7so 9we 8can 11use 10it 12as 13(a ford).
+    - id: 1bV-3pvwT0C1BgwTTMo8Kw
+      text: 1Sunkesun 2po 3slayu 4olo'eyktan.
+      lookup_filter:
+        4: 1408:n.:noaffix:nolen
+      translations:
+        en: 1(Whether you like it or not), 2(he)3('s going to become) 4chief.
+    - id: oHlecYzGQiO1DfcA2SauRg
+      text: 1Pol 2vìyewng 3ayevengit 4fìha'ngir, 5ftxey 6sunu 7fuke.
+      lookup_filter:
+        5: 4456:conj.:noaffix:nolen
+        6: 6376:vin.:noaffix:nolen
+      translations:
+        en: 1He 2(is going to take care of) 3(the children) 4(this afternoon), 5whether 1he 6(likes it) 7(or not).
+    - id: MwPFCX_GQXWjGopzSVv5Lw
+      text: 1Maitan 2za'u 3fìtseng.
+      lookup_filter:
+        3: 364:adv., n.:noaffix:nolen
+      translations:
+        en: 2Come 3here, 1son.
+    - id: 78zwJh8vR_6AOcWPvjySTg
+      text: 1Täftxutswo 2Riniyä 3loho 4oer 5nìtxan.
+      lookup_filter:
+        5: 1312:adv.:noaffix:nolen
+      translations:
+        en: 2Rini's 1(ability to weave) 3surprises 4me 5(a lot)
+    - id: 7Jue8tYsRO-ooD6vR2IyNg
+      text: 1Fo 2tsìk 3sroler 4a 5fì'u 6loloho 7poanur.
+      lookup_filter:
+        1: 412:pn.:noaffix:nolen
+        5: 368:pn.:noaffix:nolen
+      translations:
+        en: 5It 6surprised 7him 4that 1they 2suddenly 3appeared.
+    - id: 3R5nkQawTVeTogyb6S-kRw
+      text: 6Loloho 7poanur 5fwa 1fo 2tsìk 3sroler.
+      lookup_filter:
+        1: 412:pn.:noaffix:nolen
+      translations:
+        en: 5It 6surprised 7him 5that 1they 2suddenly 3appeared.
+    - id: M36SBRvMTdGNsDod1OLJgw
+      text: |-
+        A. 1(Epxang)2(mì) 3lu 4'upe?
+        B. 5Tìloho.
+      lookup_filter:
+        4: 112:inter.:noaffix:nolen
+      translations:
+        en: |-
+            A: 4(What)3('s) 2in 1(the stone jar)?
+            B: It's 5(a surprise).
+    - id: ICZg20wATqOexNMb4ZBpKA
+      text: 1Poltxe 2po 3nìloho 4san 5oe 6zasya'u.
+      translations:
+        en: 3Surprisingly, 2he 1+4said 5he 6(would come).

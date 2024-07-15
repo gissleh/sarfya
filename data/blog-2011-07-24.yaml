@@ -1,0 +1,71 @@
+source:
+    id: blog-2011-07-24
+    date: "2011-07-24"
+    url: https://naviteri.org/2011/07/txantsana-ultxa-mi-siatll-great-meeting-in-seattle/
+    title: Txantsana Ultxa mì Siätll! Great Meeting in Seattle!
+    author: Paul Frommer
+inputs:
+    - id: w8eN2RJoQZifiWzjCa0OdA
+      text: 1Po 2ke 3tsun 4pivllngay 5san 6oeru 7tìkxey.
+      lookup_filter:
+        3: 2476:vim.:noaffix:nolen
+      translations:
+        en: 1He 2+3can't 4+5admit 6+7(he's wrong).
+    - id: RW-8AVITR22b7_ray7jhCw
+      text: 1Tsa'uri 2po 3pllngay.
+      translations:
+        en: 2He 3admits 1it.
+    - id: 23d1p3BWQU-J3d3xMJF3dg
+      text: 1Ayngeyä 2kifkeyti 3fol 4kawngsar 5nìtut, 6fì'uri 7(kem|kekem) 8ke 7si 9aynga.
+      lookup_filter:
+        1: 208:pn.:-yä:nolen
+        3: 412:pn.:-l:nolen
+        9: 208:pn.:noaffix:nolen
+      translations:
+        en: 3They 5continuously 4exploit 1your 2world 7and 9you 7(do nothing) 6(about it).
+    - id: _HxZmbYDTqWNFZLPBvHA0Q
+      text: 1Nga 2lom 3lu 4oer.
+      translations:
+        en: 4I 2+3miss 1you.
+    - id: ufaexUYvSleITsbSI_QkZw
+      text: 1Aysre' 2lom 3lu 4tsakoaktanur.
+      translations:
+        en: 4(The old man) 2+3misses 4his 1teeth.
+    - id: ujSGo2n-RF6clh8XwV2fPQ
+      text: 1Tengkrr 2(ftxozä sereiyi) 3awnga, 4ke 5tswiva' 6aylomtuti 7ko!
+      translations:
+        en: |-
+            1While 3we 2(are celebrating), 7(let us) 4not 5forget 6(those who we wish could also be here )7(((but can't))().)
+            OR A toast: To absent friends.
+    - id: f-WXwXe1SxKU8yijx50tIw
+      text: 1Peyä 2tsatìpe'un 3a 4sweylu 5txo 6wivem 7ayoeng 8(Omatikaya)9(wä) 10lu 11fe'.
+      lookup_filter:
+        7: 216:pn.:noaffix:nolen
+      translations:
+        en: 1His 2decision 3that 7we 4+5should 6fight 9against 8(the Omaticaya) 10was 11(a bad one)).
+    - id: h2vhfBcLQD6pnvoUUMLI_w
+      text: 1Oe 2pllngay 3san 4molakto 5oe 6nìfe', 7tafral 8snolaytx; 9wätu 10lu 11(oe)12(to) 13txur.
+      lookup_filter:
+        6: 7756:adv.:noaffix:nolen
+        12: 2224:part.:noaffix:nolen
+      translations:
+        en: 1I 2acknowledge 3that 5I 4rode 6badly, 7so 8(I lost); my 9opponent 10was 13(strong)12(er than) 11I 10was.
+    - id: BCzyJajaTCq2vVTPRNwHhg
+      text: 1(Nari si) 2fte 3kea 4fekem 5ke 6liven 7ngar!
+      translations:
+        en: 1+2(Be careful) 7you 3+5don't 4+6(have an accident)!
+    - id: Hk2Eqd31SyqZZI8WIYaJOw
+      text: 1Oel 2new 3futa 4livu 5oer 6set 7hawtsyìp.
+      translations:
+        en: 1I 2(want to) 3+4+5+7(take a nap) 6now.
+    - id: LIug3dK0T0SGh5ZvLBJLVA
+      text: 1Fnu, 2ma 3'evi. 4Sa'nur 5leru 6hawtsyìp. 7Tsivurokx 8ko.
+      translations:
+        en: 1Quiet, 2+3(young one). 4Mommy 5+6(is taking a nap). 8Let 4her 7rest.
+    - id: xCEmgbGzQ9qCL1-xWnB-nw
+      text: 1Ayfo 2solop 3ìlä 4hilvan 5fa 6uran.
+      lookup_filter:
+        1: 204:pn.:noaffix:nolen
+        4: 804:n.:noaffix:k→h
+      translations:
+        en: 1They 2traveled 3(along )3((up, down)) 4(the river) 5by 6boat.

@@ -1,0 +1,133 @@
+source:
+    id: blog-2011-02-20
+    date: "2011-02-20"
+    url: https://naviteri.org/2011/02/new-vocabulary-part-2/
+    title: New Vocabulary, Part 2
+    author: Paul Frommer
+inputs:
+    - id: WUcOC0wTStCNkgZbrnxaVA
+      text: 1Tìkangkem 2li 3hasey 4lu.
+      translations:
+        en: 1(The work) 4is 2already 3finished.
+    - id: -D5WZcsHSWaQNFZ0wrqz0w
+      text: 1Li 2pol 3terok 4fìtsengit 5srak?
+      translations:
+        en: 3Is 2she 1already 4(here)5(?)
+    - id: Sh_IWgpuQrW_PLvn5O5jZA
+      text: 1(Ayfo)5(hu) 2li 3oe 4(ultxa soli).
+      lookup_filter:
+        1: 204:pn.:noaffix:nolen
+      translations:
+        en: 3(I)4('ve) 2already 4met 5with 1them.
+    - id: 578T14g8SUiqFODZAnsq0Q
+      text: |-
+        A: 1Srake 2new 3nga 4(oe)5(hu) 6yivom 7wutsot?
+        B: 8Oer 9txoa 10livu. 11Li 12yolom.
+      translations:
+        en: |-
+            A: 1Do 3you 2(want to) 6have 7dinner 5with 4(me)1(?)
+            B: 8+9+10Sorry. I12've 11already 12eaten.
+    - id: UsEJSSWxQzqk-YxU_97tKQ
+      text: |-
+        A: 1Fo 2li 3polähem 4srak?
+        B: 5Ke 6li.
+      lookup_filter:
+        1: 412:pn.:noaffix:nolen
+      translations:
+        en: |-
+            A: 3Have 1they 2already 3arrived?
+            B: 5Not 6yet.
+    - id: zyTZdz0yTAGILsvTL71D6g
+      text: 1Ngal 2mi 3fìtsengit 4terok 5srak? 6Li 7kä!
+      translations:
+        en: 1(You)4('re) 2still 3(here)5(?) 6+7(Get going)!
+    - id: RprzE8BdQ7-qVuNDRhP9EA
+      text: 1Li 2ko.
+      translations:
+        en: |-
+            1+2(Well, get to it, then)
+            ((Here li gets the stress: LI ko.))
+    - id: ZFS1cnw0T4aUJOQ5gqAVvA
+      text: |-
+        A: 1Nga 2mllte 3srak?
+        B: 4Li, 5slä …
+      translations:
+        en: |-
+            A: 3Do 1you 2(agree)1(?)
+            B: 4(Well, yes, I guess so), 5but . . .
+    - id: 1OH_HQ5fSAq6z_T7It1FFg
+      text: 1(Kem si) 2li 3(trray)4(sre).
+      translations:
+        en: 1(Do it) 2+4by 3tomorrow.
+    - id: EGDJtGfOR3unAQlcwoBMVw
+      text: 1(Kem si) 2lisre 3srray.
+      translations:
+        en: 1(Do it) 2by 3tomorrow.
+    - id: QD0SC0unTKK0PAhuHGAfwg
+      text: 1Tsat 2ke 3tsun 4oe 5ronsrelngivop.
+      lookup_filter:
+        3: 2476:vim.:noaffix:nolen
+      translations:
+        en: 4I 2+3can't 5imagine 1that.
+    - id: 3sTwisykRqGgA0MzK9p9_g
+      text: 1Oel 2ronsrelngop 3futa 4Eywevengit 5tok.
+      translations:
+        en: 1I 2imagine 3that 1(I)5('m on) 4Pandora.
+    - id: PILe0clPRRmrl5RMp-WGRA
+      text: 1Ayronsrel 2peyä 3hängek 4nìtxan.
+      lookup_filter:
+        4: 1312:adv.:noaffix:nolen
+      translations:
+        en: 2His 1imaginings 3+4(are (unpleasantly)( weird).)
+    - id: 3AYwxEGVQj2extlM-c6BsA
+      text: 1Lu 2poru 3tìronsrel 4atxanatan.
+      translations:
+        en: 2She 1has 3a 4vivid 3imagination.
+    - id: iC5YNXjtTXK4gTrpZxZENg
+      text: 1Oe 2new 3sivop 4ne 5tsakifkey 6leronsrel.
+      translations:
+        en: 1I 2(want to) 3journey 4to 5that 6imaginary 5world.
+    - id: W-G89AzAR1aW_dumW22s9A
+      text: 1Oe 2pxìm 3pängkxo 4(nga)5(hu) 6nìronsrel.
+      translations:
+        en: 1I 2often 3talk 5with 4you 6(in my imagination).
+    - id: 7a1HKWOsTFiLQwFhAXiVpw
+      text: 1Set 2srefey 3oel 4futa 5tsampongu 6tätxaw 7maw 8txon'ong.
+      translations:
+        en: 3(I)2('m) 1currently 2expecting 5(the war party) 4+6back 7after 8nightfall.
+    - id: 2qn0iFTXTbCC7yy3_gvItw
+      text: 1Set 2srefey 3oe 4tsnì 5tsampongu 6tätxaw 7maw 8txon'ong.
+      translations:
+        en: 3(I)2('m) 1currently 2expecting 5(the war party) 4+6back 7after 8nightfall.
+    - id: fvLu_3I7SCSCRzCpHw9uqw
+      text: 1Tsaria 2(nga)3(hu) 4ye'rìn 5(ultxa si) 6nìmun, 7oe 8srefereiey 9nìprrte'.
+      lookup_filter:
+        9: 5588:adv.:noaffix:nolen
+      translations:
+        en: 7(I)8+9('m looking forward to) 1+5getting 3(together with) 2you 6again 4soon.
+    - id: ZFaTTrPQQ8Odo8Nump53Hg
+      text: |-
+        A: 1Oeng 2(T-ay|rewonay) 3'awsiteng 4tivaron 5ko.
+        B: 6Srefereiey 7nìprrte'.
+      lookup_filter:
+        7: 5588:adv.:noaffix:nolen
+      translations:
+        en: |-
+            A: 5Let's 1(you and I) 4(go hunting) 3together 2(tomorrow morning).
+            B: 6+7(I'll look forward to that).
+    - id: pBCtY2Z6S0-I4u3fShOhYg
+      text: 1Tsu'teyìl 2tolìng 3oer 4mawlit 5smarä.
+      translations:
+        en: 1Tsu'tey 2gave 3me 4(a half) 5(of the prey).
+    - id: UjITYvA8SCSYHo0AZJHPFA
+      text: 1Tsu'teyìl 2tolìng 3oer 4panit 5smarä.
+      translations:
+        en: 1Tsu'tey 2gave 3me 4(a third) 5(of the prey).
+    - id: tdmCcZ_EQ2mCzCkBsF3fLw
+      text: 1munea 2mrrpxì
+      translations:
+        en: 1(two)-2fifths
+    - id: Oo2yw7q_SWiF8fLgIGrFTw
+      text: 1kipxì 2atsìng
+      translations:
+        en: 2(four)-1sevenths

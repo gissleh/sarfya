@@ -1,0 +1,20 @@
+source:
+    id: blog-2019-12-31
+    date: "2019-12-31"
+    url: https://naviteri.org/2019/12/tengkrr-zisit-leratem-as-the-year-changes/
+    title: Tengkrr Zìsìt Leratem . . .   As the Year Changes . . .
+    author: Paul Frommer
+inputs:
+    - id: nweDT4pcQ--Y1eqfz94l5Q
+      text: 1Ke 2tsun 3fko 4fìswizawti 5sivar—6lu 7lìktap.
+      lookup_filter:
+        2: 2476:vim.:noaffix:nolen
+      translations:
+        en: 4(This arrow) 1+2can't 3+5(be used)—6it's 7crooked.
+    - id: HpjgF3DbQ_S_oBSPrm_7rA
+      text: 1Txewìl 2yerikit 3kolan 4slä 5hängupx.
+      lookup_filter:
+        1: 13101:prop.n.:-l:nolen
+        3: 704:vtrm.:<ol>:nolen
+      translations:
+        en: 1Txewì 3(aimed at) 2(the hexapede) 4but 5(unfortunately missed).

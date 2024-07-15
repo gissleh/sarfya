@@ -1,0 +1,106 @@
+source:
+    id: blog-2021-08-15
+    date: "2021-08-15"
+    url: https://naviteri.org/2021/08/ulte-ayyoratu-leiu-and-the-winners-are-2/
+    title: Ulte ayyora’tu leiu . . .           And the winners are . . .
+    author: Contestants, Paul Frommer
+inputs:
+    - id: ge6wSbVVRq-eoVE5GpxYdA
+      text: 1Kxìm 2(utu)3(ftu) 4fnawe'tu.
+      translations:
+        en: 4(A coward) 1commands 3from 2(the canopy).
+      flags:
+        - proverb
+    - id: 9wuYvd_pT0S1lttQpLTMbg
+      text: 1'Uori 2hìpey, 3kxawm 4ngaru 5ke 6ley.
+      lookup_filter:
+        1: 4180:pn.:-ri:nolen
+      translations:
+        en: If 4you 2hesitate 1(doing something), 1it 3might 5not 6(be important) 4(to you).
+      flags:
+        - proverb
+    - id: _osVF70aQ-C1o-bZV4DSFA
+      text: 1Spä 2skxawng 3sìn 4'ana 5aflì.
+      lookup_filter:
+        3: 4048:adp.:noaffix:nolen
+      translations:
+        en: 2(A fool) 1jumps 3onto 4a 5thin 4vine.
+      flags:
+        - proverb
+    - id: O7WgUYqAQr-PbB1ZS-vkaA
+      text: 1Hahaw 2nì'aw 3txo 4palukan 5smivon 6ngar.
+      translations:
+        en: 2Only 1sleep 3if 5+6(you are familiar with) 4(the Thanator).
+      flags:
+        - proverb
+    - id: Ohjoia37SwKi0__8f9GbRQ
+      text: 1Ke 2kur 3fko 4fa 5kxetse.
+      lookup_filter:
+        2: 9796:vin.:noaffix:nolen
+      translations:
+        en: 3One 1can't 2hang 4by 5(a tail).
+      flags:
+        - proverb
+    - id: 6ryNoyvcSE2SYoHLths7CQ
+      text: 1((na)) 2fwampop 3fkip 4fìwopx
+      translations:
+        en: 1((Like)) 2(a tapirus) 3in 4(the clouds)
+      flags:
+        - proverb
+    - id: Ui0frZHORmaWqrzZC1nSjg
+      text: 1'Awsiteng 2lu 3mefo 4lanay'ka.
+      lookup_filter:
+        3: 1076:pn.:noaffix:nolen
+      translations:
+        en: 3They 2are 4(a slinger) 1((together)).
+      flags:
+        - proverb
+    - id: sppGPQJoSXmw3y8sW2V9gw
+      text: 1((na)) 2lanay'ka 3luke 4re'o
+      translations:
+        en: 1Like 2(a slinger) 3without 4(a head)
+      flags:
+        - proverb
+    - id: mFFhO-izR8KCR17FVpw_PQ
+      text: 1zawr 2((a)) 3mì 4na'rìng
+      translations:
+        en: 1(an animal cry) 2+3in 4(the forest)
+      flags:
+        - proverb
+    - id: Mq02_RLxQ8KmneIOcFq7fg
+      text: 1Kxetse 2kì'ong!
+      translations:
+        en: 2Slow 1tail!
+      flags:
+        - proverb
+    - id: yRbuuLX8Tm646a4h6sgUAQ
+      text: 1yerik 2((a)) 3mì 4yrrap
+      translations:
+        en: 1Hexapede 2+3in 4(a storm)
+      flags:
+        - proverb
+    - id: 3uewtwIRQYqnGciBKzMv7w
+      text: 1Tsayerik 2terul 3ne 4'awkx.
+      translations:
+        en: 1(That hexapede) 2(is running) 3toward 4(the cliff).
+    - id: Vj9SMIIGSLiTM-iuqOzdzg
+      text: 1Tolaron 2mefol 3mesalioangit! 4Tewti, 5'awsiteng 6lu 7mefo 8lanay'ka.
+      lookup_filter:
+        2: 1076:pn.:-l:nolen
+        4: 2100:intj.:noaffix:nolen
+        7: 1076:pn.:noaffix:nolen
+      translations:
+        en: 2They 1hunted 3(two sturmbeest)? 4Wow, 5+6+7+8(they work very well together).
+    - id: dda-ftZ5QvOrsouQ9f3FzQ
+      text: 1Po 2maw 3kxitx 4muntxatuä 5'amefu 6na 7lanay'ka 8re'oluke.
+      translations:
+        en: 2After 3(the death) 4of 1his 4spouse, 1he 5felt 6+7+8(completely lost).
+    - id: BQKaIp_cQA2FH8q8XXcJMA
+      text: "A: 1Srake 2ngal 3stolawm 4futa 5Tsenu 6Ralur 7mowan 8lu 9nìtxan? \nB: 10Zawr 11mì 12na'rìng, 13ma 14tsmuk! 15Tsat 16omum 17oel 18kintrro."
+      lookup_filter:
+        6: 13077:prop.n.:-r:nolen
+        9: 1312:adv.:noaffix:nolen
+      translations:
+        en: |-
+            A: 3Have 2you 3heard 4that 6Ralu 7+8+9(has the hots for) 5Tsenu?
+            B: 10+11+12(Old news), 13+14brother! 17(I)16('ve) 16known 15it 18(for a week).

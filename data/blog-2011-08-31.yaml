@@ -1,0 +1,145 @@
+source:
+    id: blog-2011-08-31
+    date: "2011-08-31"
+    url: https://naviteri.org/2011/08/reported-speech-reported-questions/
+    title: Reported speech, reported questions
+    author: Paul Frommer
+inputs:
+    - id: kVyNufN2SxOgl6jFvFXeQQ
+      text: 1Poltxe 2po 3san 4oe 5new 6kivä 7sìk.
+      lookup_filter:
+        7: 1796:adv.:noaffix:nolen
+      translations:
+        en: |-
+            2He 1said, 3(“)4(I) 5(want to) 6go.7”
+            ((He said he wanted to go.))
+    - id: _p46W1_cR5ucjzhxaRw6Qw
+      text: 1Poltxe 2pol 3peut?
+      lookup_filter:
+        3: 1528:inter.:-t:nolen
+      translations:
+        en: 3What 1did 2she 1say?
+    - id: iGltXhCSRiuGPyWCTnNWiQ
+      text: 1Ke 2poltxe 3pol 4tsat.
+      translations:
+        en: 3She 1didn't 2say 4that.
+    - id: gHvxttzDQGqAArLoBGDPjw
+      text: 1Poltxe 2pol 3paylì'ut?
+      translations:
+        en: |-
+            3(What words) 1did 2she 1say?
+            ((What did she say?))
+    - id: WcDuvyKpRYqe_L04lUD4aA
+      text: 1Ke 2poltxe 3pol 4tsaylì'ut.
+      translations:
+        en: |-
+            3She 1didn't 2say 4(those words).
+            ((She didn't say that.))
+    - id: G_h25xItSkyx-1fUdusXFQ
+      text: 1Poltxe 2pol 3faylì'ut 4a 5oe 6new 7kivä.
+      translations:
+        en: |-
+            2She 1said, 3+4(“)5(I) 6(want to) 7go.3+4”
+            ((She said she wanted to go.))
+    - id: 7zIsQR4ORzOmfkCeL8_Kig
+      text: 1Poltxe 2pol 3fayluta 4oe 5new 6kivä.
+      translations:
+        en: |-
+            1She 2said, 3(“)4(I) 5(want to) 6go.3”
+            ((She said she wanted to go.))
+    - id: 1Gr9fmW8SwqzxnEJigUKDA
+      text: 1Stolawm 2oel 3fmawnta 4fo 5new 6hivum.
+      lookup_filter:
+        3: 7912:sbd.:noaffix:nolen
+        4: 412:pn.:noaffix:nolen
+      translations:
+        en: 2I 1+3heard 4they 5(want to) 6leave.
+    - id: C2tki2keTZarilJuULzGTw
+      text: 1Ngal 2poleng 3oer 4fmawnta 5po 6tolerkup.
+      lookup_filter:
+        4: 7912:sbd.:noaffix:nolen
+      translations:
+        en: 1You 2told 3me 4that 5he 6died.
+    - id: EJookZo1Sk2AXsc2p5OUng
+      text: 1Polawm 2po 3san 4Neytiri 5kä 6(peseng)8(ne) 7((sìk)).
+      lookup_filter:
+        6: 1520:inter.:noaffix:nolen
+        7: 1796:adv.:noaffix:nolen
+      translations:
+        en: |-
+            2He 1asked, 3(saying, “)6(Where) 5+8is 4Neytiri 5+8going?7”
+            ((He asked where Neytiri was going.))
+    - id: hXpjE7CxS4u1a7xlWDXgSA
+      text: 1Polawm 2po, 3Neytiri 4kä 5(peseng)6(ne)?
+      lookup_filter:
+        5: 1520:inter.:noaffix:nolen
+      translations:
+        en: 1He 2asked 5where 3Neytiri 4+6(was going).
+    - id: n1_rPEvvSYiCQ7LdCSHmpA
+      text: 1(Ätxäle si) 2tsnì 3livu 4oheru 5Uniltaron.
+      translations:
+        en: 4(I respectfully) 1+2+3+4request 5(the Dreamhunt).
+      flags:
+        - formal
+    - id: MFtGxF93SkuIJU3CLfmqzw
+      text: 1Vuyin 2ohel 3Uniltaronit.
+      translations:
+        en: 2I 1(respectfully request) 3(the Dreamhunt).
+      flags:
+        - formal
+    - id: 9TiynevzSoKZcMumhW7KeQ
+      text: 1Pol 2volin 3mipa 4tskalepit.
+      translations:
+        en: 1He 2(asked for) 4a 3new 4crossbow.
+    - id: oPdl4fOgRUe_wIsDnWUB3Q
+      text: 1Volin 2pol 3tì'eyngit 4a 5Neytiri 6kä 7(peseng)8(ne).
+      lookup_filter:
+        7: 1520:inter.:noaffix:nolen
+      translations:
+        en: |-
+            2He 1requested 3the 7(where)-4+6+8(is)-5(Neytiri-)4+6+8(going) 3answer.
+            ((He asked where Neytiri was going.))
+    - id: rSEmMcHbQVG4SY9pZ3BKOw
+      text: 1Volin 2oel 3teyngta 4Neytiri 5kä 6(peseng)7(ne).
+      lookup_filter:
+        6: 1520:inter.:noaffix:nolen
+      translations:
+        en: 2I 1asked 3+6where 4Neytiri 5+7(was going).
+    - id: 1NQzpyU9Q1-SPK3BD7Zjow
+      text: 1Ke 2omum 3oel 4teyngta 5fo 6kä 7(peseng)8(ne).
+      lookup_filter:
+        5: 412:pn.:noaffix:nolen
+        7: 1520:inter.:noaffix:nolen
+      translations:
+        en: 3I 1don't 2know 4+7where 6(they)6+8('re going).
+    - id: B5VxTauoT3iYgHZVdzET9Q
+      text: 1Teynga 2lumpe 3fo 4holum 5ke 6lu 7law.
+      lookup_filter:
+        3: 412:pn.:noaffix:nolen
+      translations:
+        en: 1(It)6('s) 5not 7clear 2why 3they 4left.
+    - id: EhZJgkBiTKaUnQ4u8H2vtA
+      text: 1Ulte 2sìlpey 3oe, 4faysìoeyktìng 5livu 6law 7nìwotx!
+      lookup_filter:
+        2: 1800:vin.:noaffix:nolen
+      translations: {}
+    - id: -lN-aYvOTgqkYQMBwwI0sw
+      text: 1Oel 2volin 3tìfnut.
+      translations:
+        en: 1I 2(asked for) 3silence.
+    - id: szLL-lKWTjacqUY65_KO_A
+      text: 1Oe 2(ätxäle soli) 3tsnì 4livu 5tìfnu.
+      translations:
+        en: 1I 2(asked for) 3+4+5silence.
+    - id: eSAUKPNYR6ydAMilkrHA_A
+      text: 1Oe 2(ätxäle soli) 3tsnì 4frapo 5fnivu.
+      lookup_filter:
+        4: 460:pn.:noaffix:nolen
+      translations:
+        en: 1I 2(asked for) 3+4+5silence.
+    - id: V3Ev8GkNT8aBwBCOVlpEFQ
+      text: 1Oel 2volin 3futa 4frapo 5fnivu.
+      lookup_filter:
+        4: 460:pn.:noaffix:nolen
+      translations:
+        en: 1I 2(asked for) 3+4+5silence.

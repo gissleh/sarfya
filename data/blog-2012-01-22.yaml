@@ -1,0 +1,159 @@
+source:
+    id: blog-2012-01-22
+    date: "2012-01-22"
+    url: https://naviteri.org/2012/01/more-additions-to-the-lexicon/
+    title: More Additions to the Lexicon
+    author: Paul Frommer
+inputs:
+    - id: uf6oWFsETsWgI_HY5axVcA
+      text: 1Oeyä 2tsmukanìl 3mipa 4tskoti 5kìmaneiom.
+      translations:
+        en: 1My 2brother 5(just got) 4a 3new 4bow, 5(I'm happy to say).
+    - id: o2r8zw77SwyJzJumPj38ZQ
+      text: 1(Tì'efu)2(mì) 3oeyä, 4ngeyä 5fìsäkanom 6lu 7lehrrap 8ulte 9tsun 10ngati 11(tìsraw seykivi).
+      lookup_filter:
+        9: 2476:vim.:noaffix:nolen
+      translations:
+        en: 1+2+3(In my opinion), 5(this acquisition) 4(of yours) 6is 7dangerous 8and 9can 11hurt 10you.
+    - id: PMutc-2LRYiyeyk9a4iY1A
+      text: 1Sneyä 2masatit 3pol 4käsrolìn 5oer.
+      lookup_filter:
+        1: 8240:pn.:noaffix:nolen
+      translations:
+        en: 3He 4lent 5me 1his 2breastplate.
+    - id: YPw-yRJZSX2xK-_6xYWpcw
+      text: 1Srake 2tsun 3oe 4zasrivìn 5ngeyä 6tsngalit?
+      lookup_filter:
+        2: 2476:vim.:noaffix:nolen
+      translations:
+        en: 2Can 3I 4borrow 5your 6(cup)1(?)
+    - id: vEndHdrPT9GlKKBGDM1Dkg
+      text: 1(Oe)2(ta) 3a 4tsasäsrìnìl 5tok 6pesengit?
+      lookup_filter:
+        6: 1520:inter.:-it:nolen
+      translations:
+        en: 6(Where)5('s) 4(the thing) you 4borrowed 3+2from 1me?
+    - id: ShZEy1NOSziLJaedQ9CahQ
+      text: 1Fol 2tsnganit 3pxìmolun'i 4nì'eng.
+      lookup_filter:
+        1: 412:pn.:-l:nolen
+      translations:
+        en: |-
+            1They 3(divided up) 2(the meat) 4equally.
+            ((They shared the meat.))
+    - id: -mZdnlSLQcGbR08sJeAnKg
+      text: 1Nìtrrtrr 2pxìmun'i 3samsiyul 4ayswizawit 5kutuä 6alawnätxayn 7(sno)8(kip) 9nì'eng.
+      translations:
+        en: 3Warriors 1typically 2+9share 4(the arrows) 5(of their) 6defeated 5enemies 8among 7themselves.
+    - id: eujId5xIRuqXe32Q8B6TOQ
+      text: 1Tsasälätxayn 2Na'viru 3(srung soli) 4nì'aw 5fte 6slivu 7txur 8nì'ul.
+      translations:
+        en: 1(That defeat) 4only 3helped 2(the People) 5+6become 7+8stronger.
+    - id: G4j1ue3uR0CE9Qo_aG7e2g
+      text: 1Tsun 2awnga 3(kelku sivi) 4nì'eng 5(Sawtute)6(hu) 7mì 8atxkxe 9awngeyä.
+      lookup_filter:
+        1: 2476:vim.:noaffix:nolen
+      translations:
+        en: 2We 1can 3+4+7share 9our 8land 6with 5(the Skypeople).
+    - id: Gajda9YWS7C6BmGpaJfIDA
+      text: 1Fol 2tsnganit 3pxìmolun'i 4nìyll.
+      lookup_filter:
+        1: 412:pn.:-l:nolen
+        4: 8432:adv.:noaffix:nolen
+      translations:
+        en: 1They 3shared 2(the meat) 4(with the entire clan).
+    - id: h90YbCeNRUuo0dMW62t5qA
+      text: 1Fìteyluri 2ke 3narmew 4Va'ru 5yivom 6nìyll.
+      lookup_filter:
+        6: 8432:adv.:noaffix:nolen
+      translations:
+        en: 4Va'ru 2didn't 3(want to) 5+6share 1(this teylu) 5+6(with the Omatikaya).
+    - id: sclct7VOTTaQStfYz4bBdQ
+      text: 1Ayhemìri 2'ewana 3tsanantangur 4ahì'i 5(tìng nari). 6Lu 7hona, 8kefyak?
+      translations:
+        en: 5(Look at) 1what 3that 2little 4young 3viperwolf 1(is doing). 6+8(Isn't that) 7adorable?
+    - id: kTeC5uUuQ7Oen9NpJfFV1A
+      text: 1Po 2(ätxäle soli) 3nìhona 4fìtxan, 5ke 6tsun 7oe 8stivo.
+      lookup_filter:
+        3: 8508:adv.:noaffix:nolen
+        6: 2476:vim.:noaffix:nolen
+      translations:
+        en: 1She 2asked 4so 3sweetly that 7I 5+6couldn't 8refuse.
+    - id: VeDdaQuyTqyiRTARfkY7xg
+      text: 1Peyä 2'itanìri 3lu 4hona 5nìtxan 6a 7fì'u 8law 9lu 10frapor. 11Slä 12tìhona 13nì'aw 14ke 15tam.
+      lookup_filter:
+        5: 1312:adv.:noaffix:nolen
+        7: 368:pn.:noaffix:nolen
+        10: 460:pn.:-r:nolen
+      translations:
+        en: 7(It)9('s) 8clear 10(to everyone) 6that 1his 2son 3is 5very 4cute. 11But 12cuteness 13alone 15(is)14(n't) 15enough.
+    - id: J7XBvS_uTVCKGGAyQsrdhA
+      text: 1Fäziva'u 2ne 3tsenge 4a 5oel 6tok!
+      translations:
+        en: 1(Come up) 2to 3where 5I 4+6am!
+    - id: qHncvc3oSFWonb9MNqLszQ
+      text: 1Fäza'u 2tsawke 3krrpe?
+      lookup_filter:
+        3: 892:inter.:noaffix:nolen
+      translations:
+        en: 3When 1will 2(the sun) 1(come up)?
+    - id: 7KRYIsqDTg2RlQo2aDeMbQ
+      text: 1Tsawke 2fpxeräkìm (()3nemfa 4taw()).
+      lookup_filter:
+        4: 2020:n.:noaffix:nolen
+      translations:
+        en: 1(The sun) 2+3+4(is rising).
+    - id: j2UjbycfTRGBUACYOblKVg
+      text: 1Tsaysanhì 2hayum 3ye'rìn (()4(taw)5(ftu)()).
+      lookup_filter:
+        4: 2020:n.:noaffix:nolen
+      translations:
+        en: 1(Those stars) 2will 3soon 2+4+5set.
+    - id: kPKOOE52RzufW6qVV4vhQA
+      text: 1Ngeyä 2sämokìri 3akosman 4seiyi 5oe 4irayo-.
+      translations:
+        en: 4Thanks 3(for that) 4excellent 3suggestion 1((of yours)).
+    - id: S77NSZgHQDuUdooovPn10w
+      text: 1Nga 2mal 3lu 4oer.
+      translations:
+        en: 4I 2+3trust 1you.
+    - id: e3exJq2gTLmpBMpMd4Fx3g
+      text: 1Fìtìkangkemviri 2letsranten 3ke 4new 5oe 6hu 7Ralu 8(tìkangkem sivi). 9Po 10ke 11längu 12mal.
+      translations:
+        en: 5I 3don't 4(want to) 8work 6with 7Ralu 1(on this) 2important 1project. 9(He)11('s) 10not 12trustworthy, 11unfortunately.
+    - id: pE-vNav3Q--C8XynntCiqg
+      text: 1Nga 2MAL 3larmu 4oer!!!
+      translations:
+        en: 4I 2+3TRUSTED 1you!!!
+    - id: sLNM5oX_T3mkjEo5cnkWTQ
+      text: 1Rini 2(tsapo)3(hu) 4holum 5nìmal 6nìwotx.
+      lookup_filter:
+        2: 7692:pn.:noaffix:nolen
+        5: 8464:adv.:noaffix:nolen
+      translations:
+        en: 1Rini 4left 3with 2(that guy) 5+6(without thinking twice about it).
+    - id: 2YJSW0mzSoKDlmkLhc4E1w
+      text: 1Lekin 2lu 3tìtxur, 4lu 5tìtstew. 6Slä 7letsranten 8frato 9lu 10tìmal.
+      translations:
+        en: 3Strength and 5courage 2+4are 1necessary. 6But 8most 7important 8(of all) 9is 10trustworthiness
+    - id: 8ZGVKSUvQxqzhLn1CLP0-Q
+      text: 1Trram 2tolerkängup 3sa'nok 4ayawne. 5Poti 6kllyolem 7ayoel 8äo 9utralo 10alor 11a 12rofa 13kilvan.
+      lookup_filter:
+        7: 212:pn.:-l:nolen
+        10: 1024:adj.:a-:nolen
+        13: 804:n.:noaffix:nolen
+      translations:
+        en: My 4dear 3mother 2died 1yesterday. 7We 6buried 4her 8under 9a 10beautiful 9tree 11+12beside 13(the river).
+    - id: pbl00o4zSl6LbKp8CEkXbA
+      text: 1Tsyìl 2Iknimayat 3ulte 4(tsaheyl si) 5(ikran)6(hu) 7a 8fì'u 9lu 10tìfmetok 11a 12zene 13frataronyu 14a'ewan 15emziva'u.
+      lookup_filter:
+        8: 368:pn.:noaffix:nolen
+        13: 2008:n.:fra-:nolen
+      translations:
+        en: 1Scaling 2Iknimaya 3and 4bonding 6with 5(a banshee) 7+8+9is 10(a test) 11that 13every 14young 13hunter 12must 15pass.
+    - id: 6bOwp4uOSiWj-yxyU_y5vw
+      text: 1Kintrramä 2sätsyìl 3lu 4lehrrap 5slä 6'o' 7nìtxan.
+      lookup_filter:
+        7: 1312:adv.:noaffix:nolen
+      translations:
+        en: 1(Last week's) 2climb 3was 4dangerous 5but 7very 6exciting.

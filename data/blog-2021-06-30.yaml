@@ -1,0 +1,21 @@
+source:
+    id: blog-2021-06-30
+    date: "2021-06-30"
+    url: https://naviteri.org/2021/06/mipa-sawasultsyip-ahii-a-new-little-contest/
+    title: Mipa säwäsultsyìp ahì’i   A new little contest
+    author: Paul Frommer
+inputs:
+    - id: lwzEmnsaScWmTw1jEo7sZw
+      text: 1Fwäkì 2ke 3fwefwi.
+      translations:
+        en: 1(A mantis) 2doesn't 3whistle.
+      flags:
+        - proverb
+    - id: BN5zlERFTuuZT-KuMwP3Bg
+      text: 1Fya'o 2angäzìk 3ne 4kum 5akosman.
+      lookup_filter:
+        4: 8828:n.:noaffix:nolen
+      translations:
+        en: 1+2+3+4+5(All's well that ends well).
+      flags:
+        - proverb

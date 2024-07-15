@@ -1,0 +1,63 @@
+source:
+    id: blog-2019-08-31
+    date: "2019-08-31"
+    url: https://naviteri.org/2019/08/aawa-lifya-si-lifyavi-amip-a-few-new-words-and-expressions/
+    title: ’A’awa Lì’u sì Lì’fyavi Amip. A Few New Words and Expressions.
+    author: Paul Frommer
+inputs:
+    - id: XZTQRPIITxmrwd4l6bAOEA
+      text: 1Tengkrr 2lerok 3zìskrrsomìl 4tì'i'at, 5sìlpey 6oe, 7ayngari 8te'lan 9livu 10lefpom 11ulte 12tìrey 13zivawprrte'.
+      lookup_filter:
+        5: 1800:vin.:noaffix:nolen
+        7: 208:pn.:-ri:nolen
+      translations: {}
+    - id: Qw2CFyunTd62qbGJf3hXBw
+      text: 1Ngeyä 2fìtìsopìri 3pehantseng?
+      translations:
+        en: 2(This journey) 1(of yours)—3what's 2its 3destination?
+    - id: zVsFaAdRSm-2KksJrLqb-g
+      text: 1Ftu 2Kelutral 3ne 4Txintseng 5Sawtuteyä 6pela'a?
+      lookup_filter:
+        6: 13004:inter.:noaffix:nolen
+      translations:
+        en: 6+1+3(How far is) 2Hometree 6+1+3from 4+5(Hell's Gate)?
+    - id: 0nPb2YBrQuSDBJEc2o7I8A
+      text: 1(Nari si) 2tengkrr 3kereynven 4fìtseng. 5Lu 6kllte 7ekxtxu.
+      lookup_filter:
+        4: 364:adv., n.:noaffix:nolen
+      translations:
+        en: 3Step 1+2carefully 4here. 6(The ground) 5is 7rough.
+    - id: 66oIHn4nTGmKqQtMEe4viw
+      text: 1(Nari si) 2keynven!
+      translations:
+        en: 2Step 1carefully!
+    - id: DnTcwa1VTF6idkQSnuH4Pg
+      text: 1(Nari si) 2lonu 3swizawit.
+      translations:
+        en: 2Release 3(the arrow) 1carefully.
+    - id: FA_G5QhAQl61g08Vo4TmmQ
+      text: 1Po 2keynven 3sìn 4ketse.
+      lookup_filter:
+        3: 4048:adp.:noaffix:nolen
+      translations:
+        en: "1He 2steps 3on 4tails. \n((I.e. He is socially awkward.))"
+      flags:
+        - proverb
+    - id: wsqxIdfpRzy7G_a0KfBx-Q
+      text: 1Ngari 2keftxo 3fwa 4ke 5tok.
+      translations:
+        en: 2+3(Too bad) 1you 4couldn't 5(be there).
+    - id: GXFuZbN_Rz252UECF_LJTg
+      text: 1Txewì 2ka 3trro 4nìwotx 5ftxolulì'u, 6slä 7aylì'u 8peyä 9längu 10ralke.
+      lookup_filter:
+        2: 676:adp.:noaffix:nolen
+      translations:
+        en: 1Txewi 5spoke 2for 3an 4entire 3day, 6but 9sadly, 8his 7words 9were 10meaningless.
+    - id: wDHVNjFeT6-oBVktHf2kuA
+      text: 1Ayunil 2ngeyä 3lu 4lor, 5slä 6fìtxeleri 7lu 8tìfkeytongay 9keteng.
+      translations:
+        en: 2Your 1dreams 3are 4beautiful, 5but 8(the reality) 6(of this situation) 7is 9different.
+    - id: 0ZVz-CZLRsOXtAcB3mU_oQ
+      text: 1Yune 2oet! 3Ke 4lu 5fìvrrtep 6tute 7lefkeytongay!!!
+      translations:
+        en: 1(Listen to) 2me! 5(This demon) 4is 3not 6a 7real 6person!!!

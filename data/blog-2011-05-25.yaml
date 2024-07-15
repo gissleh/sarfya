@@ -1,0 +1,132 @@
+source:
+    id: blog-2011-05-25
+    date: "2011-05-25"
+    url: https://naviteri.org/2011/05/some-miscellaneous-vocabulary/
+    title: Some Miscellaneous Vocabulary
+    author: Paul Frommer
+inputs:
+    - id: WGcbCnIZTlikiNbwseemDw
+      text: 1Fmi 2mivakto 3pa'lit!
+      translations:
+        en: 1(Try to) 2ride 3(a direhorse)! ((I bet you can do it!))
+    - id: 2dlCKczYTviPkddxlxeQrw
+      text: 1May' 2mivakto 3pa'lit!
+      translations:
+        en: 1Try 2riding 3(a direhorse)! ((Maybe you'll like it more than riding a banshee.))
+    - id: RlKe_FkjS7WaKp3und3Onw
+      text: 1Yìmora' 2Tsu'teyìl 3uvanit.
+      translations:
+        en: 2Tsu'tey 1(just won) 3(the game).
+    - id: zNaUmuwsTLGI7NsY2SjyBg
+      text: 1Ayoe 2snolaytx 3fìtrr 4taluna 5oel 6rumit 7tolungzup.
+      lookup_filter:
+        1: 212:pn.:noaffix:nolen
+        3: 4280:adv.:noaffix:nolen
+      translations:
+        en: 1We 2lost 3today 4because 5I 7dropped 6(the ball).
+    - id: tQu-7DYiRHWcumhTviFzwA
+      text: 1Tìkan 2tawnatep!
+      translations:
+        en: |-
+            1Target 2lost!
+            ((Line from one of the video games.))
+      flags:
+        - clipped
+    - id: T4tb0_7CQVON46To9b2yqw
+      text: 1Pam 2fì'otxangä 3sunu 4oer 5nìngay.
+      lookup_filter:
+        3: 6376:vin.:noaffix:nolen
+        5: 1296:adv.:noaffix:nolen
+      translations:
+        en: 4I 5really 3like 1(the sound) 2(of this instrument).
+    - id: FwEUVYcoQ6yH5XXHuCvLVw
+      text: 1Peotxangfa 2nga 3(pamtseo si)?
+      translations:
+        en: 1(What instrument) 3do 2you 3play?
+    - id: Vtyxr1OjQ4Kq0AkEpMAq-A
+      text: 1(Pamtseo si) 2fa 3i'en.
+      translations:
+        en: I 1+2play 3(the i'en).
+    - id: tNXRHtWCSM-xZHtgF9J_wQ
+      text: 1Oeri 2skxir 3a 4mì 5syokx 6(tìsraw sengi).
+      translations:
+        en: 2(The wound) 3+4on 1my 5hand 6hurts.
+    - id: EZA8yRrpSMigo8k8xp5SxA
+      text: 1Zene 2nga 3yivur 4pxìm 5fìskxirit.
+      translations:
+        en: 2You 1must 3clean 5(the wound) 4frequently.
+    - id: 3DZTLMOBTCOk5LugIJsmjA
+      text: 1Taronyu 2yerikur 3(skxir soli).
+      lookup_filter:
+        1: 2008:n.:noaffix:nolen
+      translations:
+        en: 1(The hunter) 3wounded 2(the hexapede).
+    - id: UGf_7HV-SoesBrbIznQZWw
+      text: 1Rutxe 2slivoan 3ngal 4payit 5(oe)6(fpi); 7'efu 8väng 9nìtxan.
+      lookup_filter:
+        4: 1480:n.:-it:nolen
+        9: 1312:adv.:noaffix:nolen
+      translations:
+        en: 1Please 2pour 5+6me some 4water; 5(I)7('m) 9very 8thirsty.
+    - id: AJdGtpTMRq-P6BnSaoRHfA
+      text: 1Tsawla 2palulukanìl 3oeti 4'ìlmeko 5a 6krr, 7Nawma 8Sa'nok 9(lrrtok seiyi) 10ulte 11oe 12emroley.
+      translations:
+        en: 8The 7Great 8Mother 9(was looking after me) 5+6when 2the 1big 2thanator 4attacked 10and 11(I)12('ve survived).
+    - id: d3U1gmbSQLukKlSWGDb5iQ
+      text: 1Fwampopä 2temrey 3(tsatseng)4(mì) 5ngäzìk 6lu 7nìwotx.
+      translations:
+        en: 2(It)6('s) 7very 5(hard for) 1+2(a tapirus to survive) 3+4there.
+    - id: rWqD5vzkRcOLyXrrT_J0pg
+      text: 1Maw 2fwa 3fkol 4Kelutralit 5skola'a, 6lemreya 7hapxìtul 8tsasoaiä 9txolula 10mipa 11kelkuti 12mì 13tayo.
+      translations:
+        en: 1+2After 4Hometree 3+5(was destroyed), 7the 6surviving 7members 8(of that family) 9built 11a 10new 11home 12on 13(the plains).
+    - id: t7WoGoGUTl2kJTRw0tC4ew
+      text: |-
+        A: 1Sawtute 2pìyähängem! 3Tul 4ko!
+        B: 5Kempe 6leren?
+        A: 7Nemfa 8na'rìng, 9ma 10skxawngtsyìp! 11Kä 12li!
+        B: 13Slä . . .
+        A: 14(NEMREY|NEMREEEY)!!!
+      lookup_filter:
+        5: 772:inter.:noaffix:nolen
+      translations:
+        en: |-
+            A: 1(The Skypeople) 2(are about to arrive)! 3+4Run!
+            B: 5(What)6('s happening)?
+            A: 7Into 8(the forest), 9+10(you moron [whom I still like anyway])! 11+12(Get going)!
+            B: 13But . . .
+            A: 14(LIKE YOUR LIFE DEPENDED ON IT!!! )13((Run for your life!))
+    - id: APIwIG6vR5mz1Hc3ZOQFiA
+      text: 1Ralit 2faylì'uä 3oel 4ke 5tslivam.
+      translations:
+        en: |-
+            3I 4don't 5understand 1(the meaning) 2(of these words).
+            ((I can't translate the sentence.))
+    - id: NNiKO3HwS3mKyFb8cVq25w
+      text: 1Waweti 2faylì'uä 3oel 4ke 5tslivam.
+      translations:
+        en: |-
+            3I 4don't 5understand 1(the meaning) 2(of these words).
+            ((I don't see why they're significant.))
+    - id: gQ_YfNNrQI2eZvm_EGhFxQ
+      text: 1Ngari 2wawe 3fìvurä 4lu 5'upe?
+      lookup_filter:
+        5: 112:inter.:noaffix:nolen
+      translations:
+        en: 5What 4is 2(the significance) 3(of this story) 1(to you)?
+    - id: 4pBrqbkeRLuGOOUypMeBTw
+      text: 1Waweti 2ke 3tsun 4fko 5ralpiveng.
+      lookup_filter:
+        3: 2476:vim.:noaffix:nolen
+      translations:
+        en: '4One 2+3can''t 5explain 5((or: put into words)) 1wawe.'
+    - id: X9X5hW82RMiZ0NHnpfKQOA
+      text: 1(Nari si)! 2Tsatsko 3lu 4spuwin 5ulte 6ke 7lu 8mi 9txur, 10slä 11oeri 12txanwawe 13leiu. 14Lu 15stxeli 16a 17(sempul)18(ta).
+      lookup_filter:
+        17: 1764:n.:noaffix:nolen
+      translations:
+        en: 1Careful! 2(That bow) 3is 4old 5+7and 6no 8longer 9strong, 10but 12+13(it means a lot) 14(to me). It 14was 15(a gift) 16+18from my 17father.
+    - id: pKn5ckT7R6eJN7fP1sn1CQ
+      text: 1Tsatxon 2(ayutral)3(äo) 4krr 5a 6pol 7oeti 8nolìn 9nìwawe, 10olomeium 11oel 12fa 13keyrel 14futa 15lu 16yawne 17oe 18poru.
+      translations:
+        en: 1(That night) 3beneath 2(the trees) 4+5when 6she 8(looked at) 7me 9meaningfully, 11I 10knew 12by 13(the expression on her face) 14that 18she 15+16loves 17me.

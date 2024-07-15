@@ -1,0 +1,21 @@
+source:
+    id: blog-2018-10-30
+    date: "2018-10-30"
+    url: https://naviteri.org/2018/10/aysrr-ayvospxi-ayzisikrr-days-months-seasons/
+    title: Aysrr, Ayvospxì, Ayzìsìkrr.   Days, Months, Seasons.
+    author: Paul Frommer
+inputs:
+    - id: WKRi-vevQJm9wR1RCzdhRw
+      text: 1Lu 2Trrmrrve 3muvea 4trr 5a 6(tìkangkem si) 7oe 8hu 9Ralu.
+      translations:
+        en: 2Thursday 1was 4the 3second 4day 7I 5+6worked 8with 9Ralu.
+    - id: JUmH5JG7TKaRoYHVWf4pvg
+      text: 1Fìutral 2paw 3(kilvan)6(lok) 4nì'aw. 5(Tsawl slu) 7nìwin 8nìtxan.
+      lookup_filter:
+        2: 11824:vin.:noaffix:nolen
+        3: 804:n.:noaffix:nolen
+        6: 4024:adp.:noaffix:nolen
+        7: 1316:adv.:noaffix:nolen
+        8: 1312:adv.:noaffix:nolen
+      translations:
+        en: 1(This tree) 4only 2grows 2((i.e., germinates, develops)) 6near 3(a river). 1It 5grows 5((i.e., gets big)) 8very 7quickly.

@@ -1,0 +1,14 @@
+source:
+    id: forum-2018-01-23-012954
+    date: "2018-01-23"
+    url: https://forum.learnnavi.org/language-updates/si-vs-ulte-ka-ya-vs-mi-ya-and-a-note-on-sneya/msg656173/?boardseen#new
+    title: 'sì vs. ulte – ka ya vs. mì ya – and a note on sneyä '
+    author: Plumps
+inputs:
+    - id: 5kAvZSdBTeGodTZaJMaMrA
+      text: 1Sunu 2poru 3syulang 4sì 5mauti 6sì 7fwa 8tswayon 9(ya)10(ka).
+      lookup_filter:
+        1: 6376:vin.:noaffix:nolen
+        10: 676:adp.:noaffix:nolen
+      translations:
+        en: 2he 2((i.e. a bird)) 1likes 3(flowers)4(,) 5fruits 6and 7+8(to fly) 10through 9(the air).

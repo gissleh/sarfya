@@ -1,0 +1,66 @@
+source:
+    id: blog-2017-06-30
+    date: "2017-06-30"
+    url: https://naviteri.org/2017/06/ayliu-a-ta-eywaeveng-kifkey-uniltirantokxa-words-from-disneys-pandora-the-world-of-avatar/
+    title: 'Aylì’u a ta “Eywa’eveng: Kifkey Uniltìrantokxä”—Words from Disney’s “Pandora: The World of Avatar”'
+    author: Paul Frommer
+inputs:
+    - id: S4vCwJ6hSxmxAGfAX4hcWQ
+      text: 1Poeru 2kxu 3rä'ä 2si!
+      lookup_filter:
+        1: 1556:pn.:-ru:nolen
+      translations:
+        en: 3(Do not) 2harm 1her!
+    - id: F4vlau6oTVeLrVIJAarklw
+      text: |-
+        21FMAL 22TÌKXUKET 23NGEYÄ 24SÌ 25MO'ARAYÄ
+        1Tengkrr 2lerang 3Mo'arat 4nì'o' 5nì'aw,
+        6rutxe 20ayoeru 7(srung si) 8fte 9tsivun 10ayoe 11fmival
+        12tìkxuket 13ngeyä 14sì 15Mo'arayä 16fa 17fwa 18lek 19faysänumet:
+      lookup_filter:
+        3: 13063:prop.n.:-t:nolen
+        4: 6916:adv.:noaffix:nolen
+        10: 212:pn.:noaffix:nolen
+        15: 13063:prop.n.:-yä:nolen
+        20: 212:pn.:-ru:nolen
+        25: 13063:prop.n.:-yä:nolen
+      translations:
+        en: |-
+            21+22KEEP 23YOURSELF 24AND 25MO'ARA 21+22SAFE
+            1While 4+5(you enjoy your) 2+3(exploration of Mo'ara),
+            6please 7help 20us 8+9+10+11+12+13+14+15(put safety first for both you and Mo'ara)
+            16+17by 18following 19(the guidelines below):
+    - id: 6JO8FIbMQBmXwwrjO47C3A
+      text: 1Rä'ä 2yomtivìng 3ayioangur
+      translations:
+        en: 1(Do not) 2feed 3(the animals)
+    - id: a8Se1NyXRQC7lpPDNbgMVg
+      text: 1Rä'ä 2fmivi 3livok 4fu 5emkivä 6ayekxanit 7a 8fkol 9ngolop 10fpi 11sìkxuke 12ayfrrtuä 13sì 14ayioangä
+      translations:
+        en: 1(Do not) 2(attempt to) 3approach 4or 5cross 6(any barriers) 7+8+9designed 10for 12Guest 13and 14animal 11safety
+    - id: Kwe4Lf0RT7-iTtpBufKl5g
+      text: 1Rä'ä 2fmivi 3(kxu sivi) 4ayioangur 5fu 6helkur 7feyä
+      lookup_filter:
+        7: 412:pn.:-yä:nolen
+      translations:
+        en: 1(Do not) 2(attempt to) 3harm 4(the animals) 5or 7their 6habitats
+    - id: NCVeUKFhRVaA9L4ZOjrQKA
+      text: 1Ke 2tung 3Na'vil 4futa 5tswìk 6kxenerit 7(Mo'ara)8(ka) 9nìwotx
+      lookup_filter:
+        2: 2284:vtr.:noaffix:nolen
+        7: 13063:prop.n.:noaffix:nolen
+        8: 676:adp.:noaffix:nolen
+      translations:
+        en: 3(The Na'vi) 1+2(have banned) 4+5+6smoking 8+9in 7Mo'ara
+    - id: dLCYPoN_QKmfMzPdIsd39Q
+      text: 1Taksyokx, 2ma 3frapo!
+      lookup_filter:
+        3: 460:pn.:noaffix:nolen
+      translations:
+        en: 1(Let's give )1((him/her/them))1( a hand), 2+3everybody!
+    - id: 1i1vggckSG-JSyGsS-dXIQ
+      text: 1Tolätxaw 2nìprrte'!
+      lookup_filter:
+        2: 5588:adv.:noaffix:nolen
+      translations:
+        en: 1+2(Welcome back)!

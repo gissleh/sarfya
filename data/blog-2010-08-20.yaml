@@ -1,0 +1,41 @@
+source:
+    id: blog-2010-08-20
+    date: "2010-08-20"
+    url: https://naviteri.org/2010/08/a-na%e2%80%99vi-alphabet/
+    title: A Na’vi alphabet
+    author: Paul Frommer
+inputs:
+    - id: nOWHcgWuQayFQ9p6Q5xIxg
+      text: 1Tsalì'uri 2fko 3(pamrel si) 4fyape?
+      translations:
+        en: |-
+            1(As for that word), 4(how does) 2one 3write it?
+            ((How is that word written?))
+    - id: igafFvtpRvekZEF9uyt3EA
+      text: 1Pamrelfyari 2fyape?
+      translations:
+        en: |-
+            1(As for (its)( spelling), )2how?
+            ((How do you spell it?))
+    - id: 7xwG10d5TtaWAlqB__Z4YQ
+      text: 1Pamrel 2fyape?
+      translations:
+        en: 1+2(How do you write it)?
+    - id: DrqQCMxXTEyQiUS5mmMu2w
+      text: |-
+        A: 1Lì'uri 2alu 3tskxe 4pamrel 5fyape?
+        B: 6Pamrelfya 7lu 8na 9(P|Tsä), 10(P|KxeKx), 11(P|E).
+      translations:
+        en: |-
+            A: 4+5(How do you spell) 1(the word) 2+3tskxe?
+            B: 6+7+8(It's spelled) 9ts, 10kx, 11e.'
+    - id: kTOWjPRxTouLH9cjnR8Wkg
+      text: 1Poltxe 2Kamun 3san 4oe 5zasya'u 6sìk.
+      lookup_filter:
+        6: 1796:adv.:noaffix:nolen
+      translations:
+        en: 2Kamun 1said, 3(“)4(I) 5(will come).6”
+    - id: sEjIVBA6QcugT6Sh7SXmVA
+      text: 1Po 2awngaru 3(kavuk soli).
+      translations:
+        en: 1He 3betrayed 2us.

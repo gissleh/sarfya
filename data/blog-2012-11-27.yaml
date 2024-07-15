@@ -1,0 +1,95 @@
+source:
+    id: blog-2012-11-27
+    date: "2012-11-27"
+    url: https://naviteri.org/2012/11/renu-ayinanfyaya-the-senses-paradigm/
+    title: Renu Ayinanfyayä—The Senses Paradigm
+    author: Paul Frommer
+inputs:
+    - id: qgrjsrZdTty6z90c30S0FQ
+      text: 1Peut 2tse'a 3ngal?
+      lookup_filter:
+        1: 1528:inter.:-t:nolen
+      translations:
+        en: 1What 2do 3you 2see?
+    - id: K_63aonFQXW6GiPJEWONKg
+      text: 1Poti 2nìn!
+      translations:
+        en: 2(Look at) 1him!
+    - id: GSw_qt1MSlOKB84hOoTEog
+      text: 1Fol 2oeyä 3tìpawmit 4ke 5stolängawm.
+      lookup_filter:
+        1: 412:pn.:-l:nolen
+      translations:
+        en: 5Unfortunately 1they 4didn't 5hear 2my 3question.
+    - id: zbFqN9qoR-yo72dqxIWXig
+      text: 1Nga 2zene 3aylì'ut 4karyuä 5yivune, 6ma 7'evi.
+      lookup_filter:
+        4: 716:n.:-ä:nolen
+      translations:
+        en: 1You 2must 5(listen to) 3+4(your teacher), 6+7(my son).
+    - id: yQ4VdiKzQZm81NLVnlcixA
+      text: 1Fnu, 2ma 3smuk, 4fnu! 5Oel 6hefi 7yerikit!
+      translations:
+        en: 1+4Quiet, 2+3everyone! 5I 6smell 7(a hexapede)!
+    - id: 4GD_V1YOR5-Yfn_suk-CjA
+      text: 1Fìsyulangit 2syam. 3Fahew 4lor 5lu 6nìtxan, 7kefyak?
+      lookup_filter:
+        6: 1312:adv.:noaffix:nolen
+      translations:
+        en: 2Smell 1(this flower). 3(Its fragrance) 5is 4+6beautiful, 7(isn't it)?
+    - id: -pyv_T-8QD-7EXQh_SMdxw
+      text: 1Fìnaerìri 2ngal 3ewku 4'uot 5astxong 6srak?
+      lookup_filter:
+        4: 4180:pn.:-t:nolen
+      translations:
+        en: 6Do 2you 3taste 4something 5strange 1(in this drink)6(?)
+    - id: p8vikfeSQauXMkSFLBEbew
+      text: 1Ke 2new 3oe 4mivay' 5tsnganti 6a 7'olem 8Rinil.
+      translations:
+        en: 3I 1don't 2(want to) 4taste 5(the meat) 6that 8(N|Rini) 7cooked.
+    - id: CZTvLDdKQUeKisHdlF82yg
+      text: 1Tengkrr 2hu 3palukantsyìp 4(uvan seri) 5zolìm 6oel 7mì 8sa'leng 9a 10'uot 11a 12lu 13txa' 14sì 15ekxtxu.
+      lookup_filter:
+        3: 13375:n.:noaffix:nolen
+        10: 4180:pn.:-t:nolen
+      translations:
+        en: 1While 4playing 2with my 3cat 6I 7felt 10something 11+12+13hard 14and 11+12+15rough 7on his 8skin.
+    - id: uK5_24gFS4illTCexTgh0A
+      text: 1Oeti 2'ampi 3rä'ä, 4ma 5skxawng!
+      translations:
+        en: 3Don't 2touch 1me, 4+5(you moron)!
+    - id: COj4fpmORLSGVPMyrB0exA
+      text: 1Tsakoakteri 2stawmtswo 3lu 4fe'. 5(Po)6(hu) 7a 8tìpängkxo 9ngäzìk 10lu 11nìtxan.
+      lookup_filter:
+        11: 1312:adv.:noaffix:nolen
+      translations:
+        en: 1(That old woman's) 2hearing 3is 4poor. 8(A conversation) 6with 5her 10is 11very 9difficult.
+    - id: S7ituZ6gSrygV2IE28yroQ
+      text: 1Fìnaerìri 2sur 3fkan 4oeru 5kalin.
+      translations:
+        en: |-
+            1(As for this drink), 2(the taste) 3comes 4(to me) 3as 5sweet.
+            ((This drink tastes sweet to me.))
+    - id: CeDjVNclRWugyFuFM9KcHA
+      text: 1Nikreri 2Riniyä 3'ur 4fkan 5lor.
+      lookup_filter:
+        3: 9400:n.:noaffix:nolen
+      translations:
+        en: 2Rini's 1hair 3+4looks 5beautiful.
+    - id: cib9Vg2RRMaMvpwWhdt77g
+      text: 1Nikreri 2Riniyä 3fkan 4lor.
+      translations:
+        en: 2Rini's 1hair 3is 4pleasant 3(to the senses).
+    - id: 1AJ79of4TiWGV_6_8nXOOg
+      text: 1Raluri 2fahew 3fkan 4oeru 5na 6yerik.
+      translations:
+        en: 1Ralu 2+3smells 5like 6(a hexapede) 4(to me).
+    - id: W_yjhTIQSHSsoFqdY5kI2Q
+      text: 1Raluri 2fkan 3na 4yerik.
+      translations:
+        en: 1Ralu 2(smells )2((looks? sounds?)) 3like 4(a hexapede).
+    - id: a40_8wSCTq-J5M1gukV0bA
+      text: 1Syuveri 2ayftxozäyä 3ayngaru 4fkivan 5onlor 6ftxìlorsì 7nìwotx!
+      lookup_filter:
+        3: 208:pn.:-ru:nolen
+      translations: {}

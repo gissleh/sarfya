@@ -1,0 +1,18 @@
+source:
+    id: forum-2012-04-05-123753
+    date: "2012-04-05"
+    url: https://forum.learnnavi.org/language-updates/concerning-tup/
+    title: Concerning « tup »
+    author: Paul Frommer (via Plumps)
+inputs:
+    - id: fvDVujIjQG-9aVdgdwVVWQ
+      text: 1Lam 2ngay 3oer, 4fo 5kayä 6ìlä 7hilvan 8tup 11na'rìng.
+      lookup_filter:
+        2: 1356:adj.:noaffix:nolen
+        4: 412:pn.:noaffix:nolen
+        5: 680:vin.:<ay>:nolen
+        7: 804:n.:noaffix:k→h
+      translations:
+        en: |-
+            1+2+3(I bet) 4(they)5+6('ll take) 7(the river) 8(rather than) 11(the forest).
+            ((That's obviously short for: . . . fo kayä ìlä hilvan tup kayä ìlä na'rìng.))

@@ -1,0 +1,41 @@
+source:
+    id: blog-2011-02-28
+    date: "2011-02-28"
+    url: https://naviteri.org/2011/02/new-vocabulary-ii%e2%80%94part-1/
+    title: New Vocabulary II—Part 1
+    author: Paul Frommer
+inputs:
+    - id: VtLeXkoBTHONzmlL-8CzVw
+      text: 1Pol 2sä'oti 3wolan 4äo 5ayrìk.
+      translations:
+        en: 1He 3hid 1his 2tool 4under 5(the leaves).
+    - id: VxEJEKaDQVKKJlaW-hGy7w
+      text: 1Wäpan! 2Sawtute 3za'u!
+      translations:
+        en: 1Hide! 2(The Sky people) 3(are coming)!
+    - id: NIJ_wNj6SKqnllQ-TUhuSQ
+      text: 1Nga 2pelun 3wäperan?
+      lookup_filter:
+        2: 1508:inter.:noaffix:nolen
+      translations:
+        en: 2Why 3are 1you 3hiding?
+    - id: a_ZKiTZLS3GeFhiXF117YQ
+      text: 1Pol 2säfpìlit 3verar 4wivan.
+      translations:
+        en: 1(He)3('s keeping) 1his 2idea 4(a secret).
+    - id: SnASk-umQnGYWpNlIa9Myg
+      text: 1Samsiyu 2perey 3nìwan.
+      translations:
+        en: 1(The hunters) 2+3(lie in wait), prepared to ambush.
+    - id: PVbum0A_Tni4GnN_E7aNIA
+      text: 1Lehrrap 2lu 3fwa 4evitsyìp 5slele 6mì 7hilvan 8luke 9fwa 10fyeyntu 11(terìng nari).
+      lookup_filter:
+        7: 804:n.:noaffix:k→h
+      translations:
+        en: 3(It)2('s) 1dangerous 3for 4(tiny ones) 3to 5swim 6in 7(the river) 8without 10(an adult) 9+11watching.
+    - id: Vn-SiMkTQK61EjxQ9mKiNg
+      text: 1Tsun 2fko 3(tsatsenge)12(ne) 4kivä 5nìslele 6fu 7fa 8fwa 9ikranit 10makto 11nì'aw.
+      lookup_filter:
+        1: 2476:vim.:noaffix:nolen
+      translations:
+        en: 2You 1can 11only 4get 3+12there 5+7by 5swimming 6or 8+10riding 9(an ikran).
