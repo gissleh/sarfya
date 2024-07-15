@@ -6,6 +6,7 @@ import (
 	"errors"
 	"github.com/gissleh/sarfya"
 	"github.com/google/uuid"
+	"sort"
 	"sync"
 	"sync/atomic"
 )
@@ -85,12 +86,15 @@ func (s *Service) QueryExample(ctx context.Context, filterString string) ([]Exam
 			if match != nil {
 				group.Examples = append(group.Examples, *match)
 			}
-
 		}
 
 		if len(group.Examples) == 0 {
 			continue
 		}
+
+		sort.Slice(group.Examples, func(i, j int) bool {
+			return group.Examples[i].Example.ListBefore(&group.Examples[j].Example)
+		})
 
 		for i := range filter.Terms {
 			if entry, ok := resolvedMap[i]; ok {

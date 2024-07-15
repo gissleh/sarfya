@@ -8,7 +8,6 @@ import (
 	"log"
 	"os"
 	"path"
-	"sort"
 	"strings"
 	"sync"
 )
@@ -51,8 +50,6 @@ func (s *Storage) ListExamples(ctx context.Context) ([]sarfya.Example, error) {
 		res = append(res, example.Copy())
 	}
 
-	sort.Slice(res, func(i, j int) bool { return res[i].ListBefore(&res[j]) })
-
 	return res, nil
 }
 
@@ -76,8 +73,6 @@ func (s *Storage) ListExamplesForEntry(ctx context.Context, entryID string) ([]s
 	}
 	s.mu.Unlock()
 
-	sort.Slice(res, func(i, j int) bool { return res[i].ListBefore(&res[j]) })
-
 	return res, nil
 }
 
@@ -94,8 +89,6 @@ func (s *Storage) ListExamplesBySource(ctx context.Context, sourceID string) ([]
 		}
 	}
 	s.mu.Unlock()
-
-	sort.Slice(res, func(i, j int) bool { return res[i].ListBefore(&res[j]) })
 
 	return res, nil
 }

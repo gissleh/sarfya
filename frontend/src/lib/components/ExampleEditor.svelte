@@ -103,9 +103,12 @@
     
     client.parseSentence(input.text).then(newParsed => {
       parsed = newParsed
+      if (input.lookupFilter == null) {
+        input.lookupFilter = {};
+      }
       for (const id of Object.keys(parsed.entries)) {
         if (!input.lookupFilter[Number(id)] && parsed.entries[Number(id)].length) {
-          input.lookupFilter[Number(id)] = parsed.entries[Number(id)][0].filter
+          input.lookupFilter[Number(id)] = ""
         }
       }
       for (const id of Object.keys(input.lookupFilter)) {
@@ -140,6 +143,7 @@
     <FlagToggle bind:value={input.flags} flag="slang" />
     <FlagToggle bind:value={input.flags} flag="formal" />
     <FlagToggle bind:value={input.flags} flag="syntax" />
+    <FlagToggle bind:value={input.flags} flag="clipped" />
   </div>
   <div class="split">
     <div class="left">

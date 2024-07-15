@@ -12,7 +12,11 @@ inputs:
     - id: rVDebXurQrGLhR0dkc2yxQ
       text: 1Ngäzìk 2fwa 3fkol 4rumit 5aku'up 6peykuwup.
       translations:
-        en: 2It's 1hard 2to 2+3+6bounce 4a 5heavy 4ball.
+        en: |-
+            2It's 1hard 2to 2+3+6bounce 4a 5heavy 4ball.
+            ((That is, it's difficult to make someone who is stubborn or inept do what you want them to.))
+      flags:
+        - proverb
     - id: zXQq9SGXRlKbBiF6Mtvpag
       text: 1Fnu! 2(Pam si) 3rä'ä!
       translations:

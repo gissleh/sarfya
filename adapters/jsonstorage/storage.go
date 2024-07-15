@@ -5,7 +5,6 @@ import (
 	"encoding/json"
 	"github.com/gissleh/sarfya"
 	"os"
-	"sort"
 	"sync"
 )
 
@@ -86,10 +85,6 @@ func (s *Storage) ListExamples(ctx context.Context) ([]sarfya.Example, error) {
 		res = append(res, example.Copy())
 	}
 
-	sort.Slice(res, func(i, j int) bool {
-		return res[i].ListBefore(&res[j])
-	})
-
 	return res, nil
 }
 
@@ -104,10 +99,6 @@ func (s *Storage) ListExamplesForEntry(ctx context.Context, entryID string) ([]s
 		example := s.examples[exampleID]
 		res = append(res, example.Copy())
 	}
-
-	sort.Slice(res, func(i, j int) bool {
-		return res[i].ListBefore(&res[j])
-	})
 
 	return res, nil
 }

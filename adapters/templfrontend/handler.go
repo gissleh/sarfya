@@ -5,6 +5,7 @@ import (
 	"embed"
 	"fmt"
 	"github.com/a-h/templ"
+	"github.com/gissleh/sarfya"
 	"github.com/gissleh/sarfya/service"
 	"github.com/labstack/echo/v4"
 	"io/fs"
@@ -101,5 +102,37 @@ func Endpoints(group *echo.Group, svc *service.Service) {
 		}
 
 		return outputHtml(c, 200, layoutWrapper(fmt.Sprintf("Sarfya – %s", search), searchPage(search, "", res)))
+	})
+
+	group.GET("/fragments/example/:id", func(c echo.Context) error {
+		id, err := url.QueryUnescape(c.Param("id"))
+		if err != nil {
+			return c.JSON(http.StatusBadRequest, map[string]string{
+				"error": err.Error(),
+			})
+		}
+
+		res, err := svc.FindExample(c.Request().Context(), id)
+		if err != nil {
+			return c.JSON(http.StatusUnprocessableEntity, map[string]string{
+				"error": err.Error(),
+			})
+		}
+
+		filter, resolved, err := sarfya.ParseFilter(c.Request().Context(), c.QueryParam("filter"), svc.Dictionary)
+		if err != nil {
+			return c.JSON(http.StatusUnprocessableEntity, map[string]string{
+				"error": err.Error(),
+			})
+		}
+
+		match := filter.CheckExample(*res, resolved[0])
+		if match == nil {
+			return c.JSON(http.StatusPreconditionFailed, map[string]string{
+				"error": "filter did not match on example",
+			})
+		}
+
+		return outputHtml(c, 200, example(*match, c.Request().Context().Value(langCtxKey).(string)))
 	})
 }

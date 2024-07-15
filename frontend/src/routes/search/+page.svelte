@@ -33,9 +33,9 @@
 <SearchBox on:submit={reload} bind:query={query} />
 <div class="error">{data.error}</div>
 
-{#each data.exampleSets as exampleSet}
+{#each data.exampleSets as exampleSet, i}
   <ExampleListHeader hideHeader={data.exampleSets.length === 1} entries={exampleSet.entries||[]} />
-  {#each exampleSet.examples as example (example.id)}
+  {#each exampleSet.examples as example (example.id + "/" + i)}
     <Example value={example} />
   {/each}
 {/each}

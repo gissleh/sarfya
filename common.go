@@ -12,7 +12,7 @@ type ExampleFlag string
 
 func (f ExampleFlag) Valid() bool {
 	switch f {
-	case EFPoetry, EFNonCanon, EFUserTranslation, EFReefDialect, EFProverb, EFSlang, EFFormal, EFFSyntax:
+	case EFPoetry, EFNonCanon, EFUserTranslation, EFReefDialect, EFProverb, EFSlang, EFFormal, EFSyntax, EFClipped:
 		return true
 	default:
 		return false
@@ -37,8 +37,10 @@ const (
 	EFSlang ExampleFlag = "slang"
 	// EFFormal is for when you gotta henga si
 	EFFormal ExampleFlag = "formal"
-	// EFFSyntax are for patterns that has placeholders.
-	EFFSyntax ExampleFlag = "syntax"
+	// EFSyntax are for patterns that has placeholders.
+	EFSyntax ExampleFlag = "syntax"
+	// EFClipped are for clipped register.
+	EFClipped ExampleFlag = "clipped"
 )
 
 type Annotation struct {

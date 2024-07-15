@@ -7,8 +7,5 @@ source:
 inputs:
     - id: lFh3KQSURAqYt-hT19mYvQ
       text: 1Fìtsenget 2oel 3tok 4ulte 5(fìtseng)7(ro) 6'ì'awn.
-      lookup_filter:
-        1: 365:adv., n.:-t:nolen
-        5: 364:adv., n.:noaffix:nolen
       translations:
         en: 1Here 2I 3am 4and 5here I 6remain.

@@ -166,7 +166,7 @@ func (s Sentence) String() string {
 			}
 			sb.WriteString(fmt.Sprint(id))
 		}
-		if part.HiddenText != "" || strings.ContainsAny(part.Text, "()0123456789") || part.LP || part.RP || ((s.collidesWith(i-1) || s.collidesWith(i+1) || s.isDash(i+1) || strings.ContainsAny(part.Text, syntaxSet)) && s.collidesWith(i)) {
+		if part.HiddenText != "" || strings.ContainsAny(part.Text, "()0123456789/") || part.LP || part.RP || ((s.collidesWith(i-1) || s.collidesWith(i+1) || s.isDash(i+1) || strings.ContainsAny(part.Text, syntaxSet)) && s.collidesWith(i)) {
 			sb.WriteByte('(')
 			if part.LP {
 				sb.WriteByte('(')

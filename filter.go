@@ -12,7 +12,7 @@ func ParseFilter(ctx context.Context, str string, dictionary Dictionary) (*Filte
 	filter := &Filter{}
 
 	longestAt := make(map[int]int)
-	nextOperator := FTORequired
+	nextOperator := FTOAnd
 	i := 0
 	for len(str) > 0 {
 		for key := range longestAt {
@@ -23,7 +23,7 @@ func ParseFilter(ctx context.Context, str string, dictionary Dictionary) (*Filte
 		termString := str
 		nearestIndex := len(str)
 		nextStart := len(str)
-		selectedOp := FTORequired
+		selectedOp := FTOAnd
 		for _, alias := range operatorAliases {
 			op := alias[1]
 			match := alias[0]
@@ -56,7 +56,7 @@ func ParseFilter(ctx context.Context, str string, dictionary Dictionary) (*Filte
 			}
 		}
 
-		if operator == FTORequired {
+		if operator == FTOAnd {
 			if strings.HasPrefix(termString, "src:") {
 				sourceID := termString[4:]
 				filter.SourceID = &sourceID
@@ -138,6 +138,8 @@ func (f *Filter) CheckExample(example Example, resolved map[int]DictionaryEntry)
 	spans := make([][]int, 0)
 	matches := make([][]int, 0, 16)
 	temp := make([]int, 0, 4)
+	expandableStart := 0
+	skipTo := 0
 
 	if f.SourceID != nil && example.Source.ID != *f.SourceID {
 		return nil
@@ -156,9 +158,14 @@ func (f *Filter) CheckExample(example Example, resolved map[int]DictionaryEntry)
 	}
 
 	for i, term := range f.Terms {
-		matches = matches[:0]
+		if skipTo > i {
+			continue
+		}
 
+		matches = matches[:0]
+		failed := false
 		entry := resolved[i]
+
 		for id, words := range example.Words {
 			for _, word := range words {
 				matchesWord := word.ID == entry.ID || term.Word == "*"
@@ -189,12 +196,23 @@ func (f *Filter) CheckExample(example Example, resolved map[int]DictionaryEntry)
 		})
 
 		switch term.Operator {
-		case FTORequired:
+		case FTOOr:
 			{
-				if len(matches) == 0 {
-					return nil
+				if skipTo != i {
+					skipTo = len(f.Terms)
+					break
 				}
 
+				expandableStart = len(spans)
+				spans = append(spans, matches...)
+			}
+		case FTOAnd:
+			{
+				if len(matches) == 0 {
+					failed = true
+				}
+
+				expandableStart = len(spans)
 				spans = append(spans, matches...)
 			}
 		case FTOFollowedBy, FTONextTo, FTOASurroundedBy:
@@ -202,7 +220,7 @@ func (f *Filter) CheckExample(example Example, resolved map[int]DictionaryEntry)
 				foundAny := false
 
 				for j, span := range spans {
-					if len(span) == 0 {
+					if len(span) == 0 || j < expandableStart {
 						continue
 					}
 
@@ -249,7 +267,7 @@ func (f *Filter) CheckExample(example Example, resolved map[int]DictionaryEntry)
 				}
 
 				if !foundAny {
-					return nil
+					failed = true
 				}
 			}
 		case FTOBefore:
@@ -257,6 +275,10 @@ func (f *Filter) CheckExample(example Example, resolved map[int]DictionaryEntry)
 				foundAny := false
 
 				for j, span := range spans {
+					if j < expandableStart {
+						continue
+					}
+
 					var selected []int
 					earliest := len(example.Text)
 
@@ -269,11 +291,13 @@ func (f *Filter) CheckExample(example Example, resolved map[int]DictionaryEntry)
 					if selected != nil {
 						spans[j] = append(span, selected...)
 						foundAny = true
+					} else {
+						spans[j] = span[:0]
 					}
 				}
 
 				if !foundAny {
-					return nil
+					failed = true
 				}
 			}
 		case FTOSurrounding:
@@ -281,7 +305,7 @@ func (f *Filter) CheckExample(example Example, resolved map[int]DictionaryEntry)
 				foundAny := false
 
 				for j, span := range spans {
-					if len(span) >= 2 {
+					if len(span) >= 2 && j >= expandableStart {
 						found := false
 
 						temp = temp[:0]
@@ -308,11 +332,30 @@ func (f *Filter) CheckExample(example Example, resolved map[int]DictionaryEntry)
 				}
 
 				if !foundAny {
-					return nil
+					failed = true
 				}
 			}
 		default:
-			return nil
+			failed = true
+		}
+
+		if failed {
+			orOffset := -1
+			for j, term2 := range f.Terms[i+1:] {
+				if term2.Operator == FTOOr {
+					orOffset = j + 1
+					break
+				}
+			}
+
+			if orOffset != -1 {
+				skipTo = i + orOffset
+				spans = spans[:0]
+				selections = selections[:0]
+				expandableStart = 0
+			} else {
+				return nil
+			}
 		}
 	}
 
@@ -513,8 +556,10 @@ var operatorAliases = [][2]string{
 	{FTOBefore, FTOBefore},
 	{FTOFollowedBy, FTOFollowedBy},
 	{FTONextTo, FTONextTo},
-	{FTORequired, FTORequired},
-	{"AND", FTORequired},
+	{FTOAnd, FTOAnd},
+	{FTOOr, FTOOr},
+	{"AND", FTOAnd},
+	{"OR", FTOOr},
 	{"NEXT TO", FTONextTo},
 	{"FOLLOWED BY", FTOFollowedBy},
 	{"BEFORE", FTOBefore},
@@ -527,7 +572,8 @@ const FTOASurroundedBy = "++"
 const FTOBefore = "+>>"
 const FTOFollowedBy = "+>"
 const FTONextTo = "+"
-const FTORequired = "&&"
+const FTOAnd = "&&"
+const FTOOr = "||"
 
 func ParseWordFilter(str string) WordFilter {
 	if str == "" {

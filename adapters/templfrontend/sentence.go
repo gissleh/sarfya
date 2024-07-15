@@ -76,20 +76,27 @@ func sentence(id string, language string, spans [][]int, adjacentSpans [][]int, 
 				_, _ = bw.WriteString(templ.EscapeString(part.RawText()))
 				_, _ = bw.WriteString("</a>")
 			} else {
-				_, _ = bw.WriteString("<span")
-				if inSpan[i] {
-					_, _ = bw.WriteString(" class=\"selected\"")
-				} else if inAdjacent[i] {
-					_, _ = bw.WriteString(" class=\"adjacent\"")
+				wrapInSpan := len(part.IDs) > 0 || inSpan[i] || inAdjacent[i]
+				if wrapInSpan {
+					_, _ = bw.WriteString("<span")
+					if inSpan[i] {
+						_, _ = bw.WriteString(" class=\"selected\"")
+					} else if inAdjacent[i] {
+						_, _ = bw.WriteString(" class=\"adjacent\"")
+					}
+					if len(part.IDs) > 0 {
+						_, _ = bw.WriteString(" data-ids=\"")
+						_, _ = bw.WriteString(idList(part.IDs))
+						_, _ = bw.WriteString("\"")
+					}
+					_, _ = bw.WriteString(">")
 				}
-				if len(part.IDs) > 0 {
-					_, _ = bw.WriteString(" data-ids=\"")
-					_, _ = bw.WriteString(idList(part.IDs))
-					_, _ = bw.WriteString("\"")
-				}
-				_, _ = bw.WriteString(">")
+
 				_, _ = bw.WriteString(templ.EscapeString(part.RawText()))
-				_, _ = bw.WriteString("</span>")
+
+				if wrapInSpan {
+					_, _ = bw.WriteString("</span>")
+				}
 			}
 		}
 

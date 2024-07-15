@@ -7,7 +7,7 @@
 </script>
 
 <div class="header" class:empty={hideHeader || entries.length === 0}>
-  {#each entries as entry (entry.id)}
+  {#each entries as entry}
     <DictWord value={entry} noModifiers />
   {/each}
 </div>
