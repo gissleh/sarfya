@@ -1,0 +1,43 @@
+source:
+    id: movie-way-of-water
+    date: "2022-12-16"
+    url: https://james-camerons-avatar.fandom.com/wiki/Spoken_Na%27vi_in_Avatar:_The_Way_of_Water
+    title: 'Avatar: Way of Water (Movie Lines)'
+    author: Paul Frommer
+inputs:
+    - id: QEgL3L5wTPWO2xb0CP2bZw
+      text: 1Man 2po 3(sneyä|sney) 4(fnel)5(hu).
+      lookup_filter:
+        3: 8240:pn.:noaffix:nolen
+      translations:
+        en: 2He 1belongs 5with 3(his own) 4kind.
+    - id: UK0P1Q-gSkiJMF2VHtWfsw
+      text: 1Za'u 2rawm! 3Tul!
+      translations:
+        en: 2Lightning 1comes! 3Run!
+    - id: n4eOteZ8T-aJDJkRA4dOhg
+      text: 1Nìfkeytongay 2oel 3sempulit 4ultxarun 5a 6krr, 7stum 8pot 9tspolang.
+      translations:
+        en: 1Actually 6+5when 2I first 4met your 3father, I 7almost 9killed 8him.
+    - id: 95kxVsCJSMm2xrDKbEsVig
+      text: 1Ke 2plltxänge 3oe 4nì'Ìnglìsì... 5hu 6vonvä'.
+      translations:
+        en: 2Sorry, 3I 1don't 2speak 4English... 5to 6buttholes.
+    - id: vZyzJdDkShaHIv4_U5RUbg
+      text: 1(Srung si) 2ayoeru, 3ma 4Eywa.
+      lookup_filter:
+        2: 212:pn.:-ru:nolen
+      translations:
+        en: 1Help 2us, 3+4Eywa.
+    - id: 3TSgBAUmSvqK10ughA4xNw
+      text: 1Za'u 2ìlä 3ayoe, 4ma 5Eywa.
+      lookup_filter:
+        3: 212:pn.:noaffix:nolen
+      translations:
+        en: 1Come 2through 3us, 4+5Eywa.
+    - id: 2xxrJRQGTCiBZJxZ5XmaAw
+      text: 1(Poltxe|Polde) 2po 3san 4ke 5(syawm|shawm)!
+      translations:
+        en: 2He 1+3(told you) he 4doesn't 5know!
+      flags:
+        - reef_dialect
