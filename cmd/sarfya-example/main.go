@@ -60,7 +60,6 @@ func main() {
 	for i, resolvedSet := range resolvedSets {
 		match := filter.CheckExample(*example, resolvedSet)
 		if match != nil {
-			log.Println("Match", i, "IDs:", match.Selections)
 			log.Println("Match", i, "Spans in Na'vi text:", match.Spans)
 			for lang, spans := range match.TranslationSpans {
 				log.Println("Match", i, "Spans in", lang, "translations:", spans)

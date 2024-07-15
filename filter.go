@@ -134,7 +134,6 @@ type Filter struct {
 }
 
 func (f *Filter) CheckExample(example Example, resolved map[int]DictionaryEntry) *FilterMatch {
-	selections := make([]int, 0)
 	spans := make([][]int, 0)
 	matches := make([][]int, 0, 16)
 	temp := make([]int, 0, 4)
@@ -181,7 +180,6 @@ func (f *Filter) CheckExample(example Example, resolved map[int]DictionaryEntry)
 					}
 
 					matches = append(matches, append(temp[:0:0], temp...))
-					selections = append(selections, id)
 					break
 				}
 			}
@@ -351,7 +349,6 @@ func (f *Filter) CheckExample(example Example, resolved map[int]DictionaryEntry)
 			if orOffset != -1 {
 				skipTo = i + orOffset
 				spans = spans[:0]
-				selections = selections[:0]
 				expandableStart = 0
 			} else {
 				return nil
@@ -374,22 +371,7 @@ func (f *Filter) CheckExample(example Example, resolved map[int]DictionaryEntry)
 	}
 	spans = spans[:ri]
 
-	ri = 0
-SelectionRetainLoop:
-	for _, selection := range selections {
-		for _, span := range spans {
-			for _, index := range span {
-				if example.Text[index].HasID(selection) {
-					selections[ri] = selection
-					ri += 1
-					continue SelectionRetainLoop
-				}
-			}
-		}
-	}
-	selections = selections[:ri]
-
-	if len(selections) == 0 && len(f.Terms) > 0 {
+	if len(spans) == 0 && len(f.Terms) > 0 {
 		return nil
 	}
 
@@ -479,7 +461,6 @@ SelectionRetainLoop:
 
 	return &FilterMatch{
 		Example:             example,
-		Selections:          selections,
 		Spans:               spans,
 		TranslationAdjacent: translationAdjacent,
 		TranslationSpans:    translationSpans,
@@ -767,7 +748,6 @@ func (e FilterParseError) Error() string {
 type FilterMatch struct {
 	Example
 
-	Selections          []int              `json:"selections"`
 	Spans               [][]int            `json:"spans"`
 	TranslationAdjacent map[string][][]int `json:"translatedAdjacent"`
 	TranslationSpans    map[string][][]int `json:"translatedSpans"`

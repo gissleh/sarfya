@@ -292,9 +292,9 @@ func (s Sentence) WithoutAlts(spans [][]int) Sentence {
 		}
 
 		for _, span := range spans {
-			for j := range span {
-				if span[j] > i {
-					span[j] -= 1
+			for k := range span {
+				if span[k] >= i {
+					span[k] -= 1
 				}
 			}
 		}

@@ -13,7 +13,6 @@ export interface ExampleData {
   annotations: []
   source: ExampleSource
   words: {[id:number]: DictionaryEntry[]}
-  selections: number[]
   spans: number[][]
   translatedSpans: {[lang:string]: number[][]}
   translatedAdjacent: {[lang:string]: number[][]}
