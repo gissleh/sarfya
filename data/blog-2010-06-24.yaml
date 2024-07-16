@@ -36,11 +36,12 @@ inputs:
     - id: UyXB_atvQq-uvAEYll1kjg
       text: '1Ma 2oeyä 3eylan, 4faysänumviri 5rutxe 6fì''ut 7tslivam: 8Nìltsan 9omum 10oel 11futa 12ayhapxìtul 13lì''fyaolo''ä 14awngeyä 15txantsana 16aysänumvit 17ngolop 18fte 19aylaru 20kivar. 21Faysulfätuä 22tìkangkem 23oheru 24meuia 25luyu 26nìngay. 27Kllkxayem 28fìtìkangkem 29oeyä 30rofa—31ke 32io—33pum 34feyä.'
       lookup_filter:
+        25: 1044:vin.:<uy>:nolen
         26: 1296:adv.:noaffix:nolen
         34: 412:pn.:-yä:nolen
       translations: {}
     - id: 07Y7OWGnQc-nOHaO6tl5zg
-      text: 1Fayupxaremì 2oe 3payängkxo 4teri 5horen 6lì'fyayä 7leNa'vi 8fpi 9sute 10a 11tsun 12srekrr 13tsat 14sivar. 15Ayngeyä 16sìpawmìri 17kop 18fmayi 19fìtsenge 20tivìng 21sì'eyngit. 22Nìawnomum 23tolel 24oel 25ta 26ayhapxìtu 27lì'fyaolo'ä 28pxaya 29sìpawmit 30atxantsan 31a 32vay 33set 34ke 35'oleyng. 36Sìlpey 37oe 38tsnì 39tsìyevun 40nì'i'a 41(tsakem sivi) 42fìpìlokfa.
+      text: 1Fayupxaremì 2oe 3payängkxo 4teri 5horen 6lì'fyayä 7leNa'vi 8fpi 9sute 10a 11tsun 12srekrr 13tsat 14sivar. 15Ayngeyä 16sìpawmìri 17kop 18fmayi 19fìtsenge 20tivìng 21sì'eyngit. 22Nìawnomum 23tolel 24oel 25ta 26ayhapxìtu 27lì'fyaolo'ä 28pxaya 29sìpawmit 30atxantsan 31a 32vay 33set 34ke 35'oleyng. 36Sìlpey 37oe 38tsnì 39tsìyevun 40nì'i'a 41(tsakem sivi) 42(fìpìlok)43(fa).
       lookup_filter:
         11: 2476:vim.:noaffix:nolen
         15: 208:pn.:-yä:nolen

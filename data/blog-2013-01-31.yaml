@@ -104,12 +104,12 @@ inputs:
       translations:
         en: 8+9(How good are) 1they 7+6+4+3+2(at cooking) 5teylu?
     - id: gr0PO4SgT7mOECTW6AO0Qg
-      text: 1Sìn 2yì 3sngä'iyuä, 4slä 5tsyerìl {(}6haya 7yìne{)} 8nì'ul'ul.
+      text: 1Sìn 2yì 3sngä'iyuä, 4slä 5tsyerìl {(}6haya 7(yì)9(ne){)} 8nì'ul'ul.
       lookup_filter:
         1: 4048:adp.:noaffix:nolen
         3: 5592:n.:-ä:nolen
       translations:
-        en: They1('re at) 2a 3beginner's 2level, 4but they5+6+7+8('re getting better and better).
+        en: They1('re at) 2a 3beginner's 2level, 4but they5+6+7+8+9('re getting better and better).
     - id: DOPfCw35RR6ItEaRSskDEw
       text: 1Fwa 2ngeyä 3tsmukan 4tul 5nìwin 6sìn 7peyì?
       lookup_filter:

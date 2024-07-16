@@ -18,17 +18,21 @@ inputs:
       translations:
         en: 1+2(Wow! Check him/her out! He/She is gorgeous!)
     - id: 4_NfBP7nSUa614L6tAxQOw
-      text: 1Lu 2tokxur 3tuteyä 4(polpxay|polpxaya) 5kxon?
+      text: 1Lu 2tokxur 3tuteyä 4polpxaya 5kxon?
       translations:
         en: 4(How many) 5(internal organs) 1does 2a 3person's 2body 1have?
     - id: iGSrBMs6QgSJYrAmVU5Y7Q
       text: 1Ateyol 2Entut 3tolakuk 4fa 5rumtsyokx.
       translations:
-        en: 1Ateyo 3+4+5punched 2Entu. {(i.e. }3struck him 4with his 5fist{)}
+        en: |-
+            1Ateyo 3struck 2Entu 4with his 5fist.
+            {(Ateyo punched Entu)}
     - id: MfhiH9FgTYe_MykjS-CTeg
       text: 1Ateyol 2Entut 3tolakuk 4fa 5rìktsyokx.
       translations:
-        en: 1Ateyo 3+4+5slapped 2Entu. {(i.e. }3struck him 4with his 5(flat hand){)}
+        en: |-
+            1Ateyo 3struck 2Entu 4with his 5(flat hand)
+            {(Ateyo slapped Entu)}
     - id: zSPBEvA0SjO3L2h-W2zfgw
       text: 1Za'u 2heyn 3sìn 4oey 5heynyì, 6ma 7'evi.
       lookup_filter:

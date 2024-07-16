@@ -29,6 +29,8 @@ inputs:
             {(Could you explain that further?)}
     - id: vACm8cNIR8GKTkazwmk90w
       text: 1Tsalì'uri 2alu 3X, 4ral 5lu 6'upe?
+      lookup_filter:
+        6: 112:inter.:noaffix:nolen
       translations:
         en: 4+5+6(What does) 1(the word) 2+3X 4+5+6mean?
       flags:
@@ -67,7 +69,7 @@ inputs:
       translations:
         en: 1(Unfortunately there is) 4no 5(attention to detail) 4in 3their 2work.
     - id: C1RAlEeAR_2ChIlSCcmuKQ
-      text: 1{(Ngari)} 2solalew 3(polpxay|polpxaya) 4{(zìsìt)}?
+      text: 1{(Ngari)} 2solalew 3polpxaya 4{(zìsìt)}?
       translations:
         en: |-
             1(As for you), 3(how many) 4years 2(have passed)?

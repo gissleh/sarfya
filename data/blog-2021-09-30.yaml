@@ -92,7 +92,9 @@ inputs:
       translations:
         en: 4Don't 2+3bother 1me!
     - id: I1QOvRsRQRyCn-b4s5xN_w
-      text: 1Manawmtu, 2srake 3(T|luyu) 4ngenga 5eyktan 6fìolo'ä?
+      text: 1Manawmtu, 2srake 3luyu 4ngenga 5eyktan 6fìolo'ä?
+      lookup_filter:
+        3: 1044:vin.:<uy>:nolen
       translations:
         en: 1(Excuse me, sir), 3are 4you 5(the leader) 6(of this clan)?
       flags:

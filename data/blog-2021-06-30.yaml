@@ -16,6 +16,6 @@ inputs:
       lookup_filter:
         4: 8828:n.:noaffix:nolen
       translations:
-        en: 1+2+3+4+5(All's well that ends well).
+        en: '{(All''s well that ends well)}.'
       flags:
         - proverb

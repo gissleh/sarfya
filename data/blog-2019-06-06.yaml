@@ -39,8 +39,6 @@ inputs:
         en: 1I 2+3see 4(you)5('re limping). 9Did 7you 9hurt 7your 8(foot)6(?)
     - id: 4wjuuDgfQAu0HNRge0B_-Q
       text: 1Lu 2tsakem 3txavä', 4ma 5tsmuk.
-      lookup_filter:
-        2: 2328:n.:noaffix:nolen
       translations:
         en: 2(That)1('s) 3disgusting, 4+5bro.
     - id: yER2WwGnTrurSFLfiUk_cw

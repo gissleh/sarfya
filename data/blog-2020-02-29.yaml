@@ -10,9 +10,9 @@ inputs:
       translations:
         en: 2I 4completely 3(approve of) 1(these actions).
     - id: hkyqXPHARu2tEBQBqMzJoA
-      text: 1Oel 2ngeyä 3tìhawlit 4natxu 5ulte 6(tsa)8+6(wä) 7wasyem.
+      text: 1Oel 2ngeyä 3tìhawlit 4natxu 5ulte 6(tsaw|tsa)8(wä) 7wasyem.
       translations:
-        en: 1I 4(disapprove of) 2your 3plan 5and 7+8(will oppose) 7{(fight} 8{against)} 6it
+        en: 1I 4(disapprove of) 2your 3plan 5and 7fight 8against {(oppose)} 6it
     - id: VITZV073RIO-5rEwyZDnrg
       text: 1Moeyä 2tìmuntxari 3tìsmaw 4ngeyä 5oeru 6(teya si).
       lookup_filter:

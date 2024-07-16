@@ -11,8 +11,6 @@ inputs:
         en: 7(Thank you) 2for 2that 4interesting 2observation 1(of yours).
     - id: 3xPZZ75oRW6GnhpNiGQzRA
       text: 1Nga 2(tsakem sìlmi|sìlmi) 3a 4tsakem 5ke 6lu 7voìk 8amuiä!
-      lookup_filter:
-        4: 2328:n.:noaffix:nolen
       translations:
         en: 3+4What 1you 2(just did) 6was 5not 8proper 7behavior!
     - id: ShL2iQRySTaewa5mJX7uLA
@@ -104,3 +102,11 @@ inputs:
       text: 1Oe 2kasyä 3txo 4ngal 5tsat 6nivew.
       translations:
         en: 1(I)2('ll go) 3if 4you 6want 5(me to).
+    - id: vDx4LOr1QtSm5Mk2VithoA
+      text: 1tìyewn 2tìyawnä
+      translations:
+        en: |-
+            1(an expression) 2(of love).
+            {(It's a set phrase used when giving a gift to a loved one or making a gesture of affection like a kiss or caress.)}
+      flags:
+        - proverb
