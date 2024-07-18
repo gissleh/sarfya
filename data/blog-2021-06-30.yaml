@@ -19,3 +19,11 @@ inputs:
         en: '{(All''s well that ends well)}.'
       flags:
         - proverb
+    - id: HNaG5N99Q7OfdTHKh0yDNA
+      text: 1Kxetse 2sì 3mikyun 4kop 5plltxe.
+      lookup_filter:
+        4: 872:adv.:noaffix:nolen
+      translations:
+        en: 1(The tail) 2and 3ears 4also 5speak.
+      flags:
+        - proverb

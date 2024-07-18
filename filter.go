@@ -576,6 +576,12 @@ func (wf WordFilter) Check(e *DictionaryEntry, checkModifiers bool) bool {
 	}
 
 	for _, constraint := range wf {
+		exact := false
+		if strings.HasPrefix(constraint, "=") {
+			exact = true
+			constraint = constraint[1:]
+		}
+
 		ok := false
 		modifiers := 0
 		alternatives := strings.Split(constraint, "|")
@@ -588,6 +594,21 @@ func (wf WordFilter) Check(e *DictionaryEntry, checkModifiers bool) bool {
 				}
 			} else if alternative == "noaffix" {
 				if len(e.Prefixes) == 0 && len(e.Infixes) == 0 && len(e.Suffixes) == 0 {
+					ok = true
+					break
+				}
+			} else if alternative == "nosuffix" {
+				if len(e.Suffixes) == 0 {
+					ok = true
+					break
+				}
+			} else if alternative == "noinfix" {
+				if len(e.Infixes) == 0 {
+					ok = true
+					break
+				}
+			} else if alternative == "noprefix" {
+				if len(e.Prefixes) == 0 {
 					ok = true
 					break
 				}
@@ -604,9 +625,21 @@ func (wf WordFilter) Check(e *DictionaryEntry, checkModifiers bool) bool {
 					}
 				}
 
+				if exact {
+					for _, prefix := range e.Prefixes {
+						if !inStringList(affixes, prefix, nil) {
+							continue AlternativeCheckLoop
+						}
+					}
+					for _, suffix := range e.Suffixes {
+						if !inStringList(affixes, suffix, nil) {
+							continue AlternativeCheckLoop
+						}
+					}
+				}
+
 				ok = true
 				break
-
 			} else if strings.HasPrefix(alternative, "-") {
 				if !checkModifiers {
 					modifiers += 1
@@ -617,6 +650,14 @@ func (wf WordFilter) Check(e *DictionaryEntry, checkModifiers bool) bool {
 				for _, suffix := range suffixes {
 					if !e.HasSuffix(suffix) {
 						continue AlternativeCheckLoop
+					}
+				}
+
+				if exact {
+					for _, suffix := range e.Suffixes {
+						if !inStringList(suffixes, suffix, suffixAliases) {
+							continue AlternativeCheckLoop
+						}
 					}
 				}
 
@@ -635,6 +676,14 @@ func (wf WordFilter) Check(e *DictionaryEntry, checkModifiers bool) bool {
 					}
 				}
 
+				if exact {
+					for _, prefix := range e.Prefixes {
+						if !inStringList(prefixes, prefix, suffixAliases) {
+							continue AlternativeCheckLoop
+						}
+					}
+				}
+
 				ok = true
 				break
 			} else if strings.HasPrefix(alternative, "<") && strings.HasSuffix(alternative, ">") {
@@ -643,10 +692,26 @@ func (wf WordFilter) Check(e *DictionaryEntry, checkModifiers bool) bool {
 					break
 				}
 
+				if !e.IsVerb() {
+					continue AlternativeCheckLoop
+				}
+
 				infixes := strings.Split(alternative[1:len(alternative)-1], " ")
 				for _, infix := range infixes {
+					if infix == "" {
+						continue
+					}
+
 					if !e.HasInfix(infix) {
 						continue AlternativeCheckLoop
+					}
+				}
+
+				if exact {
+					for _, infix := range e.Infixes {
+						if !inStringList(infixes, infix, infixAliases) {
+							continue AlternativeCheckLoop
+						}
 					}
 				}
 
@@ -665,19 +730,43 @@ func (wf WordFilter) Check(e *DictionaryEntry, checkModifiers bool) bool {
 					}
 				}
 
-				ok = true
-				break
-			} else if strings.ContainsRune(alternative, '.') {
-				for _, apos := range strings.Split(alternative, ",") {
-					apos = strings.TrimSpace(apos)
-
-					for _, pos := range strings.Split(e.PoS, ", ") {
-						if strings.TrimSpace(pos) == apos {
-							ok = true
-							break AlternativeCheckLoop
+				if exact {
+					for _, lenition := range e.Lenitions {
+						if !inStringList(lenitions, lenition, nil) {
+							continue AlternativeCheckLoop
 						}
 					}
 				}
+
+				ok = true
+				break
+			} else if strings.ContainsRune(alternative, '.') {
+				searchSplit := strings.Split(alternative, ",")
+				posSplit := strings.Split(e.PoS, ",")
+
+				for i := range searchSplit {
+					searchSplit[i] = strings.TrimSpace(searchSplit[i])
+				}
+				for i := range posSplit {
+					posSplit[i] = strings.TrimSpace(posSplit[i])
+				}
+
+				for _, search := range searchSplit {
+					if !inStringList(posSplit, search, nil) {
+						continue AlternativeCheckLoop
+					}
+				}
+
+				if exact {
+					for _, pos := range posSplit {
+						if !inStringList(searchSplit, pos, nil) {
+							continue AlternativeCheckLoop
+						}
+					}
+				}
+
+				ok = true
+				break
 			} else if e.ID == alternative {
 				ok = true
 				break
@@ -752,4 +841,17 @@ type FilterMatch struct {
 	TranslationAdjacent map[string][][]int `json:"translatedAdjacent"`
 	TranslationSpans    map[string][][]int `json:"translatedSpans"`
 	WordMap             map[int]string     `json:"wordMap"`
+}
+
+func inStringList(list []string, value string, aliases map[string]string) bool {
+	if alias, ok := aliases[value]; ok {
+		value = alias
+	}
+	for _, item := range list {
+		if item == value || value == aliases[item] {
+			return true
+		}
+	}
+
+	return false
 }

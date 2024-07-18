@@ -98,12 +98,48 @@ func (e *DictionaryEntry) ToFilter() WordFilter {
 		wf = append(wf, "noaffix")
 	}
 	if len(e.Lenitions) > 0 {
-		wf = append(wf, e.Lenitions...)
+		wf = append(wf, strings.Join(e.Lenitions, " "))
 	} else {
 		wf = append(wf, "nolen")
 	}
 
 	return wf
+}
+
+func (e *DictionaryEntry) ToExactFilter() WordFilter {
+	wf := append(make(WordFilter, 0, 2), e.ID, e.PoS)
+
+	if len(e.Prefixes) == 0 && len(e.Infixes) == 0 && len(e.Suffixes) == 0 {
+		wf = append(wf, "noaffix")
+	} else {
+		if len(e.Prefixes) > 0 {
+			wf = append(wf, strings.Join(e.Prefixes, "-")+"-")
+		} else {
+			wf = append(wf, "noprefix")
+		}
+		if len(e.Infixes) > 0 {
+			wf = append(wf, "<"+strings.Join(e.Infixes, " ")+">")
+		} else {
+			wf = append(wf, "noinfix")
+		}
+		if len(e.Suffixes) > 0 {
+			wf = append(wf, "-"+strings.Join(e.Suffixes, "-"))
+		} else {
+			wf = append(wf, "nosuffix")
+		}
+	}
+
+	if len(e.Lenitions) > 0 {
+		wf = append(wf, "="+strings.Join(e.Lenitions, " "))
+	} else {
+		wf = append(wf, "nolen")
+	}
+
+	return wf
+}
+
+func (e *DictionaryEntry) ToExactAffixFilter() WordFilter {
+	return e.ToExactFilter()[2:]
 }
 
 var suffixAliases = map[string]string{
@@ -120,6 +156,7 @@ var suffixAliases = map[string]string{
 var infixAliases = map[string]string{
 	"iyev": "ìyev",
 	"eiy":  "ei",
+	"eng":  "äng",
 }
 
 func (e *DictionaryEntry) Copy() DictionaryEntry {
@@ -136,6 +173,10 @@ func (e *DictionaryEntry) Copy() DictionaryEntry {
 	e2.Comment = append(e.Comment[:0:0], e.Comment...)
 
 	return e2
+}
+
+func (e *DictionaryEntry) IsVerb() bool {
+	return inStringList([]string{"vtr.", "vin.", "vtrm.", "vin.", "ph."}, e.PoS, nil)
 }
 
 // CombinedDictionary will call the interface methods on all referenced dictionaries. Entry will

@@ -35,7 +35,9 @@ inputs:
       lookup_filter:
         2: 10092:adv.:noaffix:nolen
       translations:
-        en: 2Just 1(do it)!
+        en: |-
+            2Just 1(do it)!
+            {(Don't hesitate, don't overthink it, don't get distracted, just forge ahead and act.)}
     - id: jQ2aVeZmTAKBXK5Rej1ltQ
       text: 1Pxirit 2fu 3swoat 4näk 5rä'ä; 6niväk 7payit 8nì'aw.
       lookup_filter:
@@ -86,3 +88,9 @@ inputs:
       text: 1Fìtskoti 2afyolup 3'ongolop 4oeyä 5sempulìl.
       translations:
         en: 1This 2exquisite 1bow 3(was designed by) 4my 5father.
+    - id: 9Eb7-sbIQxKTbpGBOR1Bgg
+      text: 1(Kem si) 2nì'aw.
+      translations:
+        en: |-
+            Just do it.
+            {(If you have several options, one of which is acting, disregard the other options and just act.}{)}

@@ -18,6 +18,16 @@ func New(path string) *Storage {
 }
 
 func FromData(path string, readOnly bool, data Data) *Storage {
+	for _, example := range data.Examples {
+		for _, words := range example.Words {
+			for i, word := range words {
+				if data.DictDefs[word.ID] != nil {
+					words[i].Definitions = data.DictDefs[word.ID]
+				}
+			}
+		}
+	}
+
 	return &Storage{
 		path:     path,
 		readOnly: readOnly,
@@ -38,12 +48,7 @@ func Open(path string, readOnly bool) (*Storage, error) {
 		return nil, err
 	}
 
-	return &Storage{
-		path:     path,
-		readOnly: readOnly,
-		examples: data.Examples,
-		index:    data.Index,
-	}, nil
+	return FromData(path, readOnly, data), nil
 }
 
 type Storage struct {
@@ -55,8 +60,9 @@ type Storage struct {
 }
 
 type Data struct {
-	Examples map[string]sarfya.Example `json:"examples"`
-	Index    map[string][]string       `json:"index"`
+	Examples map[string]sarfya.Example    `json:"examples"`
+	Index    map[string][]string          `json:"index"`
+	DictDefs map[string]map[string]string `json:"dictDefs"`
 }
 
 func (s *Storage) FindExample(ctx context.Context, id string) (*sarfya.Example, error) {
@@ -142,10 +148,29 @@ func (s *Storage) WriteToFile() error {
 	data := Data{
 		Examples: make(map[string]sarfya.Example, 1024),
 		Index:    make(map[string][]string, 1024),
+		DictDefs: make(map[string]map[string]string, 1024),
 	}
 
 	s.mu.Lock()
 	for _, example := range s.examples {
+		newWords := make(map[int][]sarfya.DictionaryEntry)
+		for key, words := range example.Words {
+			words := append(words[:0], words...)
+			for i, word := range words {
+				if word.ID == "" {
+					continue
+				}
+
+				word := word.Copy()
+				data.DictDefs[word.ID] = word.Definitions
+				word.Definitions = nil
+				words[i] = word
+			}
+
+			newWords[key] = words
+		}
+		example.Words = newWords
+
 		data.Examples[example.ID] = example
 	}
 	for key, index := range s.index {

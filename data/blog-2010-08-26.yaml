@@ -39,6 +39,8 @@ inputs:
         en: 4This 1+2+3skin-blue 4flower 6is 7very 5beautiful.
     - id: q4AbOEbsQR-i_q_1r09ZBA
       text: 1(Ta'leng)2(na)-3eana 4fìsyulang 5lor 6lu 7nìtxan.
+      lookup_filter:
+        7: 1312:adv.:noaffix:nolen
       translations:
         en: 4This 1+2+3skin-blue 4flower 6is 7very 5beautiful.
     - id: RtUjnwojRHenV1E7Aj0zDA

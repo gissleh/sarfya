@@ -1,7 +1,7 @@
 source:
     id: blog-2023-05-05
     date: "2023-05-05"
-    url: http://naviteri.org/2023/07/trr-tsyimawnuniya-lefpom-happy-independence-day/
+    url: https://naviteri.org/2023/05/reef-navi-part-2-morphology-syntax-lexicon-and-more/
     title: 'Reef Na’vi part 2: Morphology, Syntax, Lexicon . . . and more'
     author: Paul Frommer
 inputs:
@@ -47,3 +47,21 @@ inputs:
         7: 1528:inter.:noaffix:nolen
       translations:
         en: 3You 1+2seem 5very 4angry. 6+7(What's wrong)?
+    - id: X1bDs6HRT_mQ3aMN1cOaJQ
+      text: 1Irayo 2fìstxeliri 3alor.
+      lookup_filter:
+        3: 1024:adj.:a-:nolen
+      translations:
+        en: |-
+            1Thanks 2(for this) 3beautiful 2gift.
+            {(Topic last is allowed in RN)}
+      flags:
+        - reef_dialect
+    - id: ZTrq8ClATFukXz7IqCLoXw
+      text: 1Ngari 2peu?
+      lookup_filter:
+        2: 1528:inter.:noaffix:nolen
+      translations:
+        en: '{(What''s wrong? What''s the matter?}{)}'
+      flags:
+        - proverb
