@@ -18,7 +18,7 @@ inputs:
     - id: 6_H5I1LtQJSDXxgs79MYOw
       text: 1'Uol 2ikranit 3(txopu sleykolatsu), 4taluna 5po 6tsìk 7yawo.
       lookup_filter:
-        1: 4180:pn.:-l:nolen
+        1: 4180:pn.:noprefix:noinfix:=-l:nolen
       translations:
         en: 1Something 3(must have frightened) 2(the banshee), 4because 5it 6suddenly 7(took to the air).
     - id: sUb1m9pbSZGiBZ_8E55CwA
@@ -70,13 +70,13 @@ inputs:
       text: 1Ke 2tsun 3tute 4a'aw 5tsatskxeti 6aku'up 7kxiveltek 8nì'awtu.
       lookup_filter:
         2: 2476:vim.:noaffix:nolen
-        4: 12:num.:a-:nolen
+        4: 12:num.:=a-:noinfix:nosuffix:nolen
       translations:
         en: 4One 3person 8alone 2+3can't 7lift 5that 6heavy 5rock.
     - id: d0EO5tr7T5eqp26T1jKelw
       text: 1Fol 2fte 3ayspe'etut 4livonu 5fngo' 6'upet?
       lookup_filter:
-        1: 412:pn.:-l:nolen
+        1: 412:pn.:noprefix:noinfix:=-l:nolen
       translations:
         en: 6What 5are 1they 5demanding 2(in order) for 1them 2to 4release 3(the captives)?
     - id: 9-MEWakvScqb0l4vQsnBaQ
@@ -86,8 +86,8 @@ inputs:
     - id: 9aWchwskRcqueHpxy0-GXA
       text: 1Karyul 2fngolo' 3futa 4aynumeyu 5pivate 6ye'krr.
       lookup_filter:
-        1: 712:vtr.:-l-yu:nolen
-        4: 1340:vin.:ay-:-yu:nolen
+        1: 712:vtr.:noprefix:noinfix:=-l-yu:nolen
+        4: 1340:vin.:=ay-:noinfix:=-yu:nolen
       translations:
         en: 1(The teacher) 2+3required 4(the students) 2+3to 5arrive 6early.
     - id: vqrmXu-1QN-XiAZfyyIoVQ
@@ -141,7 +141,7 @@ inputs:
     - id: MaH3Aj54S7iTK3IIkCM3oQ
       text: 1Fìstxelit 2fol 3txerula 4fpi 5olo'eyktan. 6Zene 7yivo' 8luke 9kxeyeyo 10kaw'it.
       lookup_filter:
-        2: 412:pn.:-l:nolen
+        2: 412:pn.:noprefix:noinfix:=-l:nolen
         5: 1408:n.:noaffix:nolen
       translations:
         en: 2(They)3('re constructing) 1(this gift) 4for 5(the chief). It 6must 7(be perfect) 8without 9a 10single 9flaw.
@@ -177,7 +177,7 @@ inputs:
     - id: ew91diM6S-qFxLW_Yl7VmA
       text: 1Poleng 2Neytiril 3hangvurit 4a 5frapot 6heykangham.
       lookup_filter:
-        5: 460:pn.:-t:nolen
+        5: 460:pn.:noprefix:noinfix:=-t:nolen
       translations:
         en: 2Neytiri 1told 3(a joke) 4that 6made 5everyone 6laugh.
     - id: H8DgkX3jQLapbiiE2VOsUQ

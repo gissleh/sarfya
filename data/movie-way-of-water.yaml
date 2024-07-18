@@ -26,7 +26,7 @@ inputs:
     - id: vZyzJdDkShaHIv4_U5RUbg
       text: 1(Srung si) 2ayoeru, 3ma 4Eywa.
       lookup_filter:
-        2: 212:pn.:-ru:nolen
+        2: 212:pn.:noprefix:noinfix:=-ru:nolen
       translations:
         en: 1Help 2us, 3+4Eywa.
     - id: 3TSgBAUmSvqK10ughA4xNw

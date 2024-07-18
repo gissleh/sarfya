@@ -64,7 +64,7 @@ inputs:
     - id: ZzsI-5RcQ_CYBRItDhZtYg
       text: 1Larmu 2(tsatsamsiyu)3(hu) 4tìvawm 5a 6lu 7stxong 8ayoer.
       lookup_filter:
-        8: 212:pn.:-r:nolen
+        8: 212:pn.:noprefix:noinfix:=-r:nolen
       translations:
         en: 1+2+3(That warrior carried with him) 4(a darkness) 5+6+7unknown 8(to us).
     - id: GH-V0ndAQVG4uKIIHSSKUw
@@ -94,7 +94,7 @@ inputs:
       translations:
         en: 1It 9was 10really 8(a pleasure) 1to 2(be able to) 6speak 5with 4you.
     - id: HkmkaH5YRR2W_DsR3f2GqA
-      text: 1Fwa [2fì'u 3a] 4tsolun 5oe 6(nga)7(hu) 8pivängkxo 9oeru 10prrte' 11lu 12nìngay.
+      text: 1Fwa{ [}2fì'u 3a{]} 4tsolun 5oe 6(nga)7(hu) 8pivängkxo 9oeru 10prrte' 11lu 12nìngay.
       lookup_filter:
         2: 368:pn.:noaffix:nolen
         12: 1296:adv.:noaffix:nolen
@@ -116,7 +116,7 @@ inputs:
       text: 1Tsakrr 2syay 3ayngeyä, 4syay 5olo'ä 6oeyä 7layu 8teng.
       lookup_filter:
         1: 2332:adv.:noaffix:nolen
-        3: 208:pn.:-yä:nolen
+        3: 208:pn.:noprefix:noinfix:=-yä:nolen
       translations:
         en: 1Then 3you 7(will suffer the) 8same 2+4fate 8as 6my 5clan.
     - id: ik3sAwDAQxCTlX9iRMDQ-Q

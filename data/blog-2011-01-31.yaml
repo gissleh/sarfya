@@ -16,7 +16,7 @@ inputs:
     - id: C0IL7Dz4RCKSeBIsYR89vw
       text: 1Sawtute 2zola'u 3akrrta 4po 5ke 6'olefu 7nitram.
       translations:
-        en: 4Since 1(the Skypeople) 2came, 4she 6(had not been) 7happy 6([and this has now changed]).
+        en: 4Since 1(the Skypeople) 2came, 4she 6(had not been) 7happy 6{[and this has now changed]}.
     - id: S1quoYmvRuOqAMPbYu_Tqg
       text: 1(Trr'ong)2(ta) 3(Txon'ong)4(vay) 5po 6tolìran.
       translations:
@@ -35,7 +35,7 @@ inputs:
     - id: aLt1V7Z4RGyc4SVyozml_Q
       text: 1Oe 2kawkrr 3ne 4fewtusoka 5pa'o 6kilvanä 7ke 8kamä.
       lookup_filter:
-        8: 680:vin.:<am>:nolen
+        8: 680:vin.:noprefix:=<am>:nosuffix:nolen
       translations:
         en: 1I 2+7never 8went 3to 5the 4opposite 5side 6(of the river).
     - id: xnaD1meYRxm0OuNwlnwaGw
@@ -55,7 +55,7 @@ inputs:
     - id: umtLci0UTCyY1GVe084iOQ
       text: 1Fìuvanìri 2lu 3ngaru 4pxen 5nì'aw.
       lookup_filter:
-        4: 7200:n.:pxe-:nolen
+        4: 7200:n.:=pxe-:noinfix:nosuffix:nolen
       translations:
         en: 3You 5only 2get 4(three guesses) 1(in this game).
     - id: KvL-rznEQRmbNd4BMdQX2w
@@ -75,7 +75,7 @@ inputs:
     - id: C_0TumEpTSK-9rF9EZ6wwQ
       text: 1Na'viri 2txina 3sä'o 4tìtusaronä 5lu 6(tsko swizaw).
       lookup_filter:
-        2: 6824:adj.:-a:nolen
+        2: 6824:adj.:noprefix:noinfix:=-a:nolen
       translations:
         en: 1(For the Na'vi) 6(the bow and arrow) 5is 3the 2main 4hunting 3tool.
     - id: JX7SVMGbR6qr2qyeXoo1VA
@@ -102,7 +102,7 @@ inputs:
     - id: U082YbOERzWmLB2HeHrJqw
       text: 1Lu 2oeru 3sngum 4a 5saronyu 6ke 7tìyevätxaw.
       lookup_filter:
-        5: 2008:n.:noaffix:t→s
+        5: 2008:n.:noaffix:=t→s
       translations:
         en: 2(I)1('m) 3worried 4that 5(the hunters) 7will 6not 7return {(soon, as expected)}.
     - id: ahEU58XGTKuEwcd2q_ThAw

@@ -14,7 +14,7 @@ inputs:
     - id: Qcfm3jQMSHGkN9au15Hx7g
       text: 1Tsu'teyri 2lu 3foru 4nrra 5a 6fìrewon 7yolora'.
       lookup_filter:
-        3: 412:pn.:-ru:nolen
+        3: 412:pn.:noprefix:noinfix:=-ru:nolen
       translations:
         en: 3(They)2+4('re proud) 1(of Tsu'tey) 5for 7(having won) 6(this morning).
     - id: XKAou10gTEmg5h74kdhPOA

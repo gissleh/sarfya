@@ -31,7 +31,7 @@ inputs:
     - id: SZ_PwScKQAau6Zq1JJuJDg
       text: 1Taronyul 2lehawmpam 3ska'a 4sätaronit.
       lookup_filter:
-        1: 2008:n.:-l:nolen
+        1: 2008:n.:noprefix:noinfix:=-l:nolen
       translations:
         en: 1A 2noisy 1hunter 3destroys 4(the hunt).
     - id: Xk9nx-wyQo2MIMZWov22Xg
@@ -69,9 +69,9 @@ inputs:
     - id: uHU3QbpMQAe05WARPGOv8Q
       text: 1Holpxay 2sanhìyä 3a 4mì 5saw 6lu 7ketsuktiam; 8keng 9ke 10tsun 12fko 13tsive'a 14sat 15nìwotx.
       lookup_filter:
-        5: 2020:n.:noaffix:t→s
+        5: 2020:n.:noaffix:=t→s
         10: 2476:vim.:noaffix:nolen
-        14: 5972:pn.:noaffix:nolen;5268:pn.:-t:ts→s
+        14: 5972:pn.:noaffix:nolen;5268:pn.:noprefix:noinfix:=-t:=ts→s
       translations:
         en: 1(The number) 2(of stars) 3+4in 5(the sky) 6is 7infinite; 12+10it's 9not 8even 10+12(possible to) 13see 14them 15all.
     - id: _8IVt1jBS9aoKKnFODMYFg
@@ -96,16 +96,16 @@ inputs:
       text: 1Srane, 2sunu 3Sawtuteru 4tìlang, 5slä 6ke 7omum 8fol 9teyngta 10kempe 11zene 10sivi 12mawkrra 13'uoti 14rolun.
       lookup_filter:
         2: 6376:vin.:noaffix:nolen
-        8: 412:pn.:-l:nolen
-        13: 4180:pn.:-ti:nolen
-        14: 1724:vtr.:<ol>:nolen
+        8: 412:pn.:noprefix:noinfix:=-l:nolen
+        13: 4180:pn.:noprefix:noinfix:=-ti:nolen
+        14: 1724:vtr.:noprefix:=<ol>:nosuffix:nolen
       translations:
         en: 1Yes, 3(the Skypeople) 2love 4exploration, 5but 8they 6don't 7+9know 10+11(what to do) 12once 8they 14find 13something.
     - id: kUuL2yVUTme9_RhouE3NwQ
       text: 1Kum 2sälangä 3leyewla 4längu. 5Ke 6rolun 7awngal 8ke'ut.
       lookup_filter:
         1: 8828:n.:noaffix:nolen
-        6: 1724:vtr.:<ol>:nolen
+        6: 1724:vtr.:noprefix:=<ol>:nosuffix:nolen
       translations:
         en: 1(The result) 2(of the investigation) 4was, 4(I'm sorry to say), 3disappointing. 7We 6found 5+8nothing.
     - id: g5jrrzZ1SnuXnTuXZmhHIw
@@ -119,14 +119,14 @@ inputs:
     - id: EH5yyKRATbabLJnNYNOtpw
       text: 1Narmew 2oe 3foru 4na'rìngä 5tìlorit 6wivìntxu, 7slä 8ke 9tsängun 10fo 11tslivam. 12'Efu 13oe 14na 15kenten 16mì 17kumpay.
       lookup_filter:
-        3: 412:pn.:-ru:nolen
+        3: 412:pn.:noprefix:noinfix:=-ru:nolen
         10: 412:pn.:noaffix:nolen
       translations:
         en: 2I 1(wanted to) 6show 3them 5(the beauty) 4(of the forest), 7but 9sadly, 10they 8weren't 9(able to) 11understand. 13I 12felt 14+15+16+17(completely stymied).
     - id: QzC1sCwPSuqHqMzNZaKh9A
       text: 1Lu 2por 3mokri 4amiklor, 5slä 6loreyu 7'awnampi 8lu. 9Ke 10tsun 11rivol 12eo 13sute.
       lookup_filter:
-        2: 1548:pn.:-r:nolen
+        2: 1548:pn.:noprefix:noinfix:=-r:nolen
         10: 2476:vim.:noaffix:nolen
       translations:
         en: 2She 1has 3a 4beautiful 3voice, 5but 6+7+8(she's extremely shy). She 9+10can't 11sing 12(in front of) 13people.

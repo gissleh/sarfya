@@ -35,6 +35,6 @@ inputs:
     - id: ittWEJh5SvWAjVvfKSWA_A
       text: 1Mì 2sangek 3a 4sävllit 5ngolop 6eykyul 7tarponguä.
       lookup_filter:
-        6: 8856:n.:-l:nolen
+        6: 8856:n.:noprefix:noinfix:=-l:nolen
       translations:
         en: 4(The sign) 1+3on 2(the tree trunk) 5(was made by) 6(the leader) 7(of the hunting party).

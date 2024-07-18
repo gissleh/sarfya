@@ -30,13 +30,13 @@ inputs:
     - id: vEndHdrPT9GlKKBGDM1Dkg
       text: 1(Oe)2(ta) 3a 4tsasäsrìnìl 5tok 6pesengit?
       lookup_filter:
-        6: 1520:inter.:-it:nolen
+        6: 1520:inter.:noprefix:noinfix:=-it:nolen
       translations:
         en: 6(Where)5('s) 4(the thing) you 4borrowed 3+2from 1me?
     - id: ShZEy1NOSziLJaedQ9CahQ
       text: 1Fol 2tsnganit 3pxìmolun'i 4nì'eng.
       lookup_filter:
-        1: 412:pn.:-l:nolen
+        1: 412:pn.:noprefix:noinfix:=-l:nolen
       translations:
         en: |-
             1They 3(divided up) 2(the meat) 4equally.
@@ -58,7 +58,7 @@ inputs:
     - id: Gajda9YWS7C6BmGpaJfIDA
       text: 1Fol 2tsnganit 3pxìmolun'i 4nìyll.
       lookup_filter:
-        1: 412:pn.:-l:nolen
+        1: 412:pn.:noprefix:noinfix:=-l:nolen
         4: 8432:adv.:noaffix:nolen
       translations:
         en: 1They 3shared 2(the meat) 4(with the entire clan).
@@ -84,7 +84,7 @@ inputs:
       lookup_filter:
         5: 1312:adv.:noaffix:nolen
         7: 368:pn.:noaffix:nolen
-        10: 460:pn.:-r:nolen
+        10: 460:pn.:noprefix:noinfix:=-r:nolen
       translations:
         en: 7(It)9('s) 8clear 10(to everyone) 6that 1his 2son 3is 5very 4cute. 11But 12cuteness 13alone 15(is)14(n't) 15enough.
     - id: J7XBvS_uTVCKGGAyQsrdhA
@@ -139,8 +139,8 @@ inputs:
     - id: 8ZGVKSUvQxqzhLn1CLP0-Q
       text: 1Trram 2tolerkängup 3sa'nok 4ayawne. 5Poti 6kllyolem 7ayoel 8äo 9utralo 10alor 11a 12rofa 13kilvan.
       lookup_filter:
-        7: 212:pn.:-l:nolen
-        10: 1024:adj.:a-:nolen
+        7: 212:pn.:noprefix:noinfix:=-l:nolen
+        10: 1024:adj.:=a-:noinfix:nosuffix:nolen
         13: 804:n.:noaffix:nolen
       translations:
         en: My 4dear 3mother 2died 1yesterday. 7We 6buried 4her 8under 9a 10beautiful 9tree 11+12beside 13(the river).
@@ -148,7 +148,7 @@ inputs:
       text: 1Tsyìl 2Iknimayat 3ulte 4(tsaheyl si) 5(ikran)6(hu) 7a 8fì'u 9lu 10tìfmetok 11a 12zene 13frataronyu 14a'ewan 15emziva'u.
       lookup_filter:
         8: 368:pn.:noaffix:nolen
-        13: 2008:n.:fra-:nolen
+        13: 2008:n.:=fra-:noinfix:nosuffix:nolen
       translations:
         en: 1Scaling 2Iknimaya 3and 4bonding 6with 5(a banshee) 7+8+9is 10(a test) 11that 13every 14young 13hunter 12must 15pass.
     - id: 6bOwp4uOSiWj-yxyU_y5vw

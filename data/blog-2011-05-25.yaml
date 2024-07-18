@@ -64,7 +64,7 @@ inputs:
     - id: UGf_7HV-SoesBrbIznQZWw
       text: 1Rutxe 2slivoan 3ngal 4payit 5(oe)6(fpi); 7'efu 8väng 9nìtxan.
       lookup_filter:
-        4: 1480:n.:-it:nolen
+        4: 1480:n.:noprefix:noinfix:=-it:nolen
         9: 1312:adv.:noaffix:nolen
       translations:
         en: 1Please 2pour 5+6me some 4water; 5(I)7('m) 9very 8thirsty.
@@ -93,7 +93,7 @@ inputs:
         en: |-
             A: 1(The Skypeople) 2(are about to arrive)! 3+4Run!
             B: 5(What)6('s happening)?
-            A: 7Into 8(the forest), 9+10(you moron [whom I still like anyway])! 11+12(Get going)!
+            A: 7Into 8(the forest), 9+10{you moron [whom I still like anyway]}! 11+12(Get going)!
             B: 13But . . .
             A: 14(LIKE YOUR LIFE DEPENDED ON IT!!! )13{(Run for your life!)}
     - id: APIwIG6vR5mz1Hc3ZOQFiA

@@ -112,13 +112,13 @@ inputs:
     - id: Sd6OGsPqQqOv7XgCPQVbOw
       text: 1Poan 2yawne 3latsu 4poeru 5nìlam.
       lookup_filter:
-        4: 1556:pn.:-ru:nolen
+        4: 1556:pn.:noprefix:noinfix:=-ru:nolen
       translations:
         en: 5Apparently 4she 2+3loves 1him.
     - id: _sMsil-KSa6bGlGzGs-siA
       text: 1Ngeyä 2stxeliri 3alor 4oe 5new 6ngaru 7pivlltxe 8san 9irayo 10sìk 11nìli. 12Ke 13lu 14oer 15am'a, 16tsa'u 17polähem 18a 19krr, 20sunu 21oeru 22nìtxan.
       lookup_filter:
-        3: 1024:adj.:a-:nolen
+        3: 1024:adj.:=a-:noinfix:nosuffix:nolen
         10: 1796:adv.:noaffix:nolen
         20: 6376:vin.:noaffix:nolen
         22: 1312:adv.:noaffix:nolen
@@ -127,7 +127,7 @@ inputs:
     - id: rI45aK09QJKG-8n8p_YjVg
       text: 1Nìfrakrr 2fol 3'olem 4a 5wutso 6ftxìvä' 7lu 8nìngay.
       lookup_filter:
-        2: 412:pn.:-l:nolen
+        2: 412:pn.:noprefix:noinfix:=-l:nolen
         8: 1296:adv.:noaffix:nolen
       translations:
         en: 1(As always), 5(the dinner) 2they 4+3cooked 7tasted 8really 6terrible.

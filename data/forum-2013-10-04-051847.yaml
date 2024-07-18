@@ -8,7 +8,7 @@ inputs:
     - id: d3AQvPCBTZ-9H5KmTJsAxQ
       text: 1Oel 2payti 3nulnew 4to 5swoat.
       lookup_filter:
-        2: 1480:n.:-ti:nolen
+        2: 1480:n.:noprefix:noinfix:=-ti:nolen
         4: 2224:part.:noaffix:nolen
       translations:
         en: 1I 3prefer 2water 4to 5alcohol

@@ -42,7 +42,7 @@ inputs:
     - id: 0VaUOd_dRTyYQw5iXfwU8g
       text: 1Pori 2tsakxeyey 3a'aw 4frakemur 5amuiä 6(ukyom solängi).
       lookup_filter:
-        3: 12:num.:a-:nolen
+        3: 12:num.:=a-:noinfix:nosuffix:nolen
       translations:
         en: 6Sadly, 2that 3one 2mistake 6eclipsed 4all 4of 1his 5good 4deeds.
     - id: CkBcHZkmTEexQSekcUms7w

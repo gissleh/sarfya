@@ -20,7 +20,7 @@ inputs:
     - id: 1SzrIvyeRhyDnXO01FpgFQ
       text: 1Feyä 2aysämok 3lu 4fe' 5nìwotx.
       lookup_filter:
-        1: 412:pn.:-yä:nolen
+        1: 412:pn.:noprefix:noinfix:=-yä:nolen
       translations:
         en: 5(All of) 1their 2suggestions 3are 4bad.
     - id: jfujr7VlRx-J06JpPpJpOg
@@ -79,13 +79,13 @@ inputs:
     - id: Yymxy-v9RaSarvwYVXPqag
       text: 1meka 2säfpìl
       lookup_filter:
-        1: 8536:adj.:-a:nolen
+        1: 8536:adj.:noprefix:noinfix:=-a:nolen
       translations:
         en: 2an 1(empty/dumb) 2idea
     - id: 3VN_5WicS1W5cB3umjH3yA
       text: 1meka 2säplltxevi
       lookup_filter:
-        1: 8536:adj.:-a:nolen
+        1: 8536:adj.:noprefix:noinfix:=-a:nolen
       translations:
         en: 2an 1(insipid/thoughtless) 2comment
     - id: TLqLL7FQRVyaE9CcgyMUag

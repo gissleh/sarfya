@@ -19,7 +19,7 @@ inputs:
     - id: SlPlj86wS9eeJattmgs6wA
       text: 1Hìmpxì 2Sawtuteyä 3lu 4tstunwi, 5slä 6feyä 7txampxì 8längu 9kawnglan.
       lookup_filter:
-        6: 412:pn.:-yä:nolen
+        6: 412:pn.:noprefix:noinfix:=-yä:nolen
       translations:
         en: 1(A minority) 2(of the Sky People) 3are 4kind, 5but 6+7(the majority) 8are 9malicious.
     - id: uFal0Zr1ToKb9EG2-3vYWA

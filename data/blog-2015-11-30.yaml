@@ -44,13 +44,13 @@ inputs:
       text: 1Sar 2tsalì'ut 3a 4fì'uri 5lu 6oeru 7tìhìpey 8nì'it
       lookup_filter:
         1: 3812:vtr.:noaffix:nolen
-        4: 368:pn.:-ri:nolen
+        4: 368:pn.:noprefix:noinfix:=-ri:nolen
       translations:
         en: 5+6+7I'm 8(a bit) 5+6+7hesitant 4about 1using 2(that word).
     - id: dnSw3zhHSQGc3sCGH17ZVQ
       text: 1Taronyul 2lehìpey 3kan 4smarit 5nìlkeftang 6slä 7ke 8takuk 9kawkrr.
       lookup_filter:
-        1: 2008:n.:-l:nolen
+        1: 2008:n.:noprefix:noinfix:=-l:nolen
         8: 1976:vtr.:noaffix:nolen
       translations:
         en: 1A 2hesitant 1hunter 3(will aim at) 4(a prey) 5forever 6but 7+9never 8hit it.
@@ -86,15 +86,15 @@ inputs:
       text: 1Kaltxì, 2ma 3eylan. 4Sìlpey 5oe, 6ayngaru 7livu 8fpom 9nìwotx.
       lookup_filter:
         4: 1800:vin.:noaffix:nolen
-        6: 208:pn.:-ru:nolen
+        6: 208:pn.:noprefix:noinfix:=-ru:nolen
       translations:
         en: 1Hello, 2+3friends. 5I 4hope 6(you)7+8('re) 9all 7+8well.
     - id: KaB1dbaEROWwzER_fyBz6w
       text: 1Narmew 2oe 3piveng 4ayngar 5teri 6mehapxìtu 7amip 8soaiä 9(N|Tsyanä) 10sì 11oeyä. 12Lu 13hì'ia 14mefalukantsyìp 15a 16syaw 17fko 19mefor 20(N|Palu) 21sì 22(N|Lukan). 23Mefo 24lu 25tsmukan 26sì 27tsmuke. 28Fpìl 29oel 30futa 31tsun 32aynga 33tslivam 34teyngta 35tsamestxo 36za'u 37ftu 38pesim. 39Lu 40law, 41kefyak?
       lookup_filter:
-        4: 208:pn.:-r:nolen
-        14: 13375:n.:me-:p→f
-        19: 1076:pn.:-r:nolen
+        4: 208:pn.:noprefix:noinfix:=-r:nolen
+        14: 13375:n.:=me-:noinfix:nosuffix:=p→f
+        19: 1076:pn.:noprefix:noinfix:=-r:nolen
         23: 1076:pn.:noaffix:nolen
         31: 2476:vim.:noaffix:nolen
         32: 208:pn.:noaffix:nolen
@@ -105,10 +105,10 @@ inputs:
       lookup_filter:
         16: 1312:adv.:noaffix:nolen
         19: 872:adv.:noaffix:nolen
-        27: 1132:pn.:-yä:nolen
+        27: 1132:pn.:noprefix:noinfix:=-yä:nolen
         31: 365:adv., n.:noaffix:nolen
         36: 1304:adv.:noaffix:nolen
-        38: 1076:pn.:-ru:nolen
+        38: 1076:pn.:noprefix:noinfix:=-ru:nolen
         40: 1312:adv.:noaffix:nolen
         42: 4280:adv.:noaffix:nolen
         47: 1800:vin.:noaffix:nolen
@@ -136,6 +136,6 @@ inputs:
     - id: sO7pxgd3TNSdSe6vU3Reiw
       text: 1Pol 2tskoti 3kolan 4wä 5kutu.
       lookup_filter:
-        3: 704:vtrm.:<ol>:nolen
+        3: 704:vtrm.:noprefix:=<ol>:nosuffix:nolen
       translations:
         en: 1He 3raised 1his 2bow 4against 5(the enemy).

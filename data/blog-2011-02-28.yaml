@@ -30,7 +30,7 @@ inputs:
     - id: PVbum0A_Tni4GnN_E7aNIA
       text: 1Lehrrap 2lu 3fwa 4evitsyìp 5slele 6mì 7hilvan 8luke 9fwa 10fyeyntu 11(terìng nari).
       lookup_filter:
-        7: 804:n.:noaffix:k→h
+        7: 804:n.:noaffix:=k→h
       translations:
         en: 3(It)2('s) 1dangerous 3for 4(tiny ones) 3to 5swim 6in 7(the river) 8without 10(an adult) 9+11watching.
     - id: Vn-SiMkTQK61EjxQ9mKiNg

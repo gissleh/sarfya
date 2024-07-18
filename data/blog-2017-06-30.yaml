@@ -8,7 +8,7 @@ inputs:
     - id: S4vCwJ6hSxmxAGfAX4hcWQ
       text: 1Poeru 2kxu 3rä'ä 2si!
       lookup_filter:
-        1: 1556:pn.:-ru:nolen
+        1: 1556:pn.:noprefix:noinfix:=-ru:nolen
       translations:
         en: 3(Do not) 2harm 1her!
     - id: F4vlau6oTVeLrVIJAarklw
@@ -18,12 +18,12 @@ inputs:
         6rutxe 20ayoeru 7(srung si) 8fte 9tsivun 10ayoe 11fmival
         12tìkxuket 13ngeyä 14sì 15Mo'arayä 16fa 17fwa 18lek 19faysänumet:
       lookup_filter:
-        3: 13063:prop.n.:-t:nolen
+        3: 13063:prop.n.:noprefix:noinfix:=-t:nolen
         4: 6916:adv.:noaffix:nolen
         10: 212:pn.:noaffix:nolen
-        15: 13063:prop.n.:-yä:nolen
-        20: 212:pn.:-ru:nolen
-        25: 13063:prop.n.:-yä:nolen
+        15: 13063:prop.n.:noprefix:noinfix:=-yä:nolen
+        20: 212:pn.:noprefix:noinfix:=-ru:nolen
+        25: 13063:prop.n.:noprefix:noinfix:=-yä:nolen
       translations:
         en: |-
             21+22KEEP 23YOURSELF 24AND 25MO'ARA 21+22SAFE
@@ -41,7 +41,7 @@ inputs:
     - id: Kwe4Lf0RT7-iTtpBufKl5g
       text: 1Rä'ä 2fmivi 3(kxu sivi) 4ayioangur 5fu 6helkur 7feyä
       lookup_filter:
-        7: 412:pn.:-yä:nolen
+        7: 412:pn.:noprefix:noinfix:=-yä:nolen
       translations:
         en: 1(Do not) 2(attempt to) 3harm 4(the animals) 5or 7their 6habitats
     - id: NCVeUKFhRVaA9L4ZOjrQKA

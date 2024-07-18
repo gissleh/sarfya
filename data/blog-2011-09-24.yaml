@@ -26,7 +26,7 @@ inputs:
     - id: 5skNYVvsTmm1ie5EGdg3ZQ
       text: 1Stxenutolìng 2oel 3futa 4lì'fyat 5leNa'vi 6poeru 7kivar. 8Mol'an 9nìprrte'.
       lookup_filter:
-        6: 1556:pn.:-ru:nolen
+        6: 1556:pn.:noprefix:noinfix:=-ru:nolen
         9: 5588:adv.:noaffix:nolen
       translations:
         en: 2I 1(offered to) 3+7teach 6her 4+5Na'vi. She 8accepted 9gladly.
@@ -97,7 +97,7 @@ inputs:
       text: 1Oeri 2payìl 3tìng 4rì'ìrit 5keyä.
       lookup_filter:
         3: 2176:vtr.:noaffix:nolen
-        5: 4492:n.:-ä:nolen
+        5: 4492:n.:noprefix:noinfix:=-ä:nolen
       translations:
         en: 1My 2+3+4+5(face is reflected in the water).
     - id: iQj34ujfTTW1NVKTRvZvRQ
@@ -142,14 +142,14 @@ inputs:
     - id: R9rHfJySThiyZ1lNVmtaRQ
       text: 1Fol 2lì'fyati 3awngeyä 4sar 5a 6fya'o 7lu 8kosman.
       lookup_filter:
-        1: 412:pn.:-l:nolen
+        1: 412:pn.:noprefix:noinfix:=-l:nolen
         4: 3812:vtr.:noaffix:nolen
       translations:
         en: 7It's 8wonderful 6+5(the way) 1they 4use 3our 2language.
     - id: -W0yxQlWRxO-b1IWPr5Prw
       text: 1Fol 2lì'fyati 3awngeyä 4sar 5nìksman.
       lookup_filter:
-        1: 412:pn.:-l:nolen
+        1: 412:pn.:noprefix:noinfix:=-l:nolen
         4: 3812:vtr.:noaffix:nolen
       translations:
         en: 1They 4use 3our 2language 5wonderfully.

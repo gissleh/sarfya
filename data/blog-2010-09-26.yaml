@@ -21,7 +21,7 @@ inputs:
       text: 1Ma 2frapo, 3ayngaru 4oeyä 5tsmukit 6alu 7Newey.
       lookup_filter:
         2: 460:pn.:noaffix:nolen
-        3: 208:pn.:-ru:nolen
+        3: 208:pn.:noprefix:noinfix:=-ru:nolen
       translations:
         en: 1+2Everybody, 3+5(please allow me to introduce) 3{(to you)} 3my 5sister, 6+7Newey.
     - id: ulniG_lCR0WzQgHhKt9woQ
@@ -55,7 +55,7 @@ inputs:
     - id: HDM4AIFzRTuyzI75yTVK0A
       text: 1Fìpor 2syaw 3fko 4Ìstaw.
       lookup_filter:
-        1: 356:pn.:-r:nolen
+        1: 356:pn.:noprefix:noinfix:=-r:nolen
       translations:
         en: 1+2+3(This is) 4Ìstaw.
     - id: 9aV4K8VHTnG_LmjSJVRnMg
@@ -66,13 +66,13 @@ inputs:
       text: 1Kaltxì. 2Hìtxoa. 3Tsun 4miväkxu 5hìkrr 6srak? 7Oe 8lu 9Va'ru 10a 11ftu 12txayo 13zola'u. 14Ayngari/15Ngari 16tut?
       lookup_filter:
         3: 2476:vim.:noaffix:nolen
-        14: 208:pn.:-ri:nolen
+        14: 208:pn.:noprefix:noinfix:=-ri:nolen
       translations:
         en: 1Hi! 2(Excuse me). 3May I 4interrupt 5(a moment)6(?) 7(I)8('m) 9Va'ru 10+11+13from 12(the plains). 16(How about) 14+15you?
     - id: pejlzRREQrSW_ohDUz4PrA
       text: 1Kaltxì. 2Nga 3lu 4Sorewn, 5kefyak? 6Oer 7syaw 8fko 9Tsenu. 10Tsatsmukel 11alu 12Rini 13molok 14futa 15oe 16ngar 17muwäpivìntxu. 18Poltxe 19po 20san 21Sorewnìl 22kan'ìn 23tì'emit 24nìtxan 25ulte 26kxawm 27tsatxele 28(menga)29(ne) 30za'atsu 31nì'eng.
       lookup_filter:
-        13: 6736:vtr.:<ol>:nolen
+        13: 6736:vtr.:noprefix:=<ol>:nosuffix:nolen
         24: 1312:adv.:noaffix:nolen
       translations:
         en: 1Hi. 2(You)3('re) 4Sorewn, 5right? 6(I)7+8('m) 9Tsenu. 10Sister 11+12Rini 10(over there) 13suggested 14that 15I 17+16(introduce myself). 19She 18+20said, 20(“)21(Sorewn) 22is 24really 22into 23cooking, 25and 26perhaps 28(the two of you) 29+30+31(might share) 27(that matter) 29+30+31(in common).”

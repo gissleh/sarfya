@@ -51,7 +51,7 @@ inputs:
     - id: Q6Pfb2HJTuieIwyF_jxNYA
       text: 1Merìk 2alor 3(pay)4(sìn) 5fwarmum.
       lookup_filter:
-        2: 1024:adj.:a-:nolen
+        2: 1024:adj.:=a-:noinfix:nosuffix:nolen
         3: 1480:n.:noaffix:nolen
         4: 4048:adp.:noaffix:nolen
       translations:

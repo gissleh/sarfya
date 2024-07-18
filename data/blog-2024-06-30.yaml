@@ -43,7 +43,7 @@ inputs:
     - id: uAZQrIVTRRuglTcTbZNRog
       text: 1Tìtokìl 2ngeyä 3ngop 4tìngäzìkit 5fraporu.
       lookup_filter:
-        5: 460:pn.:-ru:nolen
+        5: 460:pn.:noprefix:noinfix:=-ru:nolen
       translations:
         en: 2Your 1presence 3creates 4(a difficulty) 5(for everyone).
     - id: iEsr2hkcTbKdg6JAFb8DuQ
@@ -54,7 +54,7 @@ inputs:
       text: 1Tìtok 2slu 3tìktok 4fa 5pamtsyìp 6a'aw.
       lookup_filter:
         5: 13525:n.:noaffix:nolen
-        6: 12:num.:a-:nolen
+        6: 12:num.:=a-:noinfix:nosuffix:nolen
       translations:
         en: '1Presence 2becomes 3absence 4(by means of) 6one 5(little sound). {(A proverbial expression meaning: ''Small things can make a big difference.'')}'
     - id: Xm6L_lLpQpO8vUmVHvKO4w

@@ -36,7 +36,7 @@ inputs:
       text: 1Muntrram 2oe 3koläteng 4hu 5Ralu 6ulte 7sunu 8oer 9tsakrr
       lookup_filter:
         7: 6376:vin.:noaffix:nolen
-        9: 880:n.:tsa-:nolen
+        9: 880:n.:=tsa-:noinfix:nosuffix:nolen
       translations:
         en: 2I 3spent 1(last weekend) 4with 5Ralu 6and had a good time {(literally, }9(that time) 7(was pleasant) 8(to me){)}
     - id: ymo9SAFDQUKlE-SSvY-SDg
@@ -48,13 +48,13 @@ inputs:
     - id: 3e48wWXfROe1iShw6LqHrQ
       text: 1Poleng 2ayoeru 3koaktel 4vurit 5atxanlal.
       lookup_filter:
-        2: 212:pn.:-ru:nolen
+        2: 212:pn.:noprefix:noinfix:=-ru:nolen
       translations:
         en: 3(The old woman) 1told 4us 4an 5ancient 4story
     - id: jo76rQLeQIiF0KZgK2PP3Q
       text: 1Tsakemìri 2tsankum 3lu 4law.
       lookup_filter:
-        1: 768:n.:tsa-:-ìri:nolen
+        1: 768:n.:=tsa-:noinfix:=-ìri:nolen
       translations:
         en: 2(The advantage) 1(of that action) 3is 4clear.
     - id: 7rH9h4JFTvKV2gQrDjXepQ

@@ -20,7 +20,7 @@ inputs:
     - id: hEPTLKWTTSGy4SDK5qwtUA
       text: 1Txewìl 2'olaku 3fwepit 4ftumfa 5kelku 6sneyä.
       lookup_filter:
-        1: 13101:prop.n.:-l:nolen
+        1: 13101:prop.n.:noprefix:noinfix:=-l:nolen
         6: 8240:pn.:noaffix:nolen
       translations:
         en: 1Txewì 2removed 3(the dust) 4(from inside) 6his 5house.
@@ -41,7 +41,7 @@ inputs:
     - id: jQ2aVeZmTAKBXK5Rej1ltQ
       text: 1Pxirit 2fu 3swoat 4näk 5rä'ä; 6niväk 7payit 8nì'aw.
       lookup_filter:
-        7: 1480:n.:-it:nolen
+        7: 1480:n.:noprefix:noinfix:=-it:nolen
       translations:
         en: 5Don't 4drink 1beer 2or 3spirits; 8just 6drink 7water.
     - id: vqPGbSvLTDOjqmOP6vA2vg
@@ -59,7 +59,7 @@ inputs:
       text: 1Fwa 2sar 3payit 4fìtxan 5lu 6le'al.
       lookup_filter:
         2: 3812:vtr.:noaffix:nolen
-        3: 1480:n.:-it:nolen
+        3: 1480:n.:noprefix:noinfix:=-it:nolen
       translations:
         en: 1+2Using 4(this much) 3water 5is 6wasteful.
     - id: NeAkLHoHTB2ygF4kqE0RxA
@@ -80,7 +80,7 @@ inputs:
     - id: 20JGqCPXSTKwRjjtcl9D7Q
       text: 1Por 2lu 3snolup 4a 5new 6frapo 7(rì'ìr sivi).
       lookup_filter:
-        1: 1548:pn.:-r:nolen
+        1: 1548:pn.:noprefix:noinfix:=-r:nolen
         6: 460:pn.:noaffix:nolen
       translations:
         en: 1(He/She) 2has 3(a personal style) 4that 6everyone 5(wants to) 7emulate.'

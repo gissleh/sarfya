@@ -27,7 +27,7 @@ inputs:
       text: 1Nìsngä'i 2fmawnit 3fo 4narmew 5wivan, 6slä 7nì'i'a 8frapor 9lolonu.
       lookup_filter:
         3: 412:pn.:noaffix:nolen
-        8: 460:pn.:-r:nolen
+        8: 460:pn.:noprefix:noinfix:=-r:nolen
       translations:
         en: 3They 1originally 4(wanted to) 5hide 2(the news), 6but 7(in the end) 3they 9revealed 2it 8(to everyone).
     - id: r30aOzxsSRmFY1lOmXtBcA
@@ -64,7 +64,7 @@ inputs:
       text: 1Maw 2txantompa, 3pxaya 4(rìk)5(äo) 6lamu 7tskalep 8peyä, 9ha 10tsat 11kulat 12ayoel.
       lookup_filter:
         9: 540:conj.:noaffix:nolen
-        12: 212:pn.:-l:nolen
+        12: 212:pn.:noprefix:noinfix:=-l:nolen
       translations:
         en: 1After 2(the rainstorm), 8his 7crossbow 6was 5under 3(a lot of) 4leaves, 9so 12we 11uncovered 10it {(removed the leaves from it)}.
     - id: wmmnjeAQTYejwhKqIsp7Fg
@@ -130,7 +130,7 @@ inputs:
     - id: JPfyqnyrRcepy-D4PtaXgQ
       text: 1Txewìl 2tukrut 3(N-ä|Loakä) 4narmìn 5nìfmokx.
       lookup_filter:
-        1: 13101:prop.n.:-l:nolen
+        1: 13101:prop.n.:noprefix:noinfix:=-l:nolen
       translations:
         en: 1Txewì 4(was eyeing) 3Loak's 2spear 5enviously.
     - id: MSfhvjb8S72cXg5-NyJE2g
@@ -176,6 +176,6 @@ inputs:
     - id: GA74mjm7RNuGkEgH1cZF8w
       text: 1Srake 2pxefo 3li 4polähatsem?
       lookup_filter:
-        2: 1548:pn.:pxe-:p→f
+        2: 1548:pn.:=pxe-:noinfix:nosuffix:=p→f
       translations:
         en: 1+4(I wonder if) 2(the three of them) 4have 3already 4arrived.

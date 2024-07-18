@@ -14,7 +14,7 @@ inputs:
     - id: iyaS77LhTnewPc6FDiUwfA
       text: 1Poel 2stolatso 3futa 4mefo 5tivaron 6tsaha'ngir.
       lookup_filter:
-        1: 1556:pn.:-l:nolen
+        1: 1556:pn.:noprefix:noinfix:=-l:nolen
         4: 1076:pn.:noaffix:nolen
       translations:
         en: 1She 2(must have refused) 3{(their request)}3( to) 5hunt 6(that afternoon).

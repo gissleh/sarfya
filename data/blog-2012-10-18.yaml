@@ -9,7 +9,7 @@ inputs:
       text: 1Sìlpey 2oe, 3fìsäwäsultsyìp 4'o' 5lìyevu 6ayngaru!
       lookup_filter:
         1: 1800:vin.:noaffix:nolen
-        6: 208:pn.:-ru:nolen
+        6: 208:pn.:noprefix:noinfix:=-ru:nolen
       translations: {}
     - id: 9sx0CXTPQTaQDY7omiPFbQ
       text: 1Oe 2new 3(nga)11(hu) 4'awsiteng 5(tìkangkem sivi)–6ke 7new 8futa 9wäsivul 10oeng.

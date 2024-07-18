@@ -38,6 +38,6 @@ inputs:
     - id: HPwT4gSDQA2XtKqS4nKOiQ
       text: 1Pol 2tìkangkemit 3tsyolul 4nìso'ha, 5slä 6tsa'ur 7hasey 8ke 7soli, 9um'a.
       lookup_filter:
-        6: 108:n.:tsa-:-r:nolen;2316:n.:-r:nolen
+        6: 108:n.:=tsa-:noinfix:=-r:nolen;2316:n.:noprefix:noinfix:=-r:nolen
       translations:
         en: 1He 3began 2(the work) 4enthusiastically, 5but 9surprisingly, 1he 8didn't 7finish 6it.

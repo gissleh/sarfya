@@ -25,7 +25,7 @@ inputs:
         10: 540:conj.:noaffix:nolen
         11: 508:vtr.:noaffix:nolen
         14: 508:vtr.:noaffix:nolen
-        15: 208:pn.:-l:nolen
+        15: 208:pn.:noprefix:noinfix:=-l:nolen
         18: 208:pn.:noaffix:nolen
       translations:
         en: |-

@@ -20,8 +20,8 @@ inputs:
     - id: 3RspjleOTPCGvOa1bLU_Sw
       text: 1Srake 2nulnew 3ngal 4fì'ut 5fu 6tsa'ut?
       lookup_filter:
-        4: 368:pn.:-t:nolen
-        6: 2316:n.:-t:nolen
+        4: 368:pn.:noprefix:noinfix:=-t:nolen
+        6: 2316:n.:noprefix:noinfix:=-t:nolen
       translations:
         en: |-
             2Do 3you 2want 4this 5or 6(that)1(?)

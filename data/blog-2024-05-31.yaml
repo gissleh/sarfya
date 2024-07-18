@@ -42,7 +42,7 @@ inputs:
     - id: 54vnOvCESU2k80fICOFWRQ
       text: 1Lu 2mrrve.
       translations:
-        en: 1It's 2five. Literally, '1It's the 2fifth [hour]'
+        en: 1It's 2five. Literally, '1It's the 2fifth{ [}{hour]}'
     - id: LCNmliwJSpSDV2hdzk_9DA
       text: |-
         A: 1Nga 2pähem 3pehrr?

@@ -16,7 +16,7 @@ inputs:
     - id: TVDznFnARDShYVkr_4kV-w
       text: 1Tuteol 2asipit 3aytäremä 4txolula 5mì 6na'rìng.
       lookup_filter:
-        1: 4184:pn.:-l:nolen
+        1: 4184:pn.:noprefix:noinfix:=-l:nolen
       translations:
         en: 1Someone 4built 2(a tower) 3(of bones) 5in 6(the forest).
     - id: YpltsG3JS3--11YDoyhIaQ
@@ -37,7 +37,7 @@ inputs:
     - id: dKdbg-OxScez-npLeyXGJg
       text: 1Fol 2ngati 3spole'e 4a 5krr, 6nga 7lumpe/10pelun 8ke 9kara?
       lookup_filter:
-        1: 412:pn.:-l:nolen
+        1: 412:pn.:noprefix:noinfix:=-l:nolen
         10: 1508:inter.:noaffix:nolen
       translations:
         en: 4+5When 1they 3captured 2you, 7+10why 9(did)8(n't) 6you 9resist?
@@ -60,17 +60,17 @@ inputs:
     - id: eMdIr4djSC2zmWyaLAhq9A
       text: 1Entul 2fot 3ve'kì 4ulte 5sänui 6feyä 7zolawprrte' 8nìtokat 9(po)10+9(ne).
       lookup_filter:
-        2: 412:pn.:-t:nolen
-        6: 412:pn.:-yä:nolen
+        2: 412:pn.:noprefix:noinfix:=-t:nolen
+        6: 412:pn.:noprefix:noinfix:=-yä:nolen
         8: 13398:adv.:noaffix:nolen
       translations:
         en: 1Entu 3hates 2them 4and 6their 5failure 7+8brought 9+10him 7+8pleasure.
     - id: 2QvC55WFTQ6qzkTc5AQ1lQ
       text: 1Tìmuntxa 2mefeyä 3zolawprrte' 13(N|Maru)12(ne) 5nìlayl. 6Ke 7lu 8por 9kea 10fmokx 11kaw'it.
       lookup_filter:
-        2: 1076:pn.:-yä:nolen
+        2: 1076:pn.:noprefix:noinfix:=-yä:nolen
         5: 13395:adv.:noaffix:nolen
-        8: 1548:pn.:-r:nolen
+        8: 1548:pn.:noprefix:noinfix:=-r:nolen
       translations:
         en: 2Their 1marriage 3+5brought 12+13Maru 3+5pleasure. 8She 7+8felt 9+6no 10jealousy 11(at all).
     - id: XxvWt7ifSM6Yu484QcdRnA

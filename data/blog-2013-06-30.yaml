@@ -14,8 +14,8 @@ inputs:
     - id: XhVSfrV0TYC-FT1S6l6HVw
       text: 1Rolun 2ayoel 3tsrulmì 4hì'ia 5pxeloit 6ateyr.
       lookup_filter:
-        1: 1724:vtr.:<ol>:nolen
-        2: 212:pn.:-l:nolen
+        1: 1724:vtr.:noprefix:=<ol>:nosuffix:nolen
+        2: 212:pn.:noprefix:noinfix:=-l:nolen
       translations:
         en: 2We 1found 5three 4little 6white 5eggs 3(in the nest).
     - id: 6su-jPhgTKmcca7x_dURaQ
@@ -35,13 +35,13 @@ inputs:
     - id: LRxerd3FTymoJWtoQH2YPA
       text: 1Ralur 2(law soli) 3fo 4oeru.
       lookup_filter:
-        1: 1640:n.:-ur:nolen
+        1: 1640:n.:noprefix:noinfix:=-ur:nolen
         3: 412:pn.:noaffix:nolen
       translations:
         en: 3They 2made 3(the meaning) 2clear 4(to me).
     - id: LWV4S_8vTuasfWQaRvNdrA
       text: 1Ma 2Eytukan, 3lu 4oeru 5aylì'u 6frapor.
       lookup_filter:
-        6: 460:pn.:-r:nolen
+        6: 460:pn.:noprefix:noinfix:=-r:nolen
       translations:
         en: 1+2Eytukan, 4I 3have 5(something to say) 6{(to everyone)}.

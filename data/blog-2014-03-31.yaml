@@ -53,5 +53,5 @@ inputs:
       text: 1Sìlpey 2oe, 3fìpostì 4lilvey 5ayngaru 6nìwotx!
       lookup_filter:
         1: 1800:vin.:noaffix:nolen
-        5: 208:pn.:-ru:nolen
+        5: 208:pn.:noprefix:noinfix:=-ru:nolen
       translations: {}

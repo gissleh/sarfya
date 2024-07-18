@@ -16,7 +16,7 @@ inputs:
     - id: nv2ntJ3aSHO30TXj76hbJA
       text: 1Tsavur 2feyä 3(eltur tìtxen soli|ayeltur tìtxen soli).
       lookup_filter:
-        2: 412:pn.:-yä:nolen
+        2: 412:pn.:noprefix:noinfix:=-yä:nolen
       translations:
         en: 2+3(They found) 1(that story) 2+3interesting.
     - id: 6ZB6RsbzQyqi_YNSxNQjYQ
@@ -38,7 +38,7 @@ inputs:
     - id: M9qUdh-WTnmhxDvpmNunWg
       text: 1Por 2warmou 3frafneioang 4nìtut, 5slä 6nìpxi 7pxesyìräfì.
       lookup_filter:
-        1: 1548:pn.:-r:nolen
+        1: 1548:pn.:noprefix:noinfix:=-r:nolen
         6: 5164:adv.:noaffix:nolen
       translations:
         en: 1He 2+4(just couldn't get over) 3(all the animals), 5but 6(was especially) 2+4(taken with) 7(the 3 giraffe).

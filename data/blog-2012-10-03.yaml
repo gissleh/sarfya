@@ -8,5 +8,5 @@ inputs:
     - id: aDj75-l-RhOvE7nDLd1Kyw
       text: 1Ayngeyä 2tìftusia 3'o' 4livu 5nì'aw!
       lookup_filter:
-        1: 208:pn.:-yä:nolen
+        1: 208:pn.:noprefix:noinfix:=-yä:nolen
       translations: {}

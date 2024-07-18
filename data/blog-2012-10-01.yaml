@@ -89,7 +89,7 @@ inputs:
     - id: JppetA7XS2y5ufgEQdniBA
       text: 1Fra'uä 2ran 3ngäpop 4fa 5frasyon 6tseyä.
       lookup_filter:
-        1: 452:pn.:-ä:nolen
+        1: 452:pn.:noprefix:noinfix:=-ä:nolen
       translations:
         en: 2(The ran) 1(of each thing) 3arises 4from 5(the totality of) 6its 5attributes.
     - id: cbQxhAqwTj2N0KA0zN3AsA
@@ -106,7 +106,7 @@ inputs:
     - id: BMT_wTgcQ129ECC1w-enCw
       text: 1Fìtìhawlìri 2fe'ran 3law 4längu 5frapor.
       lookup_filter:
-        5: 460:pn.:-r:nolen
+        5: 460:pn.:noprefix:noinfix:=-r:nolen
       translations:
         en: 4Unfortunately 2(the flawed nature) 1(of this plan) 4is 3obvious 5(to everyone).
     - id: hLHfGg61SHq_wSBQzwhGLA
@@ -118,7 +118,7 @@ inputs:
     - id: uGW-gQwTRG2YPep81Zlr3g
       text: 1Hufwa 2lu 3filur 4Va'ruä 5fnefe'ranvi, 6tsalsungay 7fpìl 8futa 9sayrìp 10lu 11nìtxan.
       lookup_filter:
-        3: 6616:n.:-ur:p→f
+        3: 6616:n.:noprefix:noinfix:=-ur:=p→f
         11: 1312:adv.:noaffix:nolen
       translations:
         en: 1Although 4Va'ru's 3(facial stripes) 2are 5(rather uneven), I 6still 7think 4(he)10('s) 11very 9handsome.
@@ -131,7 +131,7 @@ inputs:
     - id: SPHlxWfWTc6aUp4-MwrSzQ
       text: 1Tok 2oel 3lora 4tsamoti 5a 6mì 7na'rìng 8a 9krr, 10'efu 11mawey 12sì 13nitram.
       lookup_filter:
-        4: 9264:n.:tsa-:-ti:nolen
+        4: 9264:n.:=tsa-:noinfix:=-ti:nolen
       translations:
         en: 8+9When 2(I)1('m in) 5(that beautiful hollow) 5+6in 7(the forest), 2I 10feel 11calm 12and 13happy.
     - id: PrlqmS-zQ_CkvCpXwwDkmg
@@ -187,14 +187,14 @@ inputs:
     - id: NM87MDDATT2pl1HjxIV82A
       text: 1Neytiril 2(N-ur|Tsyeykur) 3wamìntxu 4Omatikayaä 5vefyat 6tìtusaronä.
       lookup_filter:
-        6: 6156:n.:-ä:nolen
+        6: 6156:n.:noprefix:noinfix:=-ä:nolen
       translations:
         en: 1Neytiri 3showed 2Jake 4(the Omatikaya's) 5approach 6(to hunting).
     - id: iFNOQEysR-KFpGniZVgZLA
       text: 1Eyk 2Kamun 3a 4fralo 5längu 6tsasätaron 7velke 8nìwotx. 9Taronyut 10yom 11smarìl!
       lookup_filter:
         4: 5448:adv.:noaffix:nolen
-        9: 2008:n.:-t:nolen
+        9: 2008:n.:noprefix:noinfix:=-t:nolen
       translations:
         en: 4+3(Every time) 2Kamun 1(is in charge), 6(the hunt) 5is 7+8(a mess). 9+10+11(Everything goes wrong that can).
     - id: 2lQON989SvOcWrrQ-oqEgQ

@@ -40,6 +40,6 @@ inputs:
     - id: SeuKqEMzQG-pI_fOreJLDQ
       text: Polpxaya 2oaret 3tse'a 4ngal 5mì 6saw 7pxiset?
       lookup_filter:
-        6: 2020:n.:noaffix:t→s
+        6: 2020:n.:noaffix:=t→s
       translations:
         en: How many 2moons 3do 4you 3see 5in 6(the sky) 7(right now)?

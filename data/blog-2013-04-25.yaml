@@ -32,13 +32,13 @@ inputs:
     - id: uScaHcAbQEO_l88-uMIgJA
       text: 1Poti 2fweykoli 3ayoel 4ìlä 5rong.
       lookup_filter:
-        3: 212:pn.:-l:nolen
+        3: 212:pn.:noprefix:noinfix:=-l:nolen
       translations:
         en: 3We 2let 1him 2slide 4through 5(the tunnel).
     - id: IRUg544MQsuKfHOWWyb-VQ
       text: 1Nga 2lumpe 3(oìsss soli) 4por?
       lookup_filter:
-        4: 1548:pn.:-r:nolen
+        4: 1548:pn.:noprefix:noinfix:=-r:nolen
       translations:
         en: 2Why 3did 1you 3hiss 4(at him)?
     - id: PZzikn2xR--tXqQh5B3dyQ

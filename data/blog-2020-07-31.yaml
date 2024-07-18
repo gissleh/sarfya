@@ -36,13 +36,13 @@ inputs:
     - id: SM02WuYURpe1kX-GZcFs-A
       text: 1Tong 2txeptsyìpit.
       lookup_filter:
-        2: 6144:n.:-it:nolen
+        2: 6144:n.:noprefix:noinfix:=-it:nolen
       translations:
         en: 1Extinguish 2(the flame).
     - id: gJ6BEy_VTuKpx5jM8Wb4SA
       text: 1Lonusye 2tong 3txeptsyìpit.
       lookup_filter:
-        3: 6144:n.:-it:nolen
+        3: 6144:n.:noprefix:noinfix:=-it:nolen
       translations:
         en: 1+2(Blow out) 3(the flame).
     - id: SBmbqMnJTHSWscJ10CqeOw

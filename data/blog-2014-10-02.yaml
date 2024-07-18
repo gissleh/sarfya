@@ -33,7 +33,7 @@ inputs:
       text: 1Ayevengur 2kxolìm 3sa'nokìl 4tsonta 5payit 6zamunge.
       lookup_filter:
         4: 10168:conj.:noaffix:nolen
-        5: 1480:n.:-it:nolen
+        5: 1480:n.:noprefix:noinfix:=-it:nolen
       translations:
         en: 1(The children) 2(were told) 3(by their mother) 4to 6fetch 5water.
     - id: hRjmWc6vQLqxp-IFkfw0Iw
@@ -107,6 +107,6 @@ inputs:
     - id: S1CiT1uRR6SYKHbT_OHHJw
       text: 1Ayngari 2sìlpey 3oe 4tsnì 5ken'aw 6fpomtokx 7släkop 8fpomron 9yivo'.
       lookup_filter:
-        1: 208:pn.:-ri:nolen
+        1: 208:pn.:noprefix:noinfix:=-ri:nolen
         2: 1800:vin.:noaffix:nolen
       translations: {}

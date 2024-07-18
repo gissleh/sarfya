@@ -8,7 +8,7 @@ inputs:
     - id: 3t0NO9HrSMyN5Vx81jKzoA
       text: 1(M-ri|Haykuri) 2sna'o 3ayngeyä 4lor 5nìtxan 6lu 7nang!
       lookup_filter:
-        3: 208:pn.:-yä:nolen
+        3: 208:pn.:noprefix:noinfix:=-yä:nolen
         5: 1312:adv.:noaffix:nolen
       translations:
         en: 4+6+7(What a beautiful) 2collection 1(of haiku)!

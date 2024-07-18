@@ -17,7 +17,7 @@ inputs:
       text: 1Längu 2fayhìng 3zin 4nìwotx; 5ke 6tsun 7sat 8sivar.
       lookup_filter:
         6: 2476:vim.:noaffix:nolen
-        7: 5972:pn.:noaffix:nolen;5268:pn.:-t:ts→s
+        7: 5972:pn.:noaffix:nolen;5268:pn.:noprefix:noinfix:=-t:=ts→s
       translations:
         en: 1Unfortunately, 2(these threads) 3are 4all 3(tangled up); 7they 5+6can't 8(be used).
     - id: nPfUnrjUSnqzl1Pe3EXBWg

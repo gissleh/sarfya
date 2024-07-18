@@ -16,7 +16,7 @@ inputs:
     - id: _p46W1_cR5ucjzhxaRw6Qw
       text: 1Poltxe 2pol 3peut?
       lookup_filter:
-        3: 1528:inter.:-t:nolen
+        3: 1528:inter.:noprefix:noinfix:=-t:nolen
       translations:
         en: 3What 1did 2she 1say?
     - id: iGltXhCSRiuGPyWCTnNWiQ

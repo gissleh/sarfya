@@ -52,7 +52,7 @@ inputs:
     - id: pryFv3fvQiaOUiwc0muwwQ
       text: 1Fì'umtsat 2tolìng 3'evengur 4aspxin 5zeykoyul 6a 7txanro'a.
       lookup_filter:
-        5: 12972:n.:-l:nolen
+        5: 12972:n.:noprefix:noinfix:=-l:nolen
       translations:
         en: 1(This medicine) 2(was given) 3(to the) 4sick 3child 5(by a) 6+7famous 5healer.
     - id: 7rh5Y0StSD2wLAaFZankyQ
@@ -68,20 +68,20 @@ inputs:
     - id: mhHQ1uayQdq-4xU1Y_yC6w
       text: 1(Nari si)! 2Fayramtsyìp 3lu 4fyeng.
       lookup_filter:
-        2: 6664:n.:fay-:nolen
+        2: 6664:n.:=fay-:noinfix:nosuffix:nolen
       translations:
         en: 1(Be careful)! 2(These hills) 3are 4steep.
     - id: lV4Nzh-OTZaerMAsOT4HZQ
       text: 1Fol 2karmavan 3koaktet 4tengkrr 5fmeri 6po 7tivìran.
       lookup_filter:
-        1: 412:pn.:-l:nolen
+        1: 412:pn.:noprefix:noinfix:=-l:nolen
       translations:
         en: 1They 2supported 3(the old woman) 4as 6she 5(was trying) 7(to walk).
     - id: lSrEVH3bQPSmH1P_19HN3A
       text: 1Zolung 2ayoe 3nekll 4fteke 5ayioang 6tsivun 7ayoeti 8tsive'a.
       lookup_filter:
         2: 212:pn.:noaffix:nolen
-        7: 212:pn.:-ti:nolen
+        7: 212:pn.:noprefix:noinfix:=-ti:nolen
       translations:
         en: 2We 1crouched 3down 4(so that) 5(the animals) 4wouldn't 6(be able) 8(to see) 7us.
     - id: mAUvvP6URRSFXfEk5NeoZQ
@@ -107,7 +107,7 @@ inputs:
     - id: cDTVJCCjT1ahdpBmIAEldA
       text: 1Poanit 2tsolukx 3poel 4fa 5tstal 6nìtxukx 7nemfa 8heyr.
       lookup_filter:
-        3: 1556:pn.:-l:nolen
+        3: 1556:pn.:noprefix:noinfix:=-l:nolen
         6: 13000:adv.:noaffix:nolen
         8: 10356:n.:noaffix:nolen
       translations:
@@ -127,7 +127,7 @@ inputs:
     - id: BqtsftLsQR2CPj_Ec_aAwA
       text: 1Fìpalukantsyìpìl 2yom 3veyti 4fratrr.
       lookup_filter:
-        1: 13375:n.:fì-:-ìl:nolen
+        1: 13375:n.:=fì-:noinfix:=-ìl:nolen
         4: 4148:adv.:noaffix:nolen
       translations:
         en: 1(This cat) 2eats 3meat 4(every day).

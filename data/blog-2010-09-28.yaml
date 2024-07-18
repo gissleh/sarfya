@@ -8,7 +8,7 @@ inputs:
     - id: vVwbJPOYQMCvf95zVGKgzg
       text: 1Hìtxoa, 2ke 3tslolam. 4Rutxe 5liveyn.
       lookup_filter:
-        3: 2424:vtr.:<ol>:nolen
+        3: 2424:vtr.:noprefix:=<ol>:nosuffix:nolen
       translations:
         en: 1Sorry, I 2didn't 3(get that). 4(Could you) 5repeat it, 4please?
     - id: XJXxXDekTF28jA4FP33pFA
@@ -64,7 +64,7 @@ inputs:
     - id: coqK655sR6ehz_BIxmsmzw
       text: 1Längu 2tìkangkem 3feyä 4luke 5tìno.
       lookup_filter:
-        3: 412:pn.:-yä:nolen
+        3: 412:pn.:noprefix:noinfix:=-yä:nolen
         5: 6804:n.:noaffix:nolen
       translations:
         en: 1(Unfortunately there is) 4no 5(attention to detail) 4in 3their 2work.

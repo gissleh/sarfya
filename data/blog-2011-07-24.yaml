@@ -18,8 +18,8 @@ inputs:
     - id: 23d1p3BWQU-J3d3xMJF3dg
       text: 1Ayngeyä 2kifkeyti 3fol 4kawngsar 5nìtut, 6fì'uri 7(kem|kekem) 8ke 7si 9aynga.
       lookup_filter:
-        1: 208:pn.:-yä:nolen
-        3: 412:pn.:-l:nolen
+        1: 208:pn.:noprefix:noinfix:=-yä:nolen
+        3: 412:pn.:noprefix:noinfix:=-l:nolen
         9: 208:pn.:noaffix:nolen
       translations:
         en: 3They 5continuously 4exploit 1your 2world 7and 9you 7(do nothing) 6(about it).
@@ -66,6 +66,6 @@ inputs:
       text: 1Ayfo 2solop 3ìlä 4hilvan 5fa 6uran.
       lookup_filter:
         1: 204:pn.:noaffix:nolen
-        4: 804:n.:noaffix:k→h
+        4: 804:n.:noaffix:=k→h
       translations:
         en: 1They 2traveled 3(along )3{(up, down)} 4(the river) 5by 6boat.

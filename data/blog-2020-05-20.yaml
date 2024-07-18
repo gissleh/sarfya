@@ -15,13 +15,13 @@ inputs:
       text: 1Vin 2oel 3äzanluke 4futa 5nga 6kivä 7(poe)8+7(hu).
       lookup_filter:
         3: 13174:adv.:noaffix:nolen
-        7: 1556:pn.:-hu:nolen
+        7: 1556:pn.:noprefix:noinfix:=-hu:nolen
       translations:
         en: 2I 1request, 3(without compulsion), 4that 5you 6go 8with 7her.
     - id: FquEayb9Rp2GF8hLhUp7ZA
       text: 1Vin 2oel 3futa 4nga 5kivä 6(poe)7+6(hu) 8äzanluke.
       lookup_filter:
-        6: 1556:pn.:-hu:nolen
+        6: 1556:pn.:noprefix:noinfix:=-hu:nolen
         8: 13174:adv.:noaffix:nolen
       translations:
         en: 2I 1request 3that 4you 5go 7with 6her 8voluntarily.
@@ -32,7 +32,7 @@ inputs:
     - id: OxEojDM8TqOQfOyTZar-8Q
       text: 1Peyä 2hemìl 3akemuianga' 4zamolunge 5fwìngit 6ayoer.
       lookup_filter:
-        6: 212:pn.:-r:nolen
+        6: 212:pn.:noprefix:noinfix:=-r:nolen
       translations:
         en: '1His 3dishonorable 2behavior 2{(literally: actions)} 4+5humiliated 6us.'
     - id: G3WL2O8TS7qQnlTPbIj5gg
@@ -68,7 +68,7 @@ inputs:
     - id: eAm51mn2QnK4y6NiU4EidQ
       text: 1Poel 2oey 3tsyokxit 4pxawtxolap 5a 6krr, 7poltxe 8nìfnu 9san 10nga 11yawne 12lu 13oer.
       lookup_filter:
-        1: 1556:pn.:-l:nolen
+        1: 1556:pn.:noprefix:noinfix:=-l:nolen
       translations:
         en: 6+5When 1she 4squeezed 2my 3hand, 1she 8silently 7+9said 13she 11+12loved 10me.
     - id: uStN9yzPRSmUjdAF6moAYg

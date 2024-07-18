@@ -17,7 +17,7 @@ inputs:
       text: 1Karyu 2asìltsan 3zene 4tsivun 5aynumeyut 6hivipx 7mì 8numtsengvi.
       lookup_filter:
         1: 716:n.:noaffix:nolen
-        5: 4800:n.:ay-:-t:nolen
+        5: 4800:n.:=ay-:noinfix:=-t:nolen
       translations:
         en: 1A 2good 1teacher 3(has to) 4(be able to) 6control {(his/her )}5students 7in 8(the classroom).
     - id: pwiQGerMRMOcqfqYChVePg
@@ -62,7 +62,7 @@ inputs:
     - id: 1NunNSNZT1O-SWyv-WNB0w
       text: 1Taronyul 2yerikit 3narmongspe', 4slä 5tsun 6yerik 7hivifwo.
       lookup_filter:
-        1: 2008:n.:-l:nolen
+        1: 2008:n.:noprefix:noinfix:=-l:nolen
         5: 2476:vim.:noaffix:nolen
       translations:
         en: 1(The hunter) 3(was pursuing) 2(a hexapede), 4but 6(the hexapede) 5(was able to) 7escape.
@@ -70,7 +70,7 @@ inputs:
       text: 1(Tìkangkem soli) 2oe 3kawl 4nìtxan, 5'efu 6ngeyn, 7ulte 8kin 9oel 10tìsyortsyìpit.
       lookup_filter:
         4: 1312:adv.:noaffix:nolen
-        10: 11604:n.:-it:nolen
+        10: 11604:n.:noprefix:noinfix:=-it:nolen
       translations:
         en: 2(I)1('ve worked) 3+4hard, 2(I)5('m) 6tired, 7and 9I 8need 10(a break).
     - id: CKWgmX5RQ3WFrAumXhNJDA

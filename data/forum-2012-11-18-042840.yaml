@@ -8,8 +8,8 @@ inputs:
     - id: HvmA9qAVQhyW-dwzgvyllQ
       text: 1Rutxe—2ayngari 3fìkem 4feyä 5'e'ala 6topur 7(kangay sìyi) 8nì'aw.
       lookup_filter:
-        2: 208:pn.:-ri:nolen
+        2: 208:pn.:noprefix:noinfix:=-ri:nolen
         3: 352:pn.:noaffix:nolen
-        4: 412:pn.:-yä:nolen
+        4: 412:pn.:noprefix:noinfix:=-yä:nolen
       translations:
         en: 1Please – 3this 7will 8only 7confirm 4their 5worst 6fears 2(about you).

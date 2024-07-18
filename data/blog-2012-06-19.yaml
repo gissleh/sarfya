@@ -8,7 +8,7 @@ inputs:
     - id: Odf89TXJSieUtcRZTBY2vw
       text: 1Mawkrra 2(N|Tsyeyk) 3ftxolulì'u, 4tslam 5frapol 6futa 7slu 8po 9Olo'eyktan 10amip.
       lookup_filter:
-        5: 460:pn.:-l:nolen
+        5: 460:pn.:noprefix:noinfix:=-l:nolen
         9: 1408:n.:noaffix:nolen
       translations:
         en: 1After 2Jake 3spoke, 5everyone 4understood 6that 8he 7(had become) 9the 10new 9(Clan Leader).
@@ -61,9 +61,9 @@ inputs:
     - id: KFbcyWYZT3OmcjICjMvunQ
       text: 1Pxeforu 2oe 3(srung soli), 4kuma 5oeru 6set 7pxefo 8(srung seri).
       lookup_filter:
-        1: 1548:pn.:pxe-:-ru:p→f
+        1: 1548:pn.:=pxe-:noinfix:=-ru:=p→f
         4: 8836:conj.:noaffix:nolen
-        7: 1548:pn.:pxe-:p→f
+        7: 1548:pn.:=pxe-:noinfix:nosuffix:=p→f
       translations:
         en: 2I 3helped 1(the three of them), 4so 7(they)8('re) 6now 8helping 2me.
     - id: -9G_Kem2TWCLo9oRlUlgUw
@@ -91,7 +91,7 @@ inputs:
     - id: kHrRbfXLT4WwQgcixQx6Bw
       text: 1Utralti 2a 3(tsaw|tsa)10(uo) 4(N|Loak) 5wäparman 6pol 7vol 8fa 9kxetse.
       lookup_filter:
-        7: 8852:vtr.:<ol>:nolen
+        7: 8852:vtr.:noprefix:=<ol>:nosuffix:nolen
         10: 4056:adp.:noaffix:nolen
       translations:
         en: 6She 8+9(used her tail to) 7(point out) 1(the tree) 4Loak 5(was hiding) 2+3+10behind.
@@ -123,7 +123,7 @@ inputs:
     - id: SPXEsE8MQWaHHbVVwQ-iqg
       text: 1Säplltxel 2karyuä 3ke 4tolaränge 5tìpawmit 6kaw'it.
       lookup_filter:
-        2: 716:n.:-ä:nolen
+        2: 716:n.:noprefix:noinfix:=-ä:nolen
       translations:
         en: 2(The teacher's) 1statement 3+6(in no way) 4(pertained to) 5(the question). 4Drat!
     - id: dPudaSz5S3KG-A7ulvOtGA
@@ -191,5 +191,5 @@ inputs:
     - id: UEBtyqsiTSKgORS9YlwWwg
       text: 1Kaltxì, 2ma 3eylan. 4'Ok 5oeyä 6lu 7ayngar 8srak? 9Furia 10txankrr 11fìtsengit 12ke 13tarmok, 14oeru 15txoa 16livu.
       lookup_filter:
-        7: 208:pn.:-r:nolen
+        7: 208:pn.:noprefix:noinfix:=-r:nolen
       translations: {}

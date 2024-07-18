@@ -21,7 +21,7 @@ inputs:
       text: 1Krrka 2tìrey 3ayol, 4pol 5molu'ni 6pxaya 7ayut 8a 9tsranten.
       lookup_filter:
         1: 10144:adp.:noaffix:nolen
-        7: 5600:n.:-t:nolen
+        7: 5600:n.:noprefix:noinfix:=-t:nolen
       translations:
         en: 1During 4her 2short 2life, 4she 5accomplished 6many 8+9important 7things.
     - id: Ps-5z8PKQZSkkhgPtsFjQQ
@@ -31,8 +31,8 @@ inputs:
     - id: eKgnzjIiTiWEZQCIwLc1ew
       text: 1Fori 2tsafnetìkusar 3ke 4lu 5leha'.
       lookup_filter:
-        1: 412:pn.:-ri:nolen
-        2: 6148:n.:tsa-fne-:nolen
+        1: 412:pn.:noprefix:noinfix:=-ri:nolen
+        2: 6148:n.:=tsa-fne-:noinfix:nosuffix:nolen
       translations:
         en: 2(That kind of teaching) 4isn't 5appropriate 1(for them.)
     - id: gQcKlJJwR-G649wCbVtPXQ
@@ -42,7 +42,7 @@ inputs:
     - id: lxi9clypQpaRW41c29KwGA
       text: 1Oe 2new 3oey 4sì'efut 5yivewn 6poeru, 7slä 8ke 9tsängun.
       lookup_filter:
-        6: 1556:pn.:-ru:nolen
+        6: 1556:pn.:noprefix:noinfix:=-ru:nolen
       translations:
         en: 1I 2(want to) 5express 3my 4feelings 6(to her), 7but, 9sadly, 1I 8+9can't.'
     - id: t9CpjfKeRsioL1QCF0HuiA
@@ -52,7 +52,7 @@ inputs:
     - id: od5r7IsmTOaGCDE2CrTXGg
       text: 1Rìk 2a'aw 3syarmar 4sìn 5kxemyo.
       lookup_filter:
-        2: 12:num.:a-:nolen
+        2: 12:num.:=a-:noinfix:nosuffix:nolen
         4: 4048:adp.:noaffix:nolen
       translations:
         en: 2A 1leaf 3(was sticking) 4to 5(the wall).

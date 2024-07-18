@@ -16,7 +16,7 @@ inputs:
     - id: VITZV073RIO-5rEwyZDnrg
       text: 1Moeyä 2tìmuntxari 3tìsmaw 4ngeyä 5oeru 6(teya si).
       lookup_filter:
-        1: 1132:pn.:-yä:nolen
+        1: 1132:pn.:noprefix:noinfix:=-yä:nolen
       translations:
         en: 4Your 3approval 2of 1our 2marriage 6fills 5me {(with joy.)}
     - id: -44sv_BgRA6NE0A5kBYHYw

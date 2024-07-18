@@ -39,7 +39,7 @@ inputs:
     - id: rxWrlRkBT-qZNrBwXED8dQ
       text: 1Snafpìlfyari 2leNa'vi 3krra 4smarit 5fkol 6tspang, 7tsranten 8nìtxan 9fwa 10po 11ke 12ngä'än 13nìkelkin.
       lookup_filter:
-        1: 8752:n.:-ri:nolen
+        1: 8752:n.:noprefix:noinfix:=-ri:nolen
         8: 1312:adv.:noaffix:nolen
         13: 9640:adv.:noaffix:nolen
       translations:
@@ -51,13 +51,13 @@ inputs:
     - id: wU6IClOoSZ2hG1b9gQtHfw
       text: 1Lu 2po 3lora 4tuté 5alor.
       lookup_filter:
-        5: 1024:adj.:a-:nolen
+        5: 1024:adj.:=a-:noinfix:nosuffix:nolen
       translations:
         en: 2(She)1('s) 4an 3+5(extremely beautiful) 4woman.
     - id: RFJiwUIhRP2rkPi8DDW7pA
       text: 1Tsatuté 2lu 3lora 4pum 5alor.
       lookup_filter:
-        5: 1024:adj.:a-:nolen
+        5: 1024:adj.:=a-:noinfix:nosuffix:nolen
       translations:
         en: 1(That woman) 2is 4an 3+4(extremely beautiful) 4one.
     - id: XNINwLvBSLqCY3nvxLH00w
@@ -71,7 +71,7 @@ inputs:
     - id: B09zL9AoRku0z9Iy4B4OuQ
       text: 1Txìm 2a'aw 3ke 4tsun 5hiveyn 6mì 7tal 8mefa'liyä.
       lookup_filter:
-        2: 12:num.:a-:nolen
+        2: 12:num.:=a-:noinfix:nosuffix:nolen
         4: 2476:vim.:noaffix:nolen
       translations:
         en: |-

@@ -20,7 +20,7 @@ inputs:
     - id: XWUfjipWR_u29o61B_5J4Q
       text: 1Penit 2yemstokx!
       lookup_filter:
-        1: 7788:n.:-it:px→p
+        1: 7788:n.:noprefix:noinfix:=-it:=px→p
       translations:
         en: |-
             2(Put on) your 1(items of clothing)!

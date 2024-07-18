@@ -54,7 +54,7 @@ inputs:
       text: 1Srake 2fo 3hangham 4taluna 5nga 6snaytx? 7Foti 8yäkx.
       lookup_filter:
         2: 412:pn.:noaffix:nolen
-        7: 412:pn.:-ti:nolen
+        7: 412:pn.:noprefix:noinfix:=-ti:nolen
       translations:
         en: 2(They)3('re laughing) 4because 5you 6(lost)1(?) 8Ignore 7them.
     - id: KLKYfs9NTcOpk6HhMuarKA
@@ -80,7 +80,7 @@ inputs:
     - id: pCZBpK-ETLGKnoA0ySgIRg
       text: 1Fìsäyäkxit 2ayoel 3ke 4tswaya'.
       lookup_filter:
-        2: 212:pn.:-l:nolen
+        2: 212:pn.:noprefix:noinfix:=-l:nolen
       translations:
         en: 2We 4will 3not 4forget 1(this snub).
     - id: S7n2UYMUSfGjid4dz_U9Rw
@@ -90,7 +90,7 @@ inputs:
     - id: xR3bG1wPQnyOGfeKZpvXnw
       text: 1Plltxe 2Sawtute 3san 4kifkeyìl 5ayoeyä 6tok 7txana 8ngipit 9a 10(sanhì)11(kip).
       lookup_filter:
-        5: 212:pn.:-yä:nolen
+        5: 212:pn.:noprefix:noinfix:=-yä:nolen
       translations:
         en: 2(The Sky People) 1say 3that 5their 4world 6(is in) 8the 7great 8space 11among 10(the stars).
     - id: 7TkJbhNLQQKZdOTv7z2usQ

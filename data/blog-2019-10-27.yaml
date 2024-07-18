@@ -14,6 +14,6 @@ inputs:
     - id: 6g65teDqQ3KuWEiGwwzB8A
       text: 1Fìvurwayri 2alor 3sì 4stä'nìpamìri 5tseyä 6irayo 7nìtxan, 8ma 9mesmuk!
       lookup_filter:
-        2: 1024:adj.:a-:nolen
+        2: 1024:adj.:=a-:noinfix:nosuffix:nolen
         7: 1312:adv.:noaffix:nolen
       translations: {}

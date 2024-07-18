@@ -20,7 +20,7 @@ inputs:
         A: 1Slä 2tsalsungay, 3txo 4tìtslam 5for, 6lu 7txayo 8(na'rìng)9(to) 10sìltsan.
         B: 11Mllte 12oe. 13Nìvingkap 14ngeyä 15tsmukanur 16alu 17Ralu 18lu 19fpom 20srak? 21Txankrr 22ngal 23ke 24lawk 25pot 26kaw'it.
       lookup_filter:
-        5: 412:pn.:-r:nolen
+        5: 412:pn.:noprefix:noinfix:=-r:nolen
         9: 2224:part.:noaffix:nolen
         10: 1808:adj.:noaffix:nolen
       translations:
@@ -46,7 +46,7 @@ inputs:
     - id: peskILDFTP6V4mdeRaHNCg
       text: 1Tsmìmìri 2wätx 3fol 4tinanit 5nìngay.
       lookup_filter:
-        3: 412:pn.:-l:nolen
+        3: 412:pn.:noprefix:noinfix:=-l:nolen
         5: 1296:adv.:noaffix:nolen
       translations:
         en: 3(They)2('re) 5really 2(bad at) 4reading 1(animal tracks).
@@ -69,13 +69,13 @@ inputs:
       translations:
         en: |-
             A: What is father doing?
-            B: 3(He)5('s reading). [Literally: 3(He)5('s reading) 4writing.]
-            A: 6(What is he reading)? [Literally: 6(What kind of writing?)]
+            B: 3(He)5('s reading){. [}Literally: 3(He)5('s reading) 4writing{.]}
+            A: 6(What is he reading){? [}Literally: 6(What kind of writing?){]}
             B: He7('s reading) 8(a book) 9+10about 11(the wars) 12+14on 13Earth.
     - id: YrmK0TqXSVey5fLMDIecdg
       text: 1Ulte 2sìlpey 3oe, 4fì'upxaret 5inan 6a 7fì'u 8silvunu 9ayngaru 10nìwotx!
       lookup_filter:
         2: 1800:vin.:noaffix:nolen
         7: 368:pn.:noaffix:nolen
-        9: 208:pn.:-ru:nolen
+        9: 208:pn.:noprefix:noinfix:=-ru:nolen
       translations: {}

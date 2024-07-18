@@ -21,7 +21,7 @@ inputs:
       lookup_filter:
         5: 8836:conj.:noaffix:nolen
         7: 1556:pn.:noaffix:nolen
-        12: 1548:pn.:-r:nolen
+        12: 1548:pn.:noprefix:noinfix:=-r:nolen
       translations:
         en: 1Entu 4fooled 2Peyral 3(so much) 5that 7she 6+8thought 12he 10+11loved 9her.
         en_alt: 1Entu 4tricked 2Peyral 5into 6thinking 8that 12he 10+11loved 9her.
@@ -34,7 +34,7 @@ inputs:
     - id: QCBHekACS3GAV_l_rRjQKA
       text: 1Fleltu 2slu 3rä'ä! 4Fìtrr 5lu 6Fleltrr!
       lookup_filter:
-        4: 2260:n.:fì-:nolen
+        4: 2260:n.:=fì-:noinfix:nosuffix:nolen
       translations:
         en: 3Don't 2be 1fooled! 4Today 5is 6(April Fool's Day)!
     - id: PO6slVegSoqrz_OjTBDysw

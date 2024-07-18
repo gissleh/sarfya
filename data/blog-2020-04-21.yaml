@@ -16,7 +16,7 @@ inputs:
     - id: b86knD6tTceFEKUfvSxpQQ
       text: 1Ma 2Entu, 3ngal 4lumpe 5ngey 6tsmukeyä 7yomyot 8tseykolawng?
       lookup_filter:
-        6: 2448:n.:-yä:nolen
+        6: 2448:n.:noprefix:noinfix:=-yä:nolen
       translations:
         en: 1+2Entu, 4why 8did 3you 8break 5your 6sister's 7plate?
     - id: tf8O1wKURfu0-nheH4y4Og

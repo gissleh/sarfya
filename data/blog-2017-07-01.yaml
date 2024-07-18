@@ -13,7 +13,7 @@ inputs:
         9Awnga 10leym, 11lereym 12san
         13Ma 14Eywa {(3X.)}
       lookup_filter:
-        3: 1024:adj.:a-:nolen
+        3: 1024:adj.:=a-:noinfix:nosuffix:nolen
       translations:
         en: |-
             1O 3beautiful 2forest,

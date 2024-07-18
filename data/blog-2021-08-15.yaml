@@ -14,7 +14,7 @@ inputs:
     - id: 9wuYvd_pT0S1lttQpLTMbg
       text: 1'Uori 2hìpey, 3kxawm 4ngaru 5ke 6ley.
       lookup_filter:
-        1: 4180:pn.:-ri:nolen
+        1: 4180:pn.:noprefix:noinfix:=-ri:nolen
       translations:
         en: If 4you 2hesitate 1(doing something), 1it 3might 5not 6(be important) 4(to you).
       flags:
@@ -86,7 +86,7 @@ inputs:
     - id: Vj9SMIIGSLiTM-iuqOzdzg
       text: 1Tolaron 2mefol 3mesalioangit! 4Tewti, 5'awsiteng 6lu 7mefo 8lanay'ka.
       lookup_filter:
-        2: 1076:pn.:-l:nolen
+        2: 1076:pn.:noprefix:noinfix:=-l:nolen
         4: 2100:intj.:noaffix:nolen
         7: 1076:pn.:noaffix:nolen
       translations:
@@ -98,7 +98,7 @@ inputs:
     - id: BQKaIp_cQA2FH8q8XXcJMA
       text: "A: 1Srake 2ngal 3stolawm 4futa 5Tsenu 6Ralur 7mowan 8lu 9nìtxan? \nB: 10Zawr 11mì 12na'rìng, 13ma 14tsmuk! 15Tsat 16omum 17oel 18kintrro."
       lookup_filter:
-        6: 13077:prop.n.:-r:nolen
+        6: 13077:prop.n.:noprefix:noinfix:=-r:nolen
         9: 1312:adv.:noaffix:nolen
       translations:
         en: |-

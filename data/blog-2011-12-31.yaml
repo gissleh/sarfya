@@ -15,9 +15,9 @@ inputs:
     - id: g3yq_5oJQRq20k7elwpYsQ
       text: 1Fìkaryu 2alu 3fìpo 4lu 5tsulfätu; 6tsakaryu 7alu 8tsapo 9lu 10skxawng.
       lookup_filter:
-        1: 716:n.:fì-:nolen
+        1: 716:n.:=fì-:noinfix:nosuffix:nolen
         3: 356:pn.:noaffix:nolen
-        6: 716:n.:tsa-:nolen
+        6: 716:n.:=tsa-:noinfix:nosuffix:nolen
         8: 7692:pn.:noaffix:nolen
       translations:
         en: 1+2+3(This teacher) 4is 5(a master); 6+7+8(that teacher) 9is 10(a fool).

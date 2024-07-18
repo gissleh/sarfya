@@ -46,7 +46,7 @@ inputs:
     - id: tIoN0uaiSH6JmYcB8is6nQ
       text: 1Ngatsyìpìl 2new 3peut 4ta 5oe?
       lookup_filter:
-        3: 1528:inter.:-t:nolen
+        3: 1528:inter.:noprefix:noinfix:=-t:nolen
       translations:
         en: 3What 2does 1(little you) 2want 4from 5me?
     - id: KGOZ7d1eS5mQ9jyySCLe0g
@@ -60,7 +60,7 @@ inputs:
       text: 1Sìlpey 2oe, 3ayngari 4fìtìpängkxotsyìp 5(eltur tìtxen silvi).
       lookup_filter:
         1: 1800:vin.:noaffix:nolen
-        3: 208:pn.:-ri:nolen
+        3: 208:pn.:noprefix:noinfix:=-ri:nolen
       translations: {}
     - id: T6_gHiRxTQC6vgqXnnIcOA
       text: 1Kea 2tìkin.

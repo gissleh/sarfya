@@ -35,7 +35,7 @@ inputs:
       lookup_filter:
         5: 1296:adv.:noaffix:nolen
         10: 8740:adp.:noaffix:nolen
-        11: 716:n.:noaffix:k→h
+        11: 716:n.:noaffix:=k→h
       translations:
         en: 3You 2speak 5really 4well 1now. 10As your 11teacher, 9(I)8+12('m proud) 6(of your improvement).
     - id: 6C_e0XFrRFmmA5X6kmlIew
@@ -56,6 +56,6 @@ inputs:
       text: 1Sìlpey 2oe, 3ayngari 4fra'u 5a 6mì 7sìrey 8vivar 9tsan'ivul 10frafya, 11ma 12eylan.
       lookup_filter:
         1: 1800:vin.:noaffix:nolen
-        3: 208:pn.:-ri:nolen
+        3: 208:pn.:noprefix:noinfix:=-ri:nolen
         4: 452:pn.:noaffix:nolen
       translations: {}

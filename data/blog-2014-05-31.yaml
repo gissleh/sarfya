@@ -8,9 +8,9 @@ inputs:
     - id: njaotoX2TSWRZ0052sHLAw
       text: 1Ma 2Neytiri, 3ayoel 4kin 5mowarit 6ngeyä. 7Nga 8tsun 9ayoer 10(srung sivi) 11srak?
       lookup_filter:
-        3: 212:pn.:-l:nolen
+        3: 212:pn.:noprefix:noinfix:=-l:nolen
         8: 2476:vim.:noaffix:nolen
-        9: 212:pn.:-r:nolen
+        9: 212:pn.:noprefix:noinfix:=-r:nolen
       translations:
         en: 1+2Neytiri, 3we 4need 6your 5advice. 8Can 7you 10help 9(us)11(?)
     - id: F_cyxvhQTlS-xf8yCSrx_A
@@ -74,7 +74,7 @@ inputs:
     - id: dz3WTAEsQP2R9hv8GyW4Fw
       text: 1Ayfol 2zamolunge 3awngar 4ayrina'it 5fa 6sähena 7apxa.
       lookup_filter:
-        1: 204:pn.:-l:nolen
+        1: 204:pn.:noprefix:noinfix:=-l:nolen
       translations:
         en: 1They 2brought 3us 4(the seeds) 5in 6a 7large 6container.
     - id: X9MjexMFQe2-OEl2DyZu9w

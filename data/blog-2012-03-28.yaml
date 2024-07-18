@@ -8,7 +8,7 @@ inputs:
     - id: G62UtOQSRXCgYF0DX2ShJQ
       text: 1Irayo 2ayngaru 3nìfrakrr, 4ma 5eylan.
       lookup_filter:
-        2: 208:pn.:-ru:nolen
+        2: 208:pn.:noprefix:noinfix:=-ru:nolen
       translations: {}
     - id: bKEl0RiUQZ2sJ4-G23-xvg
       text: 1Txonam 2tengkrr 3tarmìran 4oe 5kxamlä 6na'rìng, 7sroler 8eo 9utral 10atsawl 11txewma 12vrrtep.
@@ -17,16 +17,16 @@ inputs:
     - id: iYURv_mhRYGlWVNowMFJOA
       text: 1Kxamtrr 2lam 3fwa 4sanhì 5a 6mì 7saw 8'olìp 9nìwotx 10slä 11tsakrr 12ke 13tsun 14fko 15sat 16tsive'a 17nì'aw.
       lookup_filter:
-        7: 2020:n.:noaffix:t→s
+        7: 2020:n.:noaffix:=t→s
         11: 2332:adv.:noaffix:nolen
         13: 2476:vim.:noaffix:nolen
-        15: 5972:pn.:noaffix:nolen;5268:pn.:-t:ts→s
+        15: 5972:pn.:noaffix:nolen;5268:pn.:noprefix:noinfix:=-t:=ts→s
       translations:
         en: 1(At mid-day) 3it 2seems 3that 4(the stars) 5+6in 7(the sky) 8have 9all 8vanished 10but 15they 17just 12+13can't 14+16(be seen) 11then.
     - id: qFsrBeapSuaokM-WBhvdpQ
       text: 1Prrnen 2(lrrtok si) 3a 4krr, 5srer 6mesongtsyìp 7ahona.
       lookup_filter:
-        6: 8568:n.:me-:ts→s
+        6: 8568:n.:=me-:noinfix:nosuffix:=ts→s
       translations:
         en: 3+4When 1(the baby) 2smiles, 6two 7adorable 6dimples 5appear.
     - id: oH9hzFmEQF2Zubzlx03ScQ
@@ -53,9 +53,9 @@ inputs:
     - id: sQFzKuEeToSYPTiZidt3SQ
       text: 1Ayoel 2rolun 3mipa 4sponot 5mì 6hilvan.
       lookup_filter:
-        1: 212:pn.:-l:nolen
+        1: 212:pn.:noprefix:noinfix:=-l:nolen
         2: 6356:intj.:noaffix:nolen
-        6: 11540:vtr.:<ilv>:nolen
+        6: 11540:vtr.:noprefix:=<ilv>:nosuffix:nolen
       translations:
         en: 1We 2found 4a 3new 4island 5in 6(the river).
     - id: OqBKUCBOT_-WBLQlQau6qQ

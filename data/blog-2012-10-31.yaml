@@ -8,7 +8,7 @@ inputs:
     - id: fMMqB-ygQzaQfrnIl1BrHQ
       text: 1Ayngari 2ftxozä 3(M-ä|Hälowinä) 4livu 5'o' 6sì 7snewsye 8txantxewvay.
       lookup_filter:
-        1: 208:pn.:-ri:nolen
+        1: 208:pn.:noprefix:noinfix:=-ri:nolen
         8: 9372:adv.:noaffix:nolen
       translations:
         en: 4May 1your 2+3Halloween 4be 8as 5fun 6and 7spooky 8(as possible).

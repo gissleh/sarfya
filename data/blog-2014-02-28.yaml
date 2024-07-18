@@ -12,7 +12,7 @@ inputs:
     - id: Ziawphu0QL-Q9QY6N94CwA
       text: 1Fol 2kolanom 3(po)4(ta) 5aysrokit 6(fayoang)7(yoa).
       lookup_filter:
-        1: 412:pn.:-l:nolen
+        1: 412:pn.:noprefix:noinfix:=-l:nolen
       translations:
         en: 1They 2acquired 5beads 4from 3him 7(in exchange for) 6fish.
     - id: 86EZiI-bQ1iaOUQeQuXovA
@@ -32,7 +32,7 @@ inputs:
     - id: qU-IHrMUQAml-ulvKwO9BA
       text: 1Poel 2hawre'tsyìpit 3kolanom 4yoa 5txolar 6amevol.
       lookup_filter:
-        1: 1556:pn.:-l:nolen
+        1: 1556:pn.:noprefix:noinfix:=-l:nolen
       translations:
         en: 1She 3+4bought 2(a little cap) 3+4for 5($)6(16).
     - id: uj8FWVt5TKmSRYpdun5NSQ

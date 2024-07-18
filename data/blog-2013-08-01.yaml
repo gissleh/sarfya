@@ -13,8 +13,8 @@ inputs:
       lookup_filter:
         13: 2476:vim.:noaffix:nolen
         17: 208:pn.:noaffix:nolen
-        20: 4136:vin.:fay-:-yu:p→f
+        20: 4136:vin.:=fay-:noinfix:=-yu:=p→f
         27: 412:pn.:noaffix:nolen
-        37: 412:pn.:-l:nolen
+        37: 412:pn.:noprefix:noinfix:=-l:nolen
         39: 9068:adv.:noaffix:nolen
       translations: {}

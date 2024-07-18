@@ -13,7 +13,7 @@ inputs:
       text: 1(Tompakel)2(talun) 3zene 4tute 5(M|Kälìforniayä) 6payit 7sivar 8nìnän.
       lookup_filter:
         2: 9084:adp.:noaffix:nolen
-        6: 1480:n.:-it:nolen
+        6: 1480:n.:noprefix:noinfix:=-it:nolen
       translations:
         en: 2(Because of) 1(the drought), 4+5Californians 3(have to) 7use 8less 6water
     - id: -zc02cYbSyWmi1oQuHSn7w
@@ -102,7 +102,7 @@ inputs:
     - id: Lu9t7EIjRdyvhA-dEYGVsQ
       text: 1Fa 2fwa 3tsyìl 4kxemyot 5akxayl 6frato, 7pol 8ayoer 9wolìngay 10futa 11tsyìltswo 12tsan'olul.
       lookup_filter:
-        8: 212:pn.:-r:nolen
+        8: 212:pn.:noprefix:noinfix:=-r:nolen
       translations:
         en: 1+2By 3scaling 4the 5+6highest 4wall, 7he 9proved 8(to us) 10that 7his 11(climbing ability) 12(had improved).
     - id: SYPOLRB_TlCEu-2XeyvMJw

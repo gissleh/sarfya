@@ -9,7 +9,7 @@ inputs:
       text: 1Sìlpey 2oe, 3ayngari 4nìwotx 5sngilvä'i 6zìsìt 7amip 8nìltsan 9nìtxan 10nì'aw.
       lookup_filter:
         1: 1800:vin.:noaffix:nolen
-        3: 208:pn.:-ri:nolen
+        3: 208:pn.:noprefix:noinfix:=-ri:nolen
         9: 1312:adv.:noaffix:nolen
       translations:
         en: 2I 1hope 6+7(2013) 5(has gotten off to a) 8+9fine 5start 3for 4(all of) 3you.
@@ -63,13 +63,13 @@ inputs:
     - id: CBD-6f65T1yt2cQXrJHAaw
       text: 1Oeyä 2tskalep 3'olìp 4ningyen. 5Ke 6omum 7teyngta 8pesengit 9terok.
       lookup_filter:
-        8: 1520:inter.:-it:nolen
+        8: 1520:inter.:noprefix:noinfix:=-it:nolen
       translations:
         en: 1My 2crossbow 3has 4mysteriously 3disappeared. I 5don't 6know 7+8where 9(it is).
     - id: 7fUQLhygQsOCZbMb4xOGvA
       text: 1Peyä 2aylì'u 3aingyenga' 4lolu 5sngumtsim 6ayoeru 7nìwotx.
       lookup_filter:
-        6: 212:pn.:-ru:nolen
+        6: 212:pn.:noprefix:noinfix:=-ru:nolen
       translations:
         en: 1His 3mysterious 2words 4+5worried 6us 7all.
     - id: EKYWORhNRFyW0I2LM48nyw
@@ -114,9 +114,9 @@ inputs:
     - id: YOB3WLYySSiBYnfb9li2iA
       text: 1New 2oe 3rivun 4asim 5tìfnunga'a 6tsengit 7a 8(tsa)9+8(ro) 10tsun 11syivor 12tsivurokx 13fte 14späpiveng.
       lookup_filter:
-        8: 5268:pn.:-ro:nolen
+        8: 5268:pn.:noprefix:noinfix:=-ro:nolen
         10: 2476:vim.:noaffix:nolen
-        14: 9568:vin.:<iv>:nolen
+        14: 9568:vin.:noprefix:=<iv>:nosuffix:nolen
       translations:
         en: 2I 1(want to) 3find 6a 5quiet 6place 4nearby 7+8+9where I 10can 11(chill out) 12(and rest) 13to 14(get my head back on straight).
     - id: 0CTTSfvVTaiFbcmw5BC7_A
@@ -136,7 +136,7 @@ inputs:
     - id: 5a1hv10lQBGLqqxIKNzV2Q
       text: 1Oeru 2(tìng mikyun), 3ma 4Ralu. 5Fìsä'anlal 6Neweyä 7ngati 8sleykayu 9lekye'ung! 10Poti 11tswiva'!
       lookup_filter:
-        8: 3820:vtr.:<ay>:nolen
+        8: 3820:vtr.:noprefix:=<ay>:nosuffix:nolen
       translations:
         en: 2(Listen to) 1me, 3+4Ralu. 5(This yearning) 6(for Newey) 8(is going to drive) 7you 9crazy. 11Forget 10her!
     - id: c5juaOJuTMm0PFrwtzigEw
@@ -180,7 +180,7 @@ inputs:
     - id: klXqtoTYQw2yboVlUmkVlQ
       text: 1Poel 2nìsìlpey 3tivok 4fìtsengit.
       lookup_filter:
-        1: 1556:pn.:-l:nolen
+        1: 1556:pn.:noprefix:noinfix:=-l:nolen
       translations:
         en: 2(I hope) 1(she)3('s) 4here.
     - id: N3X6L-_GRfuXsffkxphD8w
@@ -198,7 +198,7 @@ inputs:
     - id: 9IbjjxR8T427Y6vonOXDmw
       text: 1Poel 2nìrangal 3tirvok 4fìtsengit.
       lookup_filter:
-        1: 1556:pn.:-l:nolen
+        1: 1556:pn.:noprefix:noinfix:=-l:nolen
       translations:
         en: 2(I wish) 1she 3were 4here. {(But I know she's not.)}
     - id: zfeqrlVeQK2jCkFO1IWD8A
@@ -216,6 +216,6 @@ inputs:
     - id: lBvn0wEuTC6R-I-27Rkc_Q
       text: 1(N|Tsyeyk) 2(ätxäle soli) 3nìsìlpey 4tsnì 5livu 6por 7Uniltaron.
       lookup_filter:
-        6: 1548:pn.:-r:nolen
+        6: 1548:pn.:noprefix:noinfix:=-r:nolen
       translations:
         en: 1Jake 3hopefully 2requested 4+5+6+7(the Dream Hunt).

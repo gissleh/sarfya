@@ -8,7 +8,7 @@ inputs:
     - id: EVP2l04VS3uqX_9QFUTvZA
       text: 1Ma 2Ralu, 3(srung si) 4por! 5Nìwin! 6Syeha 7ke 6si!
       lookup_filter:
-        4: 1548:pn.:-r:nolen
+        4: 1548:pn.:noprefix:noinfix:=-r:nolen
         5: 1316:adv.:noaffix:nolen
       translations:
         en: 1+2Ralu, 3help 4her! 5Quick! She6's 7not 6breathing!

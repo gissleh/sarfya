@@ -26,8 +26,8 @@ inputs:
     - id: Hu7PQh0SRbaAOqLkT1a7uA
       text: 1Fwa 2ayngal 3fìtsenget 4tok 5nìpxay 6nìftxan 7oeru 8(teya si) 9nìngay.
       lookup_filter:
-        2: 208:pn.:-l:nolen
-        3: 365:adv., n.:-t:nolen
+        2: 208:pn.:noprefix:noinfix:=-l:nolen
+        3: 365:adv., n.:noprefix:noinfix:=-t:nolen
         5: 7544:adv.:noaffix:nolen
         9: 1296:adv.:noaffix:nolen
       translations:
@@ -35,7 +35,7 @@ inputs:
     - id: 3zpCsvfzSGSobSe8xrzqmg
       text: 1Nìawnomum 2ngolop 3ayoel 4fìnumultxati 5fpi 6sngä'iyu. 7Tafral 8kìsyar 9a 10aysänumvi 29sì 11aylì'fyavi 12lu 13fyin. 14Tsalsungay 15sìlpey 16oe, 17numultxa 18lesar 19lìyevu 20keng 21(ayfo)30(fpi) 22a 23teri 24lì'fya 25leNa'vi 26li 27nolume 28nìtxan.
       lookup_filter:
-        3: 212:pn.:-l:nolen
+        3: 212:pn.:noprefix:noinfix:=-l:nolen
         6: 5592:n.:noaffix:nolen
         15: 1800:vin.:noaffix:nolen
         21: 204:pn.:noaffix:nolen

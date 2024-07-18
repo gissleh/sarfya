@@ -37,7 +37,7 @@ inputs:
         A: 1Rini 2yawne 3lu 4oer, 5slä 6oe 7yawne 8ke 9längu 10por 11kaw'it.
         B: 12Tsun 13pehem?
       lookup_filter:
-        10: 1548:pn.:-r:nolen
+        10: 1548:pn.:noprefix:noinfix:=-r:nolen
         12: 2476:vim.:noaffix:nolen
         13: 1500:inter.:noaffix:nolen
       translations:
@@ -81,7 +81,7 @@ inputs:
     - id: DdUtBDMLQ06fOXyTCIf4Lw
       text: 1Stiwi 2rä'ä 1si, 3ma 4'eveng! 5(Uvan si) 6mì 7sengo 8alahe.
       lookup_filter:
-        7: 4188:pn.:noaffix:ts→s
+        7: 4188:pn.:noaffix:=ts→s
       translations:
         en: 2Don't 1(be naughty), 3+4child! 5Play 6+7somewhere 8else.
     - id: 4DA4pkaFQOW_hoSnsGtMFA
@@ -94,7 +94,7 @@ inputs:
       text: 1Poanur 2sunu 3tsngan 4asyewenga'; 5poeru 6ke 7sunu 8kaw'it.
       lookup_filter:
         2: 6376:vin.:noaffix:nolen
-        5: 1556:pn.:-ru:nolen
+        5: 1556:pn.:noprefix:noinfix:=-ru:nolen
         7: 6376:vin.:noaffix:nolen
       translations:
         en: 1He 2likes 4fatty 3meat; 5she 6doesn't 7like 3it 8(at all).

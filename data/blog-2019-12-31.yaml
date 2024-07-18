@@ -14,7 +14,7 @@ inputs:
     - id: HpjgF3DbQ_S_oBSPrm_7rA
       text: 1Txewìl 2yerikit 3kolan 4slä 5hängupx.
       lookup_filter:
-        1: 13101:prop.n.:-l:nolen
-        3: 704:vtrm.:<ol>:nolen
+        1: 13101:prop.n.:noprefix:noinfix:=-l:nolen
+        3: 704:vtrm.:noprefix:=<ol>:nosuffix:nolen
       translations:
         en: 1Txewì 3(aimed at) 2(the hexapede) 4but 5(unfortunately missed).

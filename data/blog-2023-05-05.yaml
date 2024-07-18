@@ -8,7 +8,7 @@ inputs:
     - id: A6kuF6jGRtu_rQPQnRoCDA
       text: 1Fìstxeliri 2alor 3irayo.
       lookup_filter:
-        2: 1024:adj.:a-:nolen
+        2: 1024:adj.:=a-:noinfix:nosuffix:nolen
       translations:
         en: 3Thanks 1for 1this 2beautiful 1gift.
     - id: 8WVXA0KVRLqhkfuPi6OAcg
@@ -20,8 +20,8 @@ inputs:
     - id: a52cML6vTf2kjCPt_njlaw
       text: 1Kehe, 2faysuteri 3ke 4(syawm|shawm) 5ayoel 6(ke'ut|keut).
       lookup_filter:
-        2: 2296:n.:fay-:-ri:t→s
-        5: 212:pn.:-l:nolen
+        2: 2296:n.:=fay-:noinfix:=-ri:=t→s
+        5: 212:pn.:noprefix:noinfix:=-l:nolen
       translations:
         en: 1No, 5we 4know 3+6nothing 2(of these people).
       flags:
@@ -30,7 +30,7 @@ inputs:
       text: 1Fayvrrtep 2fìtsenge 3lu 4kxanì. 5Fìpoti 6oel 7tspìyang 8fte 9tìkenong 10lìyevu 11aylaru!
       lookup_filter:
         2: 365:adv., n.:noaffix:nolen
-        5: 356:pn.:-ti:nolen
+        5: 356:pn.:noprefix:noinfix:=-ti:nolen
       translations:
         en: 1(These demons) 3are 4forbidden 2here. 6I 7(will kill) 5(this one) 8+9+10(as a lesson) 11(to the others)!
     - id: m_RLOkWTS165ARbMDcZzGg
@@ -50,7 +50,7 @@ inputs:
     - id: X1bDs6HRT_mQ3aMN1cOaJQ
       text: 1Irayo 2fìstxeliri 3alor.
       lookup_filter:
-        3: 1024:adj.:a-:nolen
+        3: 1024:adj.:=a-:noinfix:nosuffix:nolen
       translations:
         en: |-
             1Thanks 2(for this) 3beautiful 2gift.

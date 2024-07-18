@@ -9,7 +9,7 @@ inputs:
       text: 1Tengkrr 2lerok 3zìskrrsomìl 4tì'i'at, 5sìlpey 6oe, 7ayngari 8te'lan 9livu 10lefpom 11ulte 12tìrey 13zivawprrte'.
       lookup_filter:
         5: 1800:vin.:noaffix:nolen
-        7: 208:pn.:-ri:nolen
+        7: 208:pn.:noprefix:noinfix:=-ri:nolen
       translations: {}
     - id: Qw2CFyunTd62qbGJf3hXBw
       text: 1Ngeyä 2fìtìsopìri 3pehantseng?

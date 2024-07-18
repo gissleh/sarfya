@@ -10,7 +10,7 @@ inputs:
         C: 1Ngal 2new 3peut?
         P: 4Rä'ä 5räptum, 6ma 7'eveng! 8Tsaylì'u 9ke 10lu 11muiä!
       lookup_filter:
-        3: 1528:inter.:-t:nolen
+        3: 1528:inter.:noprefix:noinfix:=-t:nolen
       translations:
         en: |-
             C: 3What 2do 1you 2want?
@@ -27,9 +27,9 @@ inputs:
       text: 1Tìfkeytok 2a 3mì 4tanlokxe 5oeyä 6alu 7(M|Amerika) 8längu 9txewm 10sì 11lehrrap. 12Fkol 13ftxolängey 14na 15eyktan 16tutanti 17a 18tìeyktanìri 19ke 20lu 21pxan 22kaw'it. 23Kifkeyri 24fìtutanìl 25ayaymak 26ke 27tslam 28stum 29ke'ut, 30ulte 31ke 32new 33nivume 34nì'ul. 35Po 36yawne 37lu 38snor 39nì'aw; 40fpom 41txanlokxeyä 42ke 43tsranten. 44Plltxe 45po 46nìtengfya 47na 48'eveng 49a'ewan, 50ke 51na 52fyeyntu. 53Pori 54lu 55snolup 56räptum, 57ulte 58mawl 59aylì'uä 60ke 61lu 62ngay. 63Ran 64peyä 65lu 66kawng. 67Frapor 68a 69ke 70sunu 71por 72(zoplo si). 73Fratsengmì 74a 75tsane 76po 77kä, 78'ul 79tìve'kì.
       lookup_filter:
         62: 1356:adj.:noaffix:nolen
-        67: 460:pn.:-r:nolen
+        67: 460:pn.:noprefix:noinfix:=-r:nolen
         70: 6376:vin.:noaffix:nolen
-        71: 1548:pn.:-r:nolen
+        71: 1548:pn.:noprefix:noinfix:=-r:nolen
         78: 8516:vin.:noaffix:nolen
       translations: {}
     - id: rV1G5yh3RpmucYR8k6Jbfw
@@ -46,7 +46,7 @@ inputs:
     - id: xIc4jFaRR1SJZjHtc5IH6g
       text: 1Zun 2Eywa'evengit 3oel 4tivok, 5zel 6leym 7san 8(Srung si) 9ayoeru, 10ma 11Eywa 12sìk! 13Slä 14'Rrta 15ke 16lu 17Eyweveng. 18Ha 19kempe 20tsun 19sivi 21set? 22Nìrangal 23lirvu 24oer 25tì'eyng. 26Zerok 27awngal 28nìwotx 29krrit 30a 31poltxe 32(N|Tseyk) 33san 34Eo 35ayoeng 36lu 37txana 38tìkawng 39sìk. 40(Tì'efu)41(mì) 42oeyä, 43fìtìfkeytok 44a 45eo 46ayoeng 47set 48lu 49steng. 50Na'vi 51+52kempe 51soli? 53Wolem. 54Zene 55awnga 56wivem 57nìteng—58zene 59fya'ot 60rivun. 61Ulte 62wä 63sìkawng 64a 65fìtìwusemìri, 66zene 67awnga 68nìwotx 69fìtsap 70släpivan.
       lookup_filter:
-        9: 212:pn.:-ru:nolen
+        9: 212:pn.:noprefix:noinfix:=-ru:nolen
         12: 1796:adv.:noaffix:nolen
         18: 540:conj.:noaffix:nolen
         20: 2476:vim.:noaffix:nolen
@@ -55,7 +55,7 @@ inputs:
         46: 216:pn.:noaffix:nolen
         52: 772:inter.:noaffix:nolen
         57: 1304:adv.:noaffix:nolen
-        65: 6748:n.:fì-:-ìri:nolen
+        65: 6748:n.:=fì-:noinfix:=-ìri:nolen
       translations: {}
     - id: Aj5yeB0dQtGCfSWjgVUT0g
       text: '{(}1TSERI 2RUTXE: 3Faysäfpìl 4(faysì''efu)5(sì) 6lu 7pum 8oeyä 9nì''aw, 10kenzen 11pum 12suteyä 13a 14zamolunge 15awngar 16(relit arusikx) 17alu 18Uniltìrantokx.{)}'

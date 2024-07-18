@@ -8,7 +8,7 @@ inputs:
     - id: qgrjsrZdTty6z90c30S0FQ
       text: 1Peut 2tse'a 3ngal?
       lookup_filter:
-        1: 1528:inter.:-t:nolen
+        1: 1528:inter.:noprefix:noinfix:=-t:nolen
       translations:
         en: 1What 2do 3you 2see?
     - id: K_63aonFQXW6GiPJEWONKg
@@ -18,13 +18,13 @@ inputs:
     - id: GSw_qt1MSlOKB84hOoTEog
       text: 1Fol 2oeyä 3tìpawmit 4ke 5stolängawm.
       lookup_filter:
-        1: 412:pn.:-l:nolen
+        1: 412:pn.:noprefix:noinfix:=-l:nolen
       translations:
         en: 5Unfortunately 1they 4didn't 5hear 2my 3question.
     - id: zbFqN9qoR-yo72dqxIWXig
       text: 1Nga 2zene 3aylì'ut 4karyuä 5yivune, 6ma 7'evi.
       lookup_filter:
-        4: 716:n.:-ä:nolen
+        4: 716:n.:noprefix:noinfix:=-ä:nolen
       translations:
         en: 1You 2must 5(listen to) 3+4(your teacher), 6+7(my son).
     - id: yQ4VdiKzQZm81NLVnlcixA
@@ -40,7 +40,7 @@ inputs:
     - id: -pyv_T-8QD-7EXQh_SMdxw
       text: 1Fìnaerìri 2ngal 3ewku 4'uot 5astxong 6srak?
       lookup_filter:
-        4: 4180:pn.:-t:nolen
+        4: 4180:pn.:noprefix:noinfix:=-t:nolen
       translations:
         en: 6Do 2you 3taste 4something 5strange 1(in this drink)6(?)
     - id: p8vikfeSQauXMkSFLBEbew
@@ -51,7 +51,7 @@ inputs:
       text: 1Tengkrr 2hu 3palukantsyìp 4(uvan seri) 5zolìm 6oel 7mì 8sa'leng 9a 10'uot 11a 12lu 13txa' 14sì 15ekxtxu.
       lookup_filter:
         3: 13375:n.:noaffix:nolen
-        10: 4180:pn.:-t:nolen
+        10: 4180:pn.:noprefix:noinfix:=-t:nolen
       translations:
         en: 1While 4playing 2with my 3cat 6I 7felt 10something 11+12+13hard 14and 11+12+15rough 7on his 8skin.
     - id: uK5_24gFS4illTCexTgh0A
@@ -91,5 +91,5 @@ inputs:
     - id: a40_8wSCTq-J5M1gukV0bA
       text: 1Syuveri 2ayftxozäyä 3ayngaru 4fkivan 5onlor 6ftxìlorsì 7nìwotx!
       lookup_filter:
-        3: 208:pn.:-ru:nolen
+        3: 208:pn.:noprefix:noinfix:=-ru:nolen
       translations: {}

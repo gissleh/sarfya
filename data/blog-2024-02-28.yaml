@@ -38,7 +38,7 @@ inputs:
     - id: G-XuMO8ERiuU7aH0EGA7Aw
       text: 1Pol 2pxeya 3prrnenit 4ngeia'.
       lookup_filter:
-        2: 1604:num.:-a:nolen
+        2: 1604:num.:noprefix:noinfix:=-a:nolen
       translations:
         en: 4(I'm delighted to say) 1she's 4(pregnant with) 2+3triplets.
     - id: ja2bmrO-QBmeMz2UNT440A
@@ -77,7 +77,7 @@ inputs:
     - id: aIBxv1--RLOP8aC_3kpKUA
       text: 1Ken 2fwa 3lu 4por 5'awa 6nari 7nì'aw, 8lu 9(N|Mati) 10taronyu 11aswey.
       lookup_filter:
-        4: 1548:pn.:-r:nolen
+        4: 1548:pn.:noprefix:noinfix:=-r:nolen
         10: 2008:n.:noaffix:nolen
       translations:
         en: 1(In spite of) 2+3+4having 7only 5one 6eye, 9Mati 8is 11(the best) 10hunter
@@ -91,13 +91,13 @@ inputs:
     - id: y_XrlALTQsSGm2JhctT_6w
       text: 1Eykyul 2ayswizawti 3katolìng 4ayhapxìtur 5tsamponguä.
       lookup_filter:
-        1: 8856:n.:-l:nolen
+        1: 8856:n.:noprefix:noinfix:=-l:nolen
       translations:
         en: 1(The leader) 3distributed 2(the arrows) 4(to the members) 5(of the war party).
     - id: DEe6HwZPRs2RgdVjbpe28g
       text: 1Fol 2ngeyä 3tsmukeru 4luan 5tskoti 6amip.
       lookup_filter:
-        1: 412:pn.:-l:nolen
+        1: 412:pn.:noprefix:noinfix:=-l:nolen
       translations:
         en: 1They 4owe 2your 3sister 5a 6new 5bow.
     - id: j1fEk40aQXyxTO6FCcluzQ

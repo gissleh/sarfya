@@ -8,7 +8,7 @@ inputs:
     - id: 0tkBcHyeReCL95YWTnwrlA
       text: 1Poeri 2säfmong 3lora 4tsafkxileyä 5lolu 6na 7ayskxe 8mì 9te'lan.
       lookup_filter:
-        1: 1556:pn.:-ri:nolen
+        1: 1556:pn.:noprefix:noinfix:=-ri:nolen
       translations:
         en: 1(For her), 2(the theft) 4(of that) 3beautiful 4necklace 5was 6like 7stones 8in 1her 9heart.
     - id: TxhiTd9xSgO0-nw2x5L2kQ
@@ -31,7 +31,7 @@ inputs:
     - id: yRsPQ67pRZ-os4X0iPagjQ
       text: 1Fìatxkxeti 2ke 3raya'un 4ayoel 5kawkrr!
       lookup_filter:
-        4: 212:pn.:-l:nolen
+        4: 212:pn.:noprefix:noinfix:=-l:nolen
       translations:
         en: 4We 3will 5+2never 3(give up) 1(this land)!
     - id: AAt5KepVR8eEXXiwTJd0_A
@@ -69,13 +69,13 @@ inputs:
     - id: gjYvhZDWTXeqWooK3ZBLtA
       text: 1Ayswapxìl 2oeyä 3tok 4fìtsenget 5nìwotx.
       lookup_filter:
-        4: 365:adv., n.:-t:nolen
+        4: 365:adv., n.:noprefix:noinfix:=-t:nolen
       translations:
         en: 5All 1(the members of) 2my 1family 3are 4here.
     - id: VlWUmZNNSUumEVflHcrtQQ
       text: 1Ayngal 2syuvet 3sweyn 4peseng 5fteke 6ayioang 7tsivun 8tsat 9kivanom?
       lookup_filter:
-        1: 208:pn.:-l:nolen
+        1: 208:pn.:noprefix:noinfix:=-l:nolen
         4: 1520:inter.:noaffix:nolen
       translations:
         en: 4Where 3do 1you 3keep 2(the food) 5(so that) 6animals 7(can)5('t) 9get 8it?
@@ -94,7 +94,7 @@ inputs:
     - id: I1QOvRsRQRyCn-b4s5xN_w
       text: 1Manawmtu, 2srake 3luyu 4ngenga 5eyktan 6fìolo'ä?
       lookup_filter:
-        3: 1044:vin.:<uy>:nolen
+        3: 1044:vin.:noprefix:=<uy>:nosuffix:nolen
       translations:
         en: 1(Excuse me, sir), 3are 4you 5(the leader) 6(of this clan)?
       flags:

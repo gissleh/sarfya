@@ -84,14 +84,14 @@ inputs:
     - id: QKNsV-P3R-eCWmeHZaE9Jg
       text: 1Tìkawng 2a 3sutel 4ngop 5var 6rivey, 7tsìltsanit 8pxìm 9kllyem 10fkol 11feyä 12(tärem)13(hu).
       lookup_filter:
-        11: 412:pn.:-yä:nolen
+        11: 412:pn.:noprefix:noinfix:=-yä:nolen
       translations:
         en: 1(The evil) 2that 3men 4do 5+6(lives after them); 7(The good) 9is 8oft 9interred 13with 11their 12bones. {(Quote from Shakespeare's Julius Caesar)}
     - id: 7zhWNAiqTmijxx6qO17t4Q
       text: 1Oel 2peyä 3ftxozäti 4tswolänga', 5ha 6poltxe 7por 8san 9ftxozäri 10aylrrtok 11ngaru 12sìk 13mawftxele.
       lookup_filter:
         5: 540:conj.:noaffix:nolen
-        7: 1548:pn.:-r:nolen
+        7: 1548:pn.:noprefix:noinfix:=-r:nolen
         12: 1796:adv.:noaffix:nolen
       translations:
         en: 4Unfortunately 1I 4forgot 2his 3birthday, 5so 1I 6said 8(“)9+10+11(Happy Birthday)12(”) 13belatedly.
@@ -108,7 +108,7 @@ inputs:
     - id: BWiWLdmVQmSwFNr1nl3-Rw
       text: 1Poeyä 2tìpsawìl 3(txopu sleykolu) 5yerikit 6ha 7po 8hifwo.
       lookup_filter:
-        1: 1556:pn.:-yä:nolen
+        1: 1556:pn.:noprefix:noinfix:=-yä:nolen
         6: 540:conj.:noaffix:nolen
       translations:
         en: 1Her 2clumsiness 3scared 5(the hexapede), 6so 7he 8escaped.

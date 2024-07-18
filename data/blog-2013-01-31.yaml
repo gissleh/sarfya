@@ -98,7 +98,7 @@ inputs:
     - id: y8egTIBpSNKfzRmvkN-jTw
       text: 1Fol 2fnan 3futa 4'em 5teylut 6a 7fì'u 8sìn 9peyì?
       lookup_filter:
-        1: 412:pn.:-l:nolen
+        1: 412:pn.:noprefix:noinfix:=-l:nolen
         7: 368:pn.:noaffix:nolen
         8: 4048:adp.:noaffix:nolen
       translations:
@@ -107,7 +107,7 @@ inputs:
       text: 1Sìn 2yì 3sngä'iyuä, 4slä 5tsyerìl {(}6haya 7(yì)9(ne){)} 8nì'ul'ul.
       lookup_filter:
         1: 4048:adp.:noaffix:nolen
-        3: 5592:n.:-ä:nolen
+        3: 5592:n.:noprefix:noinfix:=-ä:nolen
       translations:
         en: They1('re at) 2a 3beginner's 2level, 4but they5+6+7+8+9('re getting better and better).
     - id: DOPfCw35RR6ItEaRSskDEw

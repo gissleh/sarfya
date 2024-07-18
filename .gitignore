@@ -6,6 +6,7 @@ data-compiled.*
 /frontend/.vscode
 /bootstrap
 /bootstrap.exe
+/*.json
 /*.zip
 /sarfya-dev-server
 /sarfya-dev-server.exe

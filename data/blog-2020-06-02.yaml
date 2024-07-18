@@ -26,13 +26,13 @@ inputs:
       text: 1Kintrram 2ayoe 3a 4tok 5(M-t|Amerikat) 6(tarmìng nari) 7tengkrr 8'awa 9horenleykekyul 10tutanit 11a'aw 12tsperang—13(lun)59+13(luke) 14nìwotx, 15nìk'ong, 16nìzevakx. 17Tsatutanur 18a 19fkol 20tspolang 21lolu 22ta'leng 23akllvawm; 24tspangyur 25lu 26pum 27ateyr. 28Kawnga 29hem 30anafì'u 31lolängen 32alo 33apxay 34mì 35okvur 36ayoeyä, 37slä 38pum 39alu 40fì'u 41lolen 42eo 43menari. 44Fpxamoa 45fìkemìl 46afpxamo 47ayoeti 48tsngeykolawvìk, 49tsakrr 50leykoleymkem. 51Fratrr 52'erul 53a 54faysäleymkem 55ayll 56muiä 57lu 58nìwotx.
       lookup_filter:
         2: 212:pn.:noaffix:nolen
-        11: 12:num.:a-:nolen
+        11: 12:num.:=a-:noinfix:nosuffix:nolen
         16: 13195:adv.:noaffix:nolen
-        36: 212:pn.:-yä:nolen
+        36: 212:pn.:noprefix:noinfix:=-yä:nolen
         40: 368:pn.:noaffix:nolen
         43: 1080:n.:noaffix:nolen
-        45: 352:pn.:-ìl:nolen
-        47: 212:pn.:-ti:nolen
+        45: 352:pn.:noprefix:noinfix:=-ìl:nolen
+        47: 212:pn.:noprefix:noinfix:=-ti:nolen
         49: 2332:adv.:noaffix:nolen
         51: 4148:adv.:noaffix:nolen
       translations: {}
@@ -40,8 +40,8 @@ inputs:
       text: '1Slä 2set 3tängok 4kop 5tantsawtsrayti 6ayoeyä 7''uol 8alahe: 9tsaktap. 10Lu 11sute 12a 13fpìl 14san 15oeri 16tìrey 17(tìsraw si), 18ha 19tìreyti 20ngeyä 21oel 22(tìsraw seykasyi) 23nìteng. 24Oeri 25ke 26lu 27tìmwiä, 28ha 29ngati 30oel 31ngeykasyä''än 32nìteng 33sìk. 34Fo 35fmong, 36fo 37nekx, 38fo 39ska''a. 40''Efu 41oel 42futa 43txanlokxe 44oeyä 45pxeror.'
       lookup_filter:
         4: 872:adv.:noaffix:nolen
-        6: 212:pn.:-yä:nolen
-        7: 4180:pn.:-l:nolen
+        6: 212:pn.:noprefix:noinfix:=-yä:nolen
+        7: 4180:pn.:noprefix:noinfix:=-l:nolen
         18: 540:conj.:noaffix:nolen
         23: 1304:adv.:noaffix:nolen
         28: 540:conj.:noaffix:nolen
@@ -57,21 +57,21 @@ inputs:
     - id: jzBS3Q_RR7OBe4wfaQNiGg
       text: 1Nìrangal 2lirvu 3ayoeru 4eyktan 5a 6tsivun 7(srung sivi), 8pum 9a 10livu 11por 12aylì'u 13azeykuso. 14Nìkeftxo 15ke 16lu 17ayoer 18eyktan 19anafì'u. 20Tìeyktanìri 21eyktan 22a 23fkeytok 24ke 25lu 26pxan 27kaw'it. 28Nìfya'o 29a 30(pamrel soli) 31oe 32kam 33'a'awa 34zìsìt, 35fìtutan 36ayaymak 37yawne 38lu 39snor 40nì'aw; 41fpom 42txanlokxeyä 43ke 44tsranten 45por. 46Fpìl 47pol 48futa 49tsaktapìri 50'umtsa 51aswey 52lu 53tsaktap 54nì'ul.
       lookup_filter:
-        3: 212:pn.:-ru:nolen
-        11: 1548:pn.:-r:nolen
-        13: 6428:vtr.:a-:<us>:nolen
-        17: 212:pn.:-r:nolen
+        3: 212:pn.:noprefix:noinfix:=-ru:nolen
+        11: 1548:pn.:noprefix:noinfix:=-r:nolen
+        13: 6428:vtr.:=a-:=<us>:nosuffix:nolen
+        17: 212:pn.:noprefix:noinfix:=-r:nolen
         32: 8020:adp.:noaffix:nolen
-        45: 1548:pn.:-r:nolen
+        45: 1548:pn.:noprefix:noinfix:=-r:nolen
       translations: {}
     - id: B1jMQYgzSO67QZU2srKE_g
       text: '1Srake 2tsayun 3fko 4fìtìfkeytokit 5a 6(M|Amerika)7(mì) 8zeykivo? 9Oe 10ke 11omum. 12Slä 13law 14lu 15''u 16a''aw 17nìwotx: 18Kam 19puzama 20zìsìt 21wum 22fìatxkxemì, 23fkol 24yolem 25nemfa 26kllte 27utralit 28akawng 29ulte 30tsat 31peykolaw. 32Tsautral 33(tsawl slolu). 35Tolìng 36ayoer 37mautit 38asyä''ä. 39Ulte 40yerom 41ayoel 42tsamautit 43fìtrr.'
       lookup_filter:
-        8: 6428:vtr.:<iv>:nolen
-        16: 12:num.:a-:nolen
+        8: 6428:vtr.:noprefix:=<iv>:nosuffix:nolen
+        16: 12:num.:=a-:noinfix:nosuffix:nolen
         18: 8020:adp.:noaffix:nolen
-        36: 212:pn.:-r:nolen
-        41: 212:pn.:-l:nolen
+        36: 212:pn.:noprefix:noinfix:=-r:nolen
+        41: 212:pn.:noprefix:noinfix:=-l:nolen
         43: 4280:adv.:noaffix:nolen
       translations: {}
     - id: 4U-LxF8_RaeRD91yo9DlDw
@@ -79,10 +79,10 @@ inputs:
       lookup_filter:
         20: 1508:inter.:noaffix:nolen
         29: 4180:pn.:noaffix:nolen
-        38: 12:num.:a-:nolen
-        50: 212:pn.:-yä:nolen
+        38: 12:num.:=a-:noinfix:nosuffix:nolen
+        50: 212:pn.:noprefix:noinfix:=-yä:nolen
         51: 4456:conj.:noaffix:nolen
-        53: 412:pn.:-r:nolen
+        53: 412:pn.:noprefix:noinfix:=-r:nolen
         56: 4456:conj.:noaffix:nolen
         66: 1800:vin.:noaffix:nolen
       translations: {}

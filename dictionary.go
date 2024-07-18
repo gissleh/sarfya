@@ -85,45 +85,21 @@ func (e *DictionaryEntry) HasLenition(lenition string) bool {
 func (e *DictionaryEntry) ToFilter() WordFilter {
 	wf := append(make(WordFilter, 0, 2), e.ID, e.PoS)
 
-	if len(e.Prefixes) > 0 {
-		wf = append(wf, strings.Join(e.Prefixes, "-")+"-")
-	}
-	if len(e.Infixes) > 0 {
-		wf = append(wf, "<"+strings.Join(e.Infixes, " ")+">")
-	}
-	if len(e.Suffixes) > 0 {
-		wf = append(wf, "-"+strings.Join(e.Suffixes, "-"))
-	}
-	if len(e.Prefixes) == 0 && len(e.Infixes) == 0 && len(e.Suffixes) == 0 {
-		wf = append(wf, "noaffix")
-	}
-	if len(e.Lenitions) > 0 {
-		wf = append(wf, strings.Join(e.Lenitions, " "))
-	} else {
-		wf = append(wf, "nolen")
-	}
-
-	return wf
-}
-
-func (e *DictionaryEntry) ToExactFilter() WordFilter {
-	wf := append(make(WordFilter, 0, 2), e.ID, e.PoS)
-
 	if len(e.Prefixes) == 0 && len(e.Infixes) == 0 && len(e.Suffixes) == 0 {
 		wf = append(wf, "noaffix")
 	} else {
 		if len(e.Prefixes) > 0 {
-			wf = append(wf, strings.Join(e.Prefixes, "-")+"-")
+			wf = append(wf, "="+strings.Join(e.Prefixes, "-")+"-")
 		} else {
 			wf = append(wf, "noprefix")
 		}
 		if len(e.Infixes) > 0 {
-			wf = append(wf, "<"+strings.Join(e.Infixes, " ")+">")
+			wf = append(wf, "=<"+strings.Join(e.Infixes, " ")+">")
 		} else {
 			wf = append(wf, "noinfix")
 		}
 		if len(e.Suffixes) > 0 {
-			wf = append(wf, "-"+strings.Join(e.Suffixes, "-"))
+			wf = append(wf, "=-"+strings.Join(e.Suffixes, "-"))
 		} else {
 			wf = append(wf, "nosuffix")
 		}
@@ -136,10 +112,6 @@ func (e *DictionaryEntry) ToExactFilter() WordFilter {
 	}
 
 	return wf
-}
-
-func (e *DictionaryEntry) ToExactAffixFilter() WordFilter {
-	return e.ToExactFilter()[2:]
 }
 
 var suffixAliases = map[string]string{
