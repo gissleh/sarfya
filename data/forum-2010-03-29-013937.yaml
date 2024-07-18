@@ -1,0 +1,25 @@
+source:
+    id: forum-2010-03-29-013937
+    date: "2010-03-29"
+    url: https://forum.learnnavi.org/language-updates/ltasygt-with-ke-and-nga/
+    title: <asy> with ke and nga
+    author: Paul Frommer, roger
+inputs:
+    - id: a95ZhGGlQFSRKw6BS_4QkA
+      text: 1Tafral 2ke 3lìsyek 4oel 5ngeyä 6keye'ungit.
+      translations:
+        en: 1Therefore 4I 3will 2not 3heed 5your 6insanity.
+    - id: 7MWsDppoTn65bdD4waPDmQ
+      text: 1Ayoe 2ke 3wasyem.
+      lookup_filter:
+        1: 212:pn.:noaffix:nolen
+      translations:
+        en: 1We 3will 2not 3fight.
+    - id: 4IM3Vd_HRraXBeBaMEfP8A
+      text: 1Ke 2zasyup 3lì'Ona 4ne 5kxutu 6a 7mìfa 8fu 9a 10wrrpa.
+      translations:
+        en: 3(The l'Ona) 2will 1not 2perish 4to 5(the enemy) 6+7within 8or 5(the enemy) 9+10without.
+    - id: Y01eWiNGTPKJtLkxNWMHRA
+      text: 1Nga 2ke 3ftasyem!
+      translations:
+        en: 1You 3shall 2not 3pass!

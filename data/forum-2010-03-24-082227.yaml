@@ -1,0 +1,29 @@
+source:
+    id: forum-2010-03-24-082227
+    date: "2010-03-24"
+    url: https://forum.learnnavi.org/language-updates/if-vs-whether-ftxey-fuke/
+    title: if vs whether - 'ftxey...fuke'
+    author: Paul Frommer, Will Txankamuse
+inputs:
+    - id: hbVgGE5VRH2X3DYCKOcKhQ
+      text: 1Polawm 2po 3san 4srake 5(N|Säli) 6holum 7sìk.
+      lookup_filter:
+        7: 1796:adv.:noaffix:nolen
+      translations:
+        en: 2He 1asked, 3(")4(Did) 5Sally 6(leave)4(?)7(")
+    - id: CT3xdwZuRxmMYohMzayKLA
+      text: 1Piveng 2oer 3ftxey 4nga 5new 6rivey 7fuke
+      lookup_filter:
+        3: 4456:conj.:noaffix:nolen
+      translations:
+        en: 1Tell 2me 3whether 4you 5(want to) 6live{ [}(or not})
+    - id: bVQy0ufySAijU9gdEjsUKA
+      text: 1Srake 2nga 3za'u?
+      translations:
+        en: 1Are 2you 3(coming)1(?)
+    - id: 34cx6JFNQ2O3xplxjqicTw
+      text: 1Ftxey 2nga 3za'u 4fuke?
+      lookup_filter:
+        1: 4456:conj.:noaffix:nolen
+      translations:
+        en: 1+4Are 2you 3coming 1+4(or not)?

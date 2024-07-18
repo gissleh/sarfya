@@ -1,0 +1,18 @@
+source:
+    id: article-times-online-2009-12-12
+    date: "2009-12-12"
+    url: https://wiki.learnnavi.org/index.php/Corpus#Times_Online
+    title: Times Online Interview
+    author: Paul Frommer, ???
+inputs:
+    - id: vlmDrDmiSp-tytMn2BhHgg
+      text: 1Tsun 2oe 3(nga)11(hu) 4nìNa'vi 5pivängkxo 6a 7fì'u 8oeru 9prrte' 10lu.
+      lookup_filter:
+        1: 2476:vim.:noaffix:nolen
+        7: 368:pn.:noaffix:nolen
+      translations:
+        en: 7(It)10('s) 9(a pleasure) 7to 1+6(be able) 5(to chat) 11with 10you 4(in Na'vi).
+    - id: yMhuwf1XRM-CVSGQCNYA3Q
+      text: 1Fìskxawngìri 2(tsap'alute sengi) 3oe.
+      translations:
+        en: 3I 2apologise 1(for this moron).
