@@ -121,6 +121,10 @@ func (s *Storage) FetchExamples(ctx context.Context, filter *sarfya.Filter, reso
 
 			var shortestList []string
 			for _, entry := range entries {
+				if len(s.index[entry.ID]) == 0 {
+					continue
+				}
+
 				if len(s.index[entry.ID]) < len(shortestList) || shortestList == nil {
 					shortestList = s.index[entry.ID]
 				}
