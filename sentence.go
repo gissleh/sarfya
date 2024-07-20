@@ -4,6 +4,7 @@ import (
 	"fmt"
 	"io"
 	"strings"
+	"unicode"
 )
 
 const syntaxSet = ".,;:–—!? ()[]{}/0123456789\n"
@@ -267,6 +268,76 @@ func (s Sentence) HasPartID(id int) bool {
 	}
 
 	return false
+}
+
+func (s Sentence) SearchRaw(query string) [][]int {
+	var indicesStack [64]int
+	indices := indicesStack[:0]
+
+	querySb := strings.Builder{}
+	for _, ch := range query {
+		if unicode.IsLetter(ch) || ch == ' ' {
+			querySb.WriteRune(unicode.ToLower(ch))
+		}
+	}
+	query = querySb.String()
+
+	sb := strings.Builder{}
+	sb.WriteRune(' ')
+	for _, part := range s {
+		indices = append(indices, sb.Len())
+		for _, ch := range part.Text {
+			if unicode.IsLetter(ch) || ch == ' ' {
+				sb.WriteRune(unicode.ToLower(ch))
+			}
+		}
+	}
+	sb.WriteRune(' ')
+
+	text := sb.String()
+	pos := 0
+	res := make([][]int, 0)
+
+	for pos < len(text) {
+		relIndex := strings.Index(text[pos:], query)
+		if relIndex == -1 {
+			break
+		}
+
+		index := relIndex + pos
+		pos = index + 1
+
+		startIndex := -1
+		endIndex := -1
+		for i, partIndex := range indices {
+			nextIndex := len(text)
+			if i < len(indices)-1 {
+				nextIndex = indices[i+1]
+			}
+
+			if partIndex >= index || nextIndex > index {
+				if partIndex >= index+len(query) {
+					break
+				}
+
+				if startIndex == -1 {
+					startIndex = i
+				}
+				endIndex = i
+			}
+		}
+
+		if startIndex != -1 && endIndex != -1 {
+			match := make([]int, 0, endIndex-startIndex+1)
+			for i := startIndex; i <= endIndex; i++ {
+				match = append(match, i)
+			}
+
+			res = append(res, match)
+		}
+	}
+
+	return res
 }
 
 func (s Sentence) isDash(index int) bool {

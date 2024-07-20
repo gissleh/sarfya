@@ -1,6 +1,7 @@
 package sarfya
 
 import (
+	"fmt"
 	"github.com/stretchr/testify/assert"
 	"testing"
 )
@@ -330,4 +331,37 @@ func TestSentencePart_HasID(t *testing.T) {
 	assert.True(t, b.HasAnyID(a.IDs))
 	assert.False(t, c.HasAnyID(a.IDs))
 	assert.False(t, c.HasAnyID(b.IDs))
+}
+
+func TestSentence_SearchRaw(t *testing.T) {
+	table := []struct {
+		S string
+		Q string
+		R [][]int
+	}{
+		{"", "stuff", [][]int{}},
+		{"1oel 2ngati 3kameie.", "oe", [][]int{{0}}},
+		{"1oel 2ngati 3kameie.", "ngati", [][]int{{2}}},
+		{"1oel 2ngati 3kameie.", "kame", [][]int{{4}}},
+		{"1oel 2ngati 3kameie.", "ati", [][]int{{2}}},
+		{"1oel 2ngati 3kameie.", "ati ka", [][]int{{2, 3, 4}}},
+		{"1oel 2ngati 3kameie.", "oel ngati", [][]int{{0, 1, 2}}},
+		{"1oel 2ngati 3kameie.", " oel", [][]int{{0}}},
+		{"1oel 2ngati 3kameie.", " oel ", [][]int{{0, 1}}},
+		{"1oel 2ngati 3kameie.", " ngati ", [][]int{{1, 2, 3}}},
+		{"1oel 2ngati 3kameie.", " kameie ", [][]int{{3, 4, 5}}},
+		{"1oel 2ngati 3kameie.", "kameie ", [][]int{{4, 5}}},
+		{"1oel 2ngati 3kameie.", " kame ", [][]int{}},
+		{"1hello, 2world!", "hello world", [][]int{{0, 1, 2}}},
+		{"1Fìpamrelìri 2oeyä 3lu 4munea 5'ut 6alu 7tsukfwew", "lu", [][]int{{4}, {10}}},
+		{"1This 2is 3a 4long 5text {(}6with 7parentheses{)}", "th", [][]int{{0}, {11}, {13}}},
+		{"Run {(fìlì'u)}, rutxe!", "fìlì'u", [][]int{{1}}},
+	}
+
+	for _, row := range table {
+		t.Run(fmt.Sprintf("`%s`,`%s`", row.S, row.Q), func(t *testing.T) {
+			s := ParseSentence(row.S)
+			assert.Equal(t, row.R, s.SearchRaw(row.Q))
+		})
+	}
 }

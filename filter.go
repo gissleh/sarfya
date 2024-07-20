@@ -100,11 +100,25 @@ func ParseFilter(ctx context.Context, str string, dictionary Dictionary) (*Filte
 			}
 		}
 
+		isText := strings.HasPrefix(split[0], "\"")
+		if isText {
+			split[0] = strings.Trim(split[0], "\"")
+		}
+
+		if len(split) > 2 && isText {
+			return nil, nil, FilterParseError{
+				Term:    i,
+				Code:    "text_filter_constraints",
+				Message: "A text filter term cannot have constraints.",
+			}
+		}
+
 		term := FilterTerm{
 			Operator:    operator,
 			Word:        split[0],
 			Constraints: split[1:],
 			Not:         not,
+			IsText:      isText,
 		}
 		filter.Terms = append(filter.Terms, term)
 
@@ -137,6 +151,8 @@ func (f *Filter) CheckExample(example Example, resolved map[int]DictionaryEntry)
 	spans := make([][]int, 0)
 	matches := make([][]int, 0, 16)
 	temp := make([]int, 0, 4)
+	seen := make(map[int]bool)
+	seen2 := make(map[int]bool)
 	expandableStart := 0
 	skipTo := 0
 
@@ -165,22 +181,69 @@ func (f *Filter) CheckExample(example Example, resolved map[int]DictionaryEntry)
 		failed := false
 		entry := resolved[i]
 
-		for id, words := range example.Words {
-			for _, word := range words {
-				matchesWord := word.ID == entry.ID || term.Word == "*"
+		if term.IsText {
+			text := example.Text
+			if len(term.Constraints) > 0 {
+				text = example.Translations[term.Constraints[0]]
+			}
+			if text != nil {
+				search := text.SearchRaw(term.Word)
+				if len(search) > 0 {
+					if len(term.Constraints) == 0 {
+						for _, v := range search {
+							matches = append(matches, v)
+						}
+					} else {
+						ids := make([]int, 0, len(search)+4)
+						matchSpan := make([]int, 0, 16)
+						for _, searchSpan := range search {
+							for _, j := range searchSpan {
+								for _, id := range text[j].IDs {
+									if seen[id] {
+										continue
+									}
 
-				passed := matchesWord && term.Constraints.Check(&word, true)
-				if passed == !term.Not {
-					temp = temp[:0]
+									seen[id] = true
+									ids = append(ids, id)
+								}
+							}
 
-					for j, part := range example.Text {
-						if part.HasID(id) {
-							temp = append(temp, j)
+							for j, part := range example.Text {
+								if !seen2[j] && part.HasAnyID(ids) {
+									seen2[j] = true
+									matchSpan = append(matchSpan, j)
+								}
+							}
+
+							if len(matchSpan) > 0 {
+								matches = append(matches, matchSpan)
+							}
+
+							for key := range seen {
+								delete(seen, key)
+							}
 						}
 					}
+				}
+			}
+		} else {
+			for id, words := range example.Words {
+				for _, word := range words {
+					matchesWord := word.ID == entry.ID || term.Word == "*"
 
-					matches = append(matches, append(temp[:0:0], temp...))
-					break
+					passed := matchesWord && term.Constraints.Check(&word, true)
+					if passed == !term.Not {
+						temp = temp[:0]
+
+						for j, part := range example.Text {
+							if part.HasID(id) {
+								temp = append(temp, j)
+							}
+						}
+
+						matches = append(matches, append(temp[:0:0], temp...))
+						break
+					}
 				}
 			}
 		}
@@ -377,7 +440,6 @@ func (f *Filter) CheckExample(example Example, resolved map[int]DictionaryEntry)
 
 	translationAdjacent := make(map[string][][]int, len(example.Translations))
 	translationSpans := make(map[string][][]int, len(example.Translations))
-	seen := make(map[int]bool, 8)
 	ids := make([]int, 0, 8)
 	revIDs := make([]int, 0, 8)
 
@@ -476,7 +538,7 @@ func (f *Filter) lookupWords(ctx context.Context, dictionary Dictionary) ([]map[
 	maps = append(maps, map[int]DictionaryEntry{})
 
 	for i, term := range f.Terms {
-		if term.Word == "*" {
+		if term.Word == "*" || term.IsText {
 			continue
 		}
 
@@ -529,6 +591,7 @@ type FilterTerm struct {
 	Word        string
 	Constraints WordFilter
 	Not         bool
+	IsText      bool
 }
 
 var operatorAliases = [][2]string{

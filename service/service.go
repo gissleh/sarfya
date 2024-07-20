@@ -87,7 +87,6 @@ func (s *Service) QueryExample(ctx context.Context, filterString string) ([]Exam
 				group.Examples = append(group.Examples, *match)
 			}
 		}
-
 		if len(group.Examples) == 0 {
 			continue
 		}
@@ -101,7 +100,6 @@ func (s *Service) QueryExample(ctx context.Context, filterString string) ([]Exam
 				group.Entries = append(group.Entries, entry.Copy())
 			}
 		}
-
 		res = append(res, group)
 	}
 
