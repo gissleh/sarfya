@@ -29,7 +29,7 @@ func main() {
 
 	destStorage := jsonstorage.New(*flagOutputFile)
 
-	examples, err := sourceStorage.ListExamples(context.Background())
+	examples, err := sourceStorage.FetchExamples(context.Background(), nil, nil)
 	if err != nil {
 		log.Fatal("Failed to list examples from source storage:", err)
 	}
