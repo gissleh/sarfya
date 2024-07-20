@@ -37,7 +37,7 @@ func (s *Storage) FindExample(ctx context.Context, id string) (*sarfya.Example, 
 	return nil, sarfya.ErrExampleNotFound
 }
 
-func (s *Storage) ListExamples(ctx context.Context) ([]sarfya.Example, error) {
+func (s *Storage) FetchExamples(ctx context.Context, filter *sarfya.Filter, resolved map[int]sarfya.DictionaryEntry) ([]sarfya.Example, error) {
 	if err := ctx.Err(); err != nil {
 		return nil, err
 	}
@@ -46,49 +46,39 @@ func (s *Storage) ListExamples(ctx context.Context) ([]sarfya.Example, error) {
 	defer s.mu.Unlock()
 
 	res := make([]sarfya.Example, 0, len(s.examples))
-	for _, example := range s.examples {
-		res = append(res, example.Copy())
-	}
 
-	return res, nil
-}
+	if filter != nil && filter.SourceID != nil {
+		for _, example := range s.examples {
+			if example.Source.ID == *filter.SourceID {
+				res = append(res, example.Copy())
+			}
+		}
+	} else if filter == nil || filter.NeedFullList() {
+		for _, example := range s.examples {
+			res = append(res, example.Copy())
+		}
+	} else {
+		strategy := filter.WordLookupStrategy(resolved)
+		hasAdded := map[string]bool{}
+		for _, entries := range strategy {
+			if len(entries) == 0 {
+				panic("filter.NeedFullList() is supposed to return true if one is empty")
+			}
 
-func (s *Storage) ListExamplesForEntry(ctx context.Context, entryID string) ([]sarfya.Example, error) {
-	if err := ctx.Err(); err != nil {
-		return nil, err
-	}
+			for _, example := range s.examples {
+				if hasAdded[example.ID] {
+					continue
+				}
 
-	s.mu.Lock()
-	res := make([]sarfya.Example, 0, 16)
-	for _, example := range s.examples {
-	WordCheckLoop:
-		for _, words := range example.Words {
-			for _, word := range words {
-				if word.ID == entryID {
-					res = append(res, example.Copy())
-					break WordCheckLoop
+				for _, entry := range entries {
+					if example.HasWord(entry.ID) {
+						hasAdded[example.ID] = true
+						res = append(res, example)
+					}
 				}
 			}
 		}
 	}
-	s.mu.Unlock()
-
-	return res, nil
-}
-
-func (s *Storage) ListExamplesBySource(ctx context.Context, sourceID string) ([]sarfya.Example, error) {
-	if err := ctx.Err(); err != nil {
-		return nil, err
-	}
-
-	s.mu.Lock()
-	res := make([]sarfya.Example, 0, 32)
-	for _, example := range s.examples {
-		if example.Source.ID == sourceID {
-			res = append(res, example.Copy())
-		}
-	}
-	s.mu.Unlock()
 
 	return res, nil
 }

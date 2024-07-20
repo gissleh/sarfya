@@ -94,6 +94,55 @@ func (s *Storage) ListExamples(ctx context.Context) ([]sarfya.Example, error) {
 	return res, nil
 }
 
+func (s *Storage) FetchExamples(ctx context.Context, filter *sarfya.Filter, resolved map[int]sarfya.DictionaryEntry) ([]sarfya.Example, error) {
+	if !s.readOnly {
+		s.mu.Lock()
+		defer s.mu.Unlock()
+	}
+
+	res := make([]sarfya.Example, 0, len(s.examples))
+
+	if filter != nil && filter.SourceID != nil {
+		for _, id := range s.index["src:"+*filter.SourceID] {
+			example := s.examples[id]
+			res = append(res, example.Copy())
+		}
+	} else if filter == nil || filter.NeedFullList() {
+		for _, example := range s.examples {
+			res = append(res, example.Copy())
+		}
+	} else {
+		strategy := filter.WordLookupStrategy(resolved)
+		hasAdded := map[string]bool{}
+		for _, entries := range strategy {
+			if len(entries) == 0 {
+				panic("filter.NeedFullList() is supposed to return true if one is empty")
+			}
+
+			var shortestList []string
+			if len(entries) > 1 {
+				for _, entry := range entries {
+					if len(s.index[entry.ID]) < len(shortestList) || shortestList == nil {
+						shortestList = s.index[entry.ID]
+					}
+				}
+			}
+
+			for _, id := range shortestList {
+				if hasAdded[id] {
+					continue
+				}
+
+				hasAdded[id] = true
+				example := s.examples[id]
+				res = append(res, example.Copy())
+			}
+		}
+	}
+
+	return res, nil
+}
+
 func (s *Storage) ListExamplesForEntry(ctx context.Context, entryID string) ([]sarfya.Example, error) {
 	if !s.readOnly {
 		s.mu.Lock()

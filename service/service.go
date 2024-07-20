@@ -27,42 +27,19 @@ func (s *Service) QueryExample(ctx context.Context, filterString string) ([]Exam
 		return nil, err
 	}
 
+	if len(resolvedMaps) > 10 {
+		return nil, errors.New("you cannot have more than 10 combinations of matches, please use constraints or operators")
+	}
+
+	total := 0
+
 	res := make([]ExampleGroup, 0, len(resolvedMaps))
 	for _, resolvedMap := range resolvedMaps {
 		group := ExampleGroup{}
 
-		seen := make(map[string]bool)
-
-		examples := make([]sarfya.Example, 0, 16)
-
-		if len(resolvedMap) > 0 {
-			for _, entry := range resolvedMap {
-				entryExamples, err := s.Storage.ListExamplesForEntry(ctx, entry.ID)
-				if err != nil {
-					return nil, err
-				}
-
-				for _, example := range entryExamples {
-					if seen[example.ID] {
-						continue
-					}
-					seen[example.ID] = true
-
-					examples = append(examples, example)
-				}
-			}
-		} else {
-			if filter.SourceID != nil {
-				examples, err = s.Storage.ListExamplesBySource(ctx, *filter.SourceID)
-				if err != nil {
-					return nil, err
-				}
-			} else {
-				examples, err = s.Storage.ListExamples(ctx)
-				if err != nil {
-					return nil, err
-				}
-			}
+		examples, err := s.Storage.FetchExamples(ctx, filter, resolvedMap)
+		if err != nil {
+			return nil, err
 		}
 
 		wg := &sync.WaitGroup{}
@@ -85,6 +62,11 @@ func (s *Service) QueryExample(ctx context.Context, filterString string) ([]Exam
 		for _, match := range matches {
 			if match != nil {
 				group.Examples = append(group.Examples, *match)
+
+				total += 1
+				if total > 2000 {
+					return nil, errors.New("query would have returned more than 2000 results, please be more specific")
+				}
 			}
 		}
 		if len(group.Examples) == 0 {

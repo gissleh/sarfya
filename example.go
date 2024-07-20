@@ -284,3 +284,15 @@ func (e *Example) HasFlag(flag ExampleFlag) bool {
 
 	return false
 }
+
+func (e *Example) HasWord(id string) bool {
+	for _, words := range e.Words {
+		for _, word := range words {
+			if word.ID == id {
+				return true
+			}
+		}
+	}
+
+	return false
+}

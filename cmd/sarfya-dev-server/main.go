@@ -38,7 +38,7 @@ func main() {
 	templfrontend.Endpoints(api.Group(""), svc)
 
 	go func() {
-		example, err := storage.ListExamples(context.Background())
+		example, err := storage.FetchExamples(context.Background(), nil, nil)
 		if err != nil {
 			return
 		}

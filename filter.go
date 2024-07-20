@@ -586,6 +586,38 @@ func (f *Filter) lookupWords(ctx context.Context, dictionary Dictionary) ([]map[
 	return maps, nil
 }
 
+func (f *Filter) NeedFullList() bool {
+	answer := true
+	for _, term := range f.Terms {
+		if term.Operator == FTOOr && answer {
+			return answer
+		}
+
+		if !term.IsText && term.Word != "*" {
+			answer = false
+		}
+	}
+
+	return answer
+}
+
+func (f *Filter) WordLookupStrategy(resolved map[int]DictionaryEntry) [][]DictionaryEntry {
+	var curr []DictionaryEntry
+	var res [][]DictionaryEntry
+
+	for i, term := range f.Terms {
+		if term.Operator == FTOOr {
+			res = append(res, curr)
+			curr = []DictionaryEntry{}
+		}
+
+		curr = append(curr, resolved[i])
+	}
+
+	res = append(res, curr)
+	return res
+}
+
 type FilterTerm struct {
 	Operator    string
 	Word        string
