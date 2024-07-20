@@ -1,0 +1,62 @@
+source:
+    id: wiki-2010-10-01-ultxa-ayharyua
+    date: "2010-10-01"
+    url: https://wiki.learnnavi.org/index.php/Canon/2010/UltxaAyharyu%C3%A4#Top_Seven_Outstanding_Questions
+    title: Canon/2010/UltxaAyharyuä
+    author: Paul Frommer, 15 LN.org members
+inputs:
+    - id: h7BqTwgnQNmg-4dLCT1pvw
+      text: 1Taronyu 2slu 3ne 4tsamsiyu
+      translations:
+        en: 1(The hunter) 2+3becomes 4(a warrior).
+    - id: 1q2xEbsHT_-5H8x-nFoMlw
+      text: 1Fwa 2yom 3teylut 4'o' 5lu.
+      translations:
+        en: 1+2Eating 3teylu 5is 4fun.
+    - id: 1UNbwx48QaeKRo96yJFqPg
+      text: 1Tìyusom 2'o' 3lu.
+      translations:
+        en: 1Eating 3is 2fun.
+    - id: iF7MeaAYQiSktrYe_tJjUA
+      text: 1Ke 2frapo 3ke 4tslolam
+      lookup_filter:
+        2: 460:pn.:noaffix:nolen
+        4: 2424:vtr.:noprefix:=<ol>:nosuffix:nolen
+      translations:
+        en: 1+3Not 2everyone 4understood
+    - id: m-Zmzi5uSoGJqlmUy8I0Ug
+      text: 1srung-susia 2tute
+      translations:
+        en: 2{(a)} 1helping 2person.
+    - id: G1xjaDVARBu2SnrQ_FGQ5g
+      text: 1Po 2täpeykìyeverkeiup 3nìnäk
+      translations:
+        en: 2(I am jazzed that) 1he 2(is apparently about to) 3drink 2(himself to death).
+    - id: w5mN9maiQNioDoH3rcxZQA
+      text: 1Oel 2poru 3teykaron.
+      translations:
+        en: 1I 3made 2him 3hunt.
+    - id: y2rpQT8aS7umLiKoFlEZgA
+      text: 1Sunu 2oeru 3teylu 4tengfya 5sunu 6por 7fkxen
+      lookup_filter:
+        1: 6376:vin.:noaffix:nolen
+        5: 6376:vin.:noaffix:nolen
+        6: 1548:pn.:noprefix:noinfix:=-r:nolen
+      translations:
+        en: 4(Just as) 2I 1like 3teylu, 6he 5likes 7fkxen.
+    - id: Xbrle39VRC-vpITBTQZ0Fg
+      text: 1Po 2sì 3oe 4(tìkangkem soli) 5nìtengfya.
+      translations:
+        en: 1She 2and 3I 4(did it) 5(in the same way).
+    - id: q4aIMyNbTJSf6-3Qu1Aeng
+      text: 1Pol 2oeru 3teyluti 4yeykolom.
+      translations:
+        en: 1He 4made 2me 4eat 3teylu.
+    - id: Fk-5ofj1SbKh4MYAiqAP1w
+      text: 1Pol 2oeru 3neykew 4futa 5oel 6yivom 7teyluti.
+      translations:
+        en: 1He 3made 2me 3(want to) 4+5+6eat 7teylu.
+    - id: IFrbKEOETMqHA03m8WD36w
+      text: 1Wina 2(uvan si).
+      translations:
+        en: 2(Play a) 1quick 2game.

@@ -1,0 +1,40 @@
+source:
+    id: forum-2010-04-22-102439
+    date: "2010-04-22"
+    url: https://forum.learnnavi.org/language-updates/trr-rrtaya/
+    title: 'Mipa ''Upxare leMokri Frapofpi ta K. Pawl mì Srr ''Rrtayä '
+    author: Paul Frommer, wm.annis
+inputs:
+    - id: jNUvCx9IQrmhLmZe2igxlA
+      text: '1(Fìtrr)2(mì) 3letsranten—4Trr 5''Rrtayä—6new 7oe 8pivlltxe 9ayngaru 10san 11kaltxì 12sìk 13ulte 14tivìng 15ayngar 16lì''ut 17a 18(tì''efu)19(mì) 20oeyä 21lu 22lor 23frato 24mì 25lì''fya 26leNa''vi: 27meoauniaea. 28Fìlì''uä 29ral 30lu 31tìme''em 32sì 33tìrusey 34mì 35hifkey 36na 37Nawma 38Sa''nokä 39hapxì, 40''uo 41a 42fpi 43rey''eng 44(Eywa''eveng)45(mì) 46(''Rrta)47(mì) 48tsranten 49nìtxan 50awngaru 51nìwotx.'
+      lookup_filter:
+        1: 4280:adv.:noaffix:nolen
+        9: 208:pn.:noprefix:noinfix:=-ru:nolen
+        12: 1796:adv.:noaffix:nolen
+        15: 208:pn.:noprefix:noinfix:=-r:nolen
+        49: 1312:adv.:noaffix:nolen
+      translations:
+        en: '2On 1this 3important{ /day)}—5Earth 4Day—7I 6(want to) 8+10+12say 11hello 9(to you) 13and 14present 15(to you) 16(the word) 17that, 19in 20my 18opinion, 21is 22the 23most 22beautiful 24in 25the 26Na''vi 25language: 27meoauniaea. 29(The meaning) 28(of this word) 30is "31harmony, 32+33living 34in 35(the world) 36as 39part 38(of the) 37Great 38Mother," 40something 41that 48matters 49(a lot) 50to 51all 50(of us) 42(for the sake of) 43(The Balance of Life) 45+47(on both) 44Pandora 46(and Earth).'
+    - id: c9KS1DDHQKeXP9wp-EJ0Jg
+      text: '1Ngaytxoa, 2nìawnomum 3ke 4lolu 5oer 6nìkeftxo 7mì 8soka 9srr 10ayskxom 11letam 12fte 13lì''fyari 14awngeyä 15(tìkangkem sivi). 16Slä 17lu 18oeru 19fmawno 20asìltsan: 21ye''rìn 22''ìyi''a 23sänume 24a 25tsari 26kllfro'' 27oe; 28mawkrr 29layeiu 30oer 31krr 32nì''ul 33fte 34ngivop 35aylì''ut 36sì 37tsayfnesänumvit 38a 39tsun 40frapor 41(srung sivi) 42fte 43nivume 44sì 45ziverok 46nìswey.'
+      lookup_filter:
+        39: 2476:vim.:noaffix:nolen
+        40: 460:pn.:noprefix:noinfix:=-r:nolen
+        46: 5160:adv.:noaffix:nolen
+      translations:
+        en: '1(My apologies): 2(As you know), 7in 8recent 9days 5I 4have 3not 4had 11sufficient 10opportunity 12to 15work 13on 14our 13language. 16But 18I 17have 19some 20good 19news. 23+24+25+26+27(My teaching responsibilities) 22will 21soon 22end; 28(after that) 30I 29(will have) 32more 31time 33to 34create 35words 36and 37(the kinds of lessons) 38that 39can 41help 40everyone 46best 42+43learn 44and 45remember.'
+    - id: n4I19fTFTd6tbOqkWQQtXg
+      text: 1Tsakrrvay, 2ayngeyä 3tìmweypeyri 4(irayo seiyi) 5oe, 6ulte 7fìtrrä 8ftxozäri, 9sìlpey 10oe, 11ayngaru 12prrte' 13livu.
+      lookup_filter:
+        1: 5012:adv.:noaffix:nolen
+        2: 208:pn.:noprefix:noinfix:=-yä:nolen
+        9: 1800:vin.:noaffix:nolen
+        11: 208:pn.:noprefix:noinfix:=-ru:nolen
+      translations:
+        en: 1(In the meantime), 5I 4(thank you) 3for 2your 3patience, 6and 10I 9hope 11you 12+13enjoy 7today's 8celebration.
+    - id: HTcF1F8cSou3t-QwDoW9fw
+      text: 1Kìyevame 2ulte 3Eywa 4(aynga)5(hu).
+      lookup_filter:
+        4: 208:pn.:noaffix:nolen
+      translations:
+        en: 1Goodbye 2and 3Eywa be 5with 4you.

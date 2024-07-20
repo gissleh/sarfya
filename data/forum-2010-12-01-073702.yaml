@@ -1,0 +1,32 @@
+source:
+    id: forum-2010-12-01-073702
+    date: "2010-12-01"
+    url: https://forum.learnnavi.org/language-updates/as-x-as-y-keep-on-keepin-on/
+    title: As X as Y; Keep on keepin' on
+    author: Paul Frommer, wm.annis
+inputs:
+    - id: U_Vw5kSpTS-A-i_y_vPcHQ
+      text: "A: 1Pol 2trram 3yerikit 4tarmaron.\nB: 7Fìtrr 8mi 9teraron. \nB': 5Fìtrr 6var."
+      lookup_filter:
+        5: 4280:adv.:noaffix:nolen
+        7: 4280:adv.:noaffix:nolen
+      translations:
+        en: "A: 1He 4(was hunting) 3hexapede 2yesterday.\nB: 1(He)9('s) 8still 9hunting 3{(hexapede)} 7today. \nB': 1He 6(still is) 5today."
+    - id: 1d1LRPdlRn2Y6jbTgzTXEw
+      text: 1Var 2nivume 3ko!
+      translations:
+        en: 3Let's 1keep 2learning!
+    - id: pdJqliKqSDG8JMPIb4jOSw
+      text: 1Oe 2lu 3nìftxan 4sìltsan 5na 6nga.
+      lookup_filter:
+        4: 1808:adj.:noaffix:nolen
+      translations: {}
+    - id: ZXkTexwnS3qNN2xsF67U9Q
+      text: 1Ngari 2lu 3oe 4nìftxan 5sìltsan.
+      lookup_filter:
+        5: 1808:adj.:noaffix:nolen
+      translations: {}
+    - id: xbB6vrg-QZagzVbzG1EbNA
+      text: 1Utralìri 2lu 3fìpo 4nìftxan 5tsawl.
+      translations:
+        en: '{(That places too much emphasis on utral, which is only the standard of comparison and presumably hasn''t yet figured into the conversation. In this case na utral would be preferable.)}'

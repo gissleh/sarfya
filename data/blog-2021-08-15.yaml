@@ -52,7 +52,9 @@ inputs:
       lookup_filter:
         3: 1076:pn.:noaffix:nolen
       translations:
-        en: 3They 2are 4(a slinger) 1{(together)}.
+        en: |-
+            3They 2are 4(a slinger) 1{(together)}.
+            {(Calling two people a slinger praises how well they work together and complement each other.)}
       flags:
         - proverb
     - id: sppGPQJoSXmw3y8sW2V9gw

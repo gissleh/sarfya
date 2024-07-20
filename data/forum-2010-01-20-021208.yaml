@@ -1,0 +1,51 @@
+source:
+    id: forum-2010-01-20-021208
+    date: "2010-01-20"
+    url: https://forum.learnnavi.org/news-announcements/a-response-from-paul-frommer!/
+    title: ' A response from Paul Frommer! '
+    author: Paul Frommer, Payoang
+inputs:
+    - id: eGVbZ5ETStSWTM5lk8-bvw
+      text: '1Ayeylanur 2oeyä 3sì 4eylanur 5lì''fyayä 6leNa''vi 7nìwotx:'
+      translations:
+        en: '1To 7all 2my 1friends 3and 4friends 5(of the) 6Na''vi 5language:'
+    - id: a1E08Mv2QbmpEGwnqFiMQw
+      text: 1Oel 2ayngati 3kameie, 4ma 5oeyä 6eylan, 7ulte 8ayngaru 9seiyi 9irayo-. 10Fpole' 11ayngal 12oer 13fìtxan 14nìftxavang 15a 16'upxaret 17stolawm 18oel. 19Lì'fyari 20leNa'vi 21oel 22'efu 23ayngeyä 24tìyawnit. 25Ulte 26omum 27oel 28futa 29tìfyawìntxuri 30oeyä 31perey 32aynga 33nìwotx.
+      lookup_filter:
+        2: 208:pn.:noprefix:noinfix:=-ti:nolen
+        8: 208:pn.:noprefix:noinfix:=-ru:nolen
+        11: 208:pn.:noprefix:noinfix:=-l:nolen
+        14: 1276:adv.:noaffix:nolen
+        23: 208:pn.:noprefix:noinfix:=-yä:nolen
+        32: 208:pn.:noaffix:nolen
+      translations:
+        en: 1I 3See 2you, 4my 5+6friends, 7and I 9thank 8you. 18I 17(have heard) 16(the message) 11you 10+15(have sent) 12me 13so 14passionately. 21I 22feel 23your 24love 19(for the) 20Na'vi 19language. 25And 27I 26know 32you 28+31are 33all 28+31waiting 29for 30my 29guidance.
+    - id: wiF9TW4HSHSKZrIUu6GQXA
+      text: '1Spivaw 2oeti 3rutxe, 4ma 5oeyä 6eylan: 7oe 8new 9nìtxan 10ayngaru 11fyawivìntxu. 12Slä 13nìawnomum, 14zene 15oe 16''awsiteng 17(tìkangkem sivi) 18(fo)19(hu) 20a 21Uniltìrantokxit 22sì 23kifkeyit 24Eywa''evengä 25zamolunge 26awngar. 27Foru 28''upxaret 29oel 30fpole'', 31slä 32vay 33set 34ke 35pamähängem 36kea 37tì''eyng. 38Nìaynga 39oe 40perey 41nìteng.'
+      lookup_filter:
+        9: 1312:adv.:noaffix:nolen
+        10: 208:pn.:noprefix:noinfix:=-ru:nolen
+        18: 412:pn.:noaffix:nolen
+        27: 412:pn.:noprefix:noinfix:=-ru:nolen
+        41: 1304:adv.:noaffix:nolen
+      translations:
+        en: 3Please 1believe 2me, 5my 4+6friends. 7I 8want 9(very much) 8to 11guide 10you. 12But 13(as you know), 15I 14must 17work 16together 19with 18those 20who 25(have brought) 26us 21"Avatar" 22and 23(the world) 24(of Pandora). 29I 30(have sent) 27them 28(a message), 31but 32(up to) 33now 34+36no 37answer 35(has arrived). 38(Like you), 39I 41too 40(am waiting).
+    - id: ASYm9ykJQQO43kpPEXPt3A
+      text: 1Tì'eyngit 2oel 3tolel 4a 5krr, 6ayngaru 7payeng, 8tsakrr 9paye'un 10sweya 11fya'ot 12a 13zamivunge 14oel 15ayngar 16aylì'ut 17(horenti)18(sì) 19lì'fyayä 20leNa'vi.
+      lookup_filter:
+        3: 2056:vtr.:noprefix:=<ol>:nosuffix:nolen
+        6: 208:pn.:noprefix:noinfix:=-ru:nolen
+        7: 1512:vtr.:noprefix:=<ay>:nosuffix:nolen
+        8: 2332:adv.:noaffix:nolen
+        15: 208:pn.:noprefix:noinfix:=-r:nolen
+      translations:
+        en: 5When 2I 4+3receive 1(an answer), I 7(will let) 6you 7know, 8and I 9will 8then 9decide 11the 10best 11+12(way to) 13bring 15you 16(the words) 18and 17rules 19+20(of Na'vi).
+    - id: mw0ae2gGRGKlJ8w92eKn4Q
+      text: 1Sìlpey 2oe, 3layu 4oeru 5ye'rìn 6sìltsan 7a 8fmawn 9a 10tsun 11oe 12ayngaru 13tivìng.
+      lookup_filter:
+        1: 1800:vin.:noaffix:nolen
+        6: 1808:adj.:noaffix:nolen
+        10: 2476:vim.:noaffix:nolen
+        12: 208:pn.:noprefix:noinfix:=-ru:nolen
+      translations:
+        en: 2I 1hope 4I 3will 5soon 3have 6+7good 8news 9+10+13(to give) 12you.

@@ -1,0 +1,43 @@
+source:
+    id: wiki-2010-02-26-good-morning-america
+    date: "2010-02-26"
+    url: https://wiki.learnnavi.org/index.php/Corpus#Good_Morning_America
+    title: Good Morning America
+    author: Paul Frommer, Prrton
+inputs:
+    - id: 4hNZh3MQT267T8il6TXPIQ
+      text: 1Trr 2Lefpom 3{(Ayngar)}, 4ma 5Sute 6(M-ä|Amerikayä)!
+      lookup_filter:
+        3: 208:pn.:noprefix:noinfix:=-r:nolen
+      translations:
+        en: '{(May)} 3you {(have)} 1a 2happy 1day, 4O 5People 6(of America)!'
+    - id: 9WwkEQa5RtmR3V_f4wROJg
+      text: 1Trr 2Lefpom, 3ma 4(M|Amerika)!
+      translations:
+        en: 2Happy 1day {(to you)}, 3O 4America!
+    - id: Ljub78HGR0KoOnR6AggBeA
+      text: 1Koren 2a'Awve 3tìRuseyä 4'Awsiteng
+      translations:
+        en: 1The 2First 1Rule 3(for Living) 4Together
+    - id: hSOriZyIQ_WWkMJJJak42w
+      text: 1(Kem)1{(ì)}1(ri) 2a 3ngaru 4prrte' 5ke 6lu, 7Tsakem 8rä'ä 7sivi 10aylaheru.
+      translations:
+        en: 1(As for) {(an/any)} 1action 2that 3you 5don't 4+6like, 8don't 7(do that action) {(don't act that (way))} 10(to others).
+    - id: dReVvnrjSCGnkgKjJZKCAg
+      text: 1Hem 2ngeyä 3zenke 4fkoru 5livu, 6Tsayhem 7a 8ngaru 9prrte' 10ke 11lu.
+      translations:
+        en: 2Your 1actions{ /must not)} 5be 4(to others), 6(those actions) 7that 8you 10don't 9+11like.
+    - id: I2jlWSMRRGqMijKlVbMqoA
+      text: 1Lì'fyari 2leNa'vi 3('Rrta)4(mì), 5vay 6set 7'almong 8a 9fra'u 10zera'u 11ta 12ngrrpongu.
+      translations:
+        en: 9Everything 8that 7blossomed 7(regarding Na'vi) 5until 6now 4on 3Earth 10(has come) 11from 12(a grassroots movement).
+    - id: gFYG7QpORKWmFkZ171SIKQ
+      text: 1Maw 2hìkrr 3ayoe 4tìyätxaw.
+      lookup_filter:
+        3: 212:pn.:noaffix:nolen
+      translations:
+        en: 3(We)4('ll be) right 4back 1after this 2break.
+    - id: RjN4i6U4RNiNaF-Bmk3Ruw
+      text: 1Neto 2rä'ä 3kivä!
+      translations:
+        en: 2Don't 3go 1away.

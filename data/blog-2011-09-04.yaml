@@ -68,9 +68,9 @@ inputs:
         2: 1764:n.:noaffix:nolen
       translations:
         en: |-
-            A: What is father doing?
-            B: 3(He)5('s reading){. [}Literally: 3(He)5('s reading) 4writing{.]}
-            A: 6(What is he reading){? [}Literally: 6(What kind of writing?){]}
+            A: 1(What is) 2father 1doing?
+            B: 3(He)5('s reading) 4writing. {(He's reading.)}
+            A: 6(What kind of writing)? {(What is he reading?)}
             B: He7('s reading) 8(a book) 9+10about 11(the wars) 12+14on 13Earth.
     - id: YrmK0TqXSVey5fLMDIecdg
       text: 1Ulte 2sìlpey 3oe, 4fì'upxaret 5inan 6a 7fì'u 8silvunu 9ayngaru 10nìwotx!

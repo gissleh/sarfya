@@ -1,0 +1,13 @@
+source:
+    id: forum-2013-12-06-040606
+    date: "2013-12-06"
+    url: https://forum.learnnavi.org/language-updates/si-verbs-modification/msg599196/#msg599196
+    title: 'Si-verbs modification '
+    author: Paul Frommer, Blue Elf
+inputs:
+    - id: _TMcCrLTT3SOLMtEGDeXNA
+      text: 1Txana 2(srung soli) 3po 4oer.
+      translations:
+        en: |-
+            3He 2did 1much 2help 4(to me).
+            {(He helped me a lot.)}

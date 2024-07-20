@@ -1,0 +1,19 @@
+source:
+    id: article-ugo-movie-blog-2009-12-23
+    date: "2009-12-23"
+    url: https://wiki.learnnavi.org/index.php/Corpus#UGO_Movie_Blog_.28Twitter_Questions.29
+    title: UGO Movie Blog (Twitter Questions)
+    author: Paul Frommer, UGO
+inputs:
+    - id: DeSpXRgbQomPvNfdcqxsUQ
+      text: 1Txo 2new 3nga 4rivey, 5(oe)6(hu)!
+      translations:
+        en: 5+6(Come with me) 1if 3you 2(want to) 4live.
+    - id: M4u-f1GoRkCFaeFqPslMmA
+      text: 1Tawsìp 2ngeyä 3lu 4sngeltseng.
+      translations:
+        en: 2Your 1ship 3is 4(a garbage scow).
+    - id: CECIDNPDQUWfQl-BP8-B5g
+      text: 1Ayftxozä 2Lefpom 3ta 4(M|UGO)!
+      translations:
+        en: 2Happy 1Holidays 3from 4UGO!

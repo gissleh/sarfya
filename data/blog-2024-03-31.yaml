@@ -36,7 +36,7 @@ inputs:
       lookup_filter:
         4: 2260:n.:=fì-:noinfix:nosuffix:nolen
       translations:
-        en: 3Don't 2be 1fooled! 4Today 5is 6(April Fool's Day)!
+        en: 3Don't 1+2(be fooled)! 4Today 5is 6(April Fool's Day)!
     - id: PO6slVegSoqrz_OjTBDysw
       text: 1Oeyä 2tìtslamìri 3tìoeyktìng 4ngeyä 5lolu 6säsrung.
       translations:

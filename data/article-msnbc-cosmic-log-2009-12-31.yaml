@@ -1,0 +1,15 @@
+source:
+    id: article-msnbc-cosmic-log-2009-12-31
+    date: "2009-12-31"
+    url: https://wiki.learnnavi.org/index.php/Corpus#MSNBC
+    title: MSNBC Cosmic Log interview
+    author: Paul Frommer, MSNBC
+inputs:
+    - id: iS1P8gAIQnel8jBNACOFyQ
+      text: 1Neytiri 2herahaw.
+      translations:
+        en: 1Neytiri 2(is sleeping).
+    - id: 0aV5g4KIT1mlLOAGTCLCQA
+      text: 1Neytiril 2yerikit 3tolaron.
+      translations:
+        en: 1Neytiri 3hunted 2(a hexapede).
