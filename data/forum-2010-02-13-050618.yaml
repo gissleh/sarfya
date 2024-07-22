@@ -1,0 +1,27 @@
+source:
+    id: forum-2010-02-13-050618
+    date: "2010-02-13"
+    url: https://forum.learnnavi.org/language-updates/participles/
+    title: participles
+    author: Paul Frommer, roger
+inputs:
+    - id: Qah8QOUnSeC0T4Zavxg4jA
+      text: 1Palulukan 2atusaron 3lu 4lehrrap.
+      translations:
+        en: 1A 2hunting 1thanator 3is 4dangerous.
+    - id: ckO5MEsYQ2KLK-64TZ2vcQ
+      text: 1Palulukan 2a 3teraron 4lu 5lehrrap.
+      translations:
+        en: 1(A thanator) 2(that)3('s hunting) 4is 5dangerous.
+    - id: gFweUoX1TUCe78WSOCfLEw
+      text: 1Hetuwongìl 2awngeyä 3swotut 4ska'a, 5fte 6kllkivulat 7keruseya 8tskxet.
+      translations:
+        en: 1(The aliens) 4destroy 2our 3(sacred place) 5to 6(dig up) 7dead 8rock.
+    - id: UUr9jWL3TeqBZz7lTKhNig
+      text: 1Keruseya 2tute
+      translations:
+        en: 1{dead (= non-living)} 2person
+    - id: sd9Vo-vSQ8adNtvtORhsKA
+      text: 1ke 2rey 3a 4tute
+      translations:
+        en: 4person 3who 1doesn't 2live

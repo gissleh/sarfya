@@ -1,0 +1,23 @@
+source:
+    id: forum-2010-02-23-060607
+    date: "2010-02-23"
+    url: https://forum.learnnavi.org/language-updates/prrwll-moss-the-comparative-to-construct/
+    title: « Prrwll » = "moss" & the comparative « to » construct
+    author: Prrton, Paul Frommer
+inputs:
+    - id: ZSoJzHQjRGWnhYSNoldnJw
+      text: 1A 2to 3B 4lu 5(C|adj).
+      lookup_filter:
+        1: PA:n.:noaffix:nolen
+        2: 2224:part.:noaffix:nolen
+      translations:
+        en: 1A 4is 5(adj)2(-er than) 3B
+      flags:
+        - syntax
+    - id: 2JKoGEWSQWWFCO-FN9mzQw
+      text: 1Oeru 2ke 3tsun 4livam 5ke'u 6lor 7to 8Eywa'evengä 9na'rìng 10a 11(lew säpoli) 12fa 13prrwll, 14kxawm 15mungwrr 16fìkifkey 17a 18(lew säpìyi) 19fa 20fpom 21sì 22lì'fya 23leNa'vi.
+      lookup_filter:
+        3: 2476:vim.:noaffix:nolen
+        7: 2224:part.:noaffix:nolen
+      translations:
+        en: 2+5Nothing 3(could be) 4{(seem/appear)} 7more 6beautiful 1(to me) 7than 9a 8Pandoran 9forest 10that 11(has covered) 12in 13moss, 15except 14perhaps 16(this world) 17+18(soon covering itself) 19in 20(peaceful well-being) 21and 22the 23Na'vi 22language.

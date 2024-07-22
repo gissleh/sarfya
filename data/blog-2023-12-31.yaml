@@ -27,8 +27,6 @@ inputs:
         en: 1(The tree) 2made 2a 3loud 7+2sound 5when it 6fell.
     - id: nk6mfT9bQsS0MH1kazqswg
       text: 1Rìk 2aukxo 3mì 4hufwetsyìp 5(kafi sarmi).
-      lookup_filter:
-        4: 7568:n.:noaffix:nolen
       translations:
         en: 1The 2dry 1leaf 5(was sailing) 3in 4(the breeze).
     - id: DpFOYXIXQg61HnqJUEazfA

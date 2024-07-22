@@ -58,7 +58,7 @@ inputs:
       translations:
         en: 1I 2practice 1my 3hobby, 4(which is) 5archery.
     - id: KyM-GXMiRZ6NOzki78mdZQ
-      text: 1(Ayuvan letokx) 2'o' 3lu 4nìtxan.
+      text: 1+5Ayuvan 1+6letokx 2'o' 3lu 4nìtxan.
       lookup_filter:
         4: 1312:adv.:noaffix:nolen
       translations:

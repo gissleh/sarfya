@@ -1,0 +1,13 @@
+source:
+    id: forum-2010-10-04-055919
+    date: "2010-10-04"
+    url: https://forum.learnnavi.org/language-updates/eana-reliri-leiam-nga-sayrip-nitxan-nang!/
+    title: 'Eana relìri leiam nga sayrìp nìtxan nang! '
+    author: Paul Frommer
+inputs:
+    - id: 13Sfto4kSfuJGoDMaGlGAw
+      text: 1Eana 2relìri 3leiam 4nga 5sayrìp 6nìtxan 7nang!
+      lookup_filter:
+        6: 1312:adv.:noaffix:nolen
+      translations:
+        en: 3(It's nice for me to see) 4you 3look 6extremely 5handsome 2in your 1blue 2photo.

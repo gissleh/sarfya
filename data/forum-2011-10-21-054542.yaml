@@ -1,0 +1,17 @@
+source:
+    id: forum-2011-10-21-054542
+    date: "2011-10-21"
+    url: https://forum.learnnavi.org/language-updates/txing-and-hum/
+    title: 'txìng and hum '
+    author: Paul Frommer, Plumps
+inputs:
+    - id: 8I4j5sOmSKeYr1PEoYVwKw
+      text: 1Txìng 2ayioangit! 3Hum 4ne 5wrrpa! 6Tul!
+      lookup_filter:
+        3: 588:vin.:noaffix:nolen
+      translations:
+        en: 1Leave 2(the animals)! 3+4+5(Get outside)! 6Run!
+    - id: LkAm7_QvSA22auwPDRBfFQ
+      text: 1Ftu 2fìtseng 3zene 4hivum.
+      translations:
+        en: We 3gotta 4(get out)1(ta) 2here.

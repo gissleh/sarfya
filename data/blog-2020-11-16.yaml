@@ -10,9 +10,9 @@ inputs:
       translations:
         en: 7(Thank you) 2for 2that 4interesting 2observation 1(of yours).
     - id: 3xPZZ75oRW6GnhpNiGQzRA
-      text: 1Nga 2(tsakem sìlmi|sìlmi) 3a 4tsakem 5ke 6lu 7voìk 8amuiä!
+      text: 1Nga 2(tsakem sìlmi|sìlmi)/9sìlmi 3a 4tsakem 5ke 6lu 7voìk 8amuiä!
       translations:
-        en: 3+4What 1you 2(just did) 6was 5not 8proper 7behavior!
+        en: 3+4What 1you 2+9(just did) 6was 5not 8proper 7behavior!
     - id: ShL2iQRySTaewa5mJX7uLA
       text: 1Neytiril 2(N-ur|Tsyeykur) 3oeyktolìng 4teyngta 5fyape 6zene 7(voìk sivi) 8tsatìfkeytokmì.
       translations:

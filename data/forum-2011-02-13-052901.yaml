@@ -1,0 +1,13 @@
+source:
+    id: forum-2011-02-13-052901
+    date: "2011-02-13"
+    url: https://forum.learnnavi.org/language-updates/update-on-counting/
+    title: 'Update on counting '
+    author: Paul Frommer, Plumps
+inputs:
+    - id: V4dLV1TSRTeUaubjLoy5Yg
+      text: 1taronyu 2apxeyve
+      lookup_filter:
+        1: 2008:n.:noaffix:nolen
+      translations:
+        en: 1hunter 2(number 3)

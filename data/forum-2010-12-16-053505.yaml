@@ -1,0 +1,24 @@
+source:
+    id: forum-2010-12-16-053505
+    date: "2010-12-16"
+    url: https://forum.learnnavi.org/language-updates/sieyng-a-ftu-naring-12-transitivity-and-verbs-of-speaking/
+    title: 'Sì''eyng a ftu Na''rìng #°12: transitivity and verbs of speaking '
+    author: Paul Frommer, wm.annis
+inputs:
+    - id: SdjRI8JRTqWJvbRgJxofrA
+      text: 1Pol 2oeru 3polawm 4tsat.
+      translations:
+        en: 1She 3asked 2me 4that.
+    - id: b-_eaFXMTkWD7yMTKIhdcQ
+      text: 1Po 2oeru 3polawm 4san 5nga 6kä 7peseng?
+      lookup_filter:
+        7: 1520:inter.:noaffix:nolen
+      translations:
+        en: 1She 3asked 2me 4(")7(where) 6are 5you 6going?"
+    - id: zQkJ0ijZTzK9jI98JOMHKA
+      text: 1Srake 2nìngay 3ngal 4poltxe 5fì'ut?
+      lookup_filter:
+        2: 1296:adv.:noaffix:nolen
+        5: 368:pn.:noprefix:noinfix:=-t:nolen
+      translations:
+        en: 3You 2really 4said 5(this)1(?)

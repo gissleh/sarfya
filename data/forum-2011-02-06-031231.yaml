@@ -1,0 +1,13 @@
+source:
+    id: forum-2011-02-06-031231
+    date: "2011-02-06"
+    url: https://forum.learnnavi.org/language-updates/clarification-on-the-use-of-awpo/
+    title: https://forum.learnnavi.org/language-updates/clarification-on-the-use-of-awpo/
+    author: Kì'eyawn, Paul Frommer
+inputs:
+    - id: eKIkQGxYRL-iXhnz83tXnw
+      text: 1Taronyu 2aswey 3lu 4tsatute 5a 6taron 7fte 8yomtivìng 9aylaru.
+      lookup_filter:
+        1: 2008:n.:noaffix:nolen
+      translations:
+        en: 1The 2best 1hunter 3is 4(the one) 5who 6hunts 7to 8feeds 9others,

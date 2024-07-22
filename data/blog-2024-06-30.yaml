@@ -53,7 +53,6 @@ inputs:
     - id: JPYkoobiTqWN-dqWSNwk-g
       text: 1Tìtok 2slu 3tìktok 4fa 5pamtsyìp 6a'aw.
       lookup_filter:
-        5: 13525:n.:noaffix:nolen
         6: 12:num.:=a-:noinfix:nosuffix:nolen
       translations:
         en: '1Presence 2becomes 3absence 4(by means of) 6one 5(little sound). {(A proverbial expression meaning: ''Small things can make a big difference.'')}'

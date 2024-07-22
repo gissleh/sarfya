@@ -1,0 +1,18 @@
+source:
+    id: forum-2010-04-06-022953
+    date: "2010-04-06"
+    url: https://forum.learnnavi.org/language-updates/ke-kawit/
+    title: 'Ke... kaw''it. '
+    author: Paul Frommer, Prrton
+inputs:
+    - id: LqiG4j90SBmuWPYa3176og
+      text: 1Oeru 2lu 3eylan 4apxay. 5Lu 6suteo 7a 8tok 9(Yuesey|Yu.E.Seyti) 10ulte 11lu 12'ewana 13aynumeyu, 14ulte 15kop 16suteo 17alahe 18a 19tok 20frakllpxìltut 21kifkeyä 23ulte 24ke 25lu 26'ewan 27kaw'it.
+      lookup_filter:
+        13: 4800:n.:=ay-:noinfix:nosuffix:nolen
+        15: 10476:conj.:noaffix:nolen
+      translations:
+        en: 1I 2have 4many 3friends. 5(There are) 6some 7who 8(are in) 9(the USA) 10and 11are 12young 13students, 14and 15also 16+17(some others) 18who 19(are in) 20(all other territories) 21(of the world) 18+23who 25are 24not 26young 27(at all).
+    - id: uqj5XgRmRPy0VH3q41Y40g
+      text: 1POAN 2pak!? 3KE 4lu 5po 6tsamsiyu 7kaw'IT!
+      translations:
+        en: 1+2HIM!? 4There's 3+7(not a) 6(warrior)3+7('s bone in) 5his 3+7(whole body)!

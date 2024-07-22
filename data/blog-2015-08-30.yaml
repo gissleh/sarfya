@@ -18,7 +18,6 @@ inputs:
       lookup_filter:
         4: 1296:adv.:noaffix:nolen
         5: 2476:vim.:noaffix:nolen
-        10: 6860:n.:noaffix:nolen
         12: 4048:adp.:noaffix:nolen
       translations:
         en: 2(This chair) 1is 4really 3uncomfortable. 6I 5can 11only 7sit 12on 8it 9(a few) 10seconds.

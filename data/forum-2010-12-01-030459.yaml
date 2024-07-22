@@ -1,0 +1,23 @@
+source:
+    id: forum-2010-12-01-030459
+    date: "2010-12-01"
+    url: https://forum.learnnavi.org/language-updates/for-(duration)-jesus-loan-word/
+    title: 'for (duration), Jesus loan-word & «fmal» '
+    author: Paul Frommer, Plumps
+inputs:
+    - id: shH1TQm-Tyak4pdNjgZ9Wg
+      text: 1zìsìto 2amrr
+      translations:
+        en: 1for 2five 1years
+    - id: TquctdeTSrS_gh1zOotZgQ
+      text: 1ayzìsìto
+      translations:
+        en: 1(for years)
+    - id: yJVZPAEGTYGHVZuTIHDKSg
+      text: 1Luke 2pay, 3ke 4tsun 5ayoe 6tìreyti 7fmival.
+      lookup_filter:
+        2: 1480:n.:noaffix:nolen
+        4: 2476:vim.:noaffix:nolen
+        5: 212:pn.:noaffix:nolen
+      translations:
+        en: 1Without 2water 5we 3+4cannot 7sustain 6life.

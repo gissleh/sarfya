@@ -1,0 +1,26 @@
+source:
+    id: forum-2011-02-02-011739
+    date: "2011-02-02"
+    url: https://forum.learnnavi.org/language-updates/stop!/
+    title: Stop!
+    author: Paul Frommer, wm.annis
+inputs:
+    - id: q8wOiFK2Q-yZ__UOvA7WYA
+      text: 1Ulte 2kawtu 3ke 4tsun 5ayoer 6(tìftang sivi).
+      lookup_filter:
+        4: 2476:vim.:noaffix:nolen
+        5: 212:pn.:noprefix:noinfix:=-r:nolen
+      translations:
+        en: 1And 2+3(no one) 4can 6stop 5us.
+    - id: 8NLolveMR0-zQeglwXC8aQ
+      text: 1Txo 2ke 3tsiyevun 4oe 5(tìftang sivi) 6for . . .
+      lookup_filter:
+        6: 412:pn.:noprefix:noinfix:=-r:nolen
+      translations:
+        en: 1If 4I 3should 2not 3(succeed in) 5stopping 6them . . .
+    - id: XwfwtrrXTUGjDApFp_PjFQ
+      text: 1Oe 2poru 3(tìftang soli).
+      translations:
+        en: 1I 3stopped 2him.
+      flags:
+        - user_translation

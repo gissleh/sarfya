@@ -1,0 +1,23 @@
+source:
+    id: forum-2010-01-28-111227
+    date: "2010-01-28"
+    url: https://forum.learnnavi.org/language-updates/auxilary-verb-si-possessive-dative-krr/
+    title: 'Auxilary verb "si", possessive dative, & "krr" '
+    author: Paul Frommer, omängum fra'uti
+inputs:
+    - id: T8A9FZPkRDOa-Fu46SycGw
+      text: |-
+        A: 1Nga 2(tsap'alute soli) 3srak?
+        B: 4Soli.
+      translations:
+        en: '{(About the only time si stands alone is when the non-verbial element has already been mentioned and is understood from the concept.  The example he gave of this was...)}'
+    - id: bq9K33NIQ9mkNvq0JnTGqA
+      text: 1Ngeyä 2Tireaioang 3zola'u 4a 5krr, 6law 7layu 8ngaru.
+      translations:
+        en: |-
+            5(At the time) 4that 1your 2(Spirit Animal) 3(has come), 7(it will be) 6clear 8(to you).
+            {(When your Spirit Animal comes, you will know.)}
+    - id: jXirbVzoSm-rxbtc2Zg9Jg
+      text: 1Lu 2oeru 3ikran.
+      translations:
+        en: 2I 1have 3(an ikran).

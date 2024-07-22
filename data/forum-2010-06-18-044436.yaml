@@ -75,3 +75,10 @@ inputs:
       text: 1Alo 2ahay 3oe 4zasya'u 5mì 6rewon.
       translations:
         en: 2Next 1time 3(I)4('ll come) 5in 6(the morning).
+    - id: 59uPt2RLSQ-JCnUjrEU1ug
+      text: 1Txampay 2lìm 3nìhawng 4fte 5tengkrr 6a 7ftem 8trr 9a'aw 10fmivi 11trray 12sivop 13a 14tsari 15mllte 16oe 17hu 18sempul.
+      lookup_filter:
+        9: 12:num.:=a-:noinfix:nosuffix:nolen
+        18: 1764:n.:noaffix:nolen
+      translations:
+        en: 16I 15agree 17with 18father 14+13that 2(it is) 3too 2(far to) 1(the ocean) 4to 10(try to) 12(make the journey) 11tomorrow 5+6+7+8+9(in just one day).

@@ -63,8 +63,6 @@ inputs:
         en: 1Ride 2hard, 3+4warriors, 5so you 6can 7(get there) 8fast!
     - id: zLHXa4_GTc2wU5Y8VLv0Vg
       text: 1Semputi 2rä'ä 3srätx, 4ma 5yawntutsyìp. 6(Tìkangkem seri).
-      lookup_filter:
-        5: 11200:n.:noaffix:nolen
       translations:
         en: 2Don't 3bother 1daddy, 4+5(little one). 1(He)6('s working).
     - id: KoqTfu7fRQu1hS4Pmc2lbg

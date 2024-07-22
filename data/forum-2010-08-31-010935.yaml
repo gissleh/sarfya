@@ -1,0 +1,20 @@
+source:
+    id: forum-2010-08-31-010935
+    date: "2010-08-31"
+    url: https://forum.learnnavi.org/language-updates/makto-zong!/
+    title: Makto zong!
+    author: Prrton
+inputs:
+    - id: _qZd576XRlimDY4sjy42fg
+      text: 1Makto 2zong.
+      translations:
+        en: '{(take care, travel safely.)}'
+      flags:
+        - slang
+        - proverb
+    - id: oL1_Y49kTlG1uUzflN8tfg
+      text: 1Mivakto 2nìzawnong.
+      translations:
+        en: '{(take care, travel safely.)}'
+      flags:
+        - proverb

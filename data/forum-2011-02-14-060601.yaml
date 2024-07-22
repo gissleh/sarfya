@@ -1,0 +1,17 @@
+source:
+    id: forum-2011-02-14-060601
+    date: "2011-02-14"
+    url: https://forum.learnnavi.org/language-updates/definitive-answers-on-compound-nouns/
+    title: 'Definitive answers on proper nouns '
+    author: Paul Frommer, Kì'eyawn
+inputs:
+    - id: KVajVcwuRkCNkDKW3mDHWQ
+      text: 1Oel 2tsole'a 3ngeyä 4tsmukanit 5alu 6Kamun.
+      translations:
+        en: 1I 2saw 3your 4brother 5+6Kamun.
+    - id: krdo0FoaQ7O2wZLGqyV8jg
+      text: 1Oel 2tsole'a 3Tsmukan 4Kamunit.
+      translations:
+        en: |-
+            1I 2saw 3Brother 4Kamun.
+            {(In cases where one noun is being used as a sort of "title," the case marker goes on the proper name)}

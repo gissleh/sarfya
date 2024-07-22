@@ -29,8 +29,6 @@ inputs:
         en: 1That 4so 3many 2animals 6helped 5(the Na'vi) 10defeat 9(the Sky People) 11+12+13(was a genuine miracle).
     - id: l8v4tEpYRH2F_qKD2g614A
       text: 1Txon 2lefpom, 3ma 4parultsyìp. 5Hivahaw 6nìmwey.
-      lookup_filter:
-        4: 11412:n.:noaffix:nolen
       translations:
         en: 1+2(Good night), 3+4(my dear little one). 5Sleep 6peacefully.
     - id: yPqt0apjSF-eujI18RGUEw
