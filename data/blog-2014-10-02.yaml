@@ -24,7 +24,7 @@ inputs:
       lookup_filter:
         3: 4148:adv.:noaffix:nolen
       translations:
-        en: 1He 5(observes his duty to) 2(care for) 4(the kids) 3(every day).
+        en: 1He 5+2(observes his duty to) 2(care for) 4(the kids) 3(every day).
     - id: Kx81IlobS5yNOSbH-3gNXw
       text: 1Ayevengur 2kxolìm 3sa'nokìl 4fìtsonit.
       translations:
