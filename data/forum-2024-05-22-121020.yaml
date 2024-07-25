@@ -10,5 +10,5 @@ inputs:
       lookup_filter:
         6: 1548:pn.:noprefix:noinfix:=-r:nolen
       translations:
-        en: 1Aha'ri 2(is out) 5enjoying 4(the moot).
+        en: 1Aha'ri 2(is out) 5+3enjoying 4(the moot).
         en_lit: 1Aha'ri 2has-gone-out 3so 4moot 5be-enjoyable 6to-her
