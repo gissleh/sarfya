@@ -32,3 +32,10 @@ inputs:
         3: 9372:adv.:noaffix:nolen
       translations:
         en: 1Walk 3as 2quietly 3(as possible) 4so 5(the hexapedes) 4won't 7hear 6us.
+    - id: 55ka9QwESOW4Yg_nPq4Bpw
+      text: 1Srake 2fpìl 3ayngal 4futa 5awnga 6tsun 7hu 8Sawtute 9a 10tsamit 11'ivawnìm 12fa 13fwa 14pängkxo 15(fo)21(hu) 16nì'aw, 17ma 18smuk? 19Pewn 20torukä!
+      lookup_filter:
+        3: 208:pn.:noprefix:noinfix:=-l:nolen
+        6: 2476:vim.:noaffix:nolen
+      translations:
+        en: 1Do 3you 2think 5we 4+6can 11avoid 10(a war) 7+9with 8(the Sky People) 16solely 12by 13+14talking 21with 15them, my 17+18(brothers)1(?) 19+20(That won't work)!
