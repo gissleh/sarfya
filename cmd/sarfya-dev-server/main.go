@@ -19,7 +19,7 @@ var flagListenAddr = flag.String("listen", ":8080", "Listen address")
 
 func main() {
 	dict := sarfya.CombinedDictionary{
-		fwewdictionary.Global(),
+		sarfya.WithDerivedPoS(fwewdictionary.Global()),
 		placeholderdictionary.New(),
 	}
 

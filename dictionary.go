@@ -183,3 +183,63 @@ func (c CombinedDictionary) Lookup(ctx context.Context, search string) ([]Dictio
 
 	return allRes, nil
 }
+
+// WithDerivedPoS takes a pass over the result and changes the PoS (part of speech) according to
+// productive derivations like -yu, -tswo and nì-. This is to make queries more useful so that
+// rolyu will now match the query "*:n.".
+func WithDerivedPoS(dictionary Dictionary) Dictionary {
+	return &withPoSChanges{sub: dictionary}
+}
+
+type withPoSChanges struct {
+	sub Dictionary
+}
+
+func (d *withPoSChanges) Entry(ctx context.Context, id string) (*DictionaryEntry, error) {
+	res, err := d.sub.Entry(ctx, id)
+	if err != nil {
+		return nil, err
+	}
+
+	d.alterEntry(res)
+	return res, nil
+}
+
+func (d *withPoSChanges) Lookup(ctx context.Context, search string) ([]DictionaryEntry, error) {
+	res, err := d.sub.Lookup(ctx, search)
+	if err != nil {
+		return nil, err
+	}
+
+	d.alterSlice(res)
+	return res, nil
+}
+
+func (d *withPoSChanges) alterSlice(entries []DictionaryEntry) {
+	for i := range entries {
+		d.alterEntry(&entries[i])
+	}
+}
+
+func (d *withPoSChanges) alterEntry(entry *DictionaryEntry) {
+	if entry.IsVerb() {
+		switch {
+		case entry.HasPrefix("tì") && entry.HasInfix("us"),
+			entry.HasSuffix("tswo"),
+			entry.HasSuffix("yu"),
+			entry.HasSuffix("siyu"):
+
+			entry.PoS = "n."
+		case entry.HasPrefix("tsuk"),
+			entry.HasPrefix("ketsuk"),
+			entry.HasInfix("us"),
+			entry.HasInfix("awn"):
+
+			entry.PoS = "adj."
+		}
+	} else if entry.PoS == "adj." && entry.HasPrefix("nì") {
+		entry.PoS = "adv."
+	} else if strings.Contains(entry.PoS, "adj.") && (entry.HasPrefix("a") || entry.HasSuffix("a")) {
+		entry.PoS = "adj."
+	}
+}

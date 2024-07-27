@@ -18,7 +18,7 @@ func main() {
 	flag.Parse()
 
 	dict := sarfya.CombinedDictionary{
-		fwewdictionary.Global(),
+		sarfya.WithDerivedPoS(fwewdictionary.Global()),
 		placeholderdictionary.New(),
 	}
 

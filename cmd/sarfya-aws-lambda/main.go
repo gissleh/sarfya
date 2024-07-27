@@ -18,7 +18,7 @@ var flagSourceFile = flag.String("source-file", "./data-compiled.json", "File co
 
 func main() {
 	dict := sarfya.CombinedDictionary{
-		fwewdictionary.Global(),
+		sarfya.WithDerivedPoS(fwewdictionary.Global()),
 		placeholderdictionary.New(),
 	}
 

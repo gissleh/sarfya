@@ -3,6 +3,7 @@ package main
 import (
 	"context"
 	"fmt"
+	"github.com/gissleh/sarfya"
 	"github.com/gissleh/sarfya/adapters/fwewdictionary"
 	"log"
 	"os"
@@ -10,7 +11,7 @@ import (
 )
 
 func main() {
-	dict := fwewdictionary.Global()
+	dict := sarfya.WithDerivedPoS(fwewdictionary.Global())
 	args := strings.Join(os.Args[1:], " ")
 
 	res, err := dict.Lookup(context.Background(), args)

@@ -59,7 +59,6 @@ inputs:
       lookup_filter:
         3: 212:pn.:noprefix:noinfix:=-ru:nolen
         11: 1548:pn.:noprefix:noinfix:=-r:nolen
-        13: 6428:vtr.:=a-:=<us>:nosuffix:nolen
         17: 212:pn.:noprefix:noinfix:=-r:nolen
         32: 8020:adp.:noaffix:nolen
         45: 1548:pn.:noprefix:noinfix:=-r:nolen
