@@ -148,7 +148,7 @@ func (e *DictionaryEntry) Copy() DictionaryEntry {
 }
 
 func (e *DictionaryEntry) IsVerb() bool {
-	return inStringList([]string{"vtr.", "vin.", "vtrm.", "vin.", "ph."}, e.PoS, nil)
+	return inStringList([]string{"vtr.", "vin.", "vtrm.", "vim.", "ph."}, e.PoS, nil)
 }
 
 // CombinedDictionary will call the interface methods on all referenced dictionaries. Entry will
