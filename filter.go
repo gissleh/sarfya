@@ -293,7 +293,6 @@ func (f *Filter) CheckExample(example Example, resolved map[int]DictionaryEntry)
 						for _, match := range matches {
 							if nextLinked == match[0] {
 								spans[j] = append(spans[j], match...)
-								foundAny = true
 								matchedAfter = true
 								break
 							}
@@ -307,7 +306,6 @@ func (f *Filter) CheckExample(example Example, resolved map[int]DictionaryEntry)
 								if prevLinked == match[len(match)-1] {
 									spans[j] = append(match, spans[j]...)
 
-									foundAny = true
 									matchedBefore = true
 
 									break
@@ -319,10 +317,14 @@ func (f *Filter) CheckExample(example Example, resolved map[int]DictionaryEntry)
 					if term.Operator == FTOASurroundedBy {
 						if !matchedAfter || !matchedBefore {
 							spans[j] = spans[j][:0]
+						} else {
+							foundAny = true
 						}
 					} else {
 						if !matchedAfter && !matchedBefore {
 							spans[j] = spans[j][:0]
+						} else {
+							foundAny = true
 						}
 					}
 				}

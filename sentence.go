@@ -386,6 +386,10 @@ func (s Sentence) WithoutAlts(spans [][]int) Sentence {
 }
 
 func (s Sentence) NextLinked(index int) int {
+	for index+1 < len(s) && s[index+1].Alt {
+		index += 1
+	}
+
 	for i, part := range s[index+1:] {
 		if len(part.IDs) > 0 {
 			return index + i + 1
@@ -396,8 +400,16 @@ func (s Sentence) NextLinked(index int) int {
 }
 
 func (s Sentence) PrevLinked(index int) int {
+	for s[index].Alt {
+		index -= 1
+	}
+
 	for i := index - 1; i >= 0; i-- {
 		part := s[i]
+		if part.Alt {
+			continue
+		}
+
 		if len(part.IDs) > 0 {
 			return i
 		}
