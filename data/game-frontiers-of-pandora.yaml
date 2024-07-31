@@ -1,0 +1,13 @@
+source:
+    id: game-frontiers-of-pandora
+    date: "2023-12-07"
+    url: https://www.ubisoft.com/en-gb/game/avatar/frontiers-of-pandora
+    title: Frontiers of Pandora (Game)
+    author: Paul Frommer, Ubisoft
+inputs:
+    - id: riX1SMBOTJWfj5CQEPXPKQ
+      text: 1Plltxe 2fko 3san 4Na'viyä 5ranìl 6tok 7peyä 8hemit 9sìk.
+      lookup_filter:
+        9: 1796:adv.:noaffix:nolen
+      translations:
+        en: 1+2(It is said) 3+9that 4+5+6(a Na'vi is defined by) 7their 8actions.

@@ -78,7 +78,9 @@ inputs:
     - id: rVoS8LDcToieCv3r7F3JSg
       text: 1(Ätxäle si) 2palulukanur 3tsnì 4smarit 5livonu.
       translations:
-        en: 1Ask 2(a thanator) 3to 5release 2its 4prey.
+        en: |-
+            1Ask 2(a thanator) 3to 5release 2its 4prey.
+            {(Refers to a futile gesture, an attempt to achieve something that might be desirable but will clearly not happen. In conversation it's usually shortened to Ätxäle pa(lu)lukanur.)}
       flags:
         - proverb
     - id: Ru5C4ztiRSK0X8Qp9LlO-w

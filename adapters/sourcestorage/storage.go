@@ -74,6 +74,7 @@ func (s *Storage) FetchExamples(ctx context.Context, filter *sarfya.Filter, reso
 					if example.HasWord(entry.ID) {
 						hasAdded[example.ID] = true
 						res = append(res, example)
+						break
 					}
 				}
 			}

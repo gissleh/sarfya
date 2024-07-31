@@ -45,7 +45,7 @@ inputs:
     - id: TTN_UBGuQyekr6SO7Uk32Q
       text: 1Tse'a 2tìk 3yawne
       translations:
-        en: 1+2+3(Love at first sight)
+        en: '{(Love at first sight)}'
       flags:
         - proverb
     - id: Q6Pfb2HJTuieIwyF_jxNYA

@@ -7,6 +7,36 @@ html, body {
     font-family: sans-serif;
 }
 
+h1 {
+    font-size: 4em;
+    padding: 0;
+    margin: 1em 0 0 0;
+    text-align: center;
+    font-weight: 100;
+}
+h6 {
+    font-size: 1em;
+    padding: 0;
+    margin: 0 0 3em;
+    text-align: center;
+}
+
+div.query-example {
+    width: 90ch;
+    margin: 0 auto;
+    max-width: 90%;
+    padding: 0.25em;
+}
+div.query-example > a {
+    color: #abc;
+}
+div.query-example > a:hover {
+    color: #def;
+}
+div.query-example:last-of-type {
+    padding-bottom: 2em;
+}
+
 div.error {
     color: #f73;
     text-align: center;

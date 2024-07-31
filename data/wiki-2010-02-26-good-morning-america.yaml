@@ -29,8 +29,10 @@ inputs:
         en: 2Your 1actions{ /must not)} 5be 4(to others), 6(those actions) 7that 8you 10don't 9+11like.
     - id: I2jlWSMRRGqMijKlVbMqoA
       text: 1Lì'fyari 2leNa'vi 3('Rrta)4(mì), 5vay 6set 7'almong 8a 9fra'u 10zera'u 11ta 12ngrrpongu.
+      lookup_filter:
+        9: 452:pn.:noaffix:nolen
       translations:
-        en: 9Everything 8that 7blossomed 7(regarding Na'vi) 5until 6now 4on 3Earth 10(has come) 11from 12(a grassroots movement).
+        en: 9Everything 8that 7blossomed 1+2(regarding Na'vi) 5until 6now 4on 3Earth 10(has come) 11from 12(a grassroots movement).
     - id: gFYG7QpORKWmFkZ171SIKQ
       text: 1Maw 2hìkrr 3ayoe 4tìyätxaw.
       lookup_filter:

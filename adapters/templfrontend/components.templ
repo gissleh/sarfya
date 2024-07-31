@@ -34,7 +34,15 @@ templ example(data sarfya.FilterMatch, lang string) {
 templ searchBox(initialValue string) {
 	<form onsubmit="search(this); return false;">
         <label>
-            <input class="search-box" value={initialValue} />
+            <input class="search-box" value={initialValue} placeholder="Search among 1,700 writings." />
         </label>
 	</form>
+}
+
+templ queryExample(query string, description string) {
+    <div class="query-example">
+        <a href={templ.SafeURL("/search/" + query)}>{query}</a>
+        <span class="dash">&nbsp;–&nbsp;</span>
+        <span class="desc">{description}</span>
+    </div>
 }

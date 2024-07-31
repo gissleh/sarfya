@@ -29,8 +29,25 @@ templ searchPage(filter string, err string, groups []service.ExampleGroup) {
 }
 
 templ indexPage() {
+    <h1>Sarfya</h1>
+    <h6>Na'vi Text Search</h6>
+
     @searchBox("")
     if ctx.Value(demoCtxKey) != nil {
         @example(*ctx.Value(demoCtxKey).(*sarfya.FilterMatch), ctx.Value(langCtxKey).(string))
     }
+
+    @queryExample("uvan si", "Search for the verb.")
+    @queryExample("sìk:1796", "Filter by word-ID to not get tsìk.")
+    @queryExample("*:adp.", "Search for adpositions.")
+    @queryExample("*:<eyk er>", "Search for causative imperfect infixes.")
+    @queryExample("*:<äng>|<ei>", "Search for moods infixes.")
+    @queryExample("*:vin. SURROUNDING !*:part.|adj.", "Search all intransitive verbs that surrounds a non-partilce/adjective.")
+    @queryExample("*:n.|pn. SURROUNDED BY *:adj.:-a-", "Search all nouns and pronouns with adjectives on both sides.")
+    @queryExample("*:adj.:-a FOLLOWED BY *:n.|pn. FOLLOWED BY *:adj.:a-", "Find all sequences that are adj-a noun/pronoun a-adj.")
+    @queryExample("fpìl BEFORE san", "Search all cases where fpìl is used with san.")
+    @queryExample("zun AND zel", "Find all conterfactual conditionals.")
+    @queryExample("flag:proverb", "See all proverbs.")
+    @queryExample("\"kx\"", "Search all words that contain 'kx'.")
+    @queryExample("\" endless \":en", "Search \"endless\" in the English translation.")
 }

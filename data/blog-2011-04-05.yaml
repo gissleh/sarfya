@@ -66,7 +66,7 @@ inputs:
       translations:
         en: |-
             1Tsenu:
-            2Did you 3(get enough to eat)?
+            2Did you 3(get enough to eat)2(?)
             4Kamun:
             {(a)} 5Almost. {(What's for dessert?)}
             {(b)} 6Yes. That7+8('ll be enough).

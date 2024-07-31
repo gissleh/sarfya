@@ -8,7 +8,9 @@ inputs:
     - id: lwzEmnsaScWmTw1jEo7sZw
       text: 1Fwäkì 2ke 3fwefwi.
       translations:
-        en: 1(A mantis) 2doesn't 3whistle.
+        en: |-
+            1(A mantis) 2doesn't 3whistle.
+            {(Don't expect someone to do something that's not in their nature.)}
       flags:
         - proverb
     - id: BN5zlERFTuuZT-KuMwP3Bg
@@ -24,6 +26,8 @@ inputs:
       lookup_filter:
         4: 872:adv.:noaffix:nolen
       translations:
-        en: 1(The tail) 2and 3ears 4also 5speak.
+        en: |-
+            1(The tail) 2and 3ears 4also 5speak.
+            {(The idea is that someone's words might not match their attitude, expression, behavior, etc.)}
       flags:
         - proverb
