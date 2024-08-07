@@ -12,16 +12,23 @@ import (
 	"log"
 	"os"
 	"os/signal"
+	"strings"
 	"syscall"
 )
 
 var flagSourceFile = flag.String("source-file", "./data-compiled.json", "File containing data.")
-var flagListenAddr = flag.String("listen", ":8080", "Listen address")
+var flagListenAddr = flag.String("listen", ":$PORT", "Listen address")
 
 func main() {
 	dict := sarfya.CombinedDictionary{
 		sarfya.WithDerivedPoS(fwewdictionary.Global()),
 		placeholderdictionary.New(),
+	}
+
+	if port := os.Getenv("PORT"); port != "" {
+		*flagListenAddr = strings.Replace(*flagListenAddr, "$PORT", port, 1)
+	} else {
+		*flagListenAddr = strings.Replace(*flagListenAddr, "$PORT", "8080", 1)
 	}
 
 	storage, err := jsonstorage.Open(*flagSourceFile, true)
