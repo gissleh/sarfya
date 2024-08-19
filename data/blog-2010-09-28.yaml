@@ -100,14 +100,10 @@ inputs:
         en: 3What 2is 1your 3+4(primary role) {(in society)}?
     - id: ddU4aG-UTFGns5HLCl4W_w
       text: 1Oe 2lu 3numeyu.
-      lookup_filter:
-        3: 4800:n.:noaffix:nolen
       translations:
         en: 1I 2am 3(a student).
     - id: 8QBElzoBSpytyOthLBjBMw
       text: 1Oe 2lu 3taronyu.
-      lookup_filter:
-        3: 2008:n.:noaffix:nolen
       translations:
         en: 1I 2am 3(a hunter).
     - id: vuBKoK5yTDewgdcLrAHQlg
@@ -116,14 +112,10 @@ inputs:
         en: 1I 2am 3(a warrior).
     - id: b99CWEF_THKBLBVkkTBENQ
       text: 1Oe 2lu 3karyu.
-      lookup_filter:
-        3: 716:n.:noaffix:nolen
       translations:
         en: 1I 2am 3(a teacher).
     - id: rG0gKCBmQJOW29Ye3eL5og
       text: 1Oe 2lu 3'emyu.
-      lookup_filter:
-        3: 6832:n.:noaffix:nolen
       translations:
         en: 1I 2am 3(a cook).
     - id: U5zAX2D-TPWCLnl_hQNF_g

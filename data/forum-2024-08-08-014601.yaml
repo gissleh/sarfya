@@ -1,0 +1,17 @@
+source:
+    id: forum-2024-08-08-014601
+    date: "2024-08-08"
+    url: https://forum.learnnavi.org/language-updates/clarification-of-natkenong-part-of-speech-and-grammar/
+    title: 'clarification of natkenong part of speech and grammar '
+    author: Paul Frommer, naotan
+inputs:
+    - id: lPz-xPDRRPSMhD0xj_qkdQ
+      text: 1Slä 2lu 3'a'awa 4tìketeng, 5natkenong, 6tsyokxìri 7ke 8lu 9zekwä 10atsìng 11ki 12amrr.
+      translations:
+        en: 1But 2(there are) 3several 4differences, 5(for example), 6(the hand) 7doesn't 8have 10four 11but 12five 9digits.
+    - id: Sg7YJXOITmeUc8UvamwNnA
+      text: 1Sunu 2oer 3a'awa 4lì'fya—5natkenong 6Toitsye, 7(M|Tsyungwen), 8sì 9Na'vi.
+      lookup_filter:
+        1: 6376:vin.:noaffix:nolen
+        3: 6224:adj.:noprefix:noinfix:=-a:='a→a
+      translations: {}

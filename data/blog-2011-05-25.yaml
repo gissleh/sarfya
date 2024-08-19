@@ -57,8 +57,6 @@ inputs:
         en: 2You 1must 3clean 5(the wound) 4frequently.
     - id: 3DZTLMOBTCOk5LugIJsmjA
       text: 1Taronyu 2yerikur 3(skxir soli).
-      lookup_filter:
-        1: 2008:n.:noaffix:nolen
       translations:
         en: 1(The hunter) 3wounded 2(the hexapede).
     - id: UGf_7HV-SoesBrbIznQZWw

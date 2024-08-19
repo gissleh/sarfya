@@ -84,8 +84,6 @@ inputs:
         en: 1Hometree 2is 3a 4special 3(kind of tree).
     - id: p5JHKB5uQRiz6bUPJgogDA
       text: 1Vll 2eykyu 3nefä 4fte 5pongu 6fäkivä.
-      lookup_filter:
-        2: 8856:n.:noaffix:nolen
       translations:
         en: 2(The leader) 1signals 5(the party) 6(to ascend) 1(by pointing) 3upwards.
     - id: kHrRbfXLT4WwQgcixQx6Bw

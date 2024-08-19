@@ -15,9 +15,6 @@ inputs:
         en: 5Sadly, 1after 2(the loss) 3of 4his 3mother, 4Txewì 5grieved 7for 8many 7years.
     - id: TMeNeR1mTwOGN98FCVWRjg
       text: 1Karyu 2asìltsan 3zene 4tsivun 5aynumeyut 6hivipx 7mì 8numtsengvi.
-      lookup_filter:
-        1: 716:n.:noaffix:nolen
-        5: 4800:n.:=ay-:noinfix:=-t:nolen
       translations:
         en: 1A 2good 1teacher 3(has to) 4(be able to) 6control {(his/her )}5students 7in 8(the classroom).
     - id: pwiQGerMRMOcqfqYChVePg

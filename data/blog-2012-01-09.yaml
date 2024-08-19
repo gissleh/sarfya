@@ -85,9 +85,6 @@ inputs:
         en: 1(This kind of situation) 2requires 6immediate 3+4+5action.
     - id: 9aWchwskRcqueHpxy0-GXA
       text: 1Karyul 2fngolo' 3futa 4aynumeyu 5pivate 6ye'krr.
-      lookup_filter:
-        1: 712:n.:noprefix:noinfix:=-l-yu:nolen
-        4: 1340:n.:=ay-:noinfix:=-yu:nolen
       translations:
         en: 1(The teacher) 2+3required 4(the students) 2+3to 5arrive 6early.
     - id: vqrmXu-1QN-XiAZfyyIoVQ

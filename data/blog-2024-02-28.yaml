@@ -78,7 +78,6 @@ inputs:
       text: 1Ken 2fwa 3lu 4por 5'awa 6nari 7nì'aw, 8lu 9(N|Mati) 10taronyu 11aswey.
       lookup_filter:
         4: 1548:pn.:noprefix:noinfix:=-r:nolen
-        10: 2008:n.:noaffix:nolen
       translations:
         en: 1(In spite of) 2+3+4having 7only 5one 6eye, 9Mati 8is 11(the best) 10hunter
     - id: 8nGUwBguSl2LczHk7O40Ew

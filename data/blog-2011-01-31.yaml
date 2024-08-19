@@ -101,8 +101,6 @@ inputs:
         en: '{(His)} 1great 2thirst 4made 3him 4angry.'
     - id: U082YbOERzWmLB2HeHrJqw
       text: 1Lu 2oeru 3sngum 4a 5saronyu 6ke 7tìyevätxaw.
-      lookup_filter:
-        5: 2008:n.:noaffix:=t→s
       translations:
         en: 2(I)1('m) 3worried 4that 5(the hunters) 7will 6not 7return {(soon, as expected)}.
     - id: ahEU58XGTKuEwcd2q_ThAw

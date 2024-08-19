@@ -19,7 +19,6 @@ inputs:
       text: 1Fo 2lu 3karyu.
       lookup_filter:
         1: 412:pn.:noaffix:nolen
-        3: 716:n.:noaffix:nolen
       translations:
         en: 1They 2are 3teachers.
     - id: GCkSOBZYSpSgutay8HzbBQ

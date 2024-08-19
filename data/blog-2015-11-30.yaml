@@ -20,8 +20,6 @@ inputs:
             B: I 4don't 5know, 6but 7don't 8touch 1them! 9(They look) 10dangerous.
     - id: PeRLQHsgQqyY6jENfukuQg
       text: 1Hìpey 2taronyu, 3hifwo 4yerik.
-      lookup_filter:
-        2: 2008:n.:noaffix:nolen
       translations:
         en: |-
             2(The hunter) 1hesitates and 4(the hexapede) 3escapes.

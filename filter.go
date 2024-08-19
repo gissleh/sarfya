@@ -673,6 +673,14 @@ func (wf WordFilter) Check(e *DictionaryEntry, checkModifiers bool) bool {
 	}
 
 	for _, constraint := range wf {
+		if constraint == "--" {
+			if checkModifiers {
+				continue
+			} else {
+				break
+			}
+		}
+
 		exact := false
 		if strings.HasPrefix(constraint, "=") {
 			exact = true
@@ -787,10 +795,6 @@ func (wf WordFilter) Check(e *DictionaryEntry, checkModifiers bool) bool {
 				if !checkModifiers {
 					modifiers += 1
 					break
-				}
-
-				if !e.IsVerb() {
-					continue AlternativeCheckLoop
 				}
 
 				infixes := strings.Split(alternative[1:len(alternative)-1], " ")
