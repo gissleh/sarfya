@@ -6,10 +6,13 @@ The svelte frontend is held together by duct tape, and it is only meant for edit
 
 ## License
 
-The project code and annotations in `./data` falls under the ISC license.
-The text used in `./data` is the property of their original authors.
+The code under `ports/fwewdictionary/` and any package depending on these (only `cmd/...` within the project) is licensed under GPL2 (LICENSE-GPL.txt).
 
-## Instructions
+The text used in `data/` is the property of their original authors, and are attributed under the `source` property.
+
+The remaining code and the annotations in `data/` falls under the ISC license (LICENSE-ISC.txt).
+
+## Running & Building
 
 ### Dev (read/write) server
 
@@ -39,7 +42,7 @@ You can then
 ```bash
 go build -ldflags "-w -s" ./cmd/sarfya-prod-server/
 go run ./cmd/sarfya-generate-json/
-zip -r sarfya-prod-server.zip sarfya-prod-server data-compiled.json dictionary-v2.txt
+zip -r sarfya-prod-server.zip sarfya-prod-server data-compiled.json ~/.fwew/dictionary-v2.txt
 ```
 
 ### Lambda
@@ -53,6 +56,10 @@ go run ./cmd/sarfya-generate-json/
 go build -o bootstrap -ldflags "-w -s" ./cmd/sarfya-aws-lambda/
 zip -r sarfya-aws-lambda.zip bootstrap data-compiled.json dictionary-v2.txt
 ```
+
+## Docker
+
+Build the Dockerfile, it uses the `cmd/sarfya-prod-server` as the main command and bundles fwew with it.
 
 ## Project structure
 

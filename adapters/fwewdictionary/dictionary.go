@@ -6,6 +6,7 @@ import (
 	"fmt"
 	fwew "github.com/fwew/fwew-lib/v5"
 	"github.com/gissleh/sarfya"
+	"slices"
 	"strings"
 	"sync"
 )
@@ -114,9 +115,10 @@ func (d *dictionary) numberToEntry(n int) sarfya.DictionaryEntry {
 	numString, _ := fwew.NumberToNavi(n)
 
 	return sarfya.DictionaryEntry{
-		ID:   fmt.Sprintf("N%d", n),
-		Word: numString,
-		PoS:  "num.",
+		ID:          fmt.Sprintf("N%d", n),
+		Word:        numString,
+		PoS:         "num.",
+		OriginalPoS: "num.",
 		Definitions: map[string]string{
 			"en": fmt.Sprint(n),
 		},
@@ -129,11 +131,28 @@ func (d *dictionary) numberToEntry(n int) sarfya.DictionaryEntry {
 }
 
 func (d *dictionary) wordToEntry(match fwew.Word) sarfya.DictionaryEntry {
+	var infixPositions []int
+	if match.InfixDots != "NULL" && match.InfixDots != "" {
+		if i := strings.Index(match.InfixDots, "."); i != -1 {
+			if j := strings.LastIndex(match.InfixDots, "."); j != -1 {
+				infixPositions = []int{i, j - 1}
+			}
+		}
+	}
+
+	var suffixes []string
+	if match.Affixes.Suffix != nil {
+		suffixes = append(match.Affixes.Suffix[:0:0], match.Affixes.Suffix...)
+		slices.Reverse(suffixes)
+	}
+
 	entry := sarfya.DictionaryEntry{
-		ID:     match.ID,
-		Word:   match.Navi,
-		PoS:    match.PartOfSpeech,
-		Source: match.Source,
+		ID:           match.ID,
+		Word:         match.Navi,
+		PoS:          match.PartOfSpeech,
+		OriginalPoS:  match.PartOfSpeech,
+		Source:       match.Source,
+		InfixIndexes: infixPositions,
 		Definitions: map[string]string{
 			"de": match.DE,
 			"en": match.EN,
@@ -151,13 +170,13 @@ func (d *dictionary) wordToEntry(match fwew.Word) sarfya.DictionaryEntry {
 		},
 		Prefixes:  match.Affixes.Prefix,
 		Infixes:   match.Affixes.Infix,
-		Suffixes:  match.Affixes.Suffix,
+		Suffixes:  suffixes,
 		Lenitions: match.Affixes.Lenition,
 		Comment:   match.Affixes.Comment,
 	}
 
 	for k, v := range entry.Definitions {
-		if k != "en" && v == entry.Definitions["en"] {
+		if v == "" || (k != "en" && v == entry.Definitions["en"]) {
 			delete(entry.Definitions, k)
 		}
 	}

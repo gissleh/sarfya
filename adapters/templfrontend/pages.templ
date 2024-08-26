@@ -17,7 +17,7 @@ templ searchPage(filter string, err string, groups []service.ExampleGroup) {
 	            for _, entry := range group.Entries {
 	                <div class="word">
 	                    <span class="word">{entry.Word}</span>
-	                    <span class="pos"> ({entry.PoS})</span>
+	                    <span class="pos"> ({entry.OriginalPoS  })</span>
 	                </div>
 	            }
 	        </div>

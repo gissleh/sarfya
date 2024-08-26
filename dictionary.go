@@ -12,16 +12,18 @@ type Dictionary interface {
 }
 
 type DictionaryEntry struct {
-	ID          string            `json:"id,omitempty" yaml:"id,omitempty"`
-	Word        string            `json:"word" yaml:"word"`
-	PoS         string            `json:"pos" yaml:"poS"`
-	Definitions map[string]string `json:"definitions" yaml:"definitions"`
-	Source      string            `json:"source,omitempty" yaml:"source,omitempty"`
-	Prefixes    []string          `json:"prefixes,omitempty" yaml:"prefixes,omitempty"`
-	Infixes     []string          `json:"infixes,omitempty" yaml:"infixes,omitempty"`
-	Suffixes    []string          `json:"suffixes,omitempty" yaml:"suffixes,omitempty"`
-	Lenitions   []string          `json:"lenitions,omitempty" yaml:"lenitions,omitempty"`
-	Comment     []string          `json:"comment,omitempty" yaml:"comment,omitempty"`
+	ID           string            `json:"id,omitempty" yaml:"id,omitempty"`
+	Word         string            `json:"word" yaml:"word"`
+	PoS          string            `json:"pos" yaml:"pos"`
+	OriginalPoS  string            `json:"originalPos" yaml:"original_pos"`
+	Definitions  map[string]string `json:"definitions" yaml:"definitions"`
+	InfixIndexes []int             `json:"infixIndexes,omitempty" yaml:"infixes"`
+	Source       string            `json:"source,omitempty" yaml:"source,omitempty"`
+	Prefixes     []string          `json:"prefixes,omitempty" yaml:"prefixes,omitempty"`
+	Infixes      []string          `json:"infixes,omitempty" yaml:"infixes,omitempty"`
+	Suffixes     []string          `json:"suffixes,omitempty" yaml:"suffixes,omitempty"`
+	Lenitions    []string          `json:"lenitions,omitempty" yaml:"lenitions,omitempty"`
+	Comment      []string          `json:"comment,omitempty" yaml:"comment,omitempty"`
 }
 
 func (e *DictionaryEntry) HasPrefix(prefix string) bool {
