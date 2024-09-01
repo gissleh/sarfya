@@ -1,0 +1,109 @@
+source:
+    id: forum-2016-01-15-073058
+    date: "2016-01-15"
+    url: https://forum.learnnavi.org/language-updates/pllhrr-a-new-word/
+    title: 'New vocabulary from Toruk - The First Flight '
+    author: Paul Frommer, Vawmataw
+inputs:
+    - id: o9db5KJITrC9b2DfZIHJxw
+      text: 1Tìng 2tsat 3oer.
+      lookup_filter:
+        1: 2176:vtr.:noaffix:nolen
+      translations:
+        en: 1Give 2it 3(to me).
+      group:
+        id: ""
+        paragraph: 0
+        sentence: 0
+    - id: 6S4jGLh3Q4qIbhxNVuNwZA
+      text: 1Ngari 2frawzo 3srak?
+      translations:
+        en: '{(How are you?)}'
+      group:
+        id: ""
+        paragraph: 0
+        sentence: 0
+    - id: O3O8L81VTU6SXu_nJJXBJQ
+      text: 1Zene 2pivllhrr 3ayolo'ur 4alahe.
+      translations:
+        en: We 1must 2warn 4other 3clans.
+      group:
+        id: ""
+        paragraph: 0
+        sentence: 0
+    - id: fBiKbBXGTE6CI8fgQP7lvA
+      text: 1Ma 2Entu! 3(Kempe si) 4nga 5fìtseng?
+      lookup_filter:
+        5: 364:adv., n.:noaffix:nolen
+      translations:
+        en: 1+2Entu! 3(What are) 4you 3doing 5here?
+      group:
+        id: ""
+        paragraph: 0
+        sentence: 0
+    - id: bMQiBPZlQ2eUf4hlHV8VGQ
+      text: 1Fwa 2(fìtseng)6(mì) 3'ì'awn 4lu 5lehrrap.
+      translations:
+        en: 1It 4is 5dangerous 1to 3stay 6+2here.
+      group:
+        id: ""
+        paragraph: 0
+        sentence: 0
+    - id: jvNPIXXeTF2dOj1UTGGMgA
+      text: 1Oel 2ngati 3kameie. 4Oeru 5syaw 6Ralu.
+      translations:
+        en: 1I 2see 3you. 4+5(My name is) 6Ralu.
+      group:
+        id: ""
+        paragraph: 0
+        sentence: 0
+    - id: RyJKZGwaRA6lLe8o3DwAPA
+      text: 1Fwew 2moel 3Torukit.
+      translations:
+        en: 2{We (both)} 1(look for) 3(the Toruk).
+      group:
+        id: ""
+        paragraph: 0
+        sentence: 0
+    - id: Fp-0dwPBSVG7fp9Iglus4Q
+      text: 1Lu 2lor.
+      translations:
+        en: 1(It is) 2beautiful.
+      group:
+        id: ""
+        paragraph: 0
+        sentence: 0
+    - id: ZrmWikT8Try6JbUkwowisg
+      text: 1Lu 2lor 3poe.
+      lookup_filter:
+        3: 1556:pn.:noaffix:nolen
+      translations:
+        en: 1(It is) 3she 1(who is) 2beautiful.
+      group:
+        id: ""
+        paragraph: 0
+        sentence: 0
+    - id: K2YzFScVTE-hrcfN1HHaFQ
+      text: 1Tul!
+      translations:
+        en: 1Run!
+      group:
+        id: ""
+        paragraph: 0
+        sentence: 0
+    - id: LDczV1a0Qfy0YUeaRy8xiQ
+      text: 1Fìtxan 2yaymak 3menga 4lu.
+      translations:
+        en: 3{You (both)} 4are 1so 2foolish.
+      group:
+        id: ""
+        paragraph: 0
+        sentence: 0
+    - id: PYdhmJhvRpiodjlsJeEVNA
+      text: 1(Srung si) 2{pxoer(u)}
+      translations:
+        en: 1Help 2{us (three)}.
+      group:
+        id: ""
+        paragraph: 0
+        sentence: 0
