@@ -842,8 +842,14 @@ func (wf WordFilter) Check(e *DictionaryEntry, checkModifiers bool) bool {
 				ok = true
 				break
 			} else if strings.ContainsRune(alternative, '.') {
+				pos := e.PoS
+				if strings.HasPrefix(alternative, "$") {
+					alternative = strings.TrimPrefix(alternative, "$")
+					pos = e.OriginalPoS
+				}
+
 				searchSplit := strings.Split(alternative, ",")
-				posSplit := strings.Split(e.PoS, ",")
+				posSplit := strings.Split(pos, ",")
 
 				for i := range searchSplit {
 					searchSplit[i] = strings.TrimSpace(searchSplit[i])
