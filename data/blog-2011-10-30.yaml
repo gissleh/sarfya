@@ -1,7 +1,7 @@
 source:
     id: blog-2011-10-30
     date: "2011-10-30"
-    url: http://localhost:5173/search?q=src%3Ablog-2011-10-30
+    url: https://naviteri.org/2011/10/more-vocabulary-a-bit-of-grammar/
     title: More Vocabulary + a Bit of Grammar
     author: Paul Frommer
 inputs:
