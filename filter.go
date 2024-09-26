@@ -259,11 +259,6 @@ func (f *Filter) CheckExample(example Example, resolved map[int]DictionaryEntry)
 		switch term.Operator {
 		case FTOOr:
 			{
-				if skipTo != i {
-					skipTo = len(f.Terms)
-					break
-				}
-
 				expandableStart = len(spans)
 				spans = append(spans, matches...)
 			}
