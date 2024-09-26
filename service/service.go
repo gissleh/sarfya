@@ -21,7 +21,7 @@ func (s *Service) FindExample(ctx context.Context, id string) (*sarfya.Example, 
 	return s.Storage.FindExample(ctx, id)
 }
 
-func (s *Service) QueryExample(ctx context.Context, filterString string) ([]ExampleGroup, error) {
+func (s *Service) QueryExample(ctx context.Context, filterString string) ([]FilterMatchGroup, error) {
 	filter, resolvedMaps, err := sarfya.ParseFilter(ctx, filterString, s.Dictionary)
 	if err != nil {
 		return nil, err
@@ -33,9 +33,9 @@ func (s *Service) QueryExample(ctx context.Context, filterString string) ([]Exam
 
 	total := 0
 
-	res := make([]ExampleGroup, 0, len(resolvedMaps))
+	res := make([]FilterMatchGroup, 0, len(resolvedMaps))
 	for _, resolvedMap := range resolvedMaps {
-		group := ExampleGroup{}
+		group := FilterMatchGroup{}
 
 		examples, err := s.Storage.FetchExamples(ctx, filter, resolvedMap)
 		if err != nil {
@@ -135,7 +135,25 @@ func (s *Service) DeleteExample(ctx context.Context, id string) (*sarfya.Example
 	return example, nil
 }
 
-type ExampleGroup struct {
+type FilterMatchGroup struct {
 	Entries  []sarfya.DictionaryEntry `json:"entries,omitempty"`
 	Examples []sarfya.FilterMatch     `json:"examples"`
+}
+
+func (g *FilterMatchGroup) ToCompact(lang string) *FilterMatchGroupCompact {
+	res := &FilterMatchGroupCompact{
+		Entries:  g.Entries,
+		Examples: make([]sarfya.FilterMatchCompact, 0, len(g.Examples)),
+	}
+
+	for _, match := range g.Examples {
+		res.Examples = append(res.Examples, *match.ToCompact(lang))
+	}
+
+	return res
+}
+
+type FilterMatchGroupCompact struct {
+	Entries  []sarfya.DictionaryEntry    `json:"entries,omitempty"`
+	Examples []sarfya.FilterMatchCompact `json:"examples"`
 }

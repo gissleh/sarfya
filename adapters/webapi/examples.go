@@ -17,6 +17,8 @@ func Examples(group *echo.Group, svc *service.Service) {
 			return err
 		}
 
+		compactLang := c.QueryParam("compact")
+
 		startTime := time.Now()
 		res, err := svc.QueryExample(c.Request().Context(), search)
 		if err != nil {
@@ -26,6 +28,19 @@ func Examples(group *echo.Group, svc *service.Service) {
 		duration := time.Since(startTime)
 		if duration > time.Millisecond*100 {
 			log.Printf("Slow! %#+v exectured in %s", search, time.Since(startTime))
+		}
+
+		if compactLang != "" {
+			compacts := make([]service.FilterMatchGroupCompact, 0, len(res))
+			for _, group := range res {
+				compacts = append(compacts, *group.ToCompact(compactLang))
+			}
+
+			return c.JSON(http.StatusOK, map[string]any{
+				"groups":      compacts,
+				"executionMs": duration.Seconds() * 1000.0,
+				"lang":        compactLang,
+			})
 		}
 
 		return c.JSON(http.StatusOK, map[string]any{

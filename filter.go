@@ -950,6 +950,84 @@ type FilterMatch struct {
 	WordMap             map[int]string     `json:"wordMap"`
 }
 
+func (fm *FilterMatch) ToCompact(lang string) *FilterMatchCompact {
+	return &FilterMatchCompact{
+		ID:          fm.ID,
+		Source:      fm.Source,
+		Flags:       fm.Flags,
+		Navi:        generateLines(fm.Text, fm.Words, fm.Spans, nil),
+		Translation: generateLines(fm.Translations[lang], nil, fm.TranslationSpans[lang], fm.TranslationAdjacent[lang]),
+	}
+}
+
+func generateLines(text Sentence, words map[int][]DictionaryEntry, spans [][]int, adjacentSpans [][]int) [][]FilterMatchCompactChunk {
+	if text == nil {
+		return nil
+	}
+
+	inSpan := make(map[int]int)
+	inAdjacent := make(map[int]int)
+
+	for i, span := range spans {
+		for _, index := range span {
+			inSpan[index] = i
+		}
+	}
+	for i, span := range adjacentSpans {
+		for _, index := range span {
+			if inSpan[index] == i {
+				continue
+			}
+
+			inAdjacent[index] = i
+		}
+	}
+
+	lines := make([][]FilterMatchCompactChunk, 0, 4)
+	currLine := make([]FilterMatchCompactChunk, 0, len(spans))
+	for i, part := range text {
+		if part.Newline {
+			lines = append(lines, currLine)
+			currLine = make([]FilterMatchCompactChunk, 0, 32)
+		}
+
+		chunk := FilterMatchCompactChunk{Text: part.Text, IDs: part.IDs}
+		for _, id := range part.IDs {
+			if entries, ok := words[id]; ok {
+				chunk.Link = strings.TrimSuffix(entries[0].Word, "+") + ":" + entries[0].ID
+				break
+			}
+		}
+		if index, ok := inSpan[i]; ok {
+			chunk.DirectMatch = &index
+		}
+		if index, ok := inAdjacent[i]; ok {
+			chunk.IndirectMatch = &index
+		}
+
+		currLine = append(currLine, chunk)
+	}
+
+	lines = append(lines, currLine)
+	return lines
+}
+
+type FilterMatchCompact struct {
+	ID          string                      `json:"id"`
+	Source      Source                      `json:"source"`
+	Flags       []ExampleFlag               `json:"flags"`
+	Navi        [][]FilterMatchCompactChunk `json:"text"`
+	Translation [][]FilterMatchCompactChunk `json:"translation"`
+}
+
+type FilterMatchCompactChunk struct {
+	Text          string `json:"t"`
+	IDs           []int  `json:"i,omitempty"`
+	Link          string `json:"l,omitempty"`
+	DirectMatch   *int   `json:"dm,omitempty"`
+	IndirectMatch *int   `json:"im,omitempty"`
+}
+
 func inStringList(list []string, value string, aliases map[string]string) bool {
 	if alias, ok := aliases[value]; ok {
 		value = alias
