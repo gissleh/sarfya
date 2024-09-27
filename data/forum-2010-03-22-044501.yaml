@@ -1,0 +1,13 @@
+source:
+    id: forum-2010-03-22-044501
+    date: "2010-03-22"
+    url: https://forum.learnnavi.org/language-updates/just-a-few-interesting-little-words/
+    title: 'Just a few interesting little words. '
+    author: omängum fra'uti, Paul Frommer
+inputs:
+    - id: x1Tv5soKQKeq6m1CjmQLpw
+      text: 1Tsakem 2kop 3krrnekx
+      lookup_filter:
+        1: 2328:n.:noaffix:nolen
+        2: 872:adv.:noaffix:nolen
+      translations: {}

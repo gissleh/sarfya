@@ -1,0 +1,29 @@
+source:
+    id: forum-2018-06-23-054017
+    date: "2018-06-23"
+    url: https://forum.learnnavi.org/language-updates/'count-to'-wa-and-sequential-genitive-(discussion)/
+    title: '''count to'', wä and sequential genitive (discussion) '
+    author: Paul Frommer, Plumps
+inputs:
+    - id: V4gHLWFESwCSGg0HxRoW8g
+      text: 1Tiam 2vay 3vol.
+      lookup_filter:
+        3: 4324:num.:noaffix:nolen
+      translations:
+        en: 1Count 2to 3eight.
+    - id: f8YcmiTZQ6KR8iDIgCX6WQ
+      text: 1Wä 2Feyral, 3muntxa 4ke 3soli 5Ralu 6sì 7Newey 8nìwan 9mesrram.
+      lookup_filter:
+        9: 8968:adv., n.:noaffix:nolen
+      translations:
+        en: 1(Contrary to what) 2Peyral 1reported, 5Ralu 6and 7Newey 3were 4not 8secretly 3married 9(the day before yesterday).
+    - id: j_TTLNgzQb6pZnUvoqJdSQ
+      text: 1(Tì'efu)2(wä) 3oeyä, 4fpìl 5Peyralìl 6futa 7ke 8zene 9ayoeng 10kivä.
+      lookup_filter:
+        9: 216:pn.:noaffix:nolen
+      translations:
+        en: |-
+            2(Contrary to) 3my 1opinion, 5Peyral 4thinks 6that 9we 7don't 8(have to) 10go.
+            {(Original translation: I think we have to go, but Peyral doesn't.)}
+      flags:
+        - user_translation

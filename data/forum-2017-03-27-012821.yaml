@@ -1,0 +1,12 @@
+source:
+    id: forum-2017-03-27-012821
+    date: "2017-03-27"
+    url: https://forum.learnnavi.org/language-updates/little-confirmation-on-takuk/
+    title: 'Little confirmation on takuk '
+    author: Paul Frommer, Plumps
+inputs:
+    - id: R-5_9hiZRaSZ6obqMRSTag
+      text: 1Oeti 2takuk 3rä'ä!
+      lookup_filter:
+        2: 1976:vtr.:noaffix:nolen
+      translations: {}

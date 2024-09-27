@@ -1,0 +1,16 @@
+source:
+    id: forum-2010-06-15-072435
+    date: "2010-06-15"
+    url: https://forum.learnnavi.org/language-updates/just-another-few-words/
+    title: 'Just another few words... '
+    author: omängum fra'uti, Paul Frommer
+inputs:
+    - id: N9EuC1kFSv28UtNSBpfOTw
+      text: 1Lì'fyavi 2lesar 3nìtxan 4nang!
+      lookup_filter:
+        3: 1312:adv.:noaffix:nolen
+      translations: {}
+    - id: O0MehqblRGKstWko0jp1rA
+      text: 1Krro 2len 3ayhem 4anafì'u.
+      translations:
+        en: 1Sometimes 4these 3things 2happen.

@@ -1,0 +1,27 @@
+source:
+    id: forum-2010-03-12-091301
+    date: "2010-03-12"
+    url: https://forum.learnnavi.org/language-updates/verb-for-write/
+    title: 'Verb for "write" and transive "peng" '
+    author: Paul Frommer, Ftiafpi
+inputs:
+    - id: IkIgSdQJSUqZmAtY3BV-Rg
+      text: 1New 2oe 3mengaru 4piveng 5futa 6tìkangkemìri 7atxantsan 8mengeyä 9fpi "10Trr 11Lefpom 12ma 13(M|Amerika)" 14oeru 15(teya soli) 16nìtxan.
+      lookup_filter:
+        8: 1348:pn.:=me-:noinfix:=-yä:nolen
+        16: 1312:adv.:noaffix:nolen
+      translations: {}
+    - id: dNPLPA_nTC6zBgwGvbnD3A
+      text: 1Furia 2nì'Ìnglìsì 3(pamrel sivi), 4oeru 5txoa 6livu. 7Ke 8lu 9oer 10set 11krr 12atxan, 13ulte 14ke 15new 16(T|kxeyey sivi).
+      translations: {}
+    - id: agmy5KiaS_Sx34CB9m2b7A
+      text: 1Oel 2tel 3'upxaret 4leNa'vi 5a 6krr, 7new 8oe 9nìtengfya 10(pamrel sivi) 11nì'eyng. 12Slä 13krr 14a 15nìNa'vi 16(pamrel si) 17oe, 18new 19oel 20futa 21upxare 22oeyä 23luke 24keyey 25livu 26nìwotx, 27fte 28eyawra 29sìkenongit 30tivìng 31suteru.
+      translations: {}
+    - id: x_T-RT4zS8eRn_NHRzkQ7w
+      text: 1Srake 2tsun 3oe 4fayupxaret 5tslivam 6nìftue? 7Tse . . . 8zene 9pivlltxe 10san 11pxìm 12tsafya 13lu 14sìk.
+      lookup_filter:
+        2: 2476:vim.:noaffix:nolen
+        6: 1272:adv.:noaffix:nolen
+        14: 1796:adv.:noaffix:nolen
+      translations:
+        en: 2Can 3I 5understand 4(these messages) 6(easily)1(?)  7Well...  I 8must 9say 10(")11(Often) 12(that way)10(")

@@ -63,3 +63,8 @@ inputs:
         1: 412:pn.:noaffix:nolen
       translations:
         en: 3They 5all 2know 1+4(each other).
+    - id: GR_GZtH8RDGrqryeYwh5Pg
+      text: 1Ha . . . 2Lì'fyari 3leNa'vi 4pefya?
+      lookup_filter:
+        1: 540:conj.:noaffix:nolen
+      translations: {}
