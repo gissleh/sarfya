@@ -1010,9 +1010,9 @@ func generateLines(text Sentence, words map[int][]DictionaryEntry, spans [][]int
 type FilterMatchCompact struct {
 	ID          string                      `json:"id"`
 	Source      Source                      `json:"source"`
-	Flags       []ExampleFlag               `json:"flags"`
+	Flags       []ExampleFlag               `json:"flags,omitempty"`
 	Navi        [][]FilterMatchCompactChunk `json:"text"`
-	Translation [][]FilterMatchCompactChunk `json:"translation"`
+	Translation [][]FilterMatchCompactChunk `json:"translation,omitempty"`
 }
 
 type FilterMatchCompactChunk struct {
