@@ -8,7 +8,7 @@ require (
 	github.com/a-h/templ v0.2.747
 	github.com/aws/aws-lambda-go v1.47.0
 	github.com/awslabs/aws-lambda-go-api-proxy v0.16.2
-	github.com/fwew/fwew-lib/v5 v5.19.3
+	github.com/fwew/fwew-lib/v5 v5.19.6
 	github.com/google/uuid v1.6.0
 	github.com/labstack/echo/v4 v4.12.0
 	github.com/stretchr/testify v1.9.0

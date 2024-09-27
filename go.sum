@@ -12,6 +12,14 @@ github.com/fsnotify/fsnotify v1.7.0 h1:8JEhPFa5W2WU7YfeZzPNqzMP6Lwt7L2715Ggo0nos
 github.com/fsnotify/fsnotify v1.7.0/go.mod h1:40Bi/Hjc2AVfZrqy+aj+yEI+/bRxZnMJyTJwOpGvigM=
 github.com/fwew/fwew-lib/v5 v5.19.3 h1:1Ts4VBaI5T5KaiMA9/S+HvhNF5H94z/NSdm1Jvpwk5A=
 github.com/fwew/fwew-lib/v5 v5.19.3/go.mod h1:L6z1myjiD9F2M25GgrXaOIfCn+1FsywG1W3AhZt+bOg=
+github.com/fwew/fwew-lib/v5 v5.19.6 h1:dUKQD59THoDwUv8Nyv2PK1L5LvZra5BkDwHRFVWJ4Xs=
+github.com/fwew/fwew-lib/v5 v5.19.6/go.mod h1:L6z1myjiD9F2M25GgrXaOIfCn+1FsywG1W3AhZt+bOg=
+github.com/fwew/fwew-lib/v5 v5.20.0 h1:VMPthzosoPbQPbjacjKQ6pOYbRbLG2ummaVaGHpSKSI=
+github.com/fwew/fwew-lib/v5 v5.20.0/go.mod h1:L6z1myjiD9F2M25GgrXaOIfCn+1FsywG1W3AhZt+bOg=
+github.com/fwew/fwew-lib/v5 v5.21.0 h1:MnQ0V/y2t2DND2dszVfsO2NFm7+ZHbND3z8jSS68IsM=
+github.com/fwew/fwew-lib/v5 v5.21.0/go.mod h1:L6z1myjiD9F2M25GgrXaOIfCn+1FsywG1W3AhZt+bOg=
+github.com/fwew/fwew-lib/v5 v5.22.1 h1:L1BD5DnJhN2TwKXX2ljyjwdLYunw92y8SnmyO8VBzBg=
+github.com/fwew/fwew-lib/v5 v5.22.1/go.mod h1:L6z1myjiD9F2M25GgrXaOIfCn+1FsywG1W3AhZt+bOg=
 github.com/go-sql-driver/mysql v1.8.1 h1:LedoTUt/eveggdHS9qUFC1EFSa8bU2+1pZjSRpvNJ1Y=
 github.com/go-sql-driver/mysql v1.8.1/go.mod h1:wEBSXgmK//2ZFJyE+qWnIsVGmvmEKlqwuVSjsCm7DZg=
 github.com/golang-jwt/jwt v3.2.2+incompatible h1:IfV12K8xAKAnZqdXVzCZ+TOjboZ2keLg81eXfW3O+oY=

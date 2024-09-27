@@ -165,7 +165,7 @@ inputs:
       translations:
         en: 5Please 1+4don't 2+3(let me down).
     - id: 9EQobv0gT9iCKcbsMOcRkA
-      text: 1(T-ä|Trramä) 2ayuvanìri 3makto 4Akwey 5nìyewla 6ha 7snaytx.
+      text: 1Trramä 2ayuvanìri 3makto 4Akwey 5nìyewla 6ha 7snaytx.
       lookup_filter:
         6: 540:conj.:noaffix:nolen
       translations:

@@ -994,10 +994,10 @@ func generateLines(text Sentence, words map[int][]DictionaryEntry, spans [][]int
 			}
 		}
 		if index, ok := inSpan[i]; ok {
-			chunk.DirectMatch = &index
+			chunk.DirectMatch = append(chunk.DirectMatch, index)
 		}
 		if index, ok := inAdjacent[i]; ok {
-			chunk.IndirectMatch = &index
+			chunk.IndirectMatch = append(chunk.IndirectMatch, index)
 		}
 
 		currLine = append(currLine, chunk)
@@ -1016,11 +1016,16 @@ type FilterMatchCompact struct {
 }
 
 type FilterMatchCompactChunk struct {
-	Text          string `json:"t"`
-	IDs           []int  `json:"i,omitempty"`
-	Link          string `json:"l,omitempty"`
-	DirectMatch   *int   `json:"dm,omitempty"`
-	IndirectMatch *int   `json:"im,omitempty"`
+	// Text is the text to show.
+	Text string `json:"t"`
+	// IDs are shared between translations, for highlighting when hovering.
+	IDs []int `json:"i,omitempty"`
+	// Link means a filter that targets a specific word. If there are multiple IDs, the first one is used.
+	Link string `json:"l,omitempty"`
+	// DirectMatch are highlighted orange.
+	DirectMatch []int `json:"dm,omitempty"`
+	// IndirectMatch are underlined orange.
+	IndirectMatch []int `json:"im,omitempty"`
 }
 
 func inStringList(list []string, value string, aliases map[string]string) bool {
