@@ -58,6 +58,10 @@ func (d *dictionary) Lookup(ctx context.Context, word string) (entries []sarfya.
 		}
 	}()
 
+	if len(word) > 24 {
+		return []sarfya.DictionaryEntry{}, nil
+	}
+
 	// Fwew gets a bit ornery with multi-thread access.
 	globalLock.Lock()
 	res, err := fwew.TranslateFromNaviHash(word, true)
@@ -84,14 +88,14 @@ func (d *dictionary) Lookup(ctx context.Context, word string) (entries []sarfya.
 	if !hasNumber {
 		if n, err := fwew.NaviToNumber(word); err == nil && n > 0 {
 			e := d.numberToEntry(n)
-			if e.Word == word {
+			if e.Word == strings.ToLower(word) {
 				entries = append(entries, e)
 			}
 		}
 		if strings.HasPrefix(word, "a") {
 			if n, err := fwew.NaviToNumber(word[1:]); err == nil && n > 0 {
 				e := d.numberToEntry(n)
-				if e.Word == word[1:] {
+				if e.Word == strings.ToLower(word[1:]) {
 					e.Prefixes = []string{"a"}
 					entries = append(entries, e)
 				}
@@ -100,7 +104,7 @@ func (d *dictionary) Lookup(ctx context.Context, word string) (entries []sarfya.
 		if strings.HasSuffix(word, "a") {
 			if n, err := fwew.NaviToNumber(word[:len(word)-1]); err == nil && n > 0 {
 				e := d.numberToEntry(n)
-				if e.Word == word[:len(word)-1] {
+				if e.Word == strings.ToLower(word[:len(word)-1]) {
 					e.Suffixes = []string{"a"}
 					entries = append(entries, e)
 				}

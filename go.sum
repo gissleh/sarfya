@@ -16,6 +16,8 @@ github.com/fwew/fwew-lib/v5 v5.19.6 h1:dUKQD59THoDwUv8Nyv2PK1L5LvZra5BkDwHRFVWJ4
 github.com/fwew/fwew-lib/v5 v5.19.6/go.mod h1:L6z1myjiD9F2M25GgrXaOIfCn+1FsywG1W3AhZt+bOg=
 github.com/fwew/fwew-lib/v5 v5.20.0 h1:VMPthzosoPbQPbjacjKQ6pOYbRbLG2ummaVaGHpSKSI=
 github.com/fwew/fwew-lib/v5 v5.20.0/go.mod h1:L6z1myjiD9F2M25GgrXaOIfCn+1FsywG1W3AhZt+bOg=
+github.com/fwew/fwew-lib/v5 v5.20.1 h1:34tZNyG7Ljukil194hmfSb0TrGD/0uWHyq06qncNSb8=
+github.com/fwew/fwew-lib/v5 v5.20.1/go.mod h1:L6z1myjiD9F2M25GgrXaOIfCn+1FsywG1W3AhZt+bOg=
 github.com/fwew/fwew-lib/v5 v5.21.0 h1:MnQ0V/y2t2DND2dszVfsO2NFm7+ZHbND3z8jSS68IsM=
 github.com/fwew/fwew-lib/v5 v5.21.0/go.mod h1:L6z1myjiD9F2M25GgrXaOIfCn+1FsywG1W3AhZt+bOg=
 github.com/fwew/fwew-lib/v5 v5.22.1 h1:L1BD5DnJhN2TwKXX2ljyjwdLYunw92y8SnmyO8VBzBg=
@@ -60,6 +62,8 @@ golang.org/x/crypto v0.22.0 h1:g1v0xeRhjcugydODzvb3mEM9SQ0HGp9s/nh3COQ/C30=
 golang.org/x/crypto v0.22.0/go.mod h1:vr6Su+7cTlO45qkww3VDJlzDn0ctJvRgYbC2NvXHt+M=
 golang.org/x/net v0.24.0 h1:1PcaxkF854Fu3+lvBIx5SYn9wRlBzzcnHZSiaFFAb0w=
 golang.org/x/net v0.24.0/go.mod h1:2Q7sJY5mzlzWjKtYUEXSlBWCdyaioyXzRB2RtU8KVE8=
+golang.org/x/sync v0.7.0 h1:YsImfSBoP9QPYL0xyKJPq0gcaJdG3rInoqxTWbfQu9M=
+golang.org/x/sync v0.7.0/go.mod h1:Czt+wKu1gCyEFDUtn0jG5QVvpJ6rzVqr5aXyt9drQfk=
 golang.org/x/sys v0.0.0-20220811171246-fbc7d0a398ab/go.mod h1:oPkhp1MJrh7nUepCBck5+mAzfO9JrbApNNgaTdGDITg=
 golang.org/x/sys v0.6.0/go.mod h1:oPkhp1MJrh7nUepCBck5+mAzfO9JrbApNNgaTdGDITg=
 golang.org/x/sys v0.21.0 h1:rF+pYz3DAGSQAxAu1CbC7catZg4ebC4UIeIhKxBZvws=

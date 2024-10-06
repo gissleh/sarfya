@@ -1,0 +1,96 @@
+source:
+    id: blog-2024-09-31
+    date: "2024-10-01"
+    url: https://naviteri.org/2024/09/pxevola-liu-amip-two-dozen-new-words/
+    title: Pxevola lì’u amip     Two dozen new words
+    author: Paul Frommer
+inputs:
+    - id: Ps-Q_fzPSYmYBiVkzHBPNQ
+      text: 1Tse, 2Vospxìvolaw 3polähem 4sneyä 5(tì'i'a)6(ro), 7ulte 8leiu 9oe 10txen.
+      lookup_filter:
+        4: 8240:pn.:noaffix:nolen
+      translations: {}
+    - id: I1D4BRxdTbyEC-AgJWHiyA
+      text: 1Oeri 2tsavur 3(eltur tìtxen si).
+      translations:
+        en: 1(I)3('m interested in) 2(that story)
+    - id: SBF--jZAQGyA_f-hgX_baQ
+      text: 1Oe 2'efu 3nitram.
+      translations:
+        en: 1I 2feel 3happy.
+    - id: sAX427KhT4eAQBIgPkx6Mg
+      text: 1Ngeyä 2(aysäfpìl)3(mì) 4tse'änga 5oel 6keve'ot 7nì'aw.
+      translations:
+        en: 3In 2your 3thinking, 5I 4see 7only 6chaos.
+    - id: lGamqswaTQmwOJBJLwGwmg
+      text: 1Lam 2oeru 3kifkey 4lekve'o.
+      translations:
+        en: 3(The world) 1seems 4chaotic 2(to me).
+    - id: tDwFXao0QqSZRpMmdmPx5A
+      text: 1(N|Txon Kihote) 2lu 3vurtu 4nì'aw; 5ke 6fkeytolok 7kawkrr.
+      translations:
+        en: 1(Don Quixote) 2+4is 3(a fictional character); he 5+7never 6existed.
+    - id: QFtN5urgSNqgoEDG0XXhFg
+      text: 1Lu 2nga 3kalintu 4nìngay.
+      lookup_filter:
+        4: 1296:adv.:noaffix:nolen
+      translations:
+        en: 2(You)1('re) 4really 3(a sweet person).
+    - id: I7vsHIy5QTicyf2-qMvAew
+      text: 1Melì'u 2alu 3pxel 4sì 5na 6lu 7tengralì'u.
+      translations:
+        en: 1(The two words) 2+3pxel 4and 2+5na 6are 7synonyms.
+    - id: wtlf1CpfQKSUrLs-Up8AdQ
+      text: 1Fkol 2fìfnetsngalit 3txula 4ta 5zal.
+      translations:
+        en: 2(This kind of cup) 3+1(is made) 4of 5clay.
+    - id: dgzQPYTiQBaI87RN9GB9TQ
+      text: 1Ayhapxìtu 2soaiä 3ngeyä 4lu 5oeru 6let'eylan 7nìwotx.
+      translations:
+        en: 3Your 2family 1members 4are 7all 6friendly 5(to me).
+    - id: Ps-XXmNOQI-FPbMGox2_LQ
+      text: 1Ngeyä 2aylì'uri 3atì'eylanga' 4seiyi 4irayo-.
+      translations:
+        en: 4(Thank you) 2for 1your 3friendly 2words.'
+    - id: xh5ChiyYTmqrOW8uWr-cEw
+      text: 1Krrka 2tsam 3slängu 4pxaya 5'eveng 6hasa'.
+      translations:
+        en: 1During 2war, 3(sad to say), 4many 5children 3become 6orphans.
+    - id: F3SiPic1SdaTNkLnXU8mmA
+      text: 1Lam 2frakem 3letsunslu 4krra 5fko 6'efu 7yehaw.
+      translations:
+        en: 2Everything 1seems 3possible 4when 5one 6is 7well-rested.
+    - id: WGzsBRzbSWGGN9hoZqo4cA
+      text: 1Fìfkxile 2lu 3tseovi 4alor.
+      lookup_filter:
+        4: 1024:adj.:=a-:noinfix:nosuffix:nolen
+      translations:
+        en: 1(This necklace) 3is 3a 4beautiful 3(work of art).
+    - id: 1vX6QSF7S-aepuJxtNHmAw
+      text: 1Lu 2oer/3oeru 4tìnitram.
+      translations:
+        en: '{(I feel happy.)}'
+    - id: 6dTroHBnQ0OW69MdvcB4vw
+      text: 1(Fìpuk)2(mì) 3a 4aysäfpìl 5lu 6tìwätenga' 7nìtxan.
+      lookup_filter:
+        7: 1312:adv.:noaffix:nolen
+      translations:
+        en: 4(The ideas) 3+2in 1(this book) 5are 7very 6controversial.
+    - id: Z2H156oHQ2qZn5kMkp8Xlw
+      text: 1Ngeyä 2tìhawlìri 3ke 4längu 5kea 6velun.
+      translations:
+        en: 4(I'm sorry to say there's) 3+5no 6logic 2in 1your 2plan.
+    - id: wC-b19mxQMGrKCbR_pjR8w
+      text: 1Stìmawm 2säpxorit! 3Tul!
+      translations:
+        en: '{(I)} 1(just heard) 2(an explosion)! 3Run!'''
+    - id: -rpVwdstRV2eajj363-gww
+      text: 1Rawng 2tsaslärä 3ftu 4fìtsenge 5lu 6vola 7(säkeynven|skeynven) 8nì'aw.
+      lookup_filter:
+        4: 365:adv., n.:noaffix:nolen
+      translations:
+        en: 1(The entrance) 2(to the cave) 5is 8only 6eight 7steps 3from 4here.
+    - id: XZh9gRfqS7m7KoYZYI6YQQ
+      text: 1Oel 2keng 3kawlo 4ke 5solar 6kea 7räptulì'fyat 8(nga)9(hu)!
+      translations:
+        en: 1I 5have 3+4+6never 2even 3+4+6once 5used 7(vulgar language) 9with 8you!

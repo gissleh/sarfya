@@ -4,6 +4,7 @@ import (
 	"context"
 	"fmt"
 	"github.com/gissleh/sarfya"
+	"golang.org/x/sync/errgroup"
 	"gopkg.in/yaml.v3"
 	"log"
 	"os"
@@ -212,7 +213,10 @@ func Open(ctx context.Context, storagePath string, dictionary sarfya.Dictionary)
 		return nil, err
 	}
 
-	var examples []sarfya.Example
+	eg, egCtx := errgroup.WithContext(ctx)
+
+	examples := make([]sarfya.Example, 64*1024)
+	nextOffset := 0
 	for _, entry := range entries {
 		if entry.IsDir() && !strings.HasSuffix(entry.Name(), ".yaml") {
 			continue
@@ -230,18 +234,30 @@ func Open(ctx context.Context, storagePath string, dictionary sarfya.Dictionary)
 			return nil, err
 		}
 
-		for _, input := range loadedData.Inputs {
-			input.Source = loadedData.Source
-			example, err := sarfya.NewExample(ctx, input, dictionary)
-			if err != nil {
-				return nil, fmt.Errorf("could not load example %s/%s: %w", entry.Name(), input.ID, err)
-			}
+		offset := nextOffset
+		nextOffset += len(loadedData.Inputs)
 
-			examples = append(examples, *example)
+		for i, input := range loadedData.Inputs {
+			i := i
+			input.Source = loadedData.Source
+
+			eg.Go(func() error {
+				example, err := sarfya.NewExample(egCtx, input, dictionary)
+				if err != nil {
+					return fmt.Errorf("could not load example %s/%s: %w", entry.Name(), input.ID, err)
+				}
+
+				examples[offset+i] = *example
+				return nil
+			})
 		}
 	}
 
-	return &Storage{path: storagePath, examples: examples, dictionary: dictionary}, nil
+	if err := eg.Wait(); err != nil {
+		return nil, err
+	}
+
+	return &Storage{path: storagePath, examples: examples[:nextOffset], dictionary: dictionary}, nil
 }
 
 type sourceFileData struct {

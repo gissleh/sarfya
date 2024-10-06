@@ -187,7 +187,6 @@ inputs:
     - id: NM87MDDATT2pl1HjxIV82A
       text: 1Neytiril 2(N-ur|Tsyeykur) 3wamìntxu 4Omatikayaä 5vefyat 6tìtusaronä.
       lookup_filter:
-        6: 6156:n.:noprefix:noinfix:=-ä:nolen
       translations:
         en: 1Neytiri 3showed 2Jake 4(the Omatikaya's) 5approach 6(to hunting).
     - id: iFNOQEysR-KFpGniZVgZLA

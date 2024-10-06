@@ -19,11 +19,9 @@ inputs:
       translations:
         en: 3+4(How long) 2were 1you 2sleeping?
     - id: NfrknLu4TceL-b1sZszWFg
-      text: 1Tsasäftxulì'ul 2peyä 3eltut 4heykolahaw 5nìtxan.
-      lookup_filter:
-        5: 1312:adv.:noaffix:nolen
+      text: 1Tsasäftxulì'ul 2peyä 3(eltut heykolahaw) 4nìtxan.
       translations:
-        en: 1(That speech) 2(of his) 3+4was 5very 3+4boring.
+        en: 1(That speech) 2(of his) 3was 4very 3boring.
     - id: patoGQbLRsGMZXMz-trCQw
       text: 1Oe 2'efu 3skeykx 4ulte 5new 6tivätxaw 7ne 8kelku.
       translations:

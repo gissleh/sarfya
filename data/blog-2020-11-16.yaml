@@ -32,7 +32,6 @@ inputs:
       text: 1Fori 2tsafnetìkusar 3ke 4lu 5leha'.
       lookup_filter:
         1: 412:pn.:noprefix:noinfix:=-ri:nolen
-        2: 6148:n.:=tsa-fne-:noinfix:nosuffix:nolen
       translations:
         en: 2(That kind of teaching) 4isn't 5appropriate 1(for them.)
     - id: gQcKlJJwR-G649wCbVtPXQ

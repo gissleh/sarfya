@@ -9,7 +9,6 @@ inputs:
       text: 1Ke 2tung 3fkol 4tìwusemit 5fìtseng.
       lookup_filter:
         2: 2284:vtr.:noaffix:nolen
-        4: 6748:n.:noprefix:noinfix:=-it:nolen
         5: 364:adv., n.:noaffix:nolen
       translations:
         en: 4Fighting 2+3(is)1(n't) 2+3allowed 5here.
