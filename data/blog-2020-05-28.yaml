@@ -22,7 +22,7 @@ inputs:
       translations:
         en: 1He 2asked 4the 3same 4question 5that 7I 8had 6already 8asked 9yesterday.
     - id: X5WQ1ZW8QFyBvcBYYHop0g
-      text: 1Pol 2polawm 3tìpawmit 4(oe)5+4(ta).
+      text: 1Pol 2polawm 3tìpawmit 4(oe)5(ta).
       translations:
         en: 1He 2asked 4+5me 3(a question).
     - id: _ozzoa3DQXe1x9slJ2iDQQ
@@ -34,7 +34,7 @@ inputs:
       translations:
         en: 1He 2+3(asked if/whether) 4Ralu 5left.
     - id: 2u6VX948QpSZ3hiFxj-Nag
-      text: 1Po 2polawm 3(oe)4+3(ta) 5san 6srake 7Ralu 8holum.
+      text: 1Po 2polawm 3(oe)4(ta) 5san 6srake 7Ralu 8holum.
       translations:
         en: 1He 2+5+6asked 3+4me 2+5+6whether 7Ralu 8left.
     - id: vqy_u0n6QA23HFfuWkDZvA
@@ -48,7 +48,7 @@ inputs:
             A: 4Did 1they 3(get married)4(?)
             B: 5I 6didn't 7ask.
     - id: gq224YeoSc-N0k7_ppkyvw
-      text: 1Txo 2nga 3ke 4ivomum, 5pawm 6(oe)7+6(ta).
+      text: 1Txo 2nga 3ke 4ivomum, 5pawm 6(oe)7(ta).
       translations:
         en: 1If 2you 3don't 4know, 5ask 6+7me.
     - id: 2-ANfemDQaetsOzzwbXGlg

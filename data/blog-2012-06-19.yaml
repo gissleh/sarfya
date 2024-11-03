@@ -53,7 +53,7 @@ inputs:
       translations:
         en: 1She 8was 6+7so 9beautiful 5that 4I 2+3(fell in love with) 1her.
     - id: Hs8L9ILIQgulhsXIi3sIow
-      text: 1Tsatsenge 2lehrrap 3lu 4fìtxan 5kuma 6(tsa)7+6(ne) 8ke 9kä 10awnga 11kawkrr.
+      text: 1Tsatsenge 2lehrrap 3lu 4fìtxan 5kuma 6(tsa'u|tsa)7(ne) 8ke 9kä 10awnga 11kawkrr.
       lookup_filter:
         5: 8836:conj.:noaffix:nolen
       translations:

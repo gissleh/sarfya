@@ -58,7 +58,7 @@ inputs:
       translations:
         en: 3I 2am 4innocent 1(of that crime)!
     - id: eMdIr4djSC2zmWyaLAhq9A
-      text: 1Entul 2fot 3ve'kì 4ulte 5sänui 6feyä 7zolawprrte' 8nìtokat 9(po)10+9(ne).
+      text: 1Entul 2fot 3ve'kì 4ulte 5sänui 6feyä 7zolawprrte' 8nìtokat 9(po)10(ne).
       lookup_filter:
         2: 412:pn.:noprefix:noinfix:=-t:nolen
         6: 412:pn.:noprefix:noinfix:=-yä:nolen
@@ -74,17 +74,17 @@ inputs:
       translations:
         en: 2Their 1marriage 3+5brought 12+13Maru 3+5pleasure. 8She 7+8felt 9+6no 10jealousy 11(at all).
     - id: XxvWt7ifSM6Yu484QcdRnA
-      text: 1zawprrte' 2nìtokat 3fkone
+      text: 1zawprrte' 2nìtokat 3(fko)4(ne)
       lookup_filter:
         2: 13398:adv.:noaffix:nolen
       translations:
-        en: 1(be pleasurable) 3(to one) 2(in a guilty way) {(This is an expression for schadenfreude—taking pleasure in someone else's misfortune.)}
+        en: 1(be pleasurable) 4to 3one 2(in a guilty way) {(This is an expression for schadenfreude—taking pleasure in someone else's misfortune.)}
     - id: 5JjE9Tf4RS2Fmu8gt9P78w
-      text: 1zawprrte' 2nìlayl 3fkone
+      text: 1zawprrte' 2nìlayl 3(fko)4(ne)
       lookup_filter:
         2: 13395:adv.:noaffix:nolen
       translations:
-        en: 1(be pleasurable) 3(to one) 2(in an innocent way) {(This expresses the idea of taking pure pleasure in someone else's good fortune or achievements without the slightest hint of envy or jealousy.)}
+        en: 1(be pleasurable) 4to 3one 2(in an innocent way) {(This expresses the idea of taking pure pleasure in someone else's good fortune or achievements without the slightest hint of envy or jealousy.)}
     - id: 1ivLjvDZTkq_RPGPd9C0Jg
       text: 1Po 2lu 3ngong 4nìngay.
       lookup_filter:

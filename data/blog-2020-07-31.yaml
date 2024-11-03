@@ -30,7 +30,7 @@ inputs:
       translations:
         en: 4Why 3are 1you 3rubbing 1your 2arm? 5+6(Does it hurt)?
     - id: Xb_B0LTNR8qnkjQSaRwCpQ
-      text: 1Txo 2syuve 3som 4livu 5nìhawng, 6lonusye 7(tsa)8+7(ne).
+      text: 1Txo 2syuve 3som 4livu 5nìhawng, 6lonusye 7(tsa'u|tsa)8(ne).
       translations:
         en: 1If 2(the food) 4is 5too 3hot, 6blow 8on 7it.
     - id: SM02WuYURpe1kX-GZcFs-A
