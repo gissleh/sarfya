@@ -2,13 +2,14 @@
 
 I developed this tool to be able to efficiently find the usages of Na'vi words in canon and approved examples.
 
-The svelte frontend is held together by duct tape, and it is only meant for editing the content in the `data/` folder for now.
+This is the library half of it with the core logic, the rest will be in [sarfya-service](https://github.com/gissleh/sarfya-service).
 
 ## License
 
-The code under `ports/fwewdictionary/` and any package depending on these (only `cmd/...` within the project) is licensed under GPL2 (LICENSE-GPL.txt).
+The GPL license is no longer in effect since the GPL dependency is in the other package.
 
-The text used in `data/` is the property of their original authors, and are attributed under the `source` property.
+The text used in `data/` is the property of their original authors, 
+and are attributed under the `source` property of the YAML documents.
 
 The remaining code and the annotations in `data/` falls under the ISC license (LICENSE-ISC.txt).
 
@@ -66,36 +67,19 @@ Build the Dockerfile, it uses the `cmd/sarfya-prod-server` as the main command a
 All 'business logic' and the main functionality is in the root of the project, and has zero external dependencies.
 The goal of that is to facilitate integration into existing `fwew` services.
 
-For a minimal use of the library, see `./cmd/fyasar-example`
+The data is not included here, but you can build it with the other repository or download it from https://sarfya.vmaple.dev/data.json
 
 ### Adapters
 
-The adapters are where the external dependencies come into play.
-
-#### `fwewdictionary`
-
-This hooks the `fyasar.Dictionary` interface up with `fwew`.
-
 #### `placeholderdictionary`
 
-This is run alongside `fwew` to handle placeholders like `X-ìl`.
+This is run alongside the main dictionary to handle placeholders like `X-ìl`.
 It's also used for names that aren't in the dictionary.
 
 #### `jsonstorage`
 
 An indexed storage backend for `service` that can be loaded and saved as a JSON.
-The plan is bundling a JSON with the binary and throw it up on a FaaS behind a CDN cache in the future.
+This is meant for the production server to be bundled with the whole compiled dataset.
 
-#### `sourcestorage`
 
-The storage backend for `service` ran locally. 
-It modifies the relevant files in `./data`.
 
-#### `webapi`
-
-An (aspirationally) REST API for the frontend.
-
-#### `templfrontend`
-
-A WIP templ-based frontend that's faster to host. 
-It's a bit coupled with the `webapi` package, however.
