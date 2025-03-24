@@ -138,15 +138,21 @@ parseLoop:
 	for i, part := range parts {
 		parts[i].Text = quoteReplacer.Replace(part.Text)
 
+		matchedText := &parts[i].Text
 		if strings.Contains(part.Text, "|") {
 			split := strings.SplitN(part.Text, "|", 2)
 			parts[i].HiddenText = split[0]
 			parts[i].Text = split[1]
+			matchedText = &parts[i].HiddenText
 		}
 
-		if text, found := strings.CutSuffix(part.Text, "-"); found && len(part.IDs) > 0 && len(text) != 0 {
-			parts[i].Text = text
+		if text, found := strings.CutSuffix(*matchedText, "-"); found && len(part.IDs) > 0 && len(*matchedText) != 0 {
+			*matchedText = text
 			parts[i].Prepend = true
+		}
+
+		if strings.Contains(*matchedText, ".") || strings.Contains(*matchedText, "!") || strings.Contains(*matchedText, "?") {
+			parts[i].SentenceBoundary = true
 		}
 	}
 
@@ -385,7 +391,7 @@ func (s Sentence) WithoutAlts(spans [][]int) Sentence {
 	return res
 }
 
-func (s Sentence) NextLinked(index int) int {
+func (s Sentence) NextLinked(index int, allowBoundaries bool) int {
 	for index+1 < len(s) && s[index+1].Alt {
 		index += 1
 	}
@@ -394,12 +400,16 @@ func (s Sentence) NextLinked(index int) int {
 		if len(part.IDs) > 0 {
 			return index + i + 1
 		}
+
+		if part.SentenceBoundary && !allowBoundaries {
+			break
+		}
 	}
 
 	return -1
 }
 
-func (s Sentence) PrevLinked(index int) int {
+func (s Sentence) PrevLinked(index int, allowBoundaries bool) int {
 	for s[index].Alt {
 		index -= 1
 	}
@@ -408,6 +418,9 @@ func (s Sentence) PrevLinked(index int) int {
 		part := s[i]
 		if part.Alt {
 			continue
+		}
+		if part.SentenceBoundary && !allowBoundaries {
+			break
 		}
 
 		if len(part.IDs) > 0 {
@@ -419,12 +432,13 @@ func (s Sentence) PrevLinked(index int) int {
 }
 
 type SentencePart struct {
-	IDs        []int  `json:"ids,omitempty" yaml:"ids,omitempty"`
-	Text       string `json:"text" yaml:"text"`
-	HiddenText string `json:"hiddenText,omitempty" yaml:"hidden_text,omitempty"`
-	Alt        bool   `json:"alt,omitempty" yaml:"alt,omitempty"`
-	Newline    bool   `json:"newline,omitempty" yaml:"newline,omitempty"`
-	Prepend    bool   `json:"prepend,omitempty" yaml:"prepend,omitempty"`
+	IDs              []int  `json:"ids,omitempty" yaml:"ids,omitempty"`
+	Text             string `json:"text" yaml:"text"`
+	HiddenText       string `json:"hiddenText,omitempty" yaml:"hidden_text,omitempty"`
+	Alt              bool   `json:"alt,omitempty" yaml:"alt,omitempty"`
+	Newline          bool   `json:"newline,omitempty" yaml:"newline,omitempty"`
+	Prepend          bool   `json:"prepend,omitempty" yaml:"prepend,omitempty"`
+	SentenceBoundary bool   `json:"sentenceBoundary,omitempty" yaml:"sentence_boundary,omitempty"`
 }
 
 func (p *SentencePart) HasAnyID(ids []int) bool {

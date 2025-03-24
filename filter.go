@@ -271,7 +271,40 @@ func (f *Filter) CheckExample(example Example, resolved map[int]DictionaryEntry)
 				expandableStart = len(spans)
 				spans = append(spans, matches...)
 			}
-		case FTOFollowedBy, FTONextTo, FTOASurroundedBy:
+		case FTOEnclitic:
+			{
+				foundAny := false
+
+				for j, span := range spans {
+					if len(span) == 0 || j < expandableStart {
+						continue
+					}
+
+					found := false
+					spanRightIndex := span[len(span)-1]
+
+					nextLinked := example.Text.NextLinked(spanRightIndex, false)
+					if nextLinked == spanRightIndex+1 {
+						for _, match := range matches {
+							if nextLinked == match[0] {
+								spans[j] = append(spans[j], match...)
+								found = true
+								foundAny = true
+								break
+							}
+						}
+					}
+
+					if !found {
+						spans[j] = spans[j][:0]
+					}
+				}
+
+				if !foundAny {
+					failed = true
+				}
+			}
+		case FTOFollowedBy, FTOFollowedByAcross, FTONextTo, FTOASurroundedBy:
 			{
 				foundAny := false
 
@@ -283,7 +316,7 @@ func (f *Filter) CheckExample(example Example, resolved map[int]DictionaryEntry)
 					matchedAfter := false
 					matchedBefore := false
 
-					nextLinked := example.Text.NextLinked(span[len(span)-1])
+					nextLinked := example.Text.NextLinked(span[len(span)-1], term.Operator == FTOFollowedByAcross)
 					if nextLinked != -1 {
 						for _, match := range matches {
 							if nextLinked == match[0] {
@@ -294,8 +327,8 @@ func (f *Filter) CheckExample(example Example, resolved map[int]DictionaryEntry)
 						}
 					}
 
-					if term.Operator != FTOFollowedBy {
-						prevLinked := example.Text.PrevLinked(span[0])
+					if term.Operator != FTOFollowedBy && term.Operator != FTOFollowedByAcross {
+						prevLinked := example.Text.PrevLinked(span[0], false)
 						if prevLinked != -1 {
 							for _, match := range matches {
 								if prevLinked == match[len(match)-1] {
@@ -328,7 +361,7 @@ func (f *Filter) CheckExample(example Example, resolved map[int]DictionaryEntry)
 					failed = true
 				}
 			}
-		case FTOBefore:
+		case FTOBefore, FTOBeforeAcross:
 			{
 				foundAny := false
 
@@ -338,11 +371,22 @@ func (f *Filter) CheckExample(example Example, resolved map[int]DictionaryEntry)
 					}
 
 					var selected []int
-					earliest := len(example.Text)
-
 					for _, match := range matches {
-						if span[len(span)-1] < match[0] && match[0] < earliest {
-							selected = match
+						if span[len(span)-1] < match[0] {
+							foundBoundary := false
+							if term.Operator != FTOBeforeAcross {
+								for k := span[len(span)-1]; k < match[0]; k++ {
+									if example.Text[k].SentenceBoundary {
+										foundBoundary = true
+										break
+									}
+								}
+							}
+
+							if !foundBoundary {
+								selected = match
+								break
+							}
 						}
 					}
 
@@ -626,16 +670,22 @@ type FilterTerm struct {
 var operatorAliases = [][2]string{
 	{FTOSurrounding, FTOSurrounding},
 	{FTOASurroundedBy, FTOASurroundedBy},
+	{FTOBeforeAcross, FTOBeforeAcross},
 	{FTOBefore, FTOBefore},
+	{FTOFollowedByAcross, FTOFollowedByAcross},
 	{FTOFollowedBy, FTOFollowedBy},
+	{FTOEnclitic, FTOEnclitic},
 	{FTONextTo, FTONextTo},
 	{FTOAnd, FTOAnd},
 	{FTOOr, FTOOr},
 	{"AND", FTOAnd},
 	{"OR", FTOOr},
 	{"NEXT TO", FTONextTo},
+	{"FOLLOWED BY ACROSS", FTOFollowedByAcross},
 	{"FOLLOWED BY", FTOFollowedBy},
+	{"BEFORE ACROSS", FTOBeforeAcross},
 	{"BEFORE", FTOBefore},
+	{"WITH ATTACHED", FTOEnclitic},
 	{"SURROUNDED BY", FTOASurroundedBy},
 	{"SURROUNDING", FTOSurrounding},
 }
@@ -643,7 +693,10 @@ var operatorAliases = [][2]string{
 const FTOSurrounding = ">+<"
 const FTOASurroundedBy = "++"
 const FTOBefore = "+>>"
+const FTOBeforeAcross = "+.>>"
 const FTOFollowedBy = "+>"
+const FTOFollowedByAcross = "+.>"
+const FTOEnclitic = "<-"
 const FTONextTo = "+"
 const FTOAnd = "&&"
 const FTOOr = "||"

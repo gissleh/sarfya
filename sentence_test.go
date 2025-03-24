@@ -18,7 +18,7 @@ var sentenceTestTable = []struct {
 		{IDs: []int{2}, Text: "ngati"},
 		{Text: " "},
 		{IDs: []int{3}, Text: "kameie"},
-		{Text: "."},
+		{Text: ".", SentenceBoundary: true},
 	}, map[int]string{
 		1: "oel",
 		2: "ngati",
@@ -30,7 +30,7 @@ var sentenceTestTable = []struct {
 		{IDs: []int{9118}, Text: "ìlä"},
 		{Text: " "},
 		{IDs: []int{648281}, Text: "fya'o"},
-		{Text: "."},
+		{Text: ".", SentenceBoundary: true},
 	}, map[int]string{
 		143:    "fìkem",
 		9118:   "ìlä",
@@ -59,7 +59,7 @@ var sentenceTestTable = []struct {
 		{IDs: []int{2}, Text: "rä'ä"},
 		{Text: " "},
 		{IDs: []int{1}, Text: "si"},
-		{Text: "!"},
+		{Text: "!", SentenceBoundary: true},
 	}, map[int]string{
 		1: "Tsakem si",
 		2: "rä'ä",
@@ -72,7 +72,7 @@ var sentenceTestTable = []struct {
 		{IDs: []int{3}, Text: "kam"},
 		{IDs: []int{3, 4}, Text: "ei"},
 		{IDs: []int{3}, Text: "e"},
-		{Text: "."},
+		{Text: ".", SentenceBoundary: true},
 	}, map[int]string{
 		1: "oel",
 		2: "ngati",
@@ -87,7 +87,7 @@ var sentenceTestTable = []struct {
 		{IDs: []int{3}, Text: "3a"},
 		{Text: " "},
 		{IDs: []int{4}, Text: "'uot"},
-		{Text: "."},
+		{Text: ".", SentenceBoundary: true},
 	}, map[int]string{
 		1: "oel",
 		2: "tsole'a",
@@ -125,7 +125,7 @@ var sentenceTestTable = []struct {
 		{IDs: []int{5}, Text: "lu"},
 		{Text: " "},
 		{IDs: []int{6}, Text: "'o'"},
-		{Text: "."},
+		{Text: ".", SentenceBoundary: true},
 	}, map[int]string{
 		1: "uvan",
 		2: "a",
@@ -141,7 +141,7 @@ var sentenceTestTable = []struct {
 		{Text: " "},
 		{IDs: []int{3}, Text: "pesrrpxì"},
 		{IDs: []int{4}, Text: "trrpxìpe", Alt: true},
-		{Text: "."},
+		{Text: ".", SentenceBoundary: true},
 	}, map[int]string{
 		1: "Fo",
 		2: "pähem",
@@ -166,7 +166,7 @@ var sentenceTestTable = []struct {
 		{IDs: []int{1, 2, 4}, Text: "mì"},
 		{Text: " "},
 		{IDs: []int{3, 4}, Text: "oeyä"},
-		{Text: "."},
+		{Text: ".", SentenceBoundary: true},
 	}, map[int]string{
 		1: "Tìomummì",
 		2: "mì",
@@ -183,7 +183,7 @@ var sentenceTestTable = []struct {
 		{Text: "a", IDs: []int{1}},
 		{Text: " "},
 		{Text: "tute", IDs: []int{4}},
-		{Text: "."},
+		{Text: ".", SentenceBoundary: true},
 	}, map[int]string{
 		1: "Eana",
 		2: "na",
@@ -200,7 +200,7 @@ var sentenceTestTable = []struct {
 		{Text: "oe", IDs: []int{4}},
 		{Text: " "},
 		{Text: "irayo", IDs: []int{3}, Prepend: true},
-		{Text: "!"},
+		{Text: "!", SentenceBoundary: true},
 	}, map[int]string{
 		1: "Fìtìmungwrr",
 		2: "horenä",
@@ -209,7 +209,7 @@ var sentenceTestTable = []struct {
 	}, "Fìtìmungwrr horenä seiyi oe irayo!"},
 	{"{(}Rä'ä syar!{)}", Sentence{
 		{Text: "("},
-		{Text: "Rä'ä syar!"},
+		{Text: "Rä'ä syar!", SentenceBoundary: true},
 		{Text: ")"},
 	}, map[int]string{}, "(Rä'ä syar!)"},
 	{"1yeyfya 4akawnärìp (/ )2mì 3mekemyo 5akoum", Sentence{
@@ -231,7 +231,7 @@ var sentenceTestTable = []struct {
 		5: "akoum",
 	}, "yeyfya akawnärìp / mì mekemyo akoum"},
 	{"(1. Holpxay mì mekemyo)", Sentence{
-		{Text: "1. Holpxay mì mekemyo"},
+		{Text: "1. Holpxay mì mekemyo", SentenceBoundary: true},
 	}, map[int]string{}, "1. Holpxay mì mekemyo"},
 	{"", Sentence{}, map[int]string{}, ""},
 	{"1", Sentence{
@@ -240,7 +240,7 @@ var sentenceTestTable = []struct {
 	{"", Sentence{}, map[int]string{}, ""},
 	// Remember to change `TestSentence_HasPartID` if more are added.
 	{"(tìng nari) ma sa'nu, kea holpxay.", Sentence{
-		{Text: "tìng nari ma sa'nu, kea holpxay."},
+		{Text: "tìng nari ma sa'nu, kea holpxay.", SentenceBoundary: true},
 	}, map[int]string{}, "tìng nari ma sa'nu, kea holpxay."},
 	{"1(Yak soli", Sentence{
 		{IDs: []int{1}, Text: "Yak soli"},
