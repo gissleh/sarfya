@@ -8,7 +8,7 @@ import (
 
 type Dictionary interface {
 	Entry(ctx context.Context, id string) (*DictionaryEntry, error)
-	Lookup(ctx context.Context, search string) ([]DictionaryEntry, error)
+	Lookup(ctx context.Context, search string, allowReef bool) ([]DictionaryEntry, error)
 }
 
 type DictionaryEntry struct {
@@ -172,10 +172,10 @@ func (c CombinedDictionary) Entry(ctx context.Context, id string) (*DictionaryEn
 	return nil, ErrDictionaryEntryNotFound
 }
 
-func (c CombinedDictionary) Lookup(ctx context.Context, search string) ([]DictionaryEntry, error) {
+func (c CombinedDictionary) Lookup(ctx context.Context, search string, allowReef bool) ([]DictionaryEntry, error) {
 	allRes := make([]DictionaryEntry, 0, 16)
 	for _, dict := range c {
-		res, err := dict.Lookup(ctx, search)
+		res, err := dict.Lookup(ctx, search, allowReef)
 		if err != nil && !errors.Is(err, ErrDictionaryEntryNotFound) {
 			return nil, err
 		}
@@ -207,8 +207,8 @@ func (d *withPoSChanges) Entry(ctx context.Context, id string) (*DictionaryEntry
 	return res, nil
 }
 
-func (d *withPoSChanges) Lookup(ctx context.Context, search string) ([]DictionaryEntry, error) {
-	res, err := d.sub.Lookup(ctx, search)
+func (d *withPoSChanges) Lookup(ctx context.Context, search string, allowReef bool) ([]DictionaryEntry, error) {
+	res, err := d.sub.Lookup(ctx, search, allowReef)
 	if err != nil {
 		return nil, err
 	}

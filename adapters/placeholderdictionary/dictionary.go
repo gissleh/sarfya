@@ -16,7 +16,7 @@ func (d *placeholderDictionary) Entry(_ context.Context, id string) (*sarfya.Dic
 	return nil, sarfya.ErrDictionaryEntryNotFound
 }
 
-func (d *placeholderDictionary) Lookup(_ context.Context, search string) ([]sarfya.DictionaryEntry, error) {
+func (d *placeholderDictionary) Lookup(_ context.Context, search string, _ bool) ([]sarfya.DictionaryEntry, error) {
 	chunks := strings.Split(search, "-")
 	letter := ""
 	prefixes := make([]string, 0)

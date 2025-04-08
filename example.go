@@ -3,6 +3,7 @@ package sarfya
 import (
 	"context"
 	"fmt"
+	"slices"
 	"strings"
 )
 
@@ -15,6 +16,8 @@ func NewExample(ctx context.Context, input Input, dictionary Dictionary) (*Examp
 		Words:        make(map[int][]DictionaryEntry),
 		Flags:        append(input.Flags[:0:0], input.Flags...),
 	}
+
+	allowReef := slices.Contains(input.Flags, EFReefDialect)
 
 	for i, flag := range input.Flags {
 		if !flag.Valid() {
@@ -56,7 +59,7 @@ func NewExample(ctx context.Context, input Input, dictionary Dictionary) (*Examp
 	}
 
 	for id, word := range res.Text.WordMap() {
-		matches, err := dictionary.Lookup(ctx, word)
+		matches, err := dictionary.Lookup(ctx, word, allowReef)
 		if err != nil {
 			return nil, ExampleError{
 				Part:    "text.wordMap",
@@ -216,6 +219,8 @@ func (e *Example) MinimalInput(ctx context.Context, dictionary Dictionary) (*Inp
 		Flags:        append(e.Flags[:0:0], e.Flags...),
 	}
 
+	allowReef := slices.Contains(e.Flags, EFReefDialect)
+
 	for i, translation := range e.Translations {
 		input.Translations[i] = translation.String()
 	}
@@ -223,7 +228,7 @@ func (e *Example) MinimalInput(ctx context.Context, dictionary Dictionary) (*Inp
 	for i, words := range e.Words {
 		var dictWords []DictionaryEntry
 		if dictionary != nil {
-			res, err := dictionary.Lookup(ctx, wordMap[i])
+			res, err := dictionary.Lookup(ctx, wordMap[i], allowReef)
 			if err != nil {
 				return nil, err
 			}

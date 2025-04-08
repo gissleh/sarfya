@@ -3,6 +3,7 @@ package sarfya
 import (
 	"context"
 	"fmt"
+	"slices"
 	"sort"
 	"strings"
 )
@@ -268,8 +269,26 @@ func (f *Filter) CheckExample(example Example, resolved map[int]DictionaryEntry)
 					failed = true
 				}
 
-				expandableStart = len(spans)
-				spans = append(spans, matches...)
+				addedAny := false
+				for _, match := range matches {
+					alreadyExists := false
+
+					for _, span := range spans {
+						if slices.Equal(span, match) {
+							alreadyExists = true
+							break
+						}
+					}
+
+					if !alreadyExists {
+						spans = append(spans, match)
+						addedAny = true
+					}
+				}
+
+				if !addedAny {
+					failed = true
+				}
 			}
 		case FTOEnclitic:
 			{
@@ -583,7 +602,7 @@ func (f *Filter) lookupWords(ctx context.Context, dictionary Dictionary) ([]map[
 			continue
 		}
 
-		entries, err := dictionary.Lookup(ctx, term.Word)
+		entries, err := dictionary.Lookup(ctx, term.Word, true)
 		if err != nil {
 			return nil, err
 		}
