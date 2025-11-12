@@ -41,6 +41,8 @@ const (
 	EFSyntax ExampleFlag = "syntax"
 	// EFClipped are for clipped register.
 	EFClipped ExampleFlag = "clipped"
+	// EFTranscribed are for examples transcribed from audio.
+	EFTranscribed ExampleFlag = "transcribed"
 )
 
 type Annotation struct {
