@@ -12,7 +12,7 @@ type ExampleFlag string
 
 func (f ExampleFlag) Valid() bool {
 	switch f {
-	case EFPoetry, EFNonCanon, EFUserTranslation, EFReefDialect, EFProverb, EFSlang, EFFormal, EFSyntax, EFClipped:
+	case EFPoetry, EFNonCanon, EFUserTranslation, EFReefDialect, EFProverb, EFSlang, EFFormal, EFSyntax, EFClipped, EFTranscribed:
 		return true
 	default:
 		return false
