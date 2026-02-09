@@ -1,8 +1,9 @@
 package sarfya
 
 import (
-	"github.com/stretchr/testify/assert"
 	"testing"
+
+	"github.com/stretchr/testify/assert"
 )
 
 var wordPefneuniltìranyuti = DictionaryEntry{ID: "2612", Word: "uniltìranyu", PoS: "n.", Definitions: map[string]string{"en": "dreamwalker"}, Source: "https://en.wikibooks.org/wiki/Na%27vi/Na%27vi%E2%80%93English_dictionary/glottal_series#U (2009-12-21)", Prefixes: []string{"pe", "fne"}, Infixes: []string(nil), Suffixes: []string{"ti"}, Lenitions: []string(nil), Comment: []string(nil)}
@@ -13,6 +14,7 @@ var wordAlaw = DictionaryEntry{ID: "968", Word: "law", PoS: "adj.", Definitions:
 var wordHrr = DictionaryEntry{ID: "880", Word: "krr", PoS: "n.", Definitions: map[string]string{"en": "time"}, Source: "Paul Frommer, PF | Activist Survival Guide (2009-11-24)", Prefixes: []string(nil), Infixes: []string(nil), Suffixes: []string(nil), Lenitions: []string{"k→h"}, Comment: []string(nil)}
 var wordMowarit = DictionaryEntry{ID: "10008", Word: "mowar", PoS: "n.", Definitions: map[string]string{"en": "advice, bit or piece of advice"}, Source: "https://naviteri.org/2014/05/mipa-ayliu-mipa-aysafpil-new-words-new-ideas/ (2014-05-31)", Prefixes: []string(nil), Infixes: []string(nil), Suffixes: []string{"it"}, Lenitions: []string(nil), Comment: []string(nil)}
 var wordNew = DictionaryEntry{ID: "1224", Word: "new", PoS: "vtrm.", Definitions: map[string]string{"en": "want"}, Source: "Paul Frommer, PF | Activist Survival Guide (2009-11-24) | https://naviteri.org/2010/07/diminutives-conversational-expressions/ (2010-07-11)", Prefixes: []string(nil), Infixes: []string(nil), Suffixes: []string(nil), Lenitions: []string(nil), Comment: []string(nil)}
+var wordTsaw = DictionaryEntry{ID: "5268", Word: "tsaw", PoS: "pn.", OriginalPoS: "pn.", Definitions: map[string]string{"en": "that, it (as intransitive subject)"}, InfixIndexes: []int(nil), Source: "https://forum.learnnavi.org/index.php?msg=254625 (2010-07-03)", Prefixes: []string(nil), Infixes: []string(nil), Suffixes: []string(nil), Lenitions: []string(nil), Comment: []string(nil)}
 
 func TestWordFilter_Check(t *testing.T) {
 	table := []struct {
@@ -157,12 +159,27 @@ func TestWordFilter_Check(t *testing.T) {
 			"vim.|vtrm.", wordNew, true,
 			true,
 		},
+		{
+			"One suffix of many matches",
+			"-t|-r|-l|-ri", wordPefneuniltìranyuti, true,
+			true,
+		},
+		{
+			"No suffix of many matches",
+			"-r|-l|-ri", wordPefneuniltìranyuti, true,
+			false,
+		},
+		{
+			"Dictionary entry filtering does not fail with multiple suffixes",
+			"-l|-t|-r", wordTsaw, false,
+			true,
+		},
 	}
 
-	for _, tt := range table {
-		t.Run(tt.Label, func(t *testing.T) {
-			filter := ParseWordFilter(tt.Filter)
-			assert.Equal(t, tt.Expected, filter.Check(&tt.Entry, tt.CheckModifiers))
+	for _, row := range table {
+		t.Run(row.Label, func(t *testing.T) {
+			filter := ParseWordFilter(row.Filter)
+			assert.Equal(t, row.Expected, filter.Check(&row.Entry, row.CheckModifiers))
 		})
 	}
 }

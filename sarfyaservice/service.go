@@ -4,11 +4,12 @@ import (
 	"context"
 	"encoding/base64"
 	"errors"
-	"github.com/gissleh/sarfya"
-	"github.com/google/uuid"
 	"sort"
 	"sync"
 	"sync/atomic"
+
+	"github.com/gissleh/sarfya"
+	"github.com/google/uuid"
 )
 
 type Service struct {

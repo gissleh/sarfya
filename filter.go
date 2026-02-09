@@ -787,7 +787,7 @@ func (wf WordFilter) Check(e *DictionaryEntry, checkModifiers bool) bool {
 			} else if strings.HasPrefix(alternative, "-") && strings.HasSuffix(alternative, "-") {
 				if !checkModifiers {
 					modifiers += 1
-					break
+					continue
 				}
 
 				affixes := strings.Split(alternative[1:len(alternative)-1], "-")
@@ -815,7 +815,7 @@ func (wf WordFilter) Check(e *DictionaryEntry, checkModifiers bool) bool {
 			} else if strings.HasPrefix(alternative, "-") {
 				if !checkModifiers {
 					modifiers += 1
-					break
+					continue
 				}
 
 				suffixes := strings.Split(alternative[1:], "-")
@@ -838,7 +838,7 @@ func (wf WordFilter) Check(e *DictionaryEntry, checkModifiers bool) bool {
 			} else if strings.HasSuffix(alternative, "-") {
 				if !checkModifiers {
 					modifiers += 1
-					break
+					continue
 				}
 
 				prefixes := strings.Split(alternative[:len(alternative)-1], "-")
@@ -861,7 +861,7 @@ func (wf WordFilter) Check(e *DictionaryEntry, checkModifiers bool) bool {
 			} else if strings.HasPrefix(alternative, "<") && strings.HasSuffix(alternative, ">") {
 				if !checkModifiers {
 					modifiers += 1
-					break
+					continue
 				}
 
 				infixes := strings.Split(alternative[1:len(alternative)-1], " ")
@@ -888,7 +888,7 @@ func (wf WordFilter) Check(e *DictionaryEntry, checkModifiers bool) bool {
 			} else if strings.Contains(alternative, "->") || strings.ContainsRune(alternative, '→') {
 				if !checkModifiers {
 					modifiers += 1
-					break
+					continue
 				}
 
 				lenitions := strings.Split(alternative, " ")

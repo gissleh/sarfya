@@ -19,7 +19,7 @@ func (t testDictionary) Entry(_ context.Context, id string) (*DictionaryEntry, e
 	return nil, errors.New("not found")
 }
 
-func (t testDictionary) Lookup(_ context.Context, word string) ([]DictionaryEntry, error) {
+func (t testDictionary) Lookup(_ context.Context, word string, _ bool) ([]DictionaryEntry, error) {
 	if val, ok := t[strings.ToLower(word)]; ok {
 		return []DictionaryEntry{val.Copy()}, nil
 	}
