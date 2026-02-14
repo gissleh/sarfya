@@ -3,9 +3,10 @@ package jsonstorage
 import (
 	"context"
 	"encoding/json"
-	"github.com/gissleh/sarfya"
 	"os"
 	"sync"
+
+	"github.com/gissleh/sarfya"
 )
 
 func New(path string) *Storage {
@@ -65,7 +66,7 @@ type Data struct {
 	DictDefs map[string]map[string]string `json:"dictDefs"`
 }
 
-func (s *Storage) FindExample(ctx context.Context, id string) (*sarfya.Example, error) {
+func (s *Storage) FindExample(_ context.Context, id string) (*sarfya.Example, error) {
 	if !s.readOnly {
 		s.mu.Lock()
 		defer s.mu.Unlock()
@@ -237,6 +238,25 @@ func (s *Storage) WriteToFile() error {
 	enc := json.NewEncoder(file)
 
 	return enc.Encode(data)
+}
+
+func (s *Storage) AllExamples() []sarfya.Example {
+	if !s.readOnly {
+		s.mu.Lock()
+	}
+
+	res := make([]sarfya.Example, 0, len(s.examples))
+	for _, example := range s.examples {
+		res = append(res, example.Copy())
+	}
+
+	if !s.readOnly {
+		s.mu.Unlock()
+	}
+
+	sarfya.SortExamples(res)
+
+	return res
 }
 
 func (s *Storage) indexExamples(examples ...sarfya.Example) {

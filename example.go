@@ -4,6 +4,7 @@ import (
 	"context"
 	"fmt"
 	"slices"
+	"sort"
 	"strings"
 )
 
@@ -300,4 +301,11 @@ func (e *Example) HasWord(id string) bool {
 	}
 
 	return false
+}
+
+// SortExamples sorts examples based on the Example.ListBefore method.
+func SortExamples[S ~[]Example](s S) {
+	sort.Slice(s, func(i, j int) bool {
+		return s[i].ListBefore(&s[j])
+	})
 }

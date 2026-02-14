@@ -220,6 +220,17 @@ func (s Sentence) RawText() string {
 	return res.String()
 }
 
+func (s Sentence) Less(other Sentence) bool {
+	minLen := min(len(s), len(other))
+	for i := 0; i < minLen; i++ {
+		if s[i].Text < other[i].Text {
+			return true
+		}
+	}
+
+	return len(s) < len(other)
+}
+
 func (s Sentence) WordMap() map[int]string {
 	noSpaceMap := make(map[int]bool)
 	res := make(map[int]string, len(s))

@@ -35,8 +35,10 @@ func (s *Service) QueryExample(ctx context.Context, filterString string) ([]Filt
 	total := 0
 
 	res := make([]FilterMatchGroup, 0, len(resolvedMaps))
-	for _, resolvedMap := range resolvedMaps {
-		group := FilterMatchGroup{}
+	for i, resolvedMap := range resolvedMaps {
+		group := FilterMatchGroup{
+			Index: i,
+		}
 
 		examples, err := s.Storage.FetchExamples(ctx, filter, resolvedMap)
 		if err != nil {
@@ -137,6 +139,7 @@ func (s *Service) DeleteExample(ctx context.Context, id string) (*sarfya.Example
 }
 
 type FilterMatchGroup struct {
+	Index    int                      `json:"index"`
 	Entries  []sarfya.DictionaryEntry `json:"entries,omitempty"`
 	Examples []sarfya.FilterMatch     `json:"examples"`
 }
