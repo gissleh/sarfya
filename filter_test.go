@@ -174,6 +174,36 @@ func TestWordFilter_Check(t *testing.T) {
 			"-l|-t|-r", wordTsaw, false,
 			true,
 		},
+		{
+			"Word suffix matches",
+			"\"* si\"", wordUvanSoli, true,
+			true,
+		},
+		{
+			"Word whole matches",
+			"\"UVAN SI\"", wordUvanSoli, true,
+			true,
+		},
+		{
+			"Word does not match with suffix",
+			"\"mowarit\"", wordMowarit, true,
+			false,
+		},
+		{
+			"Word does match without suffix",
+			"\"uniltìranyu\"", wordPefneuniltìranyuti, true,
+			true,
+		},
+		{
+			"Word does match without suffix",
+			"\"f*ng\"", wordFìtseng, true,
+			true,
+		},
+		{
+			"Word filter does not permit multiple asterisks",
+			"\"f**ng\"", wordFìtseng, true,
+			false,
+		},
 	}
 
 	for _, row := range table {

@@ -941,6 +941,30 @@ func (wf WordFilter) Check(e *DictionaryEntry, checkModifiers bool) bool {
 
 				ok = true
 				break
+			} else if strings.HasPrefix(alternative, "\"") && strings.HasSuffix(alternative, "\"") {
+				pattern := strings.ToLower(strings.TrimSpace(alternative[1 : len(alternative)-1]))
+				word := strings.ToLower(e.Word)
+
+				if strings.HasPrefix(pattern, "*") {
+					if strings.HasSuffix(word, pattern[len("*"):]) {
+						ok = true
+						break
+					}
+				} else if strings.HasSuffix(pattern, "*") {
+					if strings.HasPrefix(word, pattern[:len(pattern)-len("*")]) {
+						ok = true
+						break
+					}
+				} else if strings.Contains(pattern, "*") {
+					left, right, _ := strings.Cut(pattern, "*")
+					if !strings.Contains(right, "*") && strings.HasPrefix(word, left) && strings.HasSuffix(word, right) {
+						ok = true
+						break
+					}
+				} else if word == pattern {
+					ok = true
+					break
+				}
 			} else if e.ID == alternative {
 				ok = true
 				break
