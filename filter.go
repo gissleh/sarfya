@@ -388,6 +388,9 @@ func (f *Filter) CheckExample(example Example, resolved map[int]DictionaryEntry)
 					if j < expandableStart {
 						continue
 					}
+					if len(span) == 0 {
+						continue
+					}
 
 					var selected []int
 					for _, match := range matches {

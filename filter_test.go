@@ -1,6 +1,7 @@
 package sarfya
 
 import (
+	"context"
 	"testing"
 
 	"github.com/stretchr/testify/assert"
@@ -15,6 +16,50 @@ var wordHrr = DictionaryEntry{ID: "880", Word: "krr", PoS: "n.", Definitions: ma
 var wordMowarit = DictionaryEntry{ID: "10008", Word: "mowar", PoS: "n.", Definitions: map[string]string{"en": "advice, bit or piece of advice"}, Source: "https://naviteri.org/2014/05/mipa-ayliu-mipa-aysafpil-new-words-new-ideas/ (2014-05-31)", Prefixes: []string(nil), Infixes: []string(nil), Suffixes: []string{"it"}, Lenitions: []string(nil), Comment: []string(nil)}
 var wordNew = DictionaryEntry{ID: "1224", Word: "new", PoS: "vtrm.", Definitions: map[string]string{"en": "want"}, Source: "Paul Frommer, PF | Activist Survival Guide (2009-11-24) | https://naviteri.org/2010/07/diminutives-conversational-expressions/ (2010-07-11)", Prefixes: []string(nil), Infixes: []string(nil), Suffixes: []string(nil), Lenitions: []string(nil), Comment: []string(nil)}
 var wordTsaw = DictionaryEntry{ID: "5268", Word: "tsaw", PoS: "pn.", OriginalPoS: "pn.", Definitions: map[string]string{"en": "that, it (as intransitive subject)"}, InfixIndexes: []int(nil), Source: "https://forum.learnnavi.org/index.php?msg=254625 (2010-07-03)", Prefixes: []string(nil), Infixes: []string(nil), Suffixes: []string(nil), Lenitions: []string(nil), Comment: []string(nil)}
+
+func TestParseFilter(t *testing.T) {
+	table := []struct {
+		Input    string
+		Expected *Filter
+		Error    error
+	}{
+		{
+			Input: "*:vtrm.|vim. +> *:vtrm.|vim.:<iv> +>> *:vtr.|vin.:<iv>",
+			Expected: &Filter{
+				Terms: []FilterTerm{
+					{
+						Operator:    FTOAnd,
+						Word:        "*",
+						Constraints: WordFilter{"vtrm.|vim."},
+					},
+					{
+						Operator:    FTOFollowedBy,
+						Word:        "*",
+						Constraints: WordFilter{"vtrm.|vim.", "<iv>"},
+					},
+					{
+						Operator:    FTOBefore,
+						Word:        "*",
+						Constraints: WordFilter{"vtr.|vin.", "<iv>"},
+					},
+				},
+			},
+		},
+	}
+
+	for _, row := range table {
+		t.Run(row.Input, func(t *testing.T) {
+			filter, _, err := ParseFilter(context.Background(), row.Input, dummyDict)
+			if row.Expected != nil {
+				assert.NoError(t, err)
+				assert.Equal(t, row.Expected, filter)
+			} else {
+				assert.ErrorIs(t, err, row.Error)
+				assert.Nil(t, filter)
+			}
+		})
+	}
+}
 
 func TestWordFilter_Check(t *testing.T) {
 	table := []struct {
