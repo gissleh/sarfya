@@ -2,6 +2,7 @@ package sarfyaservice
 
 import (
 	"context"
+	"crypto/rand"
 	"encoding/base64"
 	"errors"
 	"sort"
@@ -9,7 +10,6 @@ import (
 	"sync/atomic"
 
 	"github.com/gissleh/sarfya"
-	"github.com/google/uuid"
 )
 
 type Service struct {
@@ -107,8 +107,13 @@ func (s *Service) SaveExample(ctx context.Context, input sarfya.Input, dry bool)
 
 	if !dry {
 		if example.ID == "" {
-			id := uuid.New()
-			example.ID = base64.RawURLEncoding.EncodeToString(id[:])
+			data := [16]byte{}
+			_, err := rand.Read(data[:])
+			if err != nil {
+				return nil, err
+			}
+
+			example.ID = base64.RawURLEncoding.EncodeToString(data[:])
 		}
 
 		err = s.Storage.SaveExample(ctx, *example)
