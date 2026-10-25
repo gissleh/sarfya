@@ -12,7 +12,7 @@ type ExampleFlag string
 
 func (f ExampleFlag) Valid() bool {
 	switch f {
-	case EFPoetry, EFNonCanon, EFUserTranslation, EFReefDialect, EFProverb, EFSlang, EFFormal, EFSyntax, EFClipped, EFTranscribed:
+	case EFPoetry, EFNonCanon, EFUserTranslation, EFReefDialect, EFProverb, EFSlang, EFFormal, EFSyntax, EFClipped, EFTranscribed, EFOpenQuestions:
 		return true
 	default:
 		return false
@@ -43,6 +43,8 @@ const (
 	EFClipped ExampleFlag = "clipped"
 	// EFTranscribed are for examples transcribed from audio.
 	EFTranscribed ExampleFlag = "transcribed"
+	// EFOpenQuestions means there are open questions about the example.
+	EFOpenQuestions ExampleFlag = "open_questions"
 )
 
 type Annotation struct {
